@@ -1,4 +1,4 @@
-v1	mojang	intermediary
+v1	official	intermediary
 CLASS	cca	net/minecraft/class_1
 CLASS	ccc	net/minecraft/class_2
 METHOD	ccc	(Lcam;)Lcam;	a	method_1
