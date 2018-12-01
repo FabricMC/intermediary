@@ -15508,7 +15508,7 @@ METHOD	aml	(Laeu;Lame;)Laph;	a	method_6811
 CLASS	amq	net/minecraft/class_1509
 METHOD	amq	()Lbae;	K_	method_6815
 METHOD	amq	(Lamr;Lafl;F)Z	a	method_6816
-METHOD	amq	()Lagg;	R	method_6814
+METHOD	amq	()Lagg;	R	method_5864
 CLASS	ams	net/minecraft/class_1511
 FIELD	ams	Lpm;	c	field_7035
 FIELD	ams	I	a	field_7034
@@ -16490,7 +16490,7 @@ METHOD	apq	()Lavf;	dC	method_7215
 METHOD	apq	(Z)V	t	method_7201
 METHOD	apq	(ZZZZ)V	a	method_7202
 METHOD	apq	()Z	dI	method_7211
-METHOD	apq	(Z)V	s	method_7203
+METHOD	apq	(Z)V	s	method_7106
 METHOD	apq	()Z	dz	method_7204
 METHOD	apq	()Lxb;	dB	method_7207
 METHOD	apq	()Z	dA	method_7212
@@ -26741,7 +26741,7 @@ FIELD	bmc	Lbnz;	f	field_11866
 FIELD	bmc	Lorg/apache/logging/log4j/Logger;	a	field_11868
 FIELD	bmc	Lbmd;	e	field_11864
 FIELD	bmc	Les;	d_	field_11867
-METHOD	bmc	()V	g	method_10994
+METHOD	bmc	()V	g	method_5431
 METHOD	bmc	()Ljava/lang/String;	p	method_10995
 METHOD	bmc	()V	z	method_10996
 METHOD	bmc	()Lbae;	F	method_10997
@@ -27044,7 +27044,7 @@ FIELD	bmp	Lckm;	a	field_12025
 FIELD	bmp	Lckm;	c	field_12026
 FIELD	bmp	Lckm;	b	field_12027
 METHOD	bmp	()Lckm;	i	method_11262
-METHOD	bmp	()Lbae;	F	method_11263
+METHOD	bmp	()Lbae;	F	method_10997
 METHOD	bmp	()D	H	method_11264
 METHOD	bmp	()D	I	method_11265
 METHOD	bmp	()D	G	method_11266
@@ -29828,25 +29828,25 @@ FIELD	brj	Lbnz;	f	field_13164
 METHOD	brj	(II)Lbnz;	a	method_12578
 METHOD	brj	(Lbfg;)Ljava/util/stream/Stream;	a	method_12579
 CLASS	ql	net/minecraft/class_2994
-METHOD	ql	()Ljava/lang/String;	L	method_12932
-METHOD	ql	()[Ljava/lang/String;	D	method_12925
+METHOD	ql	()Ljava/lang/String;	L	method_3865
+METHOD	ql	()[Ljava/lang/String;	D	method_3858
 METHOD	ql	()Ljava/lang/String;	g_	method_12916
-METHOD	ql	(Ljava/lang/String;)V	f	method_12917
+METHOD	ql	(Ljava/lang/String;)V	f	method_3762
 METHOD	ql	()I	f_	method_12918
 METHOD	ql	(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;	a	method_12919
 METHOD	ql	(Ljava/lang/String;Ljava/lang/Object;)V	a	method_12920
-METHOD	ql	()Ljava/lang/String;	A	method_12915
-METHOD	ql	(Ljava/lang/String;)V	d	method_12922
-METHOD	ql	(Ljava/lang/String;)V	e	method_12923
+METHOD	ql	()Ljava/lang/String;	A	method_3827
+METHOD	ql	(Ljava/lang/String;)V	d	method_3720
+METHOD	ql	(Ljava/lang/String;)V	e	method_3743
 METHOD	ql	()Ljava/lang/String;	e_	method_12924
-METHOD	ql	()Z	F	method_12921
+METHOD	ql	()Z	F	method_3766
 METHOD	ql	(Ljava/lang/String;I)I	a	method_12926
 METHOD	ql	()V	d_	method_12927
 METHOD	ql	()Ljava/lang/String;	e	method_12929
 METHOD	ql	()Ljava/lang/String;	m	method_12930
-METHOD	ql	()I	B	method_12931
-METHOD	ql	(Ljava/lang/String;)V	g	method_12933
-METHOD	ql	()I	C	method_12928
+METHOD	ql	()I	B	method_3788
+METHOD	ql	(Ljava/lang/String;)V	g	method_3770
+METHOD	ql	()I	C	method_3802
 METHOD	ql	(Ljava/lang/String;)Ljava/lang/String;	a_	method_12934
 CLASS	brm	net/minecraft/class_2902
 FIELD	brm	Lboi;	b	field_13193

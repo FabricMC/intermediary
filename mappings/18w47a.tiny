@@ -15642,7 +15642,7 @@ FIELD	amw	Lamv;	a	field_7007
 CLASS	amv	net/minecraft/class_1509
 METHOD	amv	()Lbam;	L_	method_6815
 METHOD	amv	(Lamw;Lafn;F)Z	a	method_6816
-METHOD	amv	()Lagi;	R	method_6814
+METHOD	amv	()Lagi;	R	method_5864
 CLASS	amy	net/minecraft/class_1510
 FIELD	amy	Lamw;	bI	field_7022
 FIELD	amy	I	c	field_7010
@@ -16608,7 +16608,7 @@ METHOD	apv	(Z)V	t	method_7201
 METHOD	apv	(ZZZZ)V	a	method_7202
 METHOD	apv	()Z	dI	method_7211
 METHOD	apv	()Lavn;	dC	method_7215
-METHOD	apv	(Z)V	s	method_7203
+METHOD	apv	(Z)V	s	method_7106
 METHOD	apv	()Z	dz	method_7204
 METHOD	apv	(Lapv;)V	a	method_7200
 METHOD	apv	()Z	dA	method_7212
@@ -27099,7 +27099,7 @@ FIELD	bmk	Lboh;	f	field_11866
 FIELD	bmk	Lorg/apache/logging/log4j/Logger;	a	field_11868
 FIELD	bmk	Lbam;	c_	field_11863
 FIELD	bmk	Les;	d_	field_11867
-METHOD	bmk	()V	g	method_10994
+METHOD	bmk	()V	g	method_5431
 METHOD	bmk	()Ljava/lang/String;	p	method_10995
 METHOD	bmk	()V	z	method_10996
 METHOD	bmk	(Lbam;)V	a	method_11009
@@ -27354,7 +27354,7 @@ METHOD	bmx	()D	H	method_11264
 METHOD	bmx	()D	I	method_11265
 METHOD	bmx	()D	G	method_11266
 METHOD	bmx	()Lcla;	i	method_11262
-METHOD	bmx	()Lbam;	F	method_11263
+METHOD	bmx	()Lbam;	F	method_10997
 CLASS	lx	net/minecraft/class_2735
 FIELD	lx	I	a	field_12463
 METHOD	lx	(Ljq;)V	a	method_11802
@@ -29955,25 +29955,25 @@ METHOD	qk$a	(Ljava/util/ArrayDeque;I)V	a	method_12914
 CLASS	brj	net/minecraft/class_2878
 CLASS	ql	net/minecraft/class_2994
 METHOD	ql	()Ljava/lang/String;	g_	method_12916
-METHOD	ql	(Ljava/lang/String;)V	f	method_12917
+METHOD	ql	(Ljava/lang/String;)V	f	method_3762
 METHOD	ql	()I	f_	method_12918
 METHOD	ql	(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;	a	method_12919
 METHOD	ql	(Ljava/lang/String;Ljava/lang/Object;)V	a	method_12920
-METHOD	ql	()Ljava/lang/String;	K	method_12932
-METHOD	ql	()Z	E	method_12921
-METHOD	ql	(Ljava/lang/String;)V	d	method_12922
-METHOD	ql	(Ljava/lang/String;)V	e	method_12923
+METHOD	ql	()Ljava/lang/String;	K	method_3865
+METHOD	ql	()Z	E	method_3766
+METHOD	ql	(Ljava/lang/String;)V	d	method_3720
+METHOD	ql	(Ljava/lang/String;)V	e	method_3743
 METHOD	ql	()Ljava/lang/String;	e_	method_12924
-METHOD	ql	()Ljava/lang/String;	z	method_12915
+METHOD	ql	()Ljava/lang/String;	z	method_3827
 METHOD	ql	(Ljava/lang/String;I)I	a	method_12926
 METHOD	ql	()V	d_	method_12927
 METHOD	ql	()Ljava/lang/String;	e	method_12929
 METHOD	ql	()Ljava/lang/String;	m	method_12930
-METHOD	ql	()I	B	method_12928
-METHOD	ql	()I	A	method_12931
-METHOD	ql	(Ljava/lang/String;)V	g	method_12933
+METHOD	ql	()I	B	method_3802
+METHOD	ql	()I	A	method_3788
+METHOD	ql	(Ljava/lang/String;)V	g	method_3770
 METHOD	ql	(Ljava/lang/String;)Ljava/lang/String;	a_	method_12934
-METHOD	ql	()[Ljava/lang/String;	C	method_12925
+METHOD	ql	()[Ljava/lang/String;	C	method_3858
 CLASS	brm	net/minecraft/class_2880
 FIELD	brm	Lbrl;	g	field_13104
 FIELD	brm	Les;	f	field_13103
