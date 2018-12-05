@@ -11994,6 +11994,8 @@ METHOD	bmq	(Lbkc;)V	a	method_11013
 METHOD	bmq	(Lc;)V	a	method_11003
 METHOD	bmq	(Let;)V	a	method_10998
 METHOD	bmq	(Lhq;)Lhq;	a	method_11007
+METHOD	bmq	()Lkc;	ab_	method_16886
+METHOD	bmq	()Lhq;	ac_	method_16887
 METHOD	bmq	(Lhq;)V	b	method_11014
 METHOD	bmq	(II)Z	c	method_11004
 METHOD	bmq	(Lhq;)Lbmq;	c	method_11005
@@ -15749,6 +15751,7 @@ METHOD	cbj	(Lcbj;Ljava/util/List;Ljava/util/Random;)V	a	method_14918
 METHOD	cbj	(Ley;)V	a	method_14926
 METHOD	cbj	(Lhq;)V	a	method_14943
 METHOD	cbj	(Ljava/util/List;Lcap;)Lcbj;	a	method_14932
+METHOD	cbj	()Lbkc;	af_	method_16888
 METHOD	cbj	(II)I	b	method_14941
 METHOD	cbj	(Lbat;Lbom;IIILcap;)V	b	method_14936
 METHOD	cbj	(Lbat;Lcap;IIIIII)V	b	method_14942
@@ -20223,6 +20226,7 @@ METHOD	cof	()F	ac	method_1488
 METHOD	cof	()F	ad	method_1534
 METHOD	cof	()Lcop;	ae	method_1505
 METHOD	cof	()Z	ag	method_1555
+METHOD	cof	()V	ag_	method_16889
 METHOD	cof	()Lcql;	ah	method_1566
 METHOD	cof	()Ldpk;	ai	method_1577
 METHOD	cof	()Z	aj	method_1569
@@ -22048,6 +22052,7 @@ METHOD	csl	(Ljava/lang/String;Z)V	a	method_2237
 METHOD	csl	(Ljava/net/URI;)V	a	method_2221
 METHOD	csl	(Ljava/util/List;II)V	a	method_2211
 METHOD	csl	(Ljb;II)V	a	method_2229
+METHOD	csl	()Z	ai_	method_16890
 METHOD	csl	(Lcof;II)V	b	method_2228
 METHOD	csl	(Ljava/lang/String;Z)V	b	method_2213
 METHOD	csl	()V	c	method_2224
@@ -23290,6 +23295,7 @@ METHOD	cuv	()Z	e	method_2656
 CLASS	cuw	net/minecraft/class_515
 METHOD	cuw	(Ljava/util/List;)V	a	method_2646
 CLASS	cux	net/minecraft/class_518
+METHOD	cux	()V	aj_	method_16891
 METHOD	cux	()Lcur;	i	method_2659
 CLASS	cuy	net/minecraft/class_517
 FIELD	cuy	Ljava/util/Iterator;	m	field_3153
@@ -23593,6 +23599,8 @@ METHOD	cvt	()Ljb;	b	method_2781
 CLASS	cvu	net/minecraft/class_537
 METHOD	cvu	(FI)V	a	method_2784
 METHOD	cvu	(Lcvs;)V	a	method_2783
+METHOD	cvu	()Ljb;	ak_	method_16892
+METHOD	cvu	()Z	al_	method_16893
 CLASS	cvv	net/minecraft/class_536
 METHOD	cvv	(Lcvs;)V	a	method_2782
 CLASS	cvw	net/minecraft/class_539
@@ -26645,6 +26653,7 @@ METHOD	dhd	(Lbom;Lbaw;Let;DDDLet;FFDDD)V	a	method_3928
 METHOD	dhd	(Lckv;DDD)V	a	method_3922
 METHOD	dhd	(Lpz;)V	a	method_3924
 METHOD	dhd	(Z)V	a	method_3927
+METHOD	dhd	()Z	am_	method_16894
 METHOD	dhd	()Lbaw;	b	method_3935
 METHOD	dhd	(Lagk;)Z	b	method_3921
 METHOD	dhd	(Lagk;DDDFF)V	b	method_3937
@@ -27099,6 +27108,7 @@ METHOD	djy	(Lato;Z)Lpz;	a	method_4168
 METHOD	djy	(Lato;ZLjava/lang/String;)Lpz;	a	method_4174
 METHOD	djy	(Lcxo;Lagp;)V	a	method_4170
 METHOD	djy	(Ldib;Lagt;Lcxo;FFFFFFF)V	a	method_4171
+METHOD	djy	()V	an_	method_16895
 METHOD	djy	(Lagp;)Z	b	method_4173
 CLASS	djz	net/minecraft/class_973
 FIELD	djz	Ldib;	a	field_4841
@@ -32531,6 +32541,7 @@ FIELD	qp	I	a	field_16504
 FIELD	qp	Ljava/lang/Runnable;	b	field_16505
 METHOD	qp	()I	a	method_16338
 CLASS	qq	net/minecraft/class_3000
+METHOD	qq	()V	aa_	method_16896
 CLASS	qr	net/minecraft/class_3002
 FIELD	qr	Lpz;	h	field_13441
 FIELD	qr	Ljava/util/Set;	i	field_13440
@@ -36831,6 +36842,6 @@ METHOD	zz	(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	b	method_
 METHOD	zz	(Ljava/lang/Integer;)Ljava/lang/Integer;	b	method_15689
 METHOD	zz	(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	c	method_15680
 METHOD	zz	(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	d	method_15696
-# INTERMEDIARY-COUNTER method 16886
+# INTERMEDIARY-COUNTER method 16897
 # INTERMEDIARY-COUNTER field 17039
 # INTERMEDIARY-COUNTER class 3845
