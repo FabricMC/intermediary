@@ -2255,7 +2255,7 @@ METHOD	ahf	()V	A	method_5966
 METHOD	ahf	()V	B	method_5990
 METHOD	ahf	()Lxm;	D	method_5994
 METHOD	ahf	()Lqc;	F	method_5991
-METHOD	ahf	()Z	G	method_5947
+METHOD	ahf	()Z	G	method_17326
 METHOD	ahf	()V	H	method_5982
 METHOD	ahf	()V	I	method_5958
 METHOD	ahf	()I	J	method_5978
@@ -37300,6 +37300,6 @@ METHOD	zz$d	(Lcom/mojang/datafixers/Dynamic;)V	b	method_15665
 METHOD	zz$d	(Ljava/util/stream/Stream;)V	b	method_15659
 METHOD	zz$d	(I)Lcom/mojang/datafixers/Dynamic;	c	method_15660
 METHOD	zz$d	(I)Lzz$c;	d	method_15658
-# INTERMEDIARY-COUNTER method 17326
+# INTERMEDIARY-COUNTER method 17327
 # INTERMEDIARY-COUNTER field 17276
 # INTERMEDIARY-COUNTER class 3904
