@@ -9251,7 +9251,7 @@ FIELD	bbw$a	Lbbw$a;	a	field_17558
 FIELD	bbw$a	Lbbw$a;	b	field_17559
 FIELD	bbw$a	Lbbw$c;	c	field_17560
 FIELD	bbw$a	[Lbbw$a;	d	field_17561
-CLASS	bbw$b	net/minecraft/class_242
+CLASS	bbw$b	net/minecraft/class_3959$class_242
 FIELD	bbw$b	Lbbw$b;	a	field_1348
 FIELD	bbw$b	Lbbw$b;	b	field_1345
 FIELD	bbw$b	Lbbw$b;	c	field_1347
