@@ -12710,7 +12710,7 @@ METHOD	boh	(ILari;)Late;	a	method_5465
 METHOD	boh	(Larj;Lafz;Ljb;)Z	a	method_17487
 METHOD	boh	(Ljb;)V	a	method_17488
 METHOD	boh	(Larj;)Z	e	method_17489
-METHOD	boh	()Ljb;	g	method_5477
+METHOD	boh	()Ljb;	g	method_17823
 CLASS	boi	net/minecraft/class_2580
 FIELD	boi	[[Lagu;	a	field_11801
 FIELD	boi	Ljava/util/Set;	b	field_11798
@@ -37715,6 +37715,6 @@ METHOD	zz	(Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;	a
 METHOD	zz	(Ljava/lang/String;)Ljava/lang/String;	a	method_15593
 CLASS	zz$1	net/minecraft/class_3579$1
 FIELD	zz$1	Ljava/util/function/Function;	a	field_15829
-# INTERMEDIARY-COUNTER method 17823
+# INTERMEDIARY-COUNTER method 17824
 # INTERMEDIARY-COUNTER field 17621
 # INTERMEDIARY-COUNTER class 3970
