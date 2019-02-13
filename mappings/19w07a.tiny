@@ -21912,7 +21912,7 @@ CLASS	cri	net/minecraft/class_335
 FIELD	cri	Lcqn;	a	field_2056
 CLASS	crk	net/minecraft/class_357
 FIELD	crk	Lcqn;	a	field_18010
-FIELD	crk	D	f	field_18011
+FIELD	crk	D	f	field_2161
 METHOD	crk	()V	b	method_18322
 METHOD	crk	(D)V	b	method_18323
 METHOD	crk	()V	c	method_18324
@@ -21929,7 +21929,7 @@ METHOD	crl	()Z	e	method_1797
 METHOD	crl	()Z	f	method_1800
 CLASS	crm	net/minecraft/class_339
 FIELD	crm	Ljava/lang/String;	a	field_2074
-FIELD	crm	Z	f	field_18012
+FIELD	crm	Z	f	field_2075
 FIELD	crm	Lqh;	g	field_2072
 FIELD	crm	I	h	field_2071
 FIELD	crm	I	i	field_2070
@@ -21939,7 +21939,7 @@ FIELD	crm	I	l	field_2077
 FIELD	crm	Z	m	field_2078
 FIELD	crm	Z	n	field_2076
 FIELD	crm	F	o	field_17766
-FIELD	crm	J	p	field_18013
+FIELD	crm	J	p	field_18011
 FIELD	crm	Z	q	field_2073
 METHOD	crm	()Ljava/lang/String;	a	method_18325
 METHOD	crm	(DD)V	a	method_1826
@@ -22249,7 +22249,7 @@ METHOD	csa	()I	j	method_1931
 METHOD	csa	()I	k	method_1944
 METHOD	csa	()I	n	method_1941
 CLASS	csb	net/minecraft/class_4040
-FIELD	csb	Lcqp$a;	q	field_18014
+FIELD	csb	Lcqp$a;	q	field_18012
 CLASS	csc	net/minecraft/class_361
 FIELD	csc	Lqh;	a	field_2193
 FIELD	csc	Z	f	field_2194
@@ -22394,10 +22394,10 @@ CLASS	csu	net/minecraft/class_376
 CLASS	csv	net/minecraft/class_378
 FIELD	csv	Lorg/apache/logging/log4j/Logger;	a	field_2261
 FIELD	csv	Ljava/util/Map;	b	field_2259
-FIELD	csv	Ljava/util/Set;	c	field_18015
+FIELD	csv	Ljava/util/Set;	c	field_18013
 FIELD	csv	Ldpn;	d	field_2260
 FIELD	csv	Z	e	field_2258
-METHOD	csv	(Lafm;Ljava/util/Map;)V	a	method_18330
+METHOD	csv	(Lafm;Ljava/util/Map;)V	a	method_18102
 METHOD	csv	(Lafm;Lwt;)Ljava/util/Map;	a	method_18101
 METHOD	csv	(Ljava/lang/String;)Z	a	method_2021
 METHOD	csv	(Ljava/util/Map;Lqh;)V	a	method_2017
@@ -22407,7 +22407,7 @@ METHOD	csv	(Lqh;)Lcrb;	b	method_2020
 METHOD	csv	(Lqh;)Lcrb;	c	method_2016
 METHOD	csv	(Lqh;)Ljava/util/List;	d	method_2015
 CLASS	csv$1	net/minecraft/class_378$1
-FIELD	csv$1	Lcsv;	a	field_18016
+FIELD	csv$1	Lcsv;	a	field_18014
 CLASS	csw	net/minecraft/class_377
 FIELD	csw	Lorg/apache/logging/log4j/Logger;	a	field_2255
 FIELD	csw	Lcta;	b	field_2250
@@ -24874,20 +24874,20 @@ FIELD	czw	Ldcj;	a	field_3374
 FIELD	czw	Ldcj;	b	field_3376
 FIELD	czw	Ldcj;	f	field_3375
 CLASS	czx	net/minecraft/class_4041
-FIELD	czx	Ldcj;	a	field_18017
-FIELD	czx	Ldcj;	b	field_18018
-FIELD	czx	Ldcj;	f	field_18019
-FIELD	czx	Ldcj;	g	field_18020
-FIELD	czx	Ldcj;	h	field_18021
-FIELD	czx	Ldcj;	i	field_18022
-FIELD	czx	Ldcj;	j	field_18023
-FIELD	czx	Ldcj;	k	field_18024
-FIELD	czx	Ldcj;	l	field_18025
-FIELD	czx	Ldcj;	m	field_18026
-FIELD	czx	F	n	field_18027
-METHOD	czx	(Lana;FFF)V	a	method_18331
-METHOD	czx	(Lana;FFFFFF)V	a	method_18332
-METHOD	czx	(Lana;FFFFFF)V	b	method_18333
+FIELD	czx	Ldcj;	a	field_18015
+FIELD	czx	Ldcj;	b	field_18016
+FIELD	czx	Ldcj;	f	field_18017
+FIELD	czx	Ldcj;	g	field_18018
+FIELD	czx	Ldcj;	h	field_18019
+FIELD	czx	Ldcj;	i	field_18020
+FIELD	czx	Ldcj;	j	field_18021
+FIELD	czx	Ldcj;	k	field_18022
+FIELD	czx	Ldcj;	l	field_18023
+FIELD	czx	Ldcj;	m	field_18024
+FIELD	czx	F	n	field_18025
+METHOD	czx	(Lana;FFF)V	a	method_18330
+METHOD	czx	(Lana;FFFFFF)V	a	method_18331
+METHOD	czx	(Lana;FFFFFF)V	b	method_18332
 CLASS	czy	net/minecraft/class_567
 FIELD	czy	Ldcj;	a	field_3373
 FIELD	czy	[Ldcj;	b	field_3372
@@ -26041,7 +26041,7 @@ FIELD	dec	Ljava/util/Queue;	h	field_3836
 FIELD	dec	Ldpl;	i	field_17821
 FIELD	dec	Ljava/util/Set;	j	field_17822
 METHOD	dec	()V	a	method_3057
-METHOD	dec	(Lafm;Ldpl$a;)V	a	method_18334
+METHOD	dec	(Lafm;Ldpl$a;)V	a	method_18128
 METHOD	dec	(Lafm;Lwt;)Ldpl$a;	a	method_18123
 METHOD	dec	(Lahl;F)V	a	method_3049
 METHOD	dec	(Lahl;Lfx;)V	a	method_3061
@@ -28037,12 +28037,12 @@ FIELD	dkt	Lqh;	a	field_4707
 METHOD	dkt	(Lapn;)Lqh;	a	method_3975
 METHOD	dkt	(Lapn;DDDFF)V	a	method_3974
 CLASS	dku	net/minecraft/class_4042
-FIELD	dku	Lqh;	a	field_18028
-FIELD	dku	Lqh;	j	field_18029
-FIELD	dku	Lqh;	k	field_18030
-FIELD	dku	Lqh;	l	field_18031
-METHOD	dku	(Lana;)Lqh;	a	method_18335
-METHOD	dku	(Lana;FFF)V	a	method_18336
+FIELD	dku	Lqh;	a	field_18026
+FIELD	dku	Lqh;	j	field_18027
+FIELD	dku	Lqh;	k	field_18028
+FIELD	dku	Lqh;	l	field_18029
+METHOD	dku	(Lana;)Lqh;	a	method_18333
+METHOD	dku	(Lana;FFF)V	a	method_18334
 CLASS	dkv	net/minecraft/class_905
 FIELD	dkv	Lqh;	a	field_4705
 FIELD	dkv	Lqh;	j	field_4706
@@ -28496,7 +28496,7 @@ CLASS	dny	net/minecraft/class_985
 FIELD	dny	Lqh;	a	field_4876
 METHOD	dny	(Lahu;FFFFFFF)V	a	method_4187
 CLASS	dnz	net/minecraft/class_4043
-METHOD	dnz	(Lana;FFFFFFF)V	a	method_18337
+METHOD	dnz	(Lana;FFFFFFF)V	a	method_18335
 CLASS	doa	net/minecraft/class_987
 CLASS	doa$1	net/minecraft/class_987$1
 FIELD	doa$1	[I	a	field_4878
@@ -28665,8 +28665,8 @@ METHOD	dpi$a	(Lwt;Lqh;)Ldpi$a;	a	method_18156
 METHOD	dpi$a	()Lcpf;	b	method_18157
 METHOD	dpi$a	()V	c	method_18158
 CLASS	dpj	net/minecraft/class_1055
-FIELD	dpj	Ljava/util/Comparator;	a	field_18032
-FIELD	dpj	I	b	field_18033
+FIELD	dpj	Ljava/util/Comparator;	a	field_18030
+FIELD	dpj	I	b	field_5243
 FIELD	dpj	Ljava/util/Set;	c	field_5237
 FIELD	dpj	Ljava/util/List;	d	field_5239
 FIELD	dpj	I	e	field_5242
@@ -28677,15 +28677,15 @@ METHOD	dpj	()I	a	method_4554
 METHOD	dpj	(II)I	a	method_4556
 METHOD	dpj	(Ldpj$a;)Z	a	method_4550
 METHOD	dpj	(Ldpm;)V	a	method_4553
-METHOD	dpj	(Ljava/util/List;Ldpj$b;)V	a	method_18338
+METHOD	dpj	(Ljava/util/List;Ldpj$b;)V	a	method_18336
 METHOD	dpj	()I	b	method_4555
 METHOD	dpj	(II)I	b	method_4551
 METHOD	dpj	(Ldpj$a;)Z	b	method_4552
 METHOD	dpj	()V	c	method_4557
-METHOD	dpj	(Ldpj$a;)Lqh;	c	method_18339
+METHOD	dpj	(Ldpj$a;)Lqh;	c	method_18337
 METHOD	dpj	()Ljava/util/List;	d	method_4549
-METHOD	dpj	(Ldpj$a;)Ljava/lang/Integer;	d	method_18340
-METHOD	dpj	(Ldpj$a;)Ljava/lang/Integer;	e	method_18341
+METHOD	dpj	(Ldpj$a;)Ljava/lang/Integer;	d	method_18338
+METHOD	dpj	(Ldpj$a;)Ljava/lang/Integer;	e	method_18339
 CLASS	dpj$a	net/minecraft/class_1055$class_1056
 FIELD	dpj$a	Ldpm;	a	field_5249
 FIELD	dpj$a	I	b	field_5248
@@ -28706,7 +28706,7 @@ CLASS	dpk	net/minecraft/class_1054
 CLASS	dpl	net/minecraft/class_1059
 FIELD	dpl	Lqh;	f	field_5275
 FIELD	dpl	Lqh;	g	field_17898
-FIELD	dpl	Lqh;	h	field_18034
+FIELD	dpl	Lqh;	h	field_18031
 FIELD	dpl	Lorg/apache/logging/log4j/Logger;	i	field_5278
 FIELD	dpl	Ljava/util/List;	j	field_5276
 FIELD	dpl	Ljava/util/Set;	k	field_5277
@@ -28761,7 +28761,7 @@ METHOD	dpm	(D)F	a	method_4580
 METHOD	dpm	(DII)I	a	method_4571
 METHOD	dpm	(F)F	a	method_4582
 METHOD	dpm	(I)V	a	method_4590
-METHOD	dpm	(II)Z	a	method_18342
+METHOD	dpm	(II)Z	a	method_18340
 METHOD	dpm	(III)Z	a	method_4583
 METHOD	dpm	(IIII)V	a	method_4587
 METHOD	dpm	(IIIII)I	a	method_4600
@@ -28773,7 +28773,7 @@ METHOD	dpm	()Ljava/lang/String;	b	method_4596
 METHOD	dpm	(D)F	b	method_4570
 METHOD	dpm	(F)F	b	method_4572
 METHOD	dpm	(I)V	b	method_4591
-METHOD	dpm	(IIII)Lcom/mojang/datafixers/util/Pair;	b	method_18343
+METHOD	dpm	(IIII)Lcom/mojang/datafixers/util/Pair;	b	method_18341
 METHOD	dpm	()V	c	method_4588
 METHOD	dpm	(I)F	c	method_4574
 METHOD	dpm	(IIII)I	c	method_4589
@@ -28803,7 +28803,7 @@ METHOD	dpn	(Lqh;Ldph;)V	a	method_18166
 METHOD	dpn	(Lqh;Ldpo;)Z	a	method_4616
 METHOD	dpn	(Lqh;Ldpq;)Z	a	method_4620
 METHOD	dpn	(Lqh;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;	a	method_18168
-METHOD	dpn	(Lwt;Ljava/util/concurrent/Executor;Ljava/lang/Void;)V	a	method_18344
+METHOD	dpn	(Lwt;Ljava/util/concurrent/Executor;Ljava/lang/Void;)V	a	method_18167
 METHOD	dpn	(Lqh;)Ldpo;	b	method_4619
 METHOD	dpn	(Lqh;)V	c	method_4615
 CLASS	dpo	net/minecraft/class_1062
@@ -28884,12 +28884,12 @@ METHOD	dqa	(Lqh;)Lqh;	b	method_4658
 CLASS	dqb	net/minecraft/class_3685
 METHOD	dqb	(Lwt;Lqh;)[I	a	method_16049
 CLASS	dqc	net/minecraft/class_4044
-FIELD	dqc	Lqh;	a	field_18035
-FIELD	dqc	Ldpl;	b	field_18036
-METHOD	dqc	()Ldpm;	a	method_18345
-METHOD	dqc	(Lafm;Ldpl$a;)V	a	method_18346
-METHOD	dqc	(Lafm;Lwt;)Ldpl$a;	a	method_18347
-METHOD	dqc	(Lapk;)Ldpm;	a	method_18348
+FIELD	dqc	Lqh;	a	field_18032
+FIELD	dqc	Ldpl;	b	field_18033
+METHOD	dqc	()Ldpm;	a	method_18342
+METHOD	dqc	(Lafm;Ldpl$a;)V	a	method_18343
+METHOD	dqc	(Lafm;Lwt;)Ldpl$a;	a	method_18344
+METHOD	dqc	(Lapk;)Ldpm;	a	method_18345
 CLASS	dqd	net/minecraft/class_1071
 FIELD	dqd	Ljava/util/concurrent/ExecutorService;	a	field_5307
 FIELD	dqd	Ldpn;	b	field_5304
@@ -28918,7 +28918,7 @@ FIELD	dqe	Lqh;	a	field_17904
 FIELD	dqe	Ljava/util/Random;	b	field_17905
 FIELD	dqe	Ljava/util/List;	c	field_17906
 METHOD	dqe	()Ljava/lang/String;	a	method_18174
-METHOD	dqe	(Ljava/util/List;)V	a	method_18349
+METHOD	dqe	(Ljava/util/List;)V	a	method_18175
 METHOD	dqe	()Ljava/util/List;	b	method_18176
 CLASS	dqf	net/minecraft/class_1075
 FIELD	dqf	Lcpf;	a	field_5321
@@ -29126,7 +29126,7 @@ FIELD	drc	Ldpl;	b	field_5409
 FIELD	drc	Ldgk;	c	field_5410
 FIELD	drc	Ldqy;	d	field_5407
 METHOD	drc	()Ldqy;	a	method_4744
-METHOD	drc	(Lafm;Ldrb;)V	a	method_18350
+METHOD	drc	(Lafm;Ldrb;)V	a	method_18179
 METHOD	drc	(Lafm;Lwt;)Ldrb;	a	method_18178
 METHOD	drc	(Ldrd;)Ldqy;	a	method_4742
 METHOD	drc	()Ldgk;	b	method_4743
@@ -29506,7 +29506,7 @@ METHOD	dst	(Ldru;Lqh;Lwt;)Z	a	method_18181
 METHOD	dst	(Ldrx;)V	a	method_4873
 METHOD	dst	(Ldrx;I)V	a	method_4872
 METHOD	dst	(Ldss;)V	a	method_4878
-METHOD	dst	(Ldst$a;)V	a	method_18351
+METHOD	dst	(Ldst$a;)V	a	method_18182
 METHOD	dst	(Ljava/io/InputStream;)Ljava/util/Map;	a	method_4867
 METHOD	dst	(Lqh;)Ldsu;	a	method_4869
 METHOD	dst	(Lqh;Lxz;)V	a	method_4875
@@ -30406,7 +30406,7 @@ METHOD	fo	(Let;Lew;)V	a	method_10133
 CLASS	fp	net/minecraft/class_2357
 FIELD	fp	Lfp;	a	field_16902
 METHOD	fp	(Let;Laxt;)Laxt;	a	method_16812
-METHOD	fp	()V	c	method_18352
+METHOD	fp	()V	c	method_18346
 CLASS	fp$1	net/minecraft/class_2357$1
 CLASS	fp$10	net/minecraft/class_2357$10
 CLASS	fp$11	net/minecraft/class_2357$11
@@ -32368,8 +32368,8 @@ METHOD	lz	(Ljx;)V	a	method_11764
 METHOD	lz	()[I	b	method_11763
 CLASS	m	net/minecraft/class_156
 FIELD	m	Ljava/util/function/LongSupplier;	a	field_1128
-FIELD	m	Ljava/util/concurrent/atomic/AtomicInteger;	b	field_18037
-FIELD	m	Ljava/util/concurrent/ExecutorService;	c	field_18038
+FIELD	m	Ljava/util/concurrent/atomic/AtomicInteger;	b	field_18034
+FIELD	m	Ljava/util/concurrent/ExecutorService;	c	field_18035
 FIELD	m	Lorg/apache/logging/log4j/Logger;	d	field_1129
 FIELD	m	Ljava/util/regex/Pattern;	e	field_1127
 METHOD	m	()Ljava/util/stream/Collector;	a	method_664
@@ -32379,14 +32379,14 @@ METHOD	m	(Ljava/lang/Object;Ljava/util/List;)Ljava/util/List;	a	method_657
 METHOD	m	(Ljava/lang/Object;Ljava/util/function/Consumer;)Ljava/lang/Object;	a	method_654
 METHOD	m	(Ljava/lang/String;)Z	a	method_666
 METHOD	m	(Ljava/lang/String;Lqh;)Ljava/lang/String;	a	method_646
-METHOD	m	(Ljava/lang/Thread;Ljava/lang/Throwable;)V	a	method_18353
+METHOD	m	(Ljava/lang/Thread;Ljava/lang/Throwable;)V	a	method_18347
 METHOD	m	(Ljava/nio/file/Path;)Z	a	method_653
 METHOD	m	(Ljava/nio/file/Path;Ljava/lang/String;Ljava/lang/String;)Ljava/nio/file/Path;	a	method_662
 METHOD	m	(Ljava/util/List;Ljava/util/List;)Ljava/util/List;	a	method_661
 METHOD	m	(Ljava/util/Optional;)Ljava/util/stream/Stream;	a	method_17815
 METHOD	m	(Ljava/util/Optional;Ljava/util/function/Consumer;Ljava/lang/Runnable;)Ljava/util/Optional;	a	method_17974
 METHOD	m	(Ljava/util/concurrent/CompletableFuture;Ljava/util/concurrent/CompletableFuture;)Ljava/util/concurrent/CompletableFuture;	a	method_647
-METHOD	m	(Ljava/util/concurrent/ForkJoinPool;)Ljava/util/concurrent/ForkJoinWorkerThread;	a	method_18354
+METHOD	m	(Ljava/util/concurrent/ForkJoinPool;)Ljava/util/concurrent/ForkJoinWorkerThread;	a	method_18348
 METHOD	m	(Ljava/util/function/Supplier;)Ljava/lang/Object;	a	method_656
 METHOD	m	()J	b	method_658
 METHOD	m	(Ljava/lang/Iterable;Ljava/lang/Object;)Ljava/lang/Object;	b	method_645
@@ -32395,13 +32395,13 @@ METHOD	m	(Ljava/util/List;)Ljava/util/concurrent/CompletableFuture;	b	method_652
 METHOD	m	(Ljava/util/concurrent/CompletableFuture;Ljava/util/concurrent/CompletableFuture;)Ljava/util/concurrent/CompletableFuture;	b	method_663
 METHOD	m	()J	c	method_648
 METHOD	m	()J	d	method_659
-METHOD	m	()Ljava/util/concurrent/Executor;	e	method_18355
-METHOD	m	()V	f	method_18356
+METHOD	m	()Ljava/util/concurrent/Executor;	e	method_18349
+METHOD	m	()V	f	method_18350
 METHOD	m	()Lm$b;	g	method_668
 METHOD	m	()Ljava/util/stream/Stream;	h	method_651
 METHOD	m	()Lit/unimi/dsi/fastutil/Hash$Strategy;	i	method_655
 METHOD	m	()Lorg/apache/logging/log4j/Logger;	j	method_667
-METHOD	m	()Ljava/util/concurrent/ExecutorService;	k	method_18357
+METHOD	m	()Ljava/util/concurrent/ExecutorService;	k	method_18351
 CLASS	m$1	net/minecraft/class_156$1
 CLASS	m$a	net/minecraft/class_156$class_157
 FIELD	m$a	Lm$a;	a	field_1130
@@ -32856,7 +32856,7 @@ FIELD	net/minecraft/server/MinecraftServer	Z	ap	field_4586
 FIELD	net/minecraft/server/MinecraftServer	F	aq	field_4592
 FIELD	net/minecraft/server/MinecraftServer	Ljava/util/concurrent/Executor;	ar	field_17200
 FIELD	net/minecraft/server/MinecraftServer	Ljava/lang/String;	as	field_17601
-FIELD	net/minecraft/server/MinecraftServer	Z	at	field_18039
+FIELD	net/minecraft/server/MinecraftServer	Z	at	field_18036
 FIELD	net/minecraft/server/MinecraftServer	Ljava/io/File;	b	field_4588
 FIELD	net/minecraft/server/MinecraftServer	Lbdf;	c	field_17704
 FIELD	net/minecraft/server/MinecraftServer	Lvf;	d	field_17439
@@ -36438,33 +36438,33 @@ FIELD	wn$a	Z	c	field_14287
 CLASS	wo	net/minecraft/class_3302
 METHOD	wo	(Lwo$a;Lwt;Lafm;Lafm;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;	a	method_18222
 CLASS	wo$a	net/minecraft/class_3302$class_4045
-METHOD	wo$a	(Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;	a	method_18358
+METHOD	wo$a	(Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;	a	method_18352
 CLASS	wp	net/minecraft/class_4010
 FIELD	wp	Lorg/apache/logging/log4j/Logger;	d	field_17918
 FIELD	wp	Lcom/google/common/base/Stopwatch;	e	field_17919
-METHOD	wp	(Ljava/lang/Runnable;Ljava/util/concurrent/atomic/AtomicLong;)V	a	method_18359
-METHOD	wp	(Ljava/util/List;)V	a	method_18360
-METHOD	wp	(Ljava/util/concurrent/Executor;Ljava/util/concurrent/atomic/AtomicLong;Ljava/lang/Runnable;)V	a	method_18361
-METHOD	wp	(Ljava/util/concurrent/Executor;Lwo$a;Lwt;Lwo;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;	a	method_18362
-METHOD	wp	(Lwo;Laff;Laff;Ljava/util/concurrent/atomic/AtomicLong;Ljava/util/concurrent/atomic/AtomicLong;Ljava/lang/Void;)Lwp$a;	a	method_18363
-METHOD	wp	(Ljava/lang/Runnable;Ljava/util/concurrent/atomic/AtomicLong;)V	b	method_18364
-METHOD	wp	(Ljava/util/concurrent/Executor;Ljava/util/concurrent/atomic/AtomicLong;Ljava/lang/Runnable;)V	b	method_18365
+METHOD	wp	(Ljava/lang/Runnable;Ljava/util/concurrent/atomic/AtomicLong;)V	a	method_18353
+METHOD	wp	(Ljava/util/List;)V	a	method_18238
+METHOD	wp	(Ljava/util/concurrent/Executor;Ljava/util/concurrent/atomic/AtomicLong;Ljava/lang/Runnable;)V	a	method_18354
+METHOD	wp	(Ljava/util/concurrent/Executor;Lwo$a;Lwt;Lwo;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;	a	method_18355
+METHOD	wp	(Lwo;Laff;Laff;Ljava/util/concurrent/atomic/AtomicLong;Ljava/util/concurrent/atomic/AtomicLong;Ljava/lang/Void;)Lwp$a;	a	method_18356
+METHOD	wp	(Ljava/lang/Runnable;Ljava/util/concurrent/atomic/AtomicLong;)V	b	method_18357
+METHOD	wp	(Ljava/util/concurrent/Executor;Ljava/util/concurrent/atomic/AtomicLong;Ljava/lang/Runnable;)V	b	method_18358
 METHOD	wp	()I	c	method_18224
 METHOD	wp	()I	d	method_18225
 CLASS	wp$1	net/minecraft/class_4010$1
 CLASS	wp$a	net/minecraft/class_4010$class_4046
-FIELD	wp$a	Ljava/lang/String;	a	field_18040
-FIELD	wp$a	Lafl;	b	field_18041
-FIELD	wp$a	Lafl;	c	field_18042
-FIELD	wp$a	Ljava/util/concurrent/atomic/AtomicLong;	d	field_18043
-FIELD	wp$a	Ljava/util/concurrent/atomic/AtomicLong;	e	field_18044
-METHOD	wp$a	(Lwp$a;)Lafl;	a	method_18366
-METHOD	wp$a	(Lwp$a;)Lafl;	b	method_18367
-METHOD	wp$a	(Lwp$a;)Ljava/util/concurrent/atomic/AtomicLong;	c	method_18368
-METHOD	wp$a	(Lwp$a;)Ljava/util/concurrent/atomic/AtomicLong;	d	method_18369
-METHOD	wp$a	(Lwp$a;)Ljava/lang/String;	e	method_18370
+FIELD	wp$a	Ljava/lang/String;	a	field_18037
+FIELD	wp$a	Lafl;	b	field_18038
+FIELD	wp$a	Lafl;	c	field_18039
+FIELD	wp$a	Ljava/util/concurrent/atomic/AtomicLong;	d	field_18040
+FIELD	wp$a	Ljava/util/concurrent/atomic/AtomicLong;	e	field_18041
+METHOD	wp$a	(Lwp$a;)Lafl;	a	method_18359
+METHOD	wp$a	(Lwp$a;)Lafl;	b	method_18360
+METHOD	wp$a	(Lwp$a;)Ljava/util/concurrent/atomic/AtomicLong;	c	method_18361
+METHOD	wp$a	(Lwp$a;)Ljava/util/concurrent/atomic/AtomicLong;	d	method_18362
+METHOD	wp$a	(Lwp$a;)Ljava/lang/String;	e	method_18363
 CLASS	wq	net/minecraft/class_4011
-METHOD	wq	()Ljava/util/concurrent/CompletableFuture;	a	method_18371
+METHOD	wq	()Ljava/util/concurrent/CompletableFuture;	a	method_18364
 METHOD	wq	()F	b	method_18229
 CLASS	wr	net/minecraft/class_3296
 METHOD	wr	(Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ljava/util/List;Ljava/util/concurrent/CompletableFuture;)Ljava/util/concurrent/CompletableFuture;	a	method_14478
@@ -36483,32 +36483,32 @@ METHOD	wt	(Lqh;)Z	b	method_18234
 METHOD	wt	(Lqh;)Ljava/util/List;	c	method_14489
 CLASS	wu	net/minecraft/class_4013
 METHOD	wu	(Lwt;)V	a	method_14491
-METHOD	wu	(Lwt;)V	b	method_18372
+METHOD	wu	(Lwt;)V	b	method_18235
 CLASS	wv	net/minecraft/class_4014
 FIELD	wv	Lwt;	a	field_17927
-FIELD	wv	Ljava/util/concurrent/CompletableFuture;	b	field_18045
-FIELD	wv	Ljava/util/concurrent/CompletableFuture;	c	field_18046
-FIELD	wv	Ljava/util/Set;	d	field_18047
-FIELD	wv	I	e	field_18048
-FIELD	wv	I	f	field_18049
-FIELD	wv	I	g	field_18050
-FIELD	wv	Ljava/util/concurrent/atomic/AtomicInteger;	h	field_18051
-FIELD	wv	Ljava/util/concurrent/atomic/AtomicInteger;	i	field_18052
-METHOD	wv	(Ljava/lang/Runnable;)V	a	method_18373
-METHOD	wv	(Ljava/util/List;)Lzo;	a	method_18374
-METHOD	wv	(Ljava/util/concurrent/Executor;Ljava/lang/Runnable;)V	a	method_18375
-METHOD	wv	(Ljava/util/concurrent/Executor;Lwo$a;Lwt;Lwo;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;	a	method_18376
-METHOD	wv	(Lwt;Ljava/util/List;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ljava/util/concurrent/CompletableFuture;)Lwv;	a	method_18377
-METHOD	wv	(Lwv;)Ljava/util/Set;	a	method_18378
-METHOD	wv	(Ljava/lang/Runnable;)V	b	method_18379
-METHOD	wv	(Ljava/util/concurrent/Executor;Ljava/lang/Runnable;)V	b	method_18380
+FIELD	wv	Ljava/util/concurrent/CompletableFuture;	b	field_18042
+FIELD	wv	Ljava/util/concurrent/CompletableFuture;	c	field_18043
+FIELD	wv	Ljava/util/Set;	d	field_18044
+FIELD	wv	I	e	field_18045
+FIELD	wv	I	f	field_18046
+FIELD	wv	I	g	field_18047
+FIELD	wv	Ljava/util/concurrent/atomic/AtomicInteger;	h	field_18048
+FIELD	wv	Ljava/util/concurrent/atomic/AtomicInteger;	i	field_18049
+METHOD	wv	(Ljava/lang/Runnable;)V	a	method_18365
+METHOD	wv	(Ljava/util/List;)Lzo;	a	method_18366
+METHOD	wv	(Ljava/util/concurrent/Executor;Ljava/lang/Runnable;)V	a	method_18367
+METHOD	wv	(Ljava/util/concurrent/Executor;Lwo$a;Lwt;Lwo;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;	a	method_18368
+METHOD	wv	(Lwt;Ljava/util/List;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ljava/util/concurrent/CompletableFuture;)Lwv;	a	method_18369
+METHOD	wv	(Lwv;)Ljava/util/Set;	a	method_18370
+METHOD	wv	(Ljava/lang/Runnable;)V	b	method_18371
+METHOD	wv	(Ljava/util/concurrent/Executor;Ljava/lang/Runnable;)V	b	method_18372
 CLASS	wv$1	net/minecraft/class_4014$1
-FIELD	wv$1	Ljava/util/concurrent/Executor;	a	field_18053
-FIELD	wv$1	Lwo;	b	field_18054
-FIELD	wv$1	Ljava/util/concurrent/CompletableFuture;	c	field_18055
-FIELD	wv$1	Lwv;	d	field_18056
-METHOD	wv$1	(Ljava/lang/Object;Lzo;Ljava/lang/Object;)Ljava/lang/Object;	a	method_18381
-METHOD	wv$1	(Lwo;)V	a	method_18382
+FIELD	wv$1	Ljava/util/concurrent/Executor;	a	field_18050
+FIELD	wv$1	Lwo;	b	field_18051
+FIELD	wv$1	Ljava/util/concurrent/CompletableFuture;	c	field_18052
+FIELD	wv$1	Lwv;	d	field_18053
+METHOD	wv$1	(Ljava/lang/Object;Lzo;Ljava/lang/Object;)Ljava/lang/Object;	a	method_18373
+METHOD	wv$1	(Lwo;)V	a	method_18374
 CLASS	wv$a	net/minecraft/class_4014$class_4047
 CLASS	ww	net/minecraft/class_3304
 FIELD	ww	Lorg/apache/logging/log4j/Logger;	a	field_14295
@@ -37071,7 +37071,7 @@ FIELD	xy	Lxx;	cw	field_14773
 FIELD	xy	Lxx;	cx	field_14803
 FIELD	xy	Lxx;	cy	field_14550
 FIELD	xy	Lxx;	cz	field_14671
-FIELD	xy	Lxx;	dA	field_18057
+FIELD	xy	Lxx;	dA	field_18054
 FIELD	xy	Lxx;	dB	field_15006
 FIELD	xy	Lxx;	dC	field_14928
 FIELD	xy	Lxx;	dD	field_14821
@@ -37115,15 +37115,15 @@ FIELD	xy	Lxx;	dn	field_14993
 FIELD	xy	Lxx;	do	field_15102
 FIELD	xy	Lxx;	dp	field_14591
 FIELD	xy	Lxx;	dq	field_15145
-FIELD	xy	Lxx;	dr	field_18058
-FIELD	xy	Lxx;	ds	field_18059
-FIELD	xy	Lxx;	dt	field_18060
-FIELD	xy	Lxx;	du	field_18061
-FIELD	xy	Lxx;	dv	field_18062
-FIELD	xy	Lxx;	dw	field_18063
-FIELD	xy	Lxx;	dx	field_18064
-FIELD	xy	Lxx;	dy	field_18065
-FIELD	xy	Lxx;	dz	field_18066
+FIELD	xy	Lxx;	dr	field_18055
+FIELD	xy	Lxx;	ds	field_18056
+FIELD	xy	Lxx;	dt	field_18057
+FIELD	xy	Lxx;	du	field_18058
+FIELD	xy	Lxx;	dv	field_18059
+FIELD	xy	Lxx;	dw	field_18060
+FIELD	xy	Lxx;	dx	field_18061
+FIELD	xy	Lxx;	dy	field_18062
+FIELD	xy	Lxx;	dz	field_18063
 FIELD	xy	Lxx;	eA	field_14758
 FIELD	xy	Lxx;	eB	field_14846
 FIELD	xy	Lxx;	eC	field_14947
@@ -38050,9 +38050,9 @@ FIELD	yr	Lyo;	b	field_15613
 FIELD	yr	Lyo;	c	field_15614
 FIELD	yr	Lyo;	d	field_15615
 METHOD	yr	()Lyo;	a	method_15202
-METHOD	yr	(Lcom/mojang/datafixers/util/Pair;Lcom/mojang/datafixers/util/Pair;)Lyr$a;	a	method_18383
+METHOD	yr	(Lcom/mojang/datafixers/util/Pair;Lcom/mojang/datafixers/util/Pair;)Lyr$a;	a	method_18244
 METHOD	yr	(Liw;)V	a	method_15204
-METHOD	yr	(Lyr$a;)V	a	method_18384
+METHOD	yr	(Lyr$a;)V	a	method_18245
 METHOD	yr	()Lyo;	b	method_15201
 METHOD	yr	(Liw;)Lyr;	b	method_15200
 METHOD	yr	()Lyo;	c	method_15205
@@ -38444,6 +38444,6 @@ METHOD	zz	(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/util/function/Function
 METHOD	zz	(Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;	a	method_15576
 METHOD	zz	(Ljava/lang/String;)Ljava/lang/String;	a	method_15577
 METHOD	zz	(Ljava/util/HashMap;)V	a	method_15575
-# INTERMEDIARY-COUNTER method 18385
-# INTERMEDIARY-COUNTER field 18067
+# INTERMEDIARY-COUNTER method 18375
+# INTERMEDIARY-COUNTER field 18064
 # INTERMEDIARY-COUNTER class 4048
