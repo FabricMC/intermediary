@@ -35860,7 +35860,7 @@ FIELD	ui$2	Lcom/mojang/datafixers/util/Either;	f	field_17237
 FIELD	ui$2	Lui;	g	field_17238
 CLASS	ui$a	net/minecraft/class_3898$class_3216
 FIELD	ui$a	Lui;	a	field_17443
-CLASS	ui$b	net/minecraft/class_3208
+CLASS	ui$b	net/minecraft/class_3898$class_3208
 FIELD	ui$b	Lui;	a	field_18245
 FIELD	ui$b	Luu;	b	field_18246
 FIELD	ui$b	Lahl;	c	field_18247
