@@ -23124,8 +23124,6 @@ METHOD	cv	(II)I	f	method_9406
 CLASS	cv$a	net/minecraft/class_2218$class_2219
 CLASS	cv$b	net/minecraft/class_2218$class_2220
 CLASS	cvb	net/minecraft/class_339
-FIELD	cvb	I	x	field_2069
-FIELD	cvb	I	y	field_2068
 CLASS	cvc	net/minecraft/class_357
 CLASS	cvd	net/minecraft/class_337
 FIELD	cvd	Lqq;	a	field_2059
