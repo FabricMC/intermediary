@@ -1,4 +1,4 @@
-Matches saved 2019-03-27T18:05:37.637Z[Europe/London], input files:
+Matches saved 2019-03-27T18:28:33.657Z[Europe/London], input files:
 	a:
 		18632057	yUM1G/cEftlImI5RfCBwlYO2T7BNSLJ0/OIKbhHM7zU=	19w12b-merged.jar
 	b:
@@ -88832,84 +88832,8 @@ c	Ldan;	Ldbe;
 	f	o;;Ldwe$b;	o;;Ldwq$b;
 	f	p;;Ldwe$a;	p;;Ldwq$a;
 	f	q;;Z	q;;Z
-c	Ldao;	Ldbf$b;
-	m	<init>()V	<init>()V
-	m	a(IIIIZF)V	a(IIIIIIIZF)V
-		ma	0	0
-		ma	2	2
-		ma	3	3
-	f	c;;Lcua;	b;;Lcus;
-c	Ldap;	Ldbf$c;
-	m	<init>(Ldan;Ldwd;)V	<init>(Ldbe;Ldwp;)V
-		ma	0	0
-		ma	1	1
-	m	a(IIIIZF)V	a(IIIIIIIZF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-	m	mouseClicked(DDI)Z	mouseClicked(DDI)Z
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	e()Ldwd;	a()Ldwp;
-	f	e;;Ldan;	d;;Ldbe;
-	f	c;;Lcua;	b;;Lcus;
-	f	d;;Ldwd;	c;;Ldwp;
-	f	f;;J	e;;J
-c	Ldaq;	Ldbf$d;
-	m	<init>(Ldan;Ldgk;)V	<init>(Ldbf;Ldbe;Ldgw;)V
-	m	a(IIIIZF)V	a(IIIIIIIZF)V
-		ma	1	1
-		mv	12	8
-	m	a(IILqq;)V	a(IILqr;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	f()Z	b()Z
-	m	g()V	c()V
-		mv	0	0
-		mv	1	1
-		mv	2	2
-	m	mouseClicked(DDI)Z	mouseClicked(DDI)Z
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		mv	0	0
-		mv	1	1
-	m	e()Ldgk;	a()Ldgw;
-	m	h()V	d()V
-		mv	0	0
-		mv	1	1
-	f	g;;Ldan;	c;;Ldbe;
-	f	h;;Lcua;	d;;Lcus;
-	f	i;;Ldgk;	e;;Ldgw;
-	f	j;;Lqq;	f;;Lqr;
-	f	k;;Ljava/lang/String;	g;;Ljava/lang/String;
-	f	l;;Ldss;	h;;Ldte;
-	f	m;;J	i;;J
 c	Ldar$a;	Ldbf$a;
 	m	<init>()V	<init>()V
-c	Ldar;	Ldbf;
-	m	e()V	q()V
-	m	<init>(Ldan;Lcua;IIIII)V	<init>(Ldbe;Lcus;IIIII)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
-		ma	6	6
-	m	a(Ldgl;)V	a(Ldgx;)V
-		ma	0	0
-		mv	0	0
-	m	a(Ljava/util/List;)V	a(Ljava/util/List;)V
-		ma	0	0
-		mv	0	0
-	f	a;;Ldan;	r;;Ldbe;
-	f	b;;Ljava/util/List;	s;;Ljava/util/List;
-	f	c;;Ldar$a;	t;;Ldbf$a;
-	f	d;;Ljava/util/List;	u;;Ljava/util/List;
 c	Ldau;	Ldbi;
 	m	<init>()V	<init>()V
 	m	a()Z	a()Z
@@ -89554,44 +89478,6 @@ c	Ldbi;	Ldbw;
 	f	b;;Ldbl;	b;;Ldby;
 	f	c;;Ldbn;	c;;Ldca;
 	f	d;;Z	d;;Z
-c	Ldbj;	Ldbz$a;
-	m	<init>(Ldbi;Ldtx;)V	<init>(Ldbz;Ldbw;Lduj;)V
-	m	a(Ldbn;)V	a(Ldca;)V
-		ma	0	0
-	m	e()V	a()V
-	m	f()Lwp;	b()Lwq;
-	m	g()Ljava/lang/String;	c()Ljava/lang/String;
-	m	h()Ljava/lang/String;	d()Ljava/lang/String;
-	m	i()Ldtx;	e()Lduj;
-	m	a(IIIIZF)V	a(IIIIIIIZF)V
-	m	j()Z	f()Z
-	m	k()Z	g()Z
-	m	l()Z	h()Z
-	m	m()Z	i()Z
-		mv	0	0
-		mv	1	1
-	m	n()Z	j()Z
-		mv	0	0
-		mv	1	1
-	m	mouseClicked(DDI)Z	mouseClicked(DDI)Z
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		mv	0	0
-		mv	1	1
-		mv	2	2
-		mv	3	3
-		mv	4	4
-		mv	5	5
-		mv	6	6
-		mv	7	7
-	m	o()Ldbi;	k()Ldbw;
-	m	a(ZI)V	a(ZI)V
-		ma	0	0
-		ma	1	1
-	f	c;;Lcua;	b;;Lcus;
-	f	d;;Ldbi;	c;;Ldbw;
-	f	h;;Ldtx;	e;;Lduj;
 c	Ldbl;	Ldby;
 	m	<init>(Lcua;II)V	<init>(Lcus;II)V
 		ma	0	0
@@ -89828,66 +89714,6 @@ c	Ldbu;	Ldch;
 	f	i;;Lcve;	g;;Lcvx;
 	f	c;;Lcvi;	b;;Lcwc;
 	f	j;;Ldbw;	h;;Ldci;
-c	Ldbv;	Ldci$a;
-	m	<init>(Ldbw;Lcmx;Lcmw;)V	<init>(Ldci;Ldci;Lcnp;Lcno;)V
-	m	a(IIIIZF)V	a(IIIIIIIZF)V
-		ma	0	0
-		ma	1	1
-		ma	3	3
-	m	mouseClicked(DDI)Z	mouseClicked(DDI)Z
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	e()V	a()V
-		mv	0	0
-		mv	1	1
-	m	f()V	b()V
-	m	g()V	c()V
-	m	h()V	d()V
-		mv	0	0
-		mv	1	1
-		mv	2	2
-		mv	3	3
-	m	i()V	e()V
-	m	j()Ldss;	f()Ldte;
-		mv	0	0
-		mv	1	1
-		mv	2	2
-		mv	3	3
-		mv	4	4
-	m	close()V	close()V
-	m	a(F)V	a(F)V
-		ma	0	0
-	m	k()V	g()V
-	m	a(Ldbr;ZI)V	a(Ldce;ZI)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	a(ZI)V	a(ZI)V
-		ma	0	0
-		ma	1	1
-	m	l()Ljava/lang/String;	h()Ljava/lang/String;
-	m	b(ZI)V	b(ZI)V
-		ma	0	0
-		ma	1	1
-		mv	0	0
-	m	m()Ljava/lang/String;	i()Ljava/lang/String;
-	m	c(ZI)V	c(ZI)V
-		ma	0	0
-		ma	1	1
-		mv	0	0
-	m	n()V	j()V
-	m	a(Z)V	a(Z)V
-		ma	0	0
-		mv	0	0
-	f	g;;Lcua;	c;;Lcus;
-	f	h;;Ldbu;	d;;Ldch;
-	f	i;;Lcmx;	e;;Lcnp;
-	f	j;;Lqq;	f;;Lqr;
-	f	k;;Ldbw;	b;;Ldci;
-	f	l;;Ljava/io/File;	g;;Ljava/io/File;
-	f	m;;Ldss;	h;;Ldte;
-	f	n;;J	i;;J
 c	Ldbw;	Ldci;
 	m	<init>(Ldbu;Lcua;IIIIILjava/util/function/Supplier;Ldbw;)V	<init>(Ldch;Lcus;IIIIILjava/util/function/Supplier;Ldci;)V
 		ma	0	0
