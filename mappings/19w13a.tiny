@@ -23315,8 +23315,6 @@ FIELD	cvr	Lcus;	a	field_2056
 CLASS	cvt	net/minecraft/class_4264
 CLASS	cvu	net/minecraft/class_357
 CLASS	cvv	net/minecraft/class_339
-FIELD	cvv	I	x	field_19075
-FIELD	cvv	I	y	field_19076
 CLASS	cvw	net/minecraft/class_337
 FIELD	cvw	Lqr;	a	field_2059
 FIELD	cvw	Lcus;	b	field_2058
