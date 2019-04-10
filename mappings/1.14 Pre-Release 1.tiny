@@ -21264,7 +21264,6 @@ METHOD	cop	(Lcop;Lcoe;Ljava/util/function/Consumer;)Z	a	method_16777
 METHOD	cop	(Lcoe;Ljava/util/function/Consumer;)Z	b	method_16775
 METHOD	cop	(Lcop;)Lcop;	b	method_385
 METHOD	cop	(Lcop;Lcoe;Ljava/util/function/Consumer;)Z	b	method_16779
-METHOD	cop	(Lcoe;Ljava/util/function/Consumer;)Z	expand	expand
 CLASS	coq	net/minecraft/class_69
 FIELD	coq	[Lcox;	c	field_982
 FIELD	coq	Lcop;	e	field_983
