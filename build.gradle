@@ -1,0 +1,50 @@
+plugins {
+    id 'maven'
+    id 'maven-publish'
+}
+
+file('mappings').eachFile {
+    if (!it.name.contains(".tiny")) return
+
+    def mcVer = it.name.replace(".tiny", "")
+    def mappingFile = it
+    def jarFilename = "intermediary-" + mcVer
+    Jar makeJar = task "${mcVer}_makeJar"(type: Jar) {
+        baseName jarFilename
+        from (file(mappingFile)) {
+            into "mappings"
+            rename mappingFile.name, "mappings.tiny"
+        }
+        destinationDirectory = file("build/jars")
+    }
+    
+    build.dependsOn makeJar
+
+    publishing {
+        publications {
+            create("${mcVer}_mavenJava", MavenPublication) {
+                groupId 'net.fabricmc'
+	        artifactId "intermediary"
+	        version mcVer
+                artifact (makeJar.archiveFile) {
+	            builtBy makeJar
+                }
+            }
+        }
+    }
+}
+
+
+publishing {
+	repositories {
+		maven {
+			url "http://mavenupload.modmuss50.me/"
+			if (project.hasProperty('mavenPass')) {
+				credentials {
+					username 'buildslave'
+					password project.getProperty('mavenPass')
+				}
+			}
+		}
+	}
+}
