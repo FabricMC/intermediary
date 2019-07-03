@@ -21328,7 +21328,7 @@ FIELD	com/mojang/realmsclient/dto/RealmsServer	I	activeSlot	activeSlot
 FIELD	com/mojang/realmsclient/dto/RealmsServer	I	daysLeft	daysLeft
 FIELD	com/mojang/realmsclient/dto/RealmsServer	Z	expiredTrial	expiredTrial
 FIELD	com/mojang/realmsclient/dto/RealmsServer	Z	expired	expired
-FIELD	com/mojang/realmsclient/dto/RealmsServer	J	id	field_19431
+FIELD	com/mojang/realmsclient/dto/RealmsServer	J	id	id
 FIELD	com/mojang/realmsclient/dto/RealmsServer	I	minigameId	minigameId
 FIELD	com/mojang/realmsclient/dto/RealmsServer	Ljava/lang/String;	minigameImage	minigameImage
 FIELD	com/mojang/realmsclient/dto/RealmsServer	Ljava/lang/String;	minigameName	minigameName
@@ -21497,7 +21497,7 @@ METHOD	com/mojang/realmsclient/dto/WorldDownload	(Ljava/lang/String;)Lcom/mojang
 CLASS	com/mojang/realmsclient/dto/WorldTemplate	com/mojang/realmsclient/dto/WorldTemplate
 FIELD	com/mojang/realmsclient/dto/WorldTemplate	Lorg/apache/logging/log4j/Logger;	LOGGER	LOGGER
 FIELD	com/mojang/realmsclient/dto/WorldTemplate	Ljava/lang/String;	author	author
-FIELD	com/mojang/realmsclient/dto/WorldTemplate	Ljava/lang/String;	id	field_19446
+FIELD	com/mojang/realmsclient/dto/WorldTemplate	Ljava/lang/String;	id	id
 FIELD	com/mojang/realmsclient/dto/WorldTemplate	Ljava/lang/String;	image	image
 FIELD	com/mojang/realmsclient/dto/WorldTemplate	Ljava/lang/String;	link	link
 FIELD	com/mojang/realmsclient/dto/WorldTemplate	Ljava/lang/String;	name	name
