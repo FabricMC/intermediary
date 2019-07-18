@@ -30955,12 +30955,12 @@ FIELD	dky	D	C	field_3795
 FIELD	dky	D	F	field_3794
 FIELD	dky	D	G	field_3793
 CLASS	dky$1	net/minecraft/class_668$1
-CLASS	dky$a	net/minecraft/class_668$class_670
-FIELD	dky$a	Ldma;	a	field_17803
-METHOD	dky$a	(Lgi;Lbhr;DDDDDD)Ldln;	a	method_3021
-CLASS	dky$b	net/minecraft/class_668$class_669
-FIELD	dky$b	Ldma;	a	field_17804
-METHOD	dky$b	(Lgi;Lbhr;DDDDDD)Ldln;	a	method_3020
+CLASS	dky$a	net/minecraft/class_668$class_669
+FIELD	dky$a	Ldma;	a	field_17804
+METHOD	dky$a	(Lgi;Lbhr;DDDDDD)Ldln;	a	method_3020
+CLASS	dky$b	net/minecraft/class_668$class_670
+FIELD	dky$b	Ldma;	a	field_17803
+METHOD	dky$b	(Lgi;Lbhr;DDDDDD)Ldln;	a	method_3021
 CLASS	dkz	net/minecraft/class_675
 CLASS	dkz$1	net/minecraft/class_675$1
 CLASS	dkz$a	net/minecraft/class_675$class_676
