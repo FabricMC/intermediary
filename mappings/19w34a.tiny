@@ -24651,7 +24651,7 @@ METHOD	cvw	(III)I	a	method_15991
 METHOD	cvw	(J)Lcvs;	a	method_1680
 METHOD	cvw	(JI)V	a	method_1683
 METHOD	cvw	(Lcwa;)Lcvs;	a	method_1681
-CLASS	cvy	class_4536
+CLASS	cvy	net/minecraft/class_4536
 FIELD	cvy	Lorg/apache/logging/log4j/Logger;	a	LOGGER
 METHOD	cvy	()I	a	generateTextureId
 METHOD	cvy	(I)V	a	releaseTextureId
