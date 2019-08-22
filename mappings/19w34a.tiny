@@ -24316,7 +24316,7 @@ CLASS	cvn$k	net/minecraft/class_4493$class_1026
 FIELD	cvn$k	Lcvn$c;	a	field_5074
 FIELD	cvn$k	Z	b	field_5076
 FIELD	cvn$k	I	c	field_5075
-CLASS	cvn$l	net/minecraft/class_4493$DestFactor
+CLASS	cvn$l	net/minecraft/class_4493$class_4534
 FIELD	cvn$l	Lcvn$l;	a	CONSTANT_ALPHA
 FIELD	cvn$l	Lcvn$l;	b	CONSTANT_COLOR
 FIELD	cvn$l	Lcvn$l;	c	DST_ALPHA
@@ -24394,7 +24394,7 @@ METHOD	cvn$r	()[Lcvn$r;	values	values
 CLASS	cvn$r$1	net/minecraft/class_4493$class_1032$1
 CLASS	cvn$r$2	net/minecraft/class_4493$class_1032$2
 CLASS	cvn$r$3	net/minecraft/class_4493$class_1032$3
-CLASS	cvn$s	net/minecraft/class_4493$SourceFactor
+CLASS	cvn$s	net/minecraft/class_4493$class_4535
 FIELD	cvn$s	Lcvn$s;	a	CONSTANT_ALPHA
 FIELD	cvn$s	Lcvn$s;	b	CONSTANT_COLOR
 FIELD	cvn$s	Lcvn$s;	c	DST_ALPHA
@@ -24651,7 +24651,7 @@ METHOD	cvw	(III)I	a	method_15991
 METHOD	cvw	(J)Lcvs;	a	method_1680
 METHOD	cvw	(JI)V	a	method_1683
 METHOD	cvw	(Lcwa;)Lcvs;	a	method_1681
-CLASS	cvy	com/mojang/blaze3d/platform/TextureUtil
+CLASS	cvy	class_4536
 FIELD	cvy	Lorg/apache/logging/log4j/Logger;	a	LOGGER
 METHOD	cvy	()I	a	generateTextureId
 METHOD	cvy	(I)V	a	releaseTextureId
@@ -45749,4 +45749,4 @@ METHOD	zy	(Lzw;Ljava/lang/Object;)I	a	method_15024
 METHOD	zy	(Laxh;Lzu;I)V	b	method_15022
 # INTERMEDIARY-COUNTER method 22323
 # INTERMEDIARY-COUNTER field 20616
-# INTERMEDIARY-COUNTER class 4534
+# INTERMEDIARY-COUNTER class 4537
