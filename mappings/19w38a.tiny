@@ -31582,7 +31582,7 @@ METHOD	dlv	(Lcxe;FIILdys;FFF)V	b	method_22702
 METHOD	dlv	(Ldlv;)V	b	method_2845
 METHOD	dlv	(F)V	c	method_2855
 METHOD	dlv	(F)V	d	method_22703
-CLASS	dlv$a	net/minecraft/class_628
+CLASS	dlv$a	net/minecraft/class_630$class_628
 FIELD	dlv$a	F	a	field_3645
 FIELD	dlv$a	F	b	field_3644
 FIELD	dlv$a	F	c	field_3643
@@ -31591,10 +31591,10 @@ FIELD	dlv$a	F	e	field_3647
 FIELD	dlv$a	F	f	field_3646
 FIELD	dlv$a	[Ldlv$b;	g	field_3649
 METHOD	dlv$a	(Ldlv$a;)[Ldlv$b;	a	method_22704
-CLASS	dlv$b	net/minecraft/class_593
+CLASS	dlv$b	net/minecraft/class_630$class_593
 FIELD	dlv$b	[Ldlv$c;	a	field_3502
 METHOD	dlv$b	()V	a	method_2826
-CLASS	dlv$c	net/minecraft/class_618
+CLASS	dlv$c	net/minecraft/class_630$class_618
 FIELD	dlv$c	Lcuh;	a	field_3605
 FIELD	dlv$c	F	b	field_3604
 FIELD	dlv$c	F	c	field_3603
@@ -33806,7 +33806,7 @@ METHOD	dro	()V	g	method_22763
 METHOD	dro	()V	h	method_3633
 METHOD	dro	()V	i	method_22764
 METHOD	dro	()V	j	method_22765
-CLASS	dro$a	net/minecraft/class_849
+CLASS	dro$a	net/minecraft/class_846$class_849
 FIELD	dro$a	Ldro$a;	a	field_4451
 FIELD	dro$a	Ljava/util/Set;	b	field_4450
 FIELD	dro$a	Ljava/util/Set;	c	field_4452
@@ -33825,8 +33825,8 @@ METHOD	dro$a	()Ljava/util/List;	b	method_3642
 METHOD	dro$a	(Ldro$a;)Ljava/util/List;	b	method_22770
 METHOD	dro$a	(Ldro$a;)Ljava/util/Set;	c	method_22771
 METHOD	dro$a	(Ldro$a;)Lcxe$b;	d	method_22772
-CLASS	dro$a$1	net/minecraft/class_849$1
-CLASS	dro$b	net/minecraft/class_851
+CLASS	dro$a$1	net/minecraft/class_846$class_849$1
+CLASS	dro$b	net/minecraft/class_846$class_851
 FIELD	dro$b	Ljava/util/concurrent/atomic/AtomicReference;	a	field_4459
 FIELD	dro$b	Lcub;	b	field_4458
 FIELD	dro$b	Ldro;	c	field_20833
@@ -33867,7 +33867,7 @@ METHOD	dro$b	()V	i	method_3663
 METHOD	dro$b	()Ldro$b$a;	j	method_3674
 METHOD	dro$b	()V	k	method_22781
 METHOD	dro$b	()V	l	method_3675
-CLASS	dro$b$a	net/minecraft/class_851$class_4577
+CLASS	dro$b$a	net/minecraft/class_846$class_851$class_4577
 FIELD	dro$b$a	D	a	field_20835
 FIELD	dro$b$a	Ljava/util/concurrent/atomic/AtomicBoolean;	b	field_20836
 FIELD	dro$b$a	Ldro$b;	c	field_20837
@@ -33875,14 +33875,14 @@ METHOD	dro$b$a	()V	a	method_22782
 METHOD	dro$b$a	(Ldou;)Ljava/util/concurrent/CompletableFuture;	a	method_22783
 METHOD	dro$b$a	(Ldro$b$a;)I	a	method_22784
 METHOD	dro$b$a	(Ljava/lang/Object;)I	compareTo	compareTo
-CLASS	dro$b$b	net/minecraft/class_851$class_4578
+CLASS	dro$b$b	net/minecraft/class_846$class_851$class_4578
 FIELD	dro$b$b	Ldrp;	d	field_20838
 FIELD	dro$b$b	Ldro$b;	e	field_20839
 METHOD	dro$b$b	(FFFLdro$a;Ldou;)Ljava/util/Set;	a	method_22785
 METHOD	dro$b$b	(Ldro$a;Labm;Ljava/lang/Throwable;)V	a	method_22786
 METHOD	dro$b$b	(Ljava/util/List;)Labm;	a	method_22787
 METHOD	dro$b$b	(Ljava/util/List;Ldou;Ldpj;)V	a	method_22788
-CLASS	dro$b$c	net/minecraft/class_851$class_4579
+CLASS	dro$b$c	net/minecraft/class_846$class_851$class_4579
 FIELD	dro$b$c	Ldro$b;	d	field_20840
 FIELD	dro$b$c	Ldro$a;	e	field_20841
 METHOD	dro$b$c	(Labm;Ljava/lang/Throwable;)V	a	method_22789
