@@ -1,4 +1,4 @@
-tiny	2	0	official	named
+tiny	2	0	official	intermediary
 c	a	net/minecraft/class_1158
 	m	()F	a	method_4921
 	m	(F)F	a	method_16003
@@ -26511,17 +26511,17 @@ c	col	net/minecraft/class_26
 	f	Ljava/util/Map;	b	field_134
 	f	Lcom/mojang/datafixers/DataFixer;	c	field_17663
 	f	Ljava/io/File;	d	field_17664
-c	com/mojang/blaze3d/platform/GLX$1	
+c	com/mojang/blaze3d/platform/GLX$1	com/mojang/blaze3d/platform/GLX$1
 	f	[I	a	field_4985
-c	com/mojang/blaze3d/platform/GLX	
+c	com/mojang/blaze3d/platform/GLX	com/mojang/blaze3d/platform/GLX
 c	com/mojang/blaze3d/platform/GLX$a	com/mojang/blaze3d/platform/GLX$class_1010
 	f	Lcom/mojang/blaze3d/platform/GLX$a;	a	field_4981
 	f	Lcom/mojang/blaze3d/platform/GLX$a;	b	field_4983
 	f	Lcom/mojang/blaze3d/platform/GLX$a;	c	field_4984
 	f	[Lcom/mojang/blaze3d/platform/GLX$a;	d	field_4982
-c	com/mojang/blaze3d/platform/GlStateManager$1	
+c	com/mojang/blaze3d/platform/GlStateManager$1	com/mojang/blaze3d/platform/GlStateManager$1
 	f	[I	a	field_5129
-c	com/mojang/blaze3d/platform/GlStateManager	
+c	com/mojang/blaze3d/platform/GlStateManager	com/mojang/blaze3d/platform/GlStateManager
 c	com/mojang/blaze3d/platform/GlStateManager$a	com/mojang/blaze3d/platform/GlStateManager$class_1016
 	f	Lcom/mojang/blaze3d/platform/GlStateManager$c;	a	field_5042
 	f	I	b	field_5044
@@ -44972,31 +44972,31 @@ c	ne	net/minecraft/class_2761
 	m	()J	c	method_11873
 	f	J	a	field_12621
 	f	J	b	field_12620
-c	net/minecraft/client/main/Main$1	
+c	net/minecraft/client/main/Main$1	net/minecraft/client/main/Main$1
 	f	Ljava/lang/String;	a	field_12139
 	f	Ljava/lang/String;	b	field_12140
-c	net/minecraft/client/main/Main	
+c	net/minecraft/client/main/Main	net/minecraft/client/main/Main
 	m	(Ljava/lang/Integer;)Ljava/util/OptionalInt;	a	method_21612
 	m	(Ljava/lang/String;)Z	a	method_11429
 	m	(Ljoptsimple/OptionSet;Ljoptsimple/OptionSpec;)Ljava/lang/Object;	a	method_11428
 	f	Lorg/apache/logging/log4j/Logger;	a	field_12138
-c	net/minecraft/data/Main	
+c	net/minecraft/data/Main	net/minecraft/data/Main
 	m	(Ljava/lang/String;)Ljava/nio/file/Path;	a	method_4967
 	m	(Ljava/nio/file/Path;Ljava/util/Collection;ZZZZZ)Lgk;	a	method_4968
-c	net/minecraft/realms/DisconnectedRealmsScreen$1	
+c	net/minecraft/realms/DisconnectedRealmsScreen$1	net/minecraft/realms/DisconnectedRealmsScreen$1
 	f	Lnet/minecraft/realms/DisconnectedRealmsScreen;	a	field_13595
-c	net/minecraft/realms/DisconnectedRealmsScreen	
-c	net/minecraft/realms/RealmsConnect$1	
+c	net/minecraft/realms/DisconnectedRealmsScreen	net/minecraft/realms/DisconnectedRealmsScreen
+c	net/minecraft/realms/RealmsConnect$1	net/minecraft/realms/RealmsConnect$1
 	m	(Ljo;)V	a	method_10210
 	f	Ljava/lang/String;	a	field_11112
 	f	I	b	field_11114
 	f	Lnet/minecraft/realms/RealmsConnect;	c	field_11113
-c	net/minecraft/realms/RealmsConnect	
+c	net/minecraft/realms/RealmsConnect	net/minecraft/realms/RealmsConnect
 c	net/minecraft/realms/RepeatedNarrator$a	net/minecraft/realms/RepeatedNarrator$class_4283
 	f	Ljava/lang/String;	a	field_19210
 	f	Lcom/google/common/util/concurrent/RateLimiter;	b	field_19211
-c	net/minecraft/realms/RepeatedNarrator	
-c	net/minecraft/server/MinecraftServer$1	
+c	net/minecraft/realms/RepeatedNarrator	net/minecraft/realms/RepeatedNarrator
+c	net/minecraft/server/MinecraftServer$1	net/minecraft/server/MinecraftServer$1
 	m	()V	a	method_15411
 	m	(I)V	a	method_15410
 	m	(Ljo;)V	a	method_15412
@@ -45004,7 +45004,7 @@ c	net/minecraft/server/MinecraftServer$1
 	m	(Ljo;)V	c	method_15414
 	f	Lnet/minecraft/server/MinecraftServer;	a	field_4610
 	f	J	b	field_4609
-c	net/minecraft/server/MinecraftServer	
+c	net/minecraft/server/MinecraftServer	net/minecraft/server/MinecraftServer
 	m	()I	A	method_3788
 	m	()I	B	method_3802
 	m	()[Ljava/lang/String;	C	method_3858
@@ -45253,9 +45253,9 @@ c	net/minecraft/server/MinecraftServer
 	f	Z	x	field_4561
 	f	I	y	field_4572
 	f	Z	z	field_4543
-c	net/minecraft/server/MinecraftServer$2	
+c	net/minecraft/server/MinecraftServer$2	net/minecraft/server/MinecraftServer$2
 	f	Luk;	a	field_4611
-c	net/minecraft/server/MinecraftServer$3	
+c	net/minecraft/server/MinecraftServer$3	net/minecraft/server/MinecraftServer$3
 	m	(Lbhn$d;Lbhn$e;)V	a	method_20762
 	f	Ljava/util/List;	a	field_20280
 	f	Lbhn;	b	field_20281
