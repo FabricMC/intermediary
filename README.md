@@ -1,20 +1,16 @@
-# Intermediary mappings
+# Intermediary
 
-This repository contains the match information between different versions of Minecraft created by the Fabric project, as well as the "intermediary" mappings we use, that is an intermediary naming form which tries to keep names
-the same across versions and mapping changes.
+Public facing repo for Yarn Intermediary mappings.
 
-## Files included in this repo
+This is NOT intended for end users to use. This IS a replacement for MCP. This WILL allow you to make Mods. PLEASE ASK. This is inteded for making the entire process of updating MC obfusication mappings public. As well ensuring that this process grants freedom to the user so that others may use them how they please.
 
-* __mappings/<mcversion>.tiny__: Intermediary mappings in the Tiny mapping format.
-* __matches/*.matches__: Matches between Minecraft versions, created by the Fabric project with the aid of Matcher.
+You MAY modify/rehost the generated mappings without express consent from either LexManos or Searge. This is NOT intended to prevent conflicting mappings from being published as that does nothing but monopolize the mappings process. You MAY download our mappings from Fabric's maven, and use them in your project. You MAY give proper credit in some way but are not REQUIRED to do so.
 
-## Generating / updating mappings
+You MAY make suggestions and fixes in the form of Issue reports and Pull Requests to this repo. You may NOT make any suggestions that are derived from the offical mappings provided by Mojang or MCP as those mappings are copywritten by Mojang or LexManos and we have no rights to redistribute them. There are other projects such as Loom that are designed for Modder facing development. This is not for people who don't know what this is.
 
-In general, you're going to want to use the following tools:
+NO RIGHTS RESERVED.
 
-* [Matcher](https://github.com/FabricMC/Matcher) by sfPlayer1 can be used to create a match file between two JARs. In addition, it can load Enigma-format mappings, which can be used as an aid in figuring out changes.
-* [Stitch](https://github.com/FabricMC/stitch) is a toolset for generating mappings based on match files. "generateIntermediary" is used to start a fresh chain of intermediary mappings, while "updateIntermediary" is used to add a new entry to the chain based on the previous entry and a matches file.
 
-## License
+# How to Use:
 
-As with the named mappings, we provide the intermediary mappings under the Creative Commons Zero license, so all can benefit.
+This is basic gradle setup, read the gradle. This is INTENTIONALLY holding your hand because this is NOT a powerful tool that if used incorrectly can cause few issues at all. Spend a few minuetes reading the gradle and you can figure things out.
