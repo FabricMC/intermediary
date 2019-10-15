@@ -1,100 +1,100 @@
 import cuchaz.enigma.command.ConvertMappingsCommand
 
 buildscript {
-    repositories {
-        maven {
-            name "Fabric Repository"
-            url 'https://maven.fabricmc.net'
-        }
-        mavenLocal()
-    }
+	repositories {
+		maven {
+			name "Fabric Repository"
+			url 'https://maven.fabricmc.net'
+		}
+		mavenLocal()
+	}
 
-    dependencies {
-        classpath "cuchaz:enigma:0.15.0"
-    }
+	dependencies {
+		classpath "cuchaz:enigma:0.15.0"
+	}
 }
 
 plugins {
-    id 'maven'
-    id 'maven-publish'
+	id 'maven'
+	id 'maven-publish'
 }
 
 def localMappingsPath = "$buildDir/v2Mappings"
-mkdir(localMappingsPath)
+new File(localMappingsPath).mkdirs()
 file('mappings').eachFile {
-    if (!it.name.endsWith(".tiny")) return
-    File v1MappingFile = it
-    File v2MappingFile = new File("$localMappingsPath/${it.name}")
+	if (!it.name.endsWith(".tiny")) return
+	File v1MappingFile = it
+	File v2MappingFile = new File("$localMappingsPath/${it.name}")
 
-    def conversionTask = "convert${it.name}ToV2"
-    tasks.register(conversionTask) {
-        group = "V2 Conversion"
-        inputs.file(v1MappingFile)
-        outputs.file(v2MappingFile)
+	def conversionTask = "convert${it.name}ToV2"
+	tasks.register(conversionTask) {
+		group = "V2 Conversion"
+		inputs.file(v1MappingFile)
+		outputs.file(v2MappingFile)
 
-        doLast {
-            new ConvertMappingsCommand().run(
-                    "tiny",
-                    v1MappingFile.path,
-                    "tinyv2:official:intermediary",
-                    v2MappingFile.path
-            )
-        }
-    }
+		doLast {
+			new ConvertMappingsCommand().run(
+					"tiny",
+					v1MappingFile.path,
+					"tinyv2:official:intermediary",
+					v2MappingFile.path
+			)
+		}
+	}
 
-    def mcVer = it.name.replace(".tiny", "")
+	def mcVer = it.name.replace(".tiny", "")
 
-    Jar makeV1Jar = makeJar(mcVer, v1MappingFile, false)
-    Jar makeV2Jar = makeJar(mcVer, v2MappingFile, true)
+	Jar makeV1Jar = makeJar(mcVer, v1MappingFile, false)
+	Jar makeV2Jar = makeJar(mcVer, v2MappingFile, true)
 
 
-    build.dependsOn makeV1Jar
-    build.dependsOn makeV2Jar
+	build.dependsOn makeV1Jar
+	build.dependsOn makeV2Jar
 
-    makeV2Jar.dependsOn conversionTask
+	makeV2Jar.dependsOn conversionTask
 
-    publishing {
-        publications {
-            create("${mcVer}_mavenJava", MavenPublication) {
-                groupId 'net.fabricmc'
-                artifactId "intermediary"
-                version mcVer
-                artifact(makeV1Jar.archiveFile) {
-                    builtBy makeV1Jar
-                }
-                artifact(makeV2Jar.archiveFile) {
-                    builtBy makeV2Jar
-                    classifier = "v2"
-                }
-            }
-        }
-    }
+	publishing {
+		publications {
+			create("${mcVer}_mavenJava", MavenPublication) {
+				groupId 'net.fabricmc'
+				artifactId "intermediary"
+				version mcVer
+				artifact(makeV1Jar.archiveFile) {
+					builtBy makeV1Jar
+				}
+				artifact(makeV2Jar.archiveFile) {
+					builtBy makeV2Jar
+					classifier = "v2"
+				}
+			}
+		}
+	}
 
 }
 
 def makeJar(String mcVersion, File mappings, boolean v2) {
-    def jarFilename = "intermediary-" + mcVersion + (v2 ? "v2" : "")
-    return task("${mcVersion}_makeJar" + (v2 ? "v2" : ""), type: Jar) {
-        baseName jarFilename
-        from(file(mappings)) {
-            into "mappings"
-            rename mappings.name, "mappings.tiny"
-        }
-        destinationDirectory = file("build/jars")
-    }
+	def jarFilename = "intermediary-" + mcVersion + (v2 ? "v2" : "")
+	return task("${mcVersion}_makeJar" + (v2 ? "v2" : ""), type: Jar) {
+		baseName jarFilename
+		from(file(mappings)) {
+			into "mappings"
+			rename mappings.name, "mappings.tiny"
+		}
+		destinationDirectory = file("build/jars")
+	}
 }
 
 
 publishing {
-    repositories {
-        maven {
-            url "http://mavenupload.modmuss50.me/"
-            if (project.hasProperty('mavenPass')) {
-                credentials {
-                    username 'buildslave'
-                    password project.getProperty('mavenPass')
-                }
-            }
-        }
-    }
+	repositories {
+		maven {
+			url "http://mavenupload.modmuss50.me/"
+			if (project.hasProperty('mavenPass')) {
+				credentials {
+					username 'buildslave'
+					password project.getProperty('mavenPass')
+				}
+			}
+		}
+	}
 }
