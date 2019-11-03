@@ -72,7 +72,7 @@ file('mappings').eachFile {
 }
 
 def makeJar(String mcVersion, File mappings, boolean v2) {
-	def jarFilename = "intermediary-" + mcVersion + (v2 ? "v2" : "")
+	def jarFilename = "intermediary-" + mcVersion + (v2 ? "-v2" : "")
 	return task("${mcVersion}_makeJar" + (v2 ? "v2" : ""), type: Jar) {
 		baseName jarFilename
 		from(file(mappings)) {
