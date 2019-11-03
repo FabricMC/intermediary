@@ -6,11 +6,10 @@ buildscript {
 			name "Fabric Repository"
 			url 'https://maven.fabricmc.net'
 		}
-		mavenLocal()
 	}
 
 	dependencies {
-		classpath "cuchaz:enigma:0.15.0"
+		classpath "cuchaz:enigma:0.14.2.138"
 	}
 }
 
