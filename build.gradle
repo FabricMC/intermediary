@@ -83,7 +83,6 @@ def makeJar(String mcVersion, File mappings, boolean v2) {
 	}
 }
 
-
 publishing {
 	repositories {
 		maven {
