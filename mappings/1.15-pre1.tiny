@@ -32430,7 +32430,6 @@ FIELD	dkh	Ldnd;	g	field_3333
 FIELD	dkh	Ljava/util/List;	h	field_20786
 METHOD	dkh	(FFFF)V	a	method_17073
 METHOD	dkh	(Lcyg;Lcyj;IIFFFFLdnd;)V	a	method_22695
-METHOD	dkh	(Lcyg;Lcyj;IIFFFF)V	b	method_17072
 CLASS	dki	net/minecraft/class_3680
 FIELD	dki	F	m	field_16245
 FIELD	dki	F	n	field_16244
