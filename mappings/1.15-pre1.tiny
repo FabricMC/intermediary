@@ -26715,7 +26715,7 @@ CLASS	cyl$b$a	net/minecraft/class_296$class_298$class_4575
 METHOD	cyl$b$a	(IIIJI)V	setupBufferState	setupBufferState
 CLASS	cym	net/minecraft/class_4720
 METHOD	cym	(Lcyj;Lcyj;)Lcyj;	a	method_24037
-CLASS	cym$a	net/minecraft/class_4589
+CLASS	cym$a	net/minecraft/class_4720$class_4589
 FIELD	cym$a	Lcyj;	a	field_21685
 FIELD	cym$a	Lcyj;	b	field_21686
 CLASS	cyn	net/minecraft/class_1161
