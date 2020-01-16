@@ -1,4 +1,4 @@
-Matches saved 2020-01-16T14:58:39.149192300Z[Europe/London], input files:
+Matches saved 2020-01-16T15:02:07.917692100Z[Europe/London], input files:
 	a:
 		14907689	wQT9JNrOreULQI5FnSlTnSlSZ3pf/kd7V3Z1RwKNn3w=	1.15.2-pre1-merged.jar
 	b:
@@ -75039,6 +75039,7 @@ c	Lcom/mojang/blaze3d/systems/RenderSystem;	Lcom/mojang/blaze3d/systems/RenderSy
 	m	fogMode(Lcxk$m;)V	fogMode(Lcxk$m;)V
 		ma	0	0
 	m	fogMode(I)V	fogMode(I)V
+		ma	0	0
 	m	fogDensity(F)V	fogDensity(F)V
 		ma	0	0
 	m	fogStart(F)V	fogStart(F)V
@@ -75052,9 +75053,13 @@ c	Lcom/mojang/blaze3d/systems/RenderSystem;	Lcom/mojang/blaze3d/systems/RenderSy
 		ma	3	3
 		ma	4	4
 	m	fogi(II)V	fogi(II)V
+		ma	0	0
+		ma	1	1
 	m	enableCull()V	enableCull()V
 	m	disableCull()V	disableCull()V
 	m	polygonMode(II)V	polygonMode(II)V
+		ma	0	0
+		ma	1	1
 	m	enablePolygonOffset()V	enablePolygonOffset()V
 	m	disablePolygonOffset()V	disablePolygonOffset()V
 	m	enableLineOffset()V	enableLineOffset()V
@@ -75097,6 +75102,7 @@ c	Lcom/mojang/blaze3d/systems/RenderSystem;	Lcom/mojang/blaze3d/systems/RenderSy
 		ma	1	1
 		ma	2	2
 	m	stencilMask(I)V	stencilMask(I)V
+		ma	0	0
 	m	stencilOp(III)V	stencilOp(III)V
 		ma	0	0
 		ma	1	1
@@ -75109,6 +75115,7 @@ c	Lcom/mojang/blaze3d/systems/RenderSystem;	Lcom/mojang/blaze3d/systems/RenderSy
 		ma	2	2
 		ma	3	3
 	m	clearStencil(I)V	clearStencil(I)V
+		ma	0	0
 	m	clear(IZ)V	clear(IZ)V
 		ma	0	0
 		ma	1	1
@@ -75167,6 +75174,8 @@ c	Lcom/mojang/blaze3d/systems/RenderSystem;	Lcom/mojang/blaze3d/systems/RenderSy
 		ma	0	0
 		ma	1	1
 	m	pixelTransfer(IF)V	pixelTransfer(IF)V
+		ma	0	0
+		ma	1	1
 	m	readPixels(IIIIIILjava/nio/ByteBuffer;)V	readPixels(IIIIIILjava/nio/ByteBuffer;)V
 		ma	0	0
 		ma	1	1
@@ -75341,6 +75350,8 @@ c	Lcom/mojang/blaze3d/systems/RenderSystem;	Lcom/mojang/blaze3d/systems/RenderSy
 		ma	5	5
 		ma	6	6
 	m	lambda$pixelTransfer$48(IF)V	lambda$pixelTransfer$48(IF)V
+		ma	0	0
+		ma	1	1
 	m	lambda$pixelStore$47(II)V	lambda$pixelStore$47(II)V
 		ma	0	0
 		ma	1	1
@@ -140508,7 +140519,9 @@ c	Lnet/minecraft/realms/Tezzelator;	Lnet/minecraft/realms/Tezzelator;
 	f	instance;;Lnet/minecraft/realms/Tezzelator;	instance;;Lnet/minecraft/realms/Tezzelator;
 c	Lnet/minecraft/realms/pluginapi/LoadedRealmsPlugin;	Lnet/minecraft/realms/pluginapi/LoadedRealmsPlugin;
 	m	getMainScreen(Lnet/minecraft/realms/RealmsScreen;)Lnet/minecraft/realms/RealmsScreen;	getMainScreen(Lnet/minecraft/realms/RealmsScreen;)Lnet/minecraft/realms/RealmsScreen;
+		ma	0	0
 	m	getNotificationsScreen(Lnet/minecraft/realms/RealmsScreen;)Lnet/minecraft/realms/RealmsScreen;	getNotificationsScreen(Lnet/minecraft/realms/RealmsScreen;)Lnet/minecraft/realms/RealmsScreen;
+		ma	0	0
 c	Lnet/minecraft/realms/pluginapi/RealmsPlugin;	Lnet/minecraft/realms/pluginapi/RealmsPlugin;
 	m	tryLoad(Ljava/lang/String;)Lcom/mojang/datafixers/util/Either;	tryLoad(Ljava/lang/String;)Lcom/mojang/datafixers/util/Either;
 		ma	0	0
