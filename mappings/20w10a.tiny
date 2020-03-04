@@ -28654,7 +28654,7 @@ METHOD	ddl$d	()Lddl$d;	f	method_21060
 CLASS	ddm	net/minecraft/class_4351
 FIELD	ddm	Ljava/lang/Long;	a	field_19601
 FIELD	ddm	Ljava/lang/Long;	b	field_19602
-CLASS	ddn	class_4867
+CLASS	ddn	net/minecraft/class_4867
 FIELD	ddn	Ljava/lang/String;	a	field_22569
 FIELD	ddn	Ljava/util/Date;	b	field_22570
 FIELD	ddn	J	c	field_22571
@@ -28666,7 +28666,7 @@ METHOD	ddn	()Z	a	method_25032
 METHOD	ddn	(Lcom/google/gson/JsonElement;)Lddn;	a	method_25033
 METHOD	ddn	(Ljava/lang/String;)Ljava/lang/String;	a	method_25034
 METHOD	ddn	(Z)V	a	method_25035
-CLASS	ddo	class_4868
+CLASS	ddo	net/minecraft/class_4868
 FIELD	ddo	Ljava/util/List;	a	field_22576
 FIELD	ddo	Lorg/apache/logging/log4j/Logger;	b	field_22577
 METHOD	ddo	(Ljava/lang/String;)Lddo;	a	method_25036
@@ -28674,10 +28674,10 @@ CLASS	ddp	net/minecraft/class_4869
 FIELD	ddp	Lcom/google/gson/Gson;	a	field_22578
 METHOD	ddp	(Ldef;)Ljava/lang/String;	a	method_25037
 METHOD	ddp	(Ljava/lang/String;Ljava/lang/Class;)Ldef;	a	method_25038
-CLASS	ddq	class_4870
+CLASS	ddq	net/minecraft/class_4870
 FIELD	ddq	Ljava/util/Set;	a	field_22579
 METHOD	ddq	(Ljava/lang/String;)Lddq;	a	method_25039
-CLASS	ddr	class_4871
+CLASS	ddr	net/minecraft/class_4871
 FIELD	ddr	Ljava/lang/String;	a	field_22580
 FIELD	ddr	Ljava/lang/String;	b	field_22581
 FIELD	ddr	Ljava/lang/String;	c	field_22582
@@ -28685,14 +28685,14 @@ FIELD	ddr	Ljava/lang/String;	d	field_22583
 FIELD	ddr	Ljava/util/Date;	e	field_22584
 FIELD	ddr	Lorg/apache/logging/log4j/Logger;	f	field_22585
 METHOD	ddr	(Lcom/google/gson/JsonObject;)Lddr;	a	method_25040
-CLASS	dds	class_4872
+CLASS	dds	net/minecraft/class_4872
 FIELD	dds	Ljava/util/List;	a	field_22586
 FIELD	dds	Lorg/apache/logging/log4j/Logger;	b	field_22587
 METHOD	dds	(Ljava/lang/String;)Ldds;	a	method_25041
-CLASS	ddt	class_4873
+CLASS	ddt	net/minecraft/class_4873
 FIELD	ddt	Ljava/util/List;	a	field_22588
 FIELD	ddt	Ljava/util/List;	b	field_22589
-CLASS	ddu	class_4874
+CLASS	ddu	net/minecraft/class_4874
 FIELD	ddu	Ljava/lang/String;	a	field_22590
 FIELD	ddu	Ljava/lang/String;	b	field_22591
 FIELD	ddu	Z	c	field_22592
@@ -28708,14 +28708,14 @@ METHOD	ddu	()Z	c	method_25048
 METHOD	ddu	(Z)V	c	method_25049
 METHOD	ddu	()Z	d	method_25050
 METHOD	ddu	()Z	e	method_25051
-CLASS	ddv	class_4875
+CLASS	ddv	net/minecraft/class_4875
 FIELD	ddv	Ljava/lang/String;	a	field_22595
 FIELD	ddv	Ljava/lang/String;	b	field_22596
-CLASS	ddw	class_4876
+CLASS	ddw	net/minecraft/class_4876
 FIELD	ddw	Ljava/lang/String;	a	field_22597
 FIELD	ddw	Lorg/apache/logging/log4j/Logger;	b	field_22598
 METHOD	ddw	(Ljava/lang/String;)Lddw;	a	method_25052
-CLASS	ddx	class_4877
+CLASS	ddx	net/minecraft/class_4877
 FIELD	ddx	J	a	field_22599
 FIELD	ddx	Ljava/lang/String;	b	field_22600
 FIELD	ddx	Ljava/lang/String;	c	field_22601
@@ -28756,18 +28756,18 @@ METHOD	ddx	()Ljava/util/Map;	e	method_25069
 METHOD	ddx	(Ljava/lang/String;)Lddx$c;	e	method_25070
 METHOD	ddx	(Ljava/lang/Object;)Z	equals	equals
 METHOD	ddx	()I	hashCode	hashCode
-CLASS	ddx$a	class_4877$class_4319
+CLASS	ddx$a	net/minecraft/class_4877$class_4319
 FIELD	ddx$a	Ljava/lang/String;	a	field_19432
 METHOD	ddx$a	(Lddx;Lddx;)I	a	method_20830
 METHOD	ddx$a	(Ljava/lang/Object;Ljava/lang/Object;)I	compare	compare
-CLASS	ddx$b	class_4877$class_4320
+CLASS	ddx$b	net/minecraft/class_4877$class_4320
 FIELD	ddx$b	Lddx$b;	a	field_19433
 FIELD	ddx$b	Lddx$b;	b	field_19434
 FIELD	ddx$b	Lddx$b;	c	field_19435
 FIELD	ddx$b	[Lddx$b;	d	field_19436
 METHOD	ddx$b	(Ljava/lang/String;)Lddx$b;	valueOf	valueOf
 METHOD	ddx$b	()[Lddx$b;	values	values
-CLASS	ddx$c	class_4877$class_4321
+CLASS	ddx$c	net/minecraft/class_4877$class_4321
 FIELD	ddx$c	Lddx$c;	a	field_19437
 FIELD	ddx$c	Lddx$c;	b	field_19438
 FIELD	ddx$c	Lddx$c;	c	field_19439
@@ -28776,13 +28776,13 @@ FIELD	ddx$c	Lddx$c;	e	field_19441
 FIELD	ddx$c	[Lddx$c;	f	field_19442
 METHOD	ddx$c	(Ljava/lang/String;)Lddx$c;	valueOf	valueOf
 METHOD	ddx$c	()[Lddx$c;	values	values
-CLASS	ddy	class_4878
+CLASS	ddy	net/minecraft/class_4878
 FIELD	ddy	Ljava/lang/String;	a	field_22618
 FIELD	ddy	Ljava/lang/String;	b	field_22619
 FIELD	ddy	Ljava/lang/String;	c	field_22620
 FIELD	ddy	Lorg/apache/logging/log4j/Logger;	d	field_22621
 METHOD	ddy	(Ljava/lang/String;)Lddy;	a	method_25071
-CLASS	ddz	class_4879
+CLASS	ddz	net/minecraft/class_4879
 FIELD	ddz	Ljava/util/List;	a	field_22622
 FIELD	ddz	Lorg/apache/logging/log4j/Logger;	b	field_22623
 METHOD	ddz	(Ljava/lang/String;)Lddz;	a	method_25072
@@ -28797,21 +28797,21 @@ METHOD	de	(Ltn;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;	a	metho
 METHOD	de	()Ljava/util/Collection;	getExamples	getExamples
 METHOD	de	(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	listSuggestions	listSuggestions
 METHOD	de	(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;	parse	parse
-CLASS	dea	class_4880
+CLASS	dea	net/minecraft/class_4880
 FIELD	dea	Ljava/lang/String;	a	field_22624
 FIELD	dea	Ljava/lang/String;	b	field_22625
-CLASS	deb	class_4881
+CLASS	deb	net/minecraft/class_4881
 FIELD	deb	J	a	field_22626
 FIELD	deb	Ljava/util/List;	b	field_22627
 FIELD	deb	Lorg/apache/logging/log4j/Logger;	c	field_22628
 FIELD	deb	Lcom/google/gson/JsonParser;	d	field_22629
 METHOD	deb	(Lcom/google/gson/JsonArray;)Ljava/util/List;	a	method_25073
 METHOD	deb	(Lcom/google/gson/JsonObject;)Ldeb;	a	method_25074
-CLASS	dec	class_4882
+CLASS	dec	net/minecraft/class_4882
 FIELD	dec	Ljava/util/List;	a	field_22630
 FIELD	dec	Lorg/apache/logging/log4j/Logger;	b	field_22631
 METHOD	dec	(Ljava/lang/String;)Ldec;	a	method_25075
-CLASS	ded	class_4883
+CLASS	ded	net/minecraft/class_4883
 FIELD	ded	Ljava/lang/Boolean;	a	field_22632
 FIELD	ded	Ljava/lang/Boolean;	b	field_22633
 FIELD	ded	Ljava/lang/Boolean;	c	field_22634
@@ -28836,30 +28836,30 @@ METHOD	ded	(I)Ljava/lang/String;	b	method_25081
 METHOD	ded	()Ljava/lang/String;	c	method_25082
 METHOD	ded	()Ljava/lang/Object;	clone	clone
 METHOD	ded	()Lded;	d	method_25083
-CLASS	dee	class_4884
+CLASS	dee	net/minecraft/class_4884
 FIELD	dee	Ljava/lang/String;	a	field_22647
 FIELD	dee	J	b	field_22648
 FIELD	dee	I	c	field_22649
 FIELD	dee	Z	d	field_22650
 CLASS	def	net/minecraft/class_4885
-CLASS	deg	class_4886
+CLASS	deg	net/minecraft/class_4886
 FIELD	deg	Ljava/lang/String;	a	field_22651
 FIELD	deg	I	b	field_22652
 METHOD	deg	()I	a	method_25084
-CLASS	deh	class_4887
+CLASS	deh	net/minecraft/class_4887
 FIELD	deh	J	a	field_22653
 FIELD	deh	I	b	field_22654
 FIELD	deh	Ldeh$a;	c	field_22655
 FIELD	deh	Lorg/apache/logging/log4j/Logger;	d	field_22656
 METHOD	deh	(Ljava/lang/String;)Ldeh;	a	method_25085
 METHOD	deh	(Ljava/lang/String;)Ldeh$a;	b	method_25086
-CLASS	deh$a	class_4887$class_4322
+CLASS	deh$a	net/minecraft/class_4887$class_4322
 FIELD	deh$a	Ldeh$a;	a	field_19443
 FIELD	deh$a	Ldeh$a;	b	field_19444
 FIELD	deh$a	[Ldeh$a;	c	field_19445
 METHOD	deh$a	(Ljava/lang/String;)Ldeh$a;	valueOf	valueOf
 METHOD	deh$a	()[Ldeh$a;	values	values
-CLASS	dei	class_4888
+CLASS	dei	net/minecraft/class_4888
 FIELD	dei	Lorg/apache/logging/log4j/Logger;	a	field_22657
 FIELD	dei	Z	b	field_22658
 FIELD	dei	Ljava/lang/String;	c	field_22659
@@ -28875,13 +28875,13 @@ CLASS	dej	net/minecraft/class_4352
 METHOD	dej	(Ljava/lang/reflect/Field;)Ljava/lang/String;	a	method_25093
 METHOD	dej	(Ljava/lang/reflect/Field;)Z	b	method_25094
 METHOD	dej	()Ljava/lang/String;	toString	toString
-CLASS	dek	class_4889
+CLASS	dek	net/minecraft/class_4889
 FIELD	dek	Ljava/lang/String;	a	field_22662
 FIELD	dek	Ljava/lang/String;	b	field_22663
 FIELD	dek	Ljava/lang/String;	c	field_22664
 FIELD	dek	Lorg/apache/logging/log4j/Logger;	d	field_22665
 METHOD	dek	(Ljava/lang/String;)Ldek;	a	method_25095
-CLASS	del	class_4890
+CLASS	del	net/minecraft/class_4890
 FIELD	del	Ljava/lang/String;	a	field_22666
 FIELD	del	Ljava/lang/String;	b	field_22667
 FIELD	del	Ljava/lang/String;	c	field_22668
@@ -28893,7 +28893,7 @@ FIELD	del	Ljava/lang/String;	h	field_22673
 FIELD	del	Ldel$a;	i	field_22674
 FIELD	del	Lorg/apache/logging/log4j/Logger;	j	field_22675
 METHOD	del	(Lcom/google/gson/JsonObject;)Ldel;	a	method_25096
-CLASS	del$a	class_4890$class_4323
+CLASS	del$a	net/minecraft/class_4890$class_4323
 FIELD	del$a	Ldel$a;	a	field_19447
 FIELD	del$a	Ldel$a;	b	field_19448
 FIELD	del$a	Ldel$a;	c	field_19449
@@ -28902,7 +28902,7 @@ FIELD	del$a	Ldel$a;	e	field_19451
 FIELD	del$a	[Ldel$a;	f	field_19452
 METHOD	del$a	(Ljava/lang/String;)Ldel$a;	valueOf	valueOf
 METHOD	del$a	()[Ldel$a;	values	values
-CLASS	dem	class_4891
+CLASS	dem	net/minecraft/class_4891
 FIELD	dem	Ljava/util/List;	a	field_22676
 FIELD	dem	I	b	field_22677
 FIELD	dem	I	c	field_22678
@@ -39761,7 +39761,7 @@ METHOD	eko	(Lekm;)Lekn;	a	method_4918
 METHOD	eko	(Ljava/lang/String;)Leko;	a	method_4919
 METHOD	eko	(Ljava/lang/String;)Leko;	valueOf	valueOf
 METHOD	eko	()[Leko;	values	values
-CLASS	ekq	class_4899
+CLASS	ekq	net/minecraft/class_4899
 FIELD	ekq	Ljava/lang/String;	a	field_22807
 FIELD	ekq	Lmg;	b	field_22808
 FIELD	ekq	Ljava/util/List;	c	field_22809
@@ -39776,11 +39776,11 @@ METHOD	ekr	([Ljava/lang/String;)V	a	method_25471
 METHOD	ekr	(Ljava/lang/Iterable;)Ljava/lang/String;	b	method_25472
 METHOD	ekr	(Ljava/lang/String;)V	b	method_25473
 METHOD	ekr	(Ljava/lang/String;)Ljava/lang/String;	c	method_25474
-CLASS	eks	class_4901
+CLASS	eks	net/minecraft/class_4901
 FIELD	eks	Ldls;	a	field_22813
 METHOD	eks	(Ldls;)V	a	method_25475
 METHOD	eks	(Ldls;)Lekw;	b	method_25476
-CLASS	ekt	class_4902
+CLASS	ekt	net/minecraft/class_4902
 FIELD	ekt	Lorg/apache/logging/log4j/Logger;	a	field_22814
 FIELD	ekt	Ldls;	b	field_22815
 FIELD	ekt	Z	c	field_22816
@@ -39793,7 +39793,7 @@ METHOD	ekt	()V	b	method_25481
 METHOD	ekt	(Lekt;)Llu;	b	method_25482
 METHOD	ekt	()Lorg/apache/logging/log4j/Logger;	c	method_25483
 METHOD	ekt	(Lekt;)Ldls;	c	method_25484
-CLASS	ekt$1	class_4902$1
+CLASS	ekt$1	net/minecraft/class_4902$1
 FIELD	ekt$1	Ljava/lang/String;	a	field_11112
 FIELD	ekt$1	I	b	field_11114
 FIELD	ekt$1	Ldhc;	c	field_22818
@@ -39802,7 +39802,7 @@ METHOD	ekt$1	(Ldhc;Lekq;)V	a	method_25485
 METHOD	ekt$1	(Lmg;)V	a	method_10210
 METHOD	ekt$1	(Ldhc;Lekq;)V	b	method_25486
 METHOD	ekt$1	()V	run	run
-CLASS	eku	class_4903
+CLASS	eku	net/minecraft/class_4903
 FIELD	eku	Ljava/lang/String;	a	field_22819
 FIELD	eku	I	b	field_22820
 FIELD	eku	I	c	field_22821
@@ -39818,18 +39818,18 @@ METHOD	ekv	()V	r	method_25493
 CLASS	ekw	net/minecraft/class_4905
 METHOD	ekw	(I)I	l	method_25494
 METHOD	ekw	()V	v	method_25495
-CLASS	ekx	class_4906
+CLASS	ekx	net/minecraft/class_4906
 FIELD	ekx	Ljava/lang/String;	a	field_22823
 FIELD	ekx	I	b	field_22824
 METHOD	ekx	()Ljava/lang/String;	a	method_25496
 METHOD	ekx	(Ljava/lang/String;)Lekx;	a	method_25497
 METHOD	ekx	()I	b	method_25498
-CLASS	eky	class_4907
+CLASS	eky	net/minecraft/class_4907
 FIELD	eky	F	a	field_22825
 FIELD	eky	Ljava/util/concurrent/atomic/AtomicReference;	b	field_22826
 METHOD	eky	(Ljava/lang/String;)V	a	method_25499
 METHOD	eky	(Ljava/lang/String;Leky$a;)Leky$a;	a	method_25500
-CLASS	eky$a	class_4907$class_4908
+CLASS	eky$a	net/minecraft/class_4907$class_4908
 FIELD	eky$a	Ljava/lang/String;	a	field_22827
 FIELD	eky$a	Lcom/google/common/util/concurrent/RateLimiter;	b	field_22828
 METHOD	eky$a	(Leky$a;)Lcom/google/common/util/concurrent/RateLimiter;	a	method_25501
