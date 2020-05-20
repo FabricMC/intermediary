@@ -1,4 +1,4 @@
-Matches saved 2020-05-20T14:51:07.561717200+01:00[Europe/London], input files:
+Matches saved 2020-05-20T17:07:21.146565700+01:00[Europe/London], input files:
 	a:
 		16520517	i0bicIyFlKc29UJ5XF3XExRBywuBmhSw3y0Wag0dr5A=	20w20b-merged.jar
 	b:
@@ -4054,6 +4054,7 @@ c	Ladd;	Ladd;
 		ma	2	2
 	f	a;;Ljava/io/Writer;	a;;Ljava/io/Writer;
 	f	b;;I	b;;I
+cu	a	Lade;
 c	Ladf$a;	Lade$a;
 	m	<init>(Ljava/nio/file/Path;Ljava/lang/String;)V	<init>(Ljava/nio/file/Path;Ljava/lang/String;)V
 		ma	0	0
@@ -4686,6 +4687,8 @@ c	Ladt;	Lads;
 		ma	0	0
 	f	a;;Ljava/util/List;	a;;Ljava/util/List;
 	f	b;;Ljava/util/Spliterator;	b;;Ljava/util/Spliterator;
+cu	a	Ladu;
+cu	a	Ladv;
 c	Ladw;	Ladt;
 	m	<init>()V	<init>()V
 	m	a(DD)D	a(DD)D
@@ -5266,6 +5269,11 @@ c	Laes;	Laeo;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+	m	a(Lcom/mojang/datafixers/Dynamic;Lcom/mojang/datafixers/Dynamic;II)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;Lcom/mojang/serialization/Dynamic;II)Lcom/mojang/serialization/Dynamic;
+		ma	2	2
+		ma	3	3
+		mv	0	0
+		mv	1	1
 	m	a(II[J)[J	a(II[J)[J
 		ma	0	0
 		ma	1	1
@@ -5300,6 +5308,7 @@ c	Laes;	Laeo;
 		mv	0	0
 	m	a(Ljava/util/List;)Ljava/lang/Integer;	a(Ljava/util/List;)Ljava/lang/Integer;
 		ma	0	0
+	m	a(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 	m	a(Lcom/mojang/datafixers/Dynamic;Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;	a(Lcom/mojang/serialization/Dynamic;Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
 		ma	1	1
 	m	a(Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	a(Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
@@ -5387,6 +5396,7 @@ c	Laez;	Laev;
 		ma	1	1
 	m	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
 		ma	0	0
+	m	a(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 c	Laf;	Laf;
 	m	<init>(Lbjo;Lms;Lms;Luc;Lag;ZZZ)V	<init>(Lbjo;Lmr;Lmr;Luc;Lag;ZZZ)V
 		ma	0	0
@@ -5478,6 +5488,7 @@ c	Lafa;	Laew;
 		mv	1	1
 	m	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
 		ma	0	0
+	m	a(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lcom/google/gson/Gson;	a;;Lcom/google/gson/Gson;
 c	Lafb;	Laex;
@@ -5486,6 +5497,8 @@ c	Lafb;	Laex;
 	m	makeRule()Lcom/mojang/datafixers/TypeRewriteRule;	makeRule()Lcom/mojang/datafixers/TypeRewriteRule;
 	m	b(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	b(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 	m	c(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	c(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	m	a(Lcom/mojang/datafixers/Dynamic;Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	m	d(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	d(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 	m	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
 		ma	0	0
 c	Lafc;	Laey;
@@ -5497,6 +5510,7 @@ c	Lafc;	Laey;
 		mv	1	1
 		mv	2	2
 		mv	3	3
+	m	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/util/function/Function;	a(Lcom/mojang/serialization/DynamicOps;)Ljava/util/function/Function;
 	m	a(Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;	a(Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
 		ma	0	0
 	m	a(Lcom/mojang/datafixers/util/Either;)Ljava/lang/String;	a(Lcom/mojang/datafixers/util/Either;)Ljava/lang/String;
@@ -5528,6 +5542,9 @@ c	Lafd;	Laez;
 		ma	2	2
 	m	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
 		ma	0	0
+	m	a(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+		mv	0	0
+	m	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/util/function/Function;	a(Lcom/mojang/serialization/DynamicOps;)Ljava/util/function/Function;
 	m	a(Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;	a(Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
 		ma	0	0
 	f	a;;Ljava/lang/String;	a;;Ljava/lang/String;
@@ -5540,6 +5557,8 @@ c	Laff;	Lafb;
 		mv	2	2
 		mv	4	4
 	m	a()V	a()V
+		mv	0	0
+	m	a(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 		mv	0	0
 	m	a(Ljava/lang/String;)Ljava/lang/String;	a(Ljava/lang/String;)Ljava/lang/String;
 		ma	0	0
@@ -5585,6 +5604,16 @@ c	Lafi;	Lafe;
 		ma	1	1
 	m	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
 		ma	0	0
+	m	a(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+		mv	4	4
+		mv	5	5
+		mv	6	6
+		mv	7	7
+		mv	8	8
 c	Lafj;	Laff;
 	m	<init>(Lcom/mojang/datafixers/schemas/Schema;Z)V	<init>(Lcom/mojang/datafixers/schemas/Schema;Z)V
 		ma	0	0
@@ -5598,6 +5627,7 @@ c	Lafj;	Laff;
 		ma	1	1
 	m	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
 		ma	0	0
+	m	a(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 c	Lafk$1;	Lafg$1;
 	m	<clinit>()V	<clinit>()V
 	f	a;;[I	a;;[I
@@ -5764,8 +5794,15 @@ c	Lafk$d;	Lafg$d;
 		mv	3	3
 	m	a(Ljava/util/stream/Stream;)V	a(Ljava/util/stream/Stream;)V
 		ma	0	0
+	m	a(Lcom/mojang/datafixers/Dynamic;)V	a(Lcom/mojang/serialization/Dynamic;)V
+		mv	0	0
 	m	b(Ljava/util/stream/Stream;)V	b(Ljava/util/stream/Stream;)V
 		ma	0	0
+	m	b(Lcom/mojang/datafixers/Dynamic;)V	b(Lcom/mojang/serialization/Dynamic;)V
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
 	f	a;;I	a;;I
 	f	b;;[Lafk$c;	b;;[Lafg$c;
 	f	c;;Lcom/mojang/datafixers/Dynamic;	c;;Lcom/mojang/serialization/Dynamic;
@@ -5794,6 +5831,14 @@ c	Lafk;	Lafg;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+		mv	0	0
+	m	a(Lcom/mojang/datafixers/Dynamic;)Ljava/lang/String;	a(Lcom/mojang/serialization/Dynamic;)Ljava/lang/String;
+	m	a(Lcom/mojang/datafixers/Dynamic;Ljava/lang/String;)Ljava/lang/String;	a(Lcom/mojang/serialization/Dynamic;Ljava/lang/String;)Ljava/lang/String;
+		ma	1	1
+	m	a(Ladb;Lcom/mojang/datafixers/Dynamic;)I	a(Ladb;Lcom/mojang/serialization/Dynamic;)I
+		ma	0	0
+		mv	0	0
+	m	b(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	b(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 		mv	0	0
 	m	makeRule()Lcom/mojang/datafixers/TypeRewriteRule;	makeRule()Lcom/mojang/datafixers/TypeRewriteRule;
 		mv	0	0
@@ -5845,6 +5890,16 @@ c	Lafk;	Lafg;
 	f	a;;Lorg/apache/logging/log4j/Logger;	a;;Lorg/apache/logging/log4j/Logger;
 	f	b;;Ljava/util/BitSet;	b;;Ljava/util/BitSet;
 	f	c;;Ljava/util/BitSet;	c;;Ljava/util/BitSet;
+	f	d;;Lcom/mojang/datafixers/Dynamic;	d;;Lcom/mojang/serialization/Dynamic;
+	f	e;;Lcom/mojang/datafixers/Dynamic;	e;;Lcom/mojang/serialization/Dynamic;
+	f	f;;Lcom/mojang/datafixers/Dynamic;	f;;Lcom/mojang/serialization/Dynamic;
+	f	g;;Lcom/mojang/datafixers/Dynamic;	g;;Lcom/mojang/serialization/Dynamic;
+	f	h;;Lcom/mojang/datafixers/Dynamic;	h;;Lcom/mojang/serialization/Dynamic;
+	f	i;;Lcom/mojang/datafixers/Dynamic;	i;;Lcom/mojang/serialization/Dynamic;
+	f	j;;Lcom/mojang/datafixers/Dynamic;	j;;Lcom/mojang/serialization/Dynamic;
+	f	k;;Lcom/mojang/datafixers/Dynamic;	k;;Lcom/mojang/serialization/Dynamic;
+	f	l;;Lcom/mojang/datafixers/Dynamic;	l;;Lcom/mojang/serialization/Dynamic;
+	f	m;;Lcom/mojang/datafixers/Dynamic;	m;;Lcom/mojang/serialization/Dynamic;
 	f	n;;Ljava/util/Map;	n;;Ljava/util/Map;
 	f	o;;Ljava/util/Map;	o;;Ljava/util/Map;
 	f	p;;Ljava/util/Map;	p;;Ljava/util/Map;
@@ -5852,6 +5907,7 @@ c	Lafk;	Lafg;
 	f	r;;Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;	r;;Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
 	f	s;;Ljava/util/Map;	s;;Ljava/util/Map;
 	f	t;;Ljava/util/Map;	t;;Ljava/util/Map;
+	f	u;;Lcom/mojang/datafixers/Dynamic;	u;;Lcom/mojang/serialization/Dynamic;
 c	Lafl;	Lafh;
 	m	<init>(Lcom/mojang/datafixers/schemas/Schema;Z)V	<init>(Lcom/mojang/datafixers/schemas/Schema;Z)V
 		ma	0	0
@@ -5900,6 +5956,8 @@ c	Lafn;	Lafj;
 	m	a(Lcom/mojang/datafixers/Typed;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	a(Lcom/mojang/datafixers/Typed;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
 		ma	0	0
 		ma	1	1
+	m	a(Lcom/mojang/datafixers/Typed;Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/datafixers/Typed;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lcom/google/common/collect/ImmutableMap;	a;;Lcom/google/common/collect/ImmutableMap;
 c	Lafo;	Lafk;
@@ -5941,6 +5999,7 @@ c	Lafp;	Lafl;
 		ma	1	1
 	m	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
 		ma	0	0
+	m	a(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 c	Lafq;	Lafm;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Ljava/util/Map;	a;;Ljava/util/Map;
@@ -5993,6 +6052,10 @@ c	Lafs;	Lafo;
 		ma	1	1
 		mv	0	0
 		mv	1	1
+	m	a(Lcom/mojang/datafixers/Dynamic;Lcom/mojang/datafixers/util/Unit;)Ljava/lang/Integer;	a(Lcom/mojang/serialization/Dynamic;Lcom/mojang/datafixers/util/Unit;)Ljava/lang/Integer;
+		ma	1	1
+		mv	0	0
+	m	a(Lcom/mojang/datafixers/Dynamic;)Ljava/lang/Integer;	a(Lcom/mojang/serialization/Dynamic;)Ljava/lang/Integer;
 	m	a(Lcom/mojang/datafixers/util/Pair;)Ljava/lang/Integer;	a(Lcom/mojang/datafixers/util/Pair;)Ljava/lang/Integer;
 		ma	0	0
 	m	b(Ljava/lang/Integer;)Ljava/lang/Integer;	b(Ljava/lang/Integer;)Ljava/lang/Integer;
@@ -6044,6 +6107,10 @@ c	Lafv;	Lafr;
 	m	a(Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	a(Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
 		ma	0	0
 		ma	1	1
+	m	a(Lcom/mojang/datafixers/Typed;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/datafixers/Typed;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+		ma	0	0
+		ma	1	1
+		mv	0	0
 c	Lafw;	Lafs;
 	m	<init>(Lcom/mojang/datafixers/schemas/Schema;Z)V	<init>(Lcom/mojang/datafixers/schemas/Schema;Z)V
 		ma	0	0
@@ -6077,6 +6144,7 @@ c	Lafx;	Laft;
 		mv	9	9
 		mv	10	10
 		mv	11	11
+	m	a(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 	m	a()Ljava/lang/IllegalStateException;	a()Ljava/lang/IllegalStateException;
 c	Lafy;	Lafu;
 	m	<init>(Lcom/mojang/datafixers/schemas/Schema;Z)V	<init>(Lcom/mojang/datafixers/schemas/Schema;Z)V
@@ -6152,6 +6220,7 @@ c	Lagb;	Lafx;
 		mv	1	1
 		mv	2	2
 		mv	3	3
+	m	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/util/function/Function;	a(Lcom/mojang/serialization/DynamicOps;)Ljava/util/function/Function;
 	m	a(Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;	a(Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
 		ma	0	0
 	m	a(Ljava/lang/String;)Ljava/lang/String;	a(Ljava/lang/String;)Ljava/lang/String;
@@ -6192,6 +6261,12 @@ c	Lage;	Laga;
 	m	<init>(Lcom/mojang/datafixers/schemas/Schema;Z)V	<init>(Lcom/mojang/datafixers/schemas/Schema;Z)V
 		ma	0	0
 		ma	1	1
+	m	a(Lcom/mojang/datafixers/Dynamic;ZZ)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;ZZ)Lcom/mojang/serialization/Dynamic;
+		ma	1	1
+		ma	2	2
+		mv	0	0
+		mv	1	1
+		mv	2	2
 	m	makeRule()Lcom/mojang/datafixers/TypeRewriteRule;	makeRule()Lcom/mojang/datafixers/TypeRewriteRule;
 		mv	0	0
 		mv	1	1
@@ -6206,12 +6281,14 @@ c	Lage;	Laga;
 		ma	2	2
 	m	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
 		ma	0	0
+	m	a(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 	m	b(Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	b(Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
 		ma	0	0
 		ma	1	1
 		ma	2	2
 	m	b(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	b(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
 		ma	0	0
+	m	b(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	b(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 	m	<clinit>()V	<clinit>()V
 	f	a;;[[I	a;;[[I
 c	Lagf;	Lagb;
@@ -6377,6 +6454,7 @@ c	Lagn;	Lagj;
 		mv	0	0
 	m	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
 		ma	0	0
+	m	b(Lcom/mojang/datafixers/Dynamic;)Ljava/lang/Double;	b(Lcom/mojang/serialization/Dynamic;)Ljava/lang/Double;
 c	Lago;	Lagk;
 	m	<init>(Lcom/mojang/datafixers/schemas/Schema;Z)V	<init>(Lcom/mojang/datafixers/schemas/Schema;Z)V
 		ma	0	0
@@ -6391,6 +6469,9 @@ c	Lagp;	Lagl;
 	m	makeRule()Lcom/mojang/datafixers/TypeRewriteRule;	makeRule()Lcom/mojang/datafixers/TypeRewriteRule;
 	m	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
 		ma	0	0
+	m	a(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+		mv	0	0
+		mv	1	1
 c	Lagq;	Lagm;
 	m	<init>(Lcom/mojang/datafixers/schemas/Schema;Z)V	<init>(Lcom/mojang/datafixers/schemas/Schema;Z)V
 		ma	0	0
@@ -6426,8 +6507,11 @@ c	Lags;	Lago;
 	m	b(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	b(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 	m	o(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	o(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 	m	c(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	c(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	m	a(Lcom/mojang/datafixers/Dynamic;Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	m	b(Lcom/mojang/datafixers/Dynamic;Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	b(Lcom/mojang/serialization/Dynamic;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 	m	p(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	p(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 	m	q(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	q(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	m	r(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	r(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 	m	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
 		ma	0	0
 		mv	0	0
@@ -6450,6 +6534,7 @@ c	Lagt;	Lagp;
 	m	a(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 	m	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
 		ma	0	0
+	m	b(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	b(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 c	Lagu;	Lagq;
 	m	<init>(Lcom/mojang/datafixers/schemas/Schema;Z)V	<init>(Lcom/mojang/datafixers/schemas/Schema;Z)V
 		ma	0	0
@@ -6484,8 +6569,11 @@ c	Lagx;	Lagt;
 	m	makeRule()Lcom/mojang/datafixers/TypeRewriteRule;	makeRule()Lcom/mojang/datafixers/TypeRewriteRule;
 		mv	0	0
 	m	a(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	m	b(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	b(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 	m	a(Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;	a(Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
 		ma	0	0
+	m	c(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	c(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	m	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/util/function/Function;	a(Lcom/mojang/serialization/DynamicOps;)Ljava/util/function/Function;
 	m	b(Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;	b(Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
 		ma	0	0
 c	Lagy;	Lagu;
@@ -6550,6 +6638,7 @@ c	Lagz;	Lagv;
 		ma	1	1
 	m	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
 		ma	0	0
+	m	a(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 	m	a(Ljava/util/stream/Stream;)Ljava/util/stream/Stream;	a(Ljava/util/stream/Stream;)Ljava/util/stream/Stream;
 		ma	0	0
 c	Lah;	Lah;
@@ -6596,6 +6685,7 @@ c	Lahb;	Lagx;
 	m	c(Lcom/mojang/datafixers/Dynamic;)Z	c(Lcom/mojang/serialization/Dynamic;)Z
 	m	a(Ljava/util/stream/Stream;)Ljava/util/stream/Stream;	a(Ljava/util/stream/Stream;)Ljava/util/stream/Stream;
 		ma	0	0
+	m	d(Lcom/mojang/datafixers/Dynamic;)Z	d(Lcom/mojang/serialization/Dynamic;)Z
 	m	b(Ljava/util/stream/Stream;)Ljava/lang/Boolean;	b(Ljava/util/stream/Stream;)Ljava/lang/Boolean;
 		ma	0	0
 c	Lahc;	Lagy;
@@ -6669,6 +6759,7 @@ c	Lahf;	Lahb;
 		ma	0	0
 	m	a(Ljava/lang/String;)Ljava/lang/String;	a(Ljava/lang/String;)Ljava/lang/String;
 		ma	0	0
+	m	a(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 	m	a(Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	a(Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
 		ma	0	0
 		ma	1	1
@@ -6717,6 +6808,7 @@ c	Lahh;	Lahd;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	m	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/util/function/Function;	a(Lcom/mojang/serialization/DynamicOps;)Ljava/util/function/Function;
 	m	a(Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;	a(Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
 		ma	0	0
 	f	a;;Ljava/lang/String;	a;;Ljava/lang/String;
@@ -6749,8 +6841,27 @@ c	Lahj;	Lahf;
 	m	makeRule()Lcom/mojang/datafixers/TypeRewriteRule;	makeRule()Lcom/mojang/datafixers/TypeRewriteRule;
 		mv	0	0
 		mv	1	1
+	m	a(Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	a(Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+		ma	5	6
+		mv	0	0
+		mv	2	2
+		mv	3	3
+		mv	4	4
+		mv	5	5
+		mv	6	6
+		mv	7	7
+		mv	8	8
+		mv	9	9
+		mv	10	10
+		mv	13	13
 	m	a()Ljava/lang/IllegalStateException;	a()Ljava/lang/IllegalStateException;
 	m	a(Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Ljava/util/Optional;	a(Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Ljava/util/Optional;
+		ma	0	0
+		ma	1	1
+	m	b(Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Ljava/util/Optional;	b(Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Ljava/util/Optional;
+		ma	0	0
+		ma	1	1
+	m	c(Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Ljava/util/Optional;	c(Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Ljava/util/Optional;
 		ma	0	0
 		ma	1	1
 	m	a([Ljava/lang/String;)V	a([Ljava/lang/String;)V
@@ -6851,6 +6962,11 @@ c	Laho;	Lahk;
 		ma	0	0
 	m	makeRule()Lcom/mojang/datafixers/TypeRewriteRule;	makeRule()Lcom/mojang/datafixers/TypeRewriteRule;
 		mv	0	0
+	m	b(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	b(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	m	c(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	c(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	m	d(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	d(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	m	a(Lcom/mojang/datafixers/Dynamic;Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	m	e(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	e(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 	m	a(Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	a(Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
 		ma	0	0
 		ma	1	1
@@ -6859,6 +6975,9 @@ c	Laho;	Lahk;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	m	a(Lcom/mojang/datafixers/Typed;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/datafixers/Typed;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+		ma	0	0
+		ma	1	1
 	m	a(Lcom/mojang/datafixers/util/Pair;)Ljava/lang/Boolean;	a(Lcom/mojang/datafixers/util/Pair;)Ljava/lang/Boolean;
 		ma	0	0
 c	Lahp;	Lahl;
@@ -6889,8 +7008,12 @@ c	Lahq;	Lahm;
 		ma	1	1
 	m	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
 		ma	0	0
+	m	a(Lcom/mojang/datafixers/Dynamic;Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 	m	a(Ljava/util/stream/Stream;)Ljava/util/stream/Stream;	a(Ljava/util/stream/Stream;)Ljava/util/stream/Stream;
 		ma	0	0
+	m	b(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	b(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+		mv	0	0
+		mv	1	1
 c	Lahr;	Lahn;
 	m	<init>(Lcom/mojang/datafixers/schemas/Schema;Z)V	<init>(Lcom/mojang/datafixers/schemas/Schema;Z)V
 		ma	0	0
@@ -6909,6 +7032,8 @@ c	Lahs;	Laho;
 	m	makeRule()Lcom/mojang/datafixers/TypeRewriteRule;	makeRule()Lcom/mojang/datafixers/TypeRewriteRule;
 	m	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
 		ma	0	0
+	m	b(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	b(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+		mv	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Ljava/util/Map;	a;;Ljava/util/Map;
 c	Laht$a;	Lahp$a;
@@ -6969,6 +7094,8 @@ c	Laht$b;	Lahp$b;
 		ma	2	2
 	m	c()I	c()I
 	m	a()Z	a()Z
+	m	b(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/util/Pair;	b(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/datafixers/util/Pair;
+	m	c(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	c(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 	m	a(Ljava/util/List;)Ljava/util/List;	a(Ljava/util/List;)Ljava/util/List;
 		ma	0	0
 	f	e;;Lcom/mojang/datafixers/types/Type;	e;;Lcom/mojang/datafixers/types/Type;
@@ -7014,6 +7141,8 @@ c	Laht;	Lahp;
 		ma	2	2
 		mv	0	0
 		mv	1	1
+	m	a([ILcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a([ILcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+		ma	0	0
 	m	a(Lcom/mojang/datafixers/OpticFinder;[ILcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	a(Lcom/mojang/datafixers/OpticFinder;[ILcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
 		ma	0	0
 		ma	1	1
@@ -7093,6 +7222,11 @@ c	Lahu;	Lahq;
 		mv	3	3
 	m	a(Lcom/mojang/datafixers/types/DynamicOps;Ljava/util/Map$Entry;)Lcom/mojang/datafixers/util/Pair;	a(Lcom/mojang/serialization/DynamicOps;Ljava/util/Map$Entry;)Lcom/mojang/datafixers/util/Pair;
 		ma	1	1
+	m	a(Lcom/mojang/datafixers/types/DynamicOps;Lcom/mojang/datafixers/util/Pair;)Ljava/lang/Object;	a(Lcom/mojang/serialization/DynamicOps;Lcom/mojang/datafixers/util/Pair;)Ljava/lang/Object;
+		ma	1	1
+	m	a(Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	a(Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+		ma	0	0
+		ma	1	1
 	m	a()Ljava/lang/IllegalStateException;	a()Ljava/lang/IllegalStateException;
 	m	a(Ljava/util/HashMap;)V	a(Ljava/util/HashMap;)V
 		ma	0	0
@@ -7129,6 +7263,7 @@ c	Lahv;	Lahr;
 		mv	8	8
 		mv	9	9
 		mv	10	10
+	m	b(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	b(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 	m	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
 		ma	0	0
 	m	<clinit>()V	<clinit>()V
@@ -7183,6 +7318,8 @@ c	Lahz;	Lahv;
 	m	a(Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	a(Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
 		ma	0	0
 		ma	1	1
+	m	b(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	b(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+		mv	0	0
 c	Lai;	Lai;
 	m	<init>(Lw;Lai;Lai;II)V	<init>(Lw;Lai;Lai;II)V
 		ma	0	0
@@ -7349,6 +7486,7 @@ c	Laif;	Laid;
 	m	makeRule()Lcom/mojang/datafixers/TypeRewriteRule;	makeRule()Lcom/mojang/datafixers/TypeRewriteRule;
 	m	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
 		ma	0	0
+	m	a(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 c	Laig;	Laie;
 	m	<init>(Lcom/mojang/datafixers/schemas/Schema;Z)V	<init>(Lcom/mojang/datafixers/schemas/Schema;Z)V
 		ma	0	0
@@ -7383,6 +7521,8 @@ c	Laii;	Laig;
 	m	makeRule()Lcom/mojang/datafixers/TypeRewriteRule;	makeRule()Lcom/mojang/datafixers/TypeRewriteRule;
 	m	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
 		ma	0	0
+	m	a(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+		mv	0	0
 c	Laij;	Laih;
 	m	<init>(Lcom/mojang/datafixers/schemas/Schema;)V	<init>(Lcom/mojang/datafixers/schemas/Schema;)V
 		ma	0	0
@@ -7422,6 +7562,7 @@ c	Laim;	Laik;
 		ma	3	3
 	m	makeRule()Lcom/mojang/datafixers/TypeRewriteRule;	makeRule()Lcom/mojang/datafixers/TypeRewriteRule;
 		mv	0	0
+	m	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/util/function/Function;	a(Lcom/mojang/serialization/DynamicOps;)Ljava/util/function/Function;
 	m	a(Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;	a(Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
 		ma	0	0
 	f	a;;Ljava/lang/String;	a;;Ljava/lang/String;
@@ -7505,6 +7646,7 @@ c	Laiq;	Laio;
 		ma	3	3
 	m	makeRule()Lcom/mojang/datafixers/TypeRewriteRule;	makeRule()Lcom/mojang/datafixers/TypeRewriteRule;
 		mv	0	0
+	m	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/util/function/Function;	a(Lcom/mojang/serialization/DynamicOps;)Ljava/util/function/Function;
 	m	a(Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;	a(Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
 		ma	0	0
 	m	a(Ljava/lang/String;)Ljava/lang/String;	a(Ljava/lang/String;)Ljava/lang/String;
@@ -7528,6 +7670,7 @@ c	Lait;	Lair;
 		mv	1	1
 		mv	2	2
 		mv	3	3
+	m	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/util/function/Function;	a(Lcom/mojang/serialization/DynamicOps;)Ljava/util/function/Function;
 	m	a(Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;	a(Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
 		ma	0	0
 c	Laiu;	Lais;
@@ -7544,8 +7687,15 @@ c	Laiv;	Lait;
 		ma	1	1
 	m	makeRule()Lcom/mojang/datafixers/TypeRewriteRule;	makeRule()Lcom/mojang/datafixers/TypeRewriteRule;
 	m	a(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	m	b(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	b(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 	m	a(Ljava/util/stream/Stream;)Ljava/util/stream/Stream;	a(Ljava/util/stream/Stream;)Ljava/util/stream/Stream;
 		ma	0	0
+	m	c(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	c(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	m	d(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	d(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	m	a(Lcom/mojang/datafixers/Dynamic;Ljava/lang/String;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;Ljava/lang/String;)Lcom/mojang/serialization/Dynamic;
+		ma	1	1
+	m	e(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	e(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+		mv	0	0
 c	Laiw;	Laiu;
 	m	<init>(Ljava/lang/String;Lcom/mojang/datafixers/schemas/Schema;Z)V	<init>(Ljava/lang/String;Lcom/mojang/datafixers/schemas/Schema;Z)V
 		ma	0	0
@@ -7568,6 +7718,7 @@ c	Laix;	Laiv;
 		mv	2	2
 	m	a(Ljava/lang/String;)Ljava/lang/String;	a(Ljava/lang/String;)Ljava/lang/String;
 		ma	0	0
+	m	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/util/function/Function;	a(Lcom/mojang/serialization/DynamicOps;)Ljava/util/function/Function;
 	m	a(Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;	a(Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
 		ma	0	0
 	m	a(Lcom/mojang/datafixers/types/templates/TaggedChoice$TaggedChoiceType;Lcom/mojang/datafixers/types/templates/TaggedChoice$TaggedChoiceType;Lcom/mojang/datafixers/types/DynamicOps;)Ljava/util/function/Function;	a(Lcom/mojang/datafixers/types/templates/TaggedChoice$TaggedChoiceType;Lcom/mojang/datafixers/types/templates/TaggedChoice$TaggedChoiceType;Lcom/mojang/serialization/DynamicOps;)Ljava/util/function/Function;
@@ -7610,6 +7761,7 @@ c	Laiy;	Laiw;
 		mv	16	16
 		mv	17	17
 	m	a()Ljava/lang/IllegalStateException;	a()Ljava/lang/IllegalStateException;
+	m	a(Lcom/mojang/datafixers/Dynamic;Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Ljava/util/Set;	a;;Ljava/util/Set;
 	f	b;;Ljava/util/Map;	b;;Ljava/util/Map;
@@ -7642,6 +7794,7 @@ c	Laja;	Laiy;
 	m	makeRule()Lcom/mojang/datafixers/TypeRewriteRule;	makeRule()Lcom/mojang/datafixers/TypeRewriteRule;
 		mv	0	0
 	m	a(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	m	b(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	b(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 	m	a(Ljava/lang/Integer;)Z	a(Ljava/lang/Integer;)Z
 		ma	0	0
 	m	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
@@ -7863,6 +8016,12 @@ c	Laji;	Lajg;
 	m	makeRule()Lcom/mojang/datafixers/TypeRewriteRule;	makeRule()Lcom/mojang/datafixers/TypeRewriteRule;
 	m	a(Ljava/lang/String;)Ljava/lang/String;	a(Ljava/lang/String;)Ljava/lang/String;
 		ma	0	0
+	m	a(Lcom/mojang/datafixers/Dynamic;Ljava/lang/String;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;Ljava/lang/String;)Lcom/mojang/serialization/Dynamic;
+		ma	1	1
+	m	a(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+		mv	0	0
+	m	b(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	b(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	m	c(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	c(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 	m	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
 		ma	0	0
 	m	<clinit>()V	<clinit>()V
@@ -7881,6 +8040,9 @@ c	Lajk;	Lajj;
 		ma	1	1
 	m	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	a(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
 		ma	0	0
+	m	a(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+		mv	0	0
+		mv	1	1
 c	Lajn;	Lajm;
 	m	<init>(ILcom/mojang/datafixers/schemas/Schema;)V	<init>(ILcom/mojang/datafixers/schemas/Schema;)V
 		ma	0	0
@@ -8861,6 +9023,16 @@ c	Lalj;	Lalj;
 	m	a(Lcom/mojang/datafixers/Dynamic;Ljava/util/Map;Ljava/lang/String;)Ljava/lang/Object;	a(Lcom/mojang/serialization/Dynamic;Ljava/util/Map;Ljava/lang/String;)Ljava/lang/Object;
 		ma	1	1
 		ma	2	2
+	m	a(Lcom/mojang/datafixers/Dynamic;Ljava/util/Map;Ljava/lang/String;Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;Ljava/util/Map;Ljava/lang/String;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+		ma	1	1
+		ma	2	2
+	m	a(Lcom/mojang/datafixers/Dynamic;Ljava/lang/String;Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;Ljava/lang/String;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+		ma	1	1
+		mv	0	0
+	m	a(Lcom/mojang/datafixers/Dynamic;Ljava/util/Map;Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/Dynamic;Ljava/util/Map;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+		ma	1	1
+		mv	0	0
+		mv	1	1
 	m	a(Ljava/util/HashMap;)V	a(Ljava/util/HashMap;)V
 		ma	0	0
 	m	b(Lcom/mojang/datafixers/schemas/Schema;)Lcom/mojang/datafixers/types/templates/TypeTemplate;	b(Lcom/mojang/datafixers/schemas/Schema;)Lcom/mojang/datafixers/types/templates/TypeTemplate;
@@ -13918,6 +14090,7 @@ c	Lapb;	Lapb;
 		ma	1	1
 		mv	0	0
 		mv	1	1
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
 	m	d(Lyw;Laoj;)V	d(Lyw;Laoj;)V
 		ma	0	0
 		ma	1	1
@@ -18852,6 +19025,7 @@ c	Lavt;	Lavt;
 	m	d()Z	d()Z
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 	m	e()Z	e()Z
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
 	f	a;;Ljava/lang/Object;	a;;Ljava/lang/Object;
 	f	b;;J	b;;J
 c	Lavu;	Lavu;
@@ -18919,6 +19093,7 @@ c	Lavu;	Lavu;
 	f	aa;;Lavu;	aa;;Lavu;
 	f	ab;;Lavu;	ab;;Lavu;
 	f	ac;;Lavu;	ac;;Lavu;
+	fu	a	ad;;Ljava/util/Optional;
 c	Lavv;	Lavv;
 	m	values()[Lavv;	values()[Lavv;
 	m	valueOf(Ljava/lang/String;)Lavv;	valueOf(Ljava/lang/String;)Lavv;
@@ -20028,6 +20203,7 @@ c	Laxe;	Laxe;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
 	m	b()Z	b()Z
 	m	c()Z	c()Z
 	m	d()Z	d()Z
@@ -20072,6 +20248,7 @@ c	Laxf;	Laxf;
 		ma	0	0
 		mv	0	0
 		mv	1	1
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
 	m	a(Ljava/util/function/Consumer;)V	a(Ljava/util/function/Consumer;)V
 		ma	0	0
 		mv	0	0
@@ -30397,6 +30574,7 @@ c	Lbcw;	Lbcw;
 		ma	0	0
 	m	a(I)Lbcw;	a(I)Lbcw;
 		ma	0	0
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
 	m	b(I)I	b(I)I
 		ma	0	0
 	m	c(I)I	c(I)I
@@ -37550,6 +37728,8 @@ c	Lbic;	Lbic;
 		mv	0	0
 	m	e(Lbjo;)Z	e(Lbjo;)Z
 		ma	0	0
+	m	a(Llf;)Ljava/util/Optional;	a(Lle;)Ljava/util/Optional;
+		ma	0	0
 	m	a(Lbjo;Lbpa;Lany;IZ)V	a(Lbjo;Lbpa;Lany;IZ)V
 		ma	0	0
 		ma	1	1
@@ -37564,6 +37744,7 @@ c	Lbic;	Lbic;
 		mv	1	1
 		mv	2	2
 		mv	3	3
+	m	a(Lchi;Lft;Llf;)V	a(Lgl;Lchf;Lft;Lle;)V
 	m	f(Lbjo;)Ljava/lang/String;	f(Lbjo;)Ljava/lang/String;
 		ma	0	0
 c	Lbid;	Lbid;
@@ -44510,6 +44691,9 @@ c	Lbow;	Lbow;
 		ma	2	2
 	m	a(Ljava/util/Map$Entry;)Lbow$g;	a(Ljava/util/Map$Entry;)Lbow$g;
 		ma	0	0
+	m	a(Llf;Lbow$e;Lbow$g;)V	a(Lcom/mojang/serialization/DynamicLike;Lbow$e;Lbow$g;)V
+		ma	1	1
+		ma	2	2
 	m	b(Llf;Lbow$e;Lbow$g;)V	a(Lle;Lbow$e;Lbow$g;)V
 		ma	0	0
 		ma	1	1
@@ -45138,6 +45322,7 @@ c	Lbpa;	Lbpa;
 	m	a(Lni;)V	a(Lnh;)V
 		ma	0	0
 	m	s_()Lchi;	m()Lchf;
+	m	m()Lchj;	V()Lub;
 	m	t_()Ljava/util/Random;	s_()Ljava/util/Random;
 	m	a(Lft;Ljava/util/function/Predicate;)Z	a(Lft;Ljava/util/function/Predicate;)Z
 		ma	0	0
@@ -62699,6 +62884,12 @@ c	Lcem;	Lcek;
 	f	c;;Lcom/google/common/collect/ImmutableSortedMap;	c;;Lcom/google/common/collect/ImmutableSortedMap;
 	f	d;;Lcom/google/common/collect/ImmutableList;	d;;Lcom/google/common/collect/ImmutableList;
 c	Lcen;	Lcel;
+	m	c(Lcfo;)Ljava/lang/Comparable;	c(Lcfl;)Ljava/lang/Comparable;
+		ma	0	0
+	m	a(Lcfo;Ljava/lang/Comparable;)Ljava/lang/Object;	a(Lcfl;Ljava/lang/Comparable;)Ljava/lang/Object;
+		ma	0	0
+		ma	1	1
+	m	b()Lcom/google/common/collect/ImmutableMap;	r()Lcom/google/common/collect/ImmutableMap;
 	m	<clinit>()V	<clinit>()V
 c	Lcep;	Lcen;
 	m	<init>(Lbpc;Lft;Z)V	<init>(Lbpc;Lft;Z)V
@@ -66047,7 +66238,11 @@ c	Lchj;	Lchf;
 	m	e()Z	d()Z
 	m	f()Z	e()Z
 	m	g()Lbqj;	i()Lbqi;
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
 	m	<clinit>()V	<clinit>()V
+	f	a;;Lchj;	i;;Lchf;
+	f	b;;Lchj;	j;;Lchf;
+	f	c;;Lchj;	k;;Lchf;
 	f	e;;Ljava/lang/String;	n;;Ljava/lang/String;
 	f	h;;Z	p;;Z
 	f	i;;Z	q;;Z
@@ -66787,6 +66982,11 @@ c	Lcif;	Lchw;
 	m	k()Lcif;	j()Lchw;
 	m	l()Lcif;	k()Lchw;
 	m	m()Lcif;	l()Lchw;
+	m	a(Ljava/util/Properties;)Lcif;	a(Ljava/util/Properties;)Lchw;
+		ma	0	0
+		mv	2	2
+		mv	3	3
+		mv	4	4
 	m	a(ZLjava/util/OptionalLong;)Lcif;	a(ZLjava/util/OptionalLong;)Lchw;
 		ma	0	0
 		mv	0	0
@@ -67521,6 +67721,12 @@ c	Lcix$a;	Lcio$a;
 		ma	3	3
 c	Lcix;	Lcio;
 	m	<init>(Ljava/util/function/Function;)V	<init>(Lcom/mojang/serialization/Codec;)V
+	m	a(Lbqf;Lcgd;JLcig;IILbqd;Lbol;)Z	a(Lcga;Lbqg;JLchx;IILbqd;Lbol;Lcmq;)Z
+		ma	2	2
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
 	m	a()Lclt$a;	a()Lclk$a;
 c	Lciy;	Lcip;
 	m	a()V	a()V
@@ -67794,6 +68000,12 @@ c	Lcjh$a;	Lciy$a;
 	m	a()Lft;	a()Lft;
 c	Lcjh;	Lciy;
 	m	<init>(Ljava/util/function/Function;)V	<init>(Lcom/mojang/serialization/Codec;)V
+	m	a(Lbqf;Lcgd;JLcig;IILbqd;Lbol;)Z	a(Lcga;Lbqg;JLchx;IILbqd;Lbol;Lcmq;)Z
+		ma	2	2
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
 	m	a()Lclt$a;	a()Lclk$a;
 c	Lcji;	Lciz;
 	m	<init>(Ljava/util/function/Function;)V	<init>(Lcom/mojang/serialization/Codec;)V
@@ -68107,6 +68319,13 @@ c	Lcjw$a;	Lcjo$a;
 c	Lcjw;	Lcjo;
 	m	<init>(Ljava/util/function/Function;)V	<init>(Lcom/mojang/serialization/Codec;)V
 	m	e()Z	b()Z
+	m	a(Lbqf;Lcgd;JLcig;IILbqd;Lbol;)Z	a(Lcga;Lbqg;JLchx;IILbqd;Lbol;Lcmq;)Z
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
 	m	a()Lclt$a;	a()Lclk$a;
 	m	b(IILcgd;)I	b(IILcga;)I
 		ma	0	0
@@ -68449,6 +68668,7 @@ c	Lckf;	Lcjx;
 		ma	2	2
 		ma	3	3
 		ma	4	4
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lckf;	b;;Lcjx;
 	f	b;;Lckf;	c;;Lcjx;
@@ -68945,12 +69165,19 @@ c	Lckp$b;	Lckh$b;
 	m	a(Lckp$b;)Lckp$b;	a(Lckh$b;)Lckh$b;
 		ma	0	0
 	m	<clinit>()V	<clinit>()V
+	f	a;;Lckp$b;	a;;Lckh$b;
 	f	b;;Lckp$b;	b;;Lckh$b;
 	f	c;;Ljava/util/Map;	d;;Ljava/util/Map;
 	f	d;;Ljava/lang/String;	e;;Ljava/lang/String;
 	f	e;;[Lckp$b;	f;;[Lckh$b;
 c	Lckp;	Lckh;
 	m	<init>(Ljava/util/function/Function;)V	<init>(Lcom/mojang/serialization/Codec;)V
+	m	a(Lbqf;Lcgd;JLcig;IILbqd;Lbol;)Z	a(Lcga;Lbqg;JLchx;IILbqd;Lbol;Lcmq;)Z
+		ma	2	2
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
 	m	a()Lclt$a;	a()Lclk$a;
 c	Lckq;	Lcki;
 	m	<init>(Ljava/util/function/Function;)V	<init>(Lcom/mojang/serialization/Codec;)V
@@ -69048,7 +69275,14 @@ c	Lcks$a;	Lckk$a;
 		ma	4	4
 c	Lcks;	Lckk;
 	m	<init>(Ljava/util/function/Function;)V	<init>(Lcom/mojang/serialization/Codec;)V
+	m	a(Lbqf;Lcgd;JLcig;IILbqd;Lbol;)Z	a(Lcga;Lbqg;JLchx;IILbqd;Lbol;Lcmq;)Z
+		ma	2	2
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
 	m	a()Lclt$a;	a()Lclk$a;
+	m	f()Ljava/util/List;	c()Ljava/util/List;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Ljava/util/List;	u;;Ljava/util/List;
 c	Lckt;	Lckl;
@@ -69133,7 +69367,15 @@ c	Lckv$a;	Lckn$a;
 c	Lckv;	Lckn;
 	m	<init>(Ljava/util/function/Function;)V	<init>(Lcom/mojang/serialization/Codec;)V
 	m	e()Z	b()Z
+	m	a(Lbqf;Lcgd;JLcig;IILbqd;Lbol;)Z	a(Lcga;Lbqg;JLchx;IILbqd;Lbol;Lcmq;)Z
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
 	m	a()Lclt$a;	a()Lclk$a;
+	m	f()Ljava/util/List;	c()Ljava/util/List;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Ljava/util/List;	u;;Ljava/util/List;
 c	Lckw;	Lcko;
@@ -69235,6 +69477,13 @@ c	Lckx$a;	Lckp$a;
 		ma	4	4
 c	Lckx;	Lckp;
 	m	<init>(Ljava/util/function/Function;)V	<init>(Lcom/mojang/serialization/Codec;)V
+	m	f()Ljava/util/List;	c()Ljava/util/List;
+	m	a(Lbqf;Lcgd;JLcig;IILbqd;Lbol;)Z	a(Lcga;Lbqg;JLchx;IILbqd;Lbol;Lcmq;)Z
+		ma	2	2
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
 	m	a()Lclt$a;	a()Lclk$a;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Ljava/util/List;	u;;Ljava/util/List;
@@ -69431,9 +69680,11 @@ c	Lclg$b;	Lckx$b;
 	m	a(Lclg$b;)Lclg$b;	a(Lckx$b;)Lckx$b;
 		ma	0	0
 	m	<clinit>()V	<clinit>()V
+	f	a;;Lclg$b;	a;;Lckx$b;
 	f	b;;Lclg$b;	b;;Lckx$b;
 	f	c;;Lclg$b;	c;;Lckx$b;
 	f	d;;Lclg$b;	d;;Lckx$b;
+	f	e;;Lclg$b;	e;;Lckx$b;
 	f	f;;Lclg$b;	f;;Lckx$b;
 	f	g;;Lclg$b;	g;;Lckx$b;
 	f	h;;Ljava/util/Map;	i;;Ljava/util/Map;
@@ -69736,8 +69987,16 @@ c	Lcls$a;	Lclj$a;
 		ma	2	2
 		ma	3	3
 		ma	4	4
+	f	e;;J	e;;J
 c	Lcls;	Lclj;
 	m	<init>(Ljava/util/function/Function;)V	<init>(Lcom/mojang/serialization/Codec;)V
+	m	a(Lbqf;Lcgd;JLcig;IILbqd;Lbol;)Z	a(Lcga;Lbqg;JLchx;IILbqd;Lbol;Lcmq;)Z
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
 	m	a()Lclt$a;	a()Lclk$a;
 c	Lclt$a;	Lclk$a;
 	m	create(Lclt;IILcsj;IJ)Lctg;	create(Lclk;IILcsc;IJ)Lcsy;
@@ -69749,6 +70008,10 @@ c	Lclt$a;	Lclk$a;
 		ma	5	5
 c	Lclt;	Lclk;
 	m	<init>(Ljava/util/function/Function;)V	<init>(Lcom/mojang/serialization/Codec;)V
+	m	a(Lyw;Lcgd;Lft;IZ)Lft;	a(Lbpc;Lbpp;Lft;IZJLcnr;)Lft;
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	e()Z	b()Z
 	m	a(Lchr;JLcig;II)Lbol;	a(Lcnr;JLchx;II)Lbol;
 		ma	0	0
@@ -69764,8 +70027,17 @@ c	Lclt;	Lclk;
 		mv	5	5
 		mv	6	6
 		mv	7	7
+	m	a(Lbqf;Lcgd;JLcig;IILbqd;Lbol;)Z	a(Lcga;Lbqg;JLchx;IILbqd;Lbol;Lcmq;)Z
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
 	m	a()Lclt$a;	a()Lclk$a;
+	m	b()Ljava/lang/String;	i()Ljava/lang/String;
 	m	<clinit>()V	<clinit>()V
+	f	a;;Lorg/apache/logging/log4j/Logger;	v;;Lorg/apache/logging/log4j/Logger;
 c	Lclu;	Lcll;
 	m	load(Lcug;Llf;)Lctf;	load(Lcty;Lle;)Lcsx;
 		ma	0	0
@@ -69850,6 +70122,8 @@ c	Lclv$a;	Lclm$a;
 c	Lclv;	Lclm;
 	m	<init>(Ljava/util/function/Function;)V	<init>(Lcom/mojang/serialization/Codec;)V
 	m	a()Lclt$a;	a()Lclk$a;
+	m	f()Ljava/util/List;	c()Ljava/util/List;
+	m	g()Ljava/util/List;	j()Ljava/util/List;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Ljava/util/List;	u;;Ljava/util/List;
 	f	aw;;Ljava/util/List;	v;;Ljava/util/List;
@@ -70223,12 +70497,14 @@ c	Lcme;	Lclv;
 	m	<init>(Lcjj;F)V	<init>(Lcja;F)V
 		ma	0	0
 		ma	1	1
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	m	a(Lbpt;Lbpp;Lcgd;Ljava/util/Random;Lft;)Z	a(Lbpt;Lbpp;Lcga;Ljava/util/Random;Lft;)Z
 		ma	0	0
 		ma	1	1
 		ma	2	2
 		ma	3	3
 		ma	4	4
+	mu	a	a(Lcom/mojang/datafixers/Dynamic;)Lcme;
 	f	a;;Lcjj;	b;;Lcja;
 	f	b;;F	c;;F
 c	Lcmf$a;	Lclw$a;
@@ -70263,6 +70539,13 @@ c	Lcmf$a;	Lclw$a;
 c	Lcmf;	Lclw;
 	m	<init>(Ljava/util/function/Function;)V	<init>(Lcom/mojang/serialization/Codec;)V
 	m	e()Z	b()Z
+	m	a(Lbqf;Lcgd;JLcig;IILbqd;Lbol;)Z	a(Lcga;Lbqg;JLchx;IILbqd;Lbol;Lcmq;)Z
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
 	m	a()Lclt$a;	a()Lclk$a;
 c	Lcmg;	Lclx;
 	m	<init>(Lcmh;)V	<init>()V
@@ -70272,11 +70555,15 @@ c	Lcmg;	Lclx;
 		ma	2	2
 		ma	3	3
 c	Lcmh;	Lcly;
+	m	a(Ljava/lang/String;Ljava/util/function/Function;)Lcmh;	a(Ljava/lang/String;Lcom/mojang/serialization/Codec;)Lcly;
+		ma	0	0
 	m	<init>(Ljava/util/function/Function;)V	<init>(Lcom/mojang/serialization/Codec;)V
+	mu	a	a(Lcom/mojang/datafixers/Dynamic;)Lcmg;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lcmh;	a;;Lcly;
 	f	b;;Lcmh;	b;;Lcly;
 	f	c;;Lcmh;	c;;Lcly;
+	fu	a	d;;Ljava/util/function/Function;
 c	Lcmi;	Lclz;
 	m	<init>(Lcom/mojang/datafixers/Dynamic;)V	<init>(II)V
 	m	a(Lbpb;Lft;Lcel;Ljava/util/Random;)V	a(Lbpb;Lft;Lcej;Ljava/util/Random;)V
@@ -70287,6 +70574,9 @@ c	Lcmi;	Lclz;
 		mv	0	0
 		mv	1	1
 		mv	2	2
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	f	b;;I	c;;I
+	f	c;;I	d;;I
 c	Lcmj;	Lcma;
 	m	<init>()V	<init>()V
 	m	a(Lbpb;Lft;Lcel;Ljava/util/Random;)V	a(Lbpb;Lft;Lcej;Ljava/util/Random;)V
@@ -70294,6 +70584,7 @@ c	Lcmj;	Lcma;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
 c	Lcmk;	Lcmb;
 	m	<init>()V	<init>()V
 	m	a(Lbpb;Lft;Lcel;Ljava/util/Random;)V	a(Lbpb;Lft;Lcej;Ljava/util/Random;)V
@@ -70301,23 +70592,29 @@ c	Lcmk;	Lcmb;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
 c	Lcmm;	Lcmd;
 	m	<init>(Lcel;I)V	<init>(Lcej;I)V
 		ma	0	0
 		ma	1	1
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	f	a;;Lcel;	b;;Lcej;
 	f	b;;I	c;;I
 c	Lcmn;	Lcme;
 	m	<init>(Lcou;)V	<init>(Lcom;)V
 		ma	0	0
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	f	a;;Lcou;	b;;Lcom;
 c	Lcmo;	Lcmf;
 	m	<init>(Lcel;)V	<init>(Lcej;)V
 		ma	0	0
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	mu	a	a(Lcom/mojang/datafixers/Dynamic;)Lcmo;
 	f	a;;Lcel;	b;;Lcej;
 c	Lcmp;	Lcmg;
 	m	<init>(F)V	<init>(F)V
 		ma	0	0
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	f	a;;F	b;;F
 c	Lcmq;	Lcmh;
 	m	<init>(FIII)V	<init>(FIII)V
@@ -70325,6 +70622,7 @@ c	Lcmq;	Lcmh;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	f	a;;F	b;;F
 	f	b;;I	c;;I
 	f	c;;I	d;;I
@@ -70350,6 +70648,7 @@ c	Lcmr;	Lcmi;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	f	a;;I	b;;I
 	f	b;;I	c;;I
 	f	c;;I	d;;I
@@ -70357,6 +70656,7 @@ c	Lcmr;	Lcmi;
 c	Lcms;	Lcmj;
 	m	<init>(I)V	<init>(I)V
 		ma	0	0
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	f	a;;I	b;;I
 c	Lcmt;	Lcmk;
 	m	<init>(IIII)V	<init>(IIII)V
@@ -70364,6 +70664,7 @@ c	Lcmt;	Lcmk;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	f	a;;I	b;;I
 	f	b;;I	c;;I
 	f	c;;I	d;;I
@@ -70372,11 +70673,14 @@ c	Lcmu;	Lcml;
 	m	<init>(Lcjj;Lcqr;)V	<init>(Lcja;Lcqk;)V
 		ma	0	0
 		ma	1	1
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 	f	a;;Lcjj;	b;;Lcja;
 	f	b;;Lcqr;	c;;Lcqk;
 c	Lcmv;	Lcmm;
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	m	<clinit>()V	<clinit>()V
+	f	e;;Lcnh;	f;;Lcmy;
 c	Lcmw$a;	Lcmn$a;
 	m	<init>()V	<init>()V
 	m	a(II)Lcmw$a;	a(II)Lcmn$a;
@@ -70400,6 +70704,7 @@ c	Lcmw;	Lcmn;
 		ma	2	2
 		ma	3	3
 		ma	4	4
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	f	a;;Lcel;	b;;Lcej;
 	f	b;;Lcel;	c;;Lcej;
 	f	c;;I	d;;I
@@ -70411,6 +70716,7 @@ c	Lcmx;	Lcmo;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	f	a;;Lcel;	b;;Lcej;
 	f	b;;I	c;;I
 	f	c;;I	d;;I
@@ -70425,10 +70731,13 @@ c	Lcmy;	Lcmp;
 	m	a()Lcmy;	a()Lcmp;
 	m	b()Ljava/util/Optional;	b()Ljava/util/Optional;
 	m	c()Z	c()Z
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	f	a;;Ljava/util/Optional;	b;;Ljava/util/Optional;
 	f	b;;Z	c;;Z
 c	Lcmz;	Lcmq;
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	m	<clinit>()V	<clinit>()V
+	f	j;;Lcni;	k;;Lcmz;
 c	Lcn$a;	Lcn$a;
 	m	<init>(Lbe$b;)V	<init>(Lbe$b;)V
 		ma	0	0
@@ -70450,55 +70759,70 @@ c	Lcn;	Lcn;
 c	Lcna;	Lcmr;
 	m	<init>(I)V	<init>(I)V
 		ma	0	0
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	mu	a	a(Lcom/mojang/datafixers/Dynamic;)Lcna;
 	f	a;;I	b;;I
 c	Lcnb;	Lcms;
 	m	<init>(Lcou;Lcou;I)V	<init>(Lcom;Lcom;I)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	f	a;;Lcou;	b;;Lcom;
 	f	b;;Lcou;	c;;Lcom;
 	f	c;;I	d;;I
 c	Lcnc;	Lcmt;
 	m	<init>(Ljava/lang/String;I)V	<init>(Luc;I)V
 		ma	1	1
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	m	a()I	a()I
+	m	b()Ljava/lang/String;	b()Luc;
+	f	a;;Luc;	b;;Luc;
 	f	b;;I	c;;I
 c	Lcnd;	Lcmu;
 	m	<init>(ILcel;)V	<init>(ILcej;)V
 		ma	0	0
 		ma	1	1
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	f	a;;I	b;;I
 	f	b;;Lcel;	c;;Lcej;
 c	Lcne;	Lcmv;
 	m	<init>(DLckp$b;)V	<init>(DLckh$b;)V
 		ma	0	0
 		ma	1	1
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	f	a;;D	b;;D
 	f	b;;Lckp$b;	c;;Lckh$b;
 c	Lcnf;	Lcmw;
 	m	<init>(Ljava/util/Map;)V	<init>(Ljava/util/Map;)V
 		ma	0	0
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	m	a(Ljava/util/Random;)Lcnc;	a(Ljava/util/Random;)Lcmt;
 		ma	0	0
 	m	a(Ljava/util/Map$Entry;)Lcnc;	a(Ljava/util/Map$Entry;)Lcmt;
 		ma	0	0
+	f	a;;Ljava/util/List;	b;;Ljava/util/List;
 c	Lcng;	Lcmx;
 	m	<init>(DII)V	<init>(DII)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	f	a;;D	b;;D
 	f	b;;I	c;;I
 	f	c;;I	d;;I
 c	Lcnh;	Lcmy;
 	m	<init>()V	<init>()V
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 c	Lcni;	Lcmz;
 	m	<init>()V	<init>()V
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 c	Lcnj;	Lcna;
 	m	<init>(Lcsv$b;FF)V	<init>(Lcso$b;FF)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	f	a;;Lcsv$b;	b;;Lcso$b;
 	f	b;;F	c;;F
 	f	c;;F	d;;F
@@ -70531,23 +70855,28 @@ c	Lcnk;	Lcnb;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	mu	a	a(Lcom/mojang/datafixers/Dynamic;)Lcnk;
 	f	a;;Lcnk$a;	b;;Lcnb$a;
 	f	b;;I	c;;I
 	f	c;;Lcel;	d;;Lcej;
 c	Lcnl;	Lcnc;
 	m	<init>(F)V	<init>(F)V
 		ma	0	0
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	f	b;;F	c;;F
 c	Lcnm;	Lcnd;
 	m	<init>(Lcjj;Lcjj;)V	<init>(Lcja;Lcja;)V
 		ma	0	0
 		ma	1	1
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	f	a;;Lcjj;	b;;Lcja;
 	f	b;;Lcjj;	c;;Lcja;
 c	Lcnn;	Lcne;
 	m	<init>(Ljava/util/List;Lcjj;)V	<init>(Ljava/util/List;Lcja;)V
 		ma	0	0
 		ma	1	1
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	f	a;;Ljava/util/List;	b;;Ljava/util/List;
 	f	b;;Lcjj;	c;;Lcja;
 c	Lcno$1;	Lcnf$1;
@@ -70595,6 +70924,7 @@ c	Lcno;	Lcnf;
 		ma	8	8
 		ma	9	9
 		ma	10	10
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	m	<init>(Lcou;Lcmg;Ljava/util/Set;Ljava/util/Set;IIIIZZZLcno$1;)V	<init>(Lcom;Lclx;Ljava/util/Set;Ljava/util/Set;IIIIZZZLcnf$1;)V
 		ma	0	0
 		ma	1	1
@@ -70623,12 +70953,14 @@ c	Lcnp;	Lcng;
 	m	<init>(Ljava/util/List;I)V	<init>(Ljava/util/List;I)V
 		ma	0	0
 		ma	1	1
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	f	a;;Ljava/util/List;	b;;Ljava/util/List;
 	f	b;;I	c;;I
 c	Lcnq;	Lcnh;
 	m	<init>(Lcel;Lcel;)V	<init>(Lcej;Lcej;)V
 		ma	0	0
 		ma	1	1
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	f	a;;Lcel;	b;;Lcej;
 	f	b;;Lcel;	c;;Lcej;
 c	Lcnr$a;	Lcni$a;
@@ -70652,6 +70984,7 @@ c	Lcnr;	Lcni;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	f	a;;Lcel;	b;;Lcej;
 	f	b;;Lcel;	c;;Lcej;
 	f	c;;Lgs;	d;;Lgr;
@@ -70659,31 +70992,45 @@ c	Lcnr;	Lcni;
 c	Lcns;	Lcnj;
 	m	<init>(Lclg$b;)V	<init>(Lckx$b;)V
 		ma	0	0
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	f	a;;Lclg$b;	b;;Lckx$b;
 c	Lcnt;	Lcnk;
 	m	<init>(ID)V	<init>(ID)V
 		ma	0	0
 		ma	1	1
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	f	a;;I	b;;I
 	f	b;;D	c;;D
 c	Lcnu;	Lcnl;
 	m	<init>(Z)V	<init>(Z)V
 		ma	0	0
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	f	a;;Z	b;;Z
 c	Lcnv;	Lcnm;
 	m	<init>(Lcel;[Lcel;[Lcel;[Lcel;)V	<init>(Lcej;Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	f	a;;Lcel;	b;;Lcej;
+	f	b;;Ljava/util/List;	c;;Ljava/util/List;
+	f	c;;Ljava/util/List;	d;;Ljava/util/List;
+	f	d;;Ljava/util/List;	e;;Ljava/util/List;
 c	Lcnw;	Lcnn;
 	m	<init>(Ljava/util/List;)V	<init>(Ljava/util/List;)V
 		ma	0	0
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	f	a;;Ljava/util/List;	b;;Ljava/util/List;
 c	Lcnx;	Lcno;
 	m	<init>(ZLjava/util/List;Lft;)V	<init>(ZLjava/util/List;Lft;)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	mu	a	a(Lcom/mojang/datafixers/Dynamic;)Lcnx;
 	m	a()Z	a()Z
 	m	b()Ljava/util/List;	b()Ljava/util/List;
 	m	c()Lft;	c()Lft;
+	f	a;;Z	b;;Z
+	f	b;;Ljava/util/List;	c;;Ljava/util/List;
+	f	c;;Lft;	d;;Lft;
 c	Lcny;	Lcnp;
 	m	<init>(Lcwg;ZIILjava/util/Set;)V	<init>(Lcvy;ZIILjava/util/Set;)V
 		ma	0	0
@@ -70691,6 +71038,8 @@ c	Lcny;	Lcnp;
 		ma	2	2
 		ma	3	3
 		ma	4	4
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	mu	a	a(Lcom/mojang/datafixers/Dynamic;)Lcny;
 	f	a;;Lcwg;	b;;Lcvy;
 	f	b;;Z	c;;Z
 	f	c;;I	d;;I
@@ -70734,6 +71083,7 @@ c	Lcnz;	Lcns;
 	m	a()V	a()V
 	m	a(Ljava/util/List;)Lcnz;	a(Ljava/util/List;)Lcns;
 		ma	0	0
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	f	a;;Lcou;	b;;Lcom;
 	f	b;;Lcou;	c;;Lcom;
 	f	c;;Ljava/util/List;	d;;Ljava/util/List;
@@ -70789,17 +71139,28 @@ c	Lcob;	Lcnu;
 		ma	0	0
 		ma	1	1
 	m	a()Ljava/util/OptionalInt;	c()Ljava/util/OptionalInt;
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
 	f	b;;Ljava/util/OptionalInt;	b;;Ljava/util/OptionalInt;
 c	Lcoc;	Lcnv;
+	m	a(Ljava/lang/String;Ljava/util/function/Function;)Lcoc;	a(Ljava/lang/String;Lcom/mojang/serialization/Codec;)Lcnv;
+		ma	0	0
 	m	<init>(Ljava/util/function/Function;)V	<init>(Lcom/mojang/serialization/Codec;)V
+	mu	a	a(Lcom/mojang/datafixers/Dynamic;)Lcob;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lcoc;	a;;Lcnv;
 	f	b;;Lcoc;	b;;Lcnv;
+	fu	a	c;;Ljava/util/function/Function;
 c	Lcod;	Lcnw;
 	m	<init>(Lcom/mojang/datafixers/Dynamic;)V	<init>(IIIIILjava/util/OptionalInt;)V
 	m	a(II)I	a(II)I
 		ma	0	0
 		ma	1	1
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	f	b;;I	d;;I
+	f	c;;I	e;;I
+	f	d;;I	f;;I
+	f	e;;I	g;;I
+	f	f;;I	h;;I
 c	Lcoe;	Lcnx;
 	m	<init>(III)V	<init>(III)V
 		ma	0	0
@@ -70813,6 +71174,7 @@ c	Lcoe;	Lcnx;
 	m	a(II)I	a(II)I
 		ma	0	0
 		ma	1	1
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
 	f	b;;I	d;;I
 	f	c;;I	e;;I
 	f	d;;I	f;;I
@@ -70866,6 +71228,7 @@ c	Lcoh;	Lcoa;
 		ma	3	3
 		ma	4	4
 		ma	5	5
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
 	f	a;;I	b;;I
 c	Lcoi;	Lcob;
 	m	<init>(Lcom/mojang/datafixers/Dynamic;)V	<init>(IIIII)V
@@ -70920,6 +71283,7 @@ c	Lcoj;	Lcoc;
 		ma	3	3
 		ma	4	4
 		ma	5	5
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
 c	Lcok;	Lcod;
 	m	<init>(Lcom/mojang/datafixers/Dynamic;)V	<init>(IIIII)V
 	m	a(Lbpe;Ljava/util/Random;Lcnz;ILcol$a;IILjava/util/Set;I)V	a(Lbpe;Ljava/util/Random;Lcns;ILcoe$b;IILjava/util/Set;I)V
@@ -71017,6 +71381,7 @@ c	Lcol;	Lcoe;
 		mv	1	1
 		mv	2	2
 		mv	3	3
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
 	f	a;;I	e;;I
 	f	b;;I	f;;I
 	f	c;;I	g;;I
@@ -71154,6 +71519,8 @@ c	Lcom/mojang/blaze3d/systems/RenderSystem;	Lcom/mojang/blaze3d/systems/RenderSy
 	m	disableFog()V	disableFog()V
 	m	fogMode(Ldfl$m;)V	fogMode(Ldfd$m;)V
 		ma	0	0
+	m	fogMode(I)V	fogMode(I)V
+		ma	0	0
 	m	fogDensity(F)V	fogDensity(F)V
 		ma	0	0
 	m	fogStart(F)V	fogStart(F)V
@@ -71166,8 +71533,14 @@ c	Lcom/mojang/blaze3d/systems/RenderSystem;	Lcom/mojang/blaze3d/systems/RenderSy
 		ma	2	2
 		ma	3	3
 		ma	4	4
+	m	fogi(II)V	fogi(II)V
+		ma	0	0
+		ma	1	1
 	m	enableCull()V	enableCull()V
 	m	disableCull()V	disableCull()V
+	m	polygonMode(II)V	polygonMode(II)V
+		ma	0	0
+		ma	1	1
 	m	enablePolygonOffset()V	enablePolygonOffset()V
 	m	disablePolygonOffset()V	disablePolygonOffset()V
 	m	enableLineOffset()V	enableLineOffset()V
@@ -71209,6 +71582,8 @@ c	Lcom/mojang/blaze3d/systems/RenderSystem;	Lcom/mojang/blaze3d/systems/RenderSy
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	m	stencilMask(I)V	stencilMask(I)V
+		ma	0	0
 	m	stencilOp(III)V	stencilOp(III)V
 		ma	0	0
 		ma	1	1
@@ -71220,6 +71595,8 @@ c	Lcom/mojang/blaze3d/systems/RenderSystem;	Lcom/mojang/blaze3d/systems/RenderSy
 		ma	1	1
 		ma	2	2
 		ma	3	3
+	m	clearStencil(I)V	clearStencil(I)V
+		ma	0	0
 	m	clear(IZ)V	clear(IZ)V
 		ma	0	0
 		ma	1	1
@@ -71275,6 +71652,9 @@ c	Lcom/mojang/blaze3d/systems/RenderSystem;	Lcom/mojang/blaze3d/systems/RenderSy
 	m	lineWidth(F)V	lineWidth(F)V
 		ma	0	0
 	m	pixelStore(II)V	pixelStore(II)V
+		ma	0	0
+		ma	1	1
+	m	pixelTransfer(IF)V	pixelTransfer(IF)V
 		ma	0	0
 		ma	1	1
 	m	readPixels(IIIIIILjava/nio/ByteBuffer;)V	readPixels(IIIIIILjava/nio/ByteBuffer;)V
@@ -71464,6 +71844,9 @@ c	Lcom/mojang/blaze3d/systems/RenderSystem;	Lcom/mojang/blaze3d/systems/RenderSy
 		ma	4	4
 		ma	5	5
 		ma	6	6
+	m	lambda$pixelTransfer$48(IF)V	lambda$pixelTransfer$48(IF)V
+		ma	0	0
+		ma	1	1
 	m	lambda$pixelStore$47(II)V	lambda$pixelStore$47(II)V
 		ma	0	0
 		ma	1	1
@@ -76259,6 +76642,7 @@ c	Lcom;	Lcof;
 	f	h;;Lcom;	h;;Lcof;
 	f	i;;Lcom;	i;;Lcof;
 c	Lcoo;	Lcog;
+	mu	a	<init>(IIIII)V
 	m	<init>(Lcom/mojang/datafixers/Dynamic;)V	<init>(IIIII)V
 	m	a(Lbpe;Ljava/util/Random;Lcnz;ILcol$a;IILjava/util/Set;I)V	a(Lbpe;Ljava/util/Random;Lcns;ILcoe$b;IILjava/util/Set;I)V
 		ma	0	0
@@ -76284,6 +76668,8 @@ c	Lcoo;	Lcog;
 		ma	3	3
 		ma	4	4
 		ma	5	5
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	f	a;;I	b;;I
 c	Lcop;	Lcoh;
 	m	<init>(Lcom/mojang/datafixers/Dynamic;)V	<init>(IIIIII)V
 	m	a(Lbpe;Ljava/util/Random;Lcnz;ILcol$a;IILjava/util/Set;I)V	a(Lbpe;Ljava/util/Random;Lcns;ILcoe$b;IILjava/util/Set;I)V
@@ -76314,6 +76700,9 @@ c	Lcop;	Lcoh;
 		ma	3	3
 		ma	4	4
 		ma	5	5
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	f	a;;I	b;;I
+	f	b;;I	c;;I
 c	Lcoq;	Lcoi;
 	m	<init>(Lcom/mojang/datafixers/Dynamic;)V	<init>(IIIIII)V
 	m	a(Lbpe;Ljava/util/Random;Lcnz;ILcol$a;IILjava/util/Set;I)V	a(Lbpe;Ljava/util/Random;Lcns;ILcoe$b;IILjava/util/Set;I)V
@@ -76342,6 +76731,9 @@ c	Lcoq;	Lcoi;
 		ma	3	3
 		ma	4	4
 		ma	5	5
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	f	a;;I	b;;I
+	f	b;;I	c;;I
 c	Lcor;	Lcoj;
 	m	<init>(Lcom/mojang/datafixers/Dynamic;)V	<init>(IIIIII)V
 	m	a(Lbpe;Ljava/util/Random;Lcnz;ILcol$a;IILjava/util/Set;I)V	a(Lbpe;Ljava/util/Random;Lcns;ILcoe$b;IILjava/util/Set;I)V
@@ -76370,21 +76762,32 @@ c	Lcor;	Lcoj;
 		ma	3	3
 		ma	4	4
 		ma	5	5
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	f	a;;I	b;;I
+	f	b;;I	c;;I
 c	Lcou;	Lcom;
 	m	<init>(Lcov;)V	<init>()V
 	m	a(Ljava/util/Random;Lft;)Lcel;	a(Ljava/util/Random;Lft;)Lcej;
 		ma	0	0
 		ma	1	1
 c	Lcov;	Lcoo;
+	m	a(Ljava/lang/String;Ljava/util/function/Function;)Lcov;	a(Ljava/lang/String;Lcom/mojang/serialization/Codec;)Lcoo;
+		ma	0	0
 	m	<init>(Ljava/util/function/Function;)V	<init>(Lcom/mojang/serialization/Codec;)V
+	mu	a	a(Lcom/mojang/datafixers/Dynamic;)Lcou;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lcov;	a;;Lcoo;
+	f	b;;Lcov;	b;;Lcoo;
+	f	c;;Lcov;	c;;Lcoo;
+	f	d;;Lcov;	d;;Lcoo;
+	fu	a	e;;Ljava/util/function/Function;
 c	Lcow;	Lcop;
 	m	<init>()V	<init>()V
 	m	a(Ljava/util/Random;Lft;)Lcel;	a(Ljava/util/Random;Lft;)Lcej;
 		ma	0	0
 		ma	1	1
 		mv	0	0
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
 	m	<clinit>()V	<clinit>()V
 	f	b;;[Lcel;	d;;[Lcej;
 c	Lcox;	Lcoq;
@@ -76393,6 +76796,7 @@ c	Lcox;	Lcoq;
 		ma	0	0
 		ma	1	1
 		mv	0	0
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
 	m	<clinit>()V	<clinit>()V
 	f	b;;[Lcel;	d;;[Lcej;
 	f	c;;[Lcel;	e;;[Lcej;
@@ -76402,11 +76806,15 @@ c	Lcoy;	Lcor;
 		ma	0	0
 		ma	1	1
 		mv	0	0
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	f	b;;Lbur;	c;;Lbuq;
 c	Lcoz;	Lcos;
 	m	<init>(Lcom/mojang/datafixers/Dynamic;)V	<init>(Lcej;)V
 	m	a(Ljava/util/Random;Lft;)Lcel;	a(Ljava/util/Random;Lft;)Lcej;
 		ma	0	0
 		ma	1	1
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	f	b;;Lcel;	c;;Lcej;
 c	Lcp$a;	Lcp$a;
 	m	<init>(Lbe$b;Lbx$c;)V	<init>(Lbe$b;Lbx$c;)V
 		ma	0	0
@@ -76448,6 +76856,7 @@ c	Lcpa;	Lcot;
 	m	a(Ljava/util/Random;Lft;)Lcel;	a(Ljava/util/Random;Lft;)Lcej;
 		ma	0	0
 		ma	1	1
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
 	f	b;;Lasi;	c;;Lasi;
 c	Lcpc;	Lcov;
 	m	<init>()V	<init>()V
@@ -76472,6 +76881,7 @@ c	Lcpc;	Lcov;
 		ma	8	8
 		ma	9	9
 	m	a()Lcpk;	a()Lcpd;
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lcpc;	b;;Lcov;
@@ -76508,8 +76918,11 @@ c	Lcpd;	Lcow;
 		ma	7	7
 		ma	8	8
 		ma	9	9
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	m	a()Lcpk;	a()Lcpd;
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
+	f	a;;Lcjj;	b;;Lcja;
+	f	b;;Llf;	c;;Lle;
 c	Lcpe;	Lcox;
 	m	<init>(IIIILcpl$a;)V	<init>(IIIILcpe$a;)V
 		ma	0	0
@@ -76520,6 +76933,9 @@ c	Lcpe;	Lcox;
 	m	a()I	a()I
 	m	b()I	b()I
 	m	c()I	c()I
+	m	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;	a(Lcom/mojang/serialization/DynamicOps;)Lcom/mojang/serialization/Dynamic;
+		mv	0	0
+	mu	a	a(Lcom/mojang/datafixers/Dynamic;)Lcpe;
 	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
 		ma	0	0
 		mv	0	0
@@ -76745,12 +77161,14 @@ c	Lcph;	Lcpa;
 	m	a()Lcpk;	a()Lcpd;
 	m	a(Lcpl$a;)Lcpj;	a(Lcpe$a;)Lcpc;
 		ma	0	0
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 	m	b(Lcpl$a;)V	b(Lcpe$a;)V
 		ma	0	0
 	m	a(Lcpl$a;Lcpj;)V	a(Lcpe$a;Lcpc;)V
 		ma	0	0
 		ma	1	1
+	f	a;;Ljava/util/List;	b;;Ljava/util/List;
 c	Lcpi;	Lcpb;
 	m	<init>(Ljava/lang/String;Ljava/util/List;)V	<init>(Ljava/lang/String;Ljava/util/List;)V
 		ma	0	0
@@ -76802,7 +77220,10 @@ c	Lcpi;	Lcpb;
 		ma	2	2
 		mv	0	0
 	m	a()Lcpk;	a()Lcpd;
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
+	f	a;;Lcom/mojang/datafixers/util/Either;	c;;Lcom/mojang/datafixers/util/Either;
+	f	b;;Lcom/google/common/collect/ImmutableList;	d;;Lcom/google/common/collect/ImmutableList;
 c	Lcpj;	Lcpc;
 	m	<init>(Lcom/mojang/datafixers/Dynamic;)V	<init>(Lcpe$a;)V
 		ma	0	0
@@ -76838,10 +77259,17 @@ c	Lcpj;	Lcpc;
 		ma	0	0
 	m	b()Lcpl$a;	e()Lcpe$a;
 		mv	0	0
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	mu	a	b(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	m	c()I	f()I
 	f	a;;Lcpl$a;	a;;Lcpe$a;
 c	Lcpk;	Lcpd;
 	m	<clinit>()V	<clinit>()V
+	f	b;;Lcpk;	a;;Lcpd;
+	f	c;;Lcpk;	b;;Lcpd;
+	f	d;;Lcpk;	c;;Lcpd;
+	f	e;;Lcpk;	d;;Lcpd;
+	f	f;;Lcpk;	e;;Lcpd;
 c	Lcpl$a;	Lcpe$a;
 	m	values()[Lcpl$a;	values()[Lcpe$a;
 	m	valueOf(Ljava/lang/String;)Lcpl$a;	valueOf(Ljava/lang/String;)Lcpe$a;
@@ -76923,6 +77351,7 @@ c	Lcpo;	Lcph;
 		ma	2	2
 		mv	0	0
 		mv	1	1
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
 	m	a(Lbpb;Ljava/util/Random;Lft;)V	a(Lbpb;Ljava/util/Random;Lft;)V
 		ma	0	0
 		ma	1	1
@@ -76934,6 +77363,7 @@ c	Lcpo;	Lcph;
 	m	a(ILft;)Z	a(ILft;)Z
 		ma	0	0
 		ma	1	1
+	f	b;;Lcou;	b;;Lcom;
 c	Lcpp;	Lcpi;
 	m	<init>(Lcom/mojang/datafixers/Dynamic;)V	<init>(F)V
 	m	a(Lbpb;Ljava/util/Random;Ljava/util/List;Ljava/util/List;Ljava/util/Set;Lcsj;)V	a(Lbpb;Ljava/util/Random;Ljava/util/List;Ljava/util/List;Ljava/util/Set;Lcsc;)V
@@ -76954,9 +77384,11 @@ c	Lcpp;	Lcpi;
 		mv	8	8
 		mv	9	9
 		mv	10	10
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
 	m	a(ILft;)Z	a(ILft;)Z
 		ma	0	0
 		ma	1	1
+	f	b;;F	b;;F
 c	Lcpq;	Lcpj;
 	m	<init>(Lcom/mojang/datafixers/Dynamic;)V	<init>(F)V
 	m	a(Lbpb;Ljava/util/Random;Ljava/util/List;Ljava/util/List;Ljava/util/Set;Lcsj;)V	a(Lbpb;Ljava/util/Random;Ljava/util/List;Ljava/util/List;Ljava/util/Set;Lcsc;)V
@@ -76967,6 +77399,7 @@ c	Lcpq;	Lcpj;
 		ma	4	4
 		ma	5	5
 		mv	0	0
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
 	m	a(Ljava/util/Random;Lbpb;Ljava/util/Set;Lcsj;Lft;)V	a(Ljava/util/Random;Lbpb;Ljava/util/Set;Lcsc;Lft;)V
 		ma	0	0
 		ma	1	1
@@ -76980,6 +77413,7 @@ c	Lcpq;	Lcpj;
 	m	a(ILft;)Z	a(ILft;)Z
 		ma	0	0
 		ma	1	1
+	f	b;;F	b;;F
 c	Lcpr;	Lcpk;
 	m	<init>()V	<init>()V
 	m	a(Lbpb;Ljava/util/Random;Ljava/util/List;Ljava/util/List;Ljava/util/Set;Lcsj;)V	a(Lbpb;Ljava/util/Random;Ljava/util/List;Ljava/util/List;Ljava/util/Set;Lcsc;)V
@@ -76996,6 +77430,7 @@ c	Lcpr;	Lcpk;
 		ma	3	3
 		ma	4	4
 		mv	0	0
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
 	m	a(Ljava/util/Random;Lbpb;Ljava/util/Set;Lcsj;Lft;)V	a(Ljava/util/Random;Lbpb;Ljava/util/Set;Lcsc;Lft;)V
 		ma	0	0
 		ma	1	1
@@ -77044,6 +77479,7 @@ c	Lcpu;	Lcpn;
 		ma	3	3
 		ma	4	4
 		ma	5	5
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
 	m	a(Ljava/util/Random;Lbpb;Ljava/util/Set;Lcsj;Lft;)V	a(Ljava/util/Random;Lbpb;Ljava/util/Set;Lcsc;Lft;)V
 		ma	0	0
 		ma	1	1
@@ -77337,6 +77773,8 @@ c	Lcqc;	Lcpv;
 	f	c;;I	e;;I
 	f	d;;I	f;;I
 c	Lcqd;	Lcpw;
+	m	a(Ljava/lang/String;Ljava/util/function/Function;)Lcqd;	a(Ljava/lang/String;Lcom/mojang/serialization/Codec;)Lcpw;
+		ma	0	0
 	m	<init>(Ljava/util/function/Function;)V	<init>(Lcom/mojang/serialization/Codec;)V
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lcqd;	a;;Lcpw;
@@ -77368,13 +77806,18 @@ c	Lcqg;	Lcpz;
 	m	d()Ljava/util/List;	f()Ljava/util/List;
 	m	e()V	h()V
 		mv	1	1
+	m	d(Ljava/lang/String;)V	a(Lclk;)V
+	m	f()Lcqg;	i()Lcpz;
+		mv	0	0
 	m	i()[Lcel;	g()[Lcej;
 	m	<clinit>()V	<clinit>()V
 	f	d;;Lorg/apache/logging/log4j/Logger;	b;;Lorg/apache/logging/log4j/Logger;
 	f	u;;Lcjj;	c;;Lcja;
 	f	v;;Lcjj;	d;;Lcja;
+	f	b;;Ljava/util/Map;	e;;Ljava/util/Map;
 	f	w;;Lchr;	f;;Lchv;
 	f	x;;Ljava/util/List;	g;;Ljava/util/List;
+	f	z;;Lbqd;	h;;Lbqd;
 	f	A;;[Lcel;	i;;[Lcej;
 	f	B;;Z	j;;Z
 c	Lcqj;	Lcqc;
@@ -77409,11 +77852,15 @@ c	Lcqk;	Lcqd;
 	m	<init>(Lchu$a;F)V	<init>(Lchm$a;F)V
 		ma	0	0
 		ma	1	1
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	mu	a	a(Lcom/mojang/datafixers/Dynamic;)Lcqk;
 	f	a;;Lchu$a;	b;;Lchm$a;
 	f	b;;F	c;;F
 c	Lcql;	Lcqe;
 	m	<init>(I)V	<init>(I)V
 		ma	0	0
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	mu	a	a(Lcom/mojang/datafixers/Dynamic;)Lcql;
 	f	a;;I	b;;I
 c	Lcqm;	Lcqf;
 	m	<init>(Ljava/util/function/Function;)V	<init>(Lcom/mojang/serialization/Codec;)V
@@ -77501,6 +77948,7 @@ c	Lcqq;	Lcqj;
 		mv	2	2
 		mv	3	3
 c	Lcqr;	Lcqk;
+	mu	a	<init>(Lcri;Lcom/mojang/datafixers/Dynamic;)V
 	m	<init>(Lcri;Lcmv;)V	<init>(Lcrb;Lcmm;)V
 		ma	0	0
 		ma	1	1
@@ -77511,6 +77959,8 @@ c	Lcqr;	Lcqk;
 		ma	3	3
 		ma	4	4
 		ma	5	5
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	mu	a	a(Lcom/mojang/datafixers/Dynamic;)Lcqr;
 	f	a;;Lcri;	b;;Lcrb;
 	f	b;;Lcmv;	c;;Lcmm;
 c	Lcqs;	Lcql;
@@ -77816,6 +78266,8 @@ c	Lcre;	Lcqx;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	mu	a	a(Lcom/mojang/datafixers/Dynamic;)Lcre;
 	f	a;;I	b;;I
 	f	b;;I	c;;I
 	f	c;;I	d;;I
@@ -77964,17 +78416,23 @@ c	Lcrk;	Lcrd;
 	m	<init>(IF)V	<init>(IF)V
 		ma	0	0
 		ma	1	1
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	mu	a	a(Lcom/mojang/datafixers/Dynamic;)Lcrk;
 	f	a;;I	b;;I
 	f	b;;F	c;;F
 c	Lcrl;	Lcre;
 	m	<init>(I)V	<init>(I)V
 		ma	0	0
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	mu	a	a(Lcom/mojang/datafixers/Dynamic;)Lcrl;
 	f	a;;I	b;;I
 c	Lcrm;	Lcrf;
 	m	<init>(IFI)V	<init>(IFI)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	mu	a	a(Lcom/mojang/datafixers/Dynamic;)Lcrm;
 	f	a;;I	b;;I
 	f	b;;F	c;;F
 	f	c;;I	d;;I
@@ -78058,6 +78516,8 @@ c	Lcrr;	Lcrk;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	mu	a	a(Lcom/mojang/datafixers/Dynamic;)Lcrr;
 	f	a;;I	b;;I
 	f	b;;D	c;;D
 	f	c;;D	d;;D
@@ -78124,6 +78584,8 @@ c	Lcrv;	Lcro;
 	m	<init>(II)V	<init>(II)V
 		ma	0	0
 		ma	1	1
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	mu	a	a(Lcom/mojang/datafixers/Dynamic;)Lcrv;
 	f	a;;I	b;;I
 	f	b;;I	c;;I
 c	Lcrw;	Lcrp;
@@ -80562,6 +81024,7 @@ c	Lcsy;	Lcsr;
 	f	f;;Lcug;	g;;Lcty;
 c	Lcsz$a;	Lcss$a;
 	m	<init>()V	<init>()V
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
 	f	a;;Z	b;;Z
 	f	b;;F	c;;F
 	f	c;;Z	d;;Z
@@ -81750,6 +82213,7 @@ c	Lctg;	Lcsy;
 	m	k()I	k()I
 	m	l()Lclt;	l()Lclk;
 	m	<clinit>()V	<clinit>()V
+	f	a;;Lctg;	a;;Lcsy;
 	f	e;;Lclt;	e;;Lclk;
 	f	b;;Ljava/util/List;	b;;Ljava/util/List;
 	f	c;;Lcsj;	c;;Lcsc;
@@ -82258,6 +82722,7 @@ c	Lctl;	Lctd;
 		ma	0	0
 		ma	1	1
 	m	a()Lcuf;	a()Lctx;
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lctl;	b;;Lctd;
 c	Lctm;	Lcte;
@@ -82274,6 +82739,12 @@ c	Lctm;	Lcte;
 		mv	4	4
 		mv	5	5
 	m	a()Lctz;	a()Lctr;
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	f	a;;F	b;;F
+	f	b;;F	d;;F
+	f	c;;I	e;;I
+	f	d;;I	f;;I
+	f	e;;Lfy$a;	g;;Lfy$a;
 c	Lctn;	Lctf;
 	m	<init>()V	<init>()V
 	m	a(Lbpc;Lft;Lft;Lcuk$c;Lcuk$c;Lcuh;)Lcuk$c;	a(Lbpc;Lft;Lft;Lcuc$c;Lcuc$c;Lctz;)Lcuc$c;
@@ -82287,9 +82758,11 @@ c	Lctn;	Lctf;
 		mv	1	1
 		mv	2	2
 	m	a()Lcuj;	a()Lcub;
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	m	a(Ljava/util/HashMap;)V	a(Ljava/util/HashMap;)V
 		ma	0	0
 	m	<clinit>()V	<clinit>()V
+	f	a;;Lctn;	b;;Lctf;
 	f	b;;Ljava/util/Map;	c;;Ljava/util/Map;
 c	Lcto;	Lctg;
 	m	<init>(Lcom/mojang/datafixers/Dynamic;)V	<init>(F)V
@@ -82332,6 +82805,8 @@ c	Lcto;	Lctg;
 		ma	0	0
 		ma	1	1
 	m	a()Lcuj;	a()Lcub;
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	f	a;;F	b;;F
 c	Lctp;	Lcth;
 	m	<init>(Lcom/mojang/datafixers/Dynamic;)V	<init>(Ljava/util/List;)V
 	m	a(Lbpc;Lft;Lft;Lcuk$c;Lcuk$c;Lcuh;)Lcuk$c;	a(Lbpc;Lft;Lft;Lcuc$c;Lcuc$c;Lctz;)Lcuc$c;
@@ -82342,16 +82817,20 @@ c	Lctp;	Lcth;
 		ma	4	4
 		ma	5	5
 	m	a()Lcuj;	a()Lcub;
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lctp;	b;;Lcth;
 	f	b;;Lctp;	c;;Lcth;
 	f	c;;Lctp;	d;;Lcth;
+	f	d;;Lcom/google/common/collect/ImmutableList;	e;;Lcom/google/common/collect/ImmutableList;
 c	Lctq;	Lcti;
 	m	<init>(Lcom/mojang/datafixers/Dynamic;)V	<init>(Lbuq;)V
 	m	a(Lcel;Ljava/util/Random;)Z	a(Lcej;Ljava/util/Random;)Z
 		ma	0	0
 		ma	1	1
 	m	a()Lcuf;	a()Lctx;
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	f	a;;Lbur;	b;;Lbuq;
 c	Lctr;	Lctj;
 	m	<init>(Lcom/mojang/datafixers/Dynamic;)V	<init>(F)V
 	m	a(Lbpc;Lft;Lft;Lcuk$c;Lcuk$c;Lcuh;)Lcuk$c;	a(Lbpc;Lft;Lft;Lcuc$c;Lcuc$c;Lctz;)Lcuc$c;
@@ -82363,12 +82842,16 @@ c	Lctr;	Lctj;
 		ma	5	5
 		mv	0	0
 	m	a()Lcuj;	a()Lcub;
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	f	a;;F	b;;F
 c	Lcts;	Lctk;
 	m	<init>(Lcom/mojang/datafixers/Dynamic;)V	<init>(Lcej;)V
 	m	a(Lcel;Ljava/util/Random;)Z	a(Lcej;Ljava/util/Random;)Z
 		ma	0	0
 		ma	1	1
 	m	a()Lcuf;	a()Lctx;
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	f	a;;Lcel;	b;;Lcej;
 c	Lctt;	Lctl;
 	m	<init>(Lcom/mojang/datafixers/Dynamic;)V	<init>(Lchn$a;I)V
 	m	a(Lbpc;Lft;Lft;Lcuk$c;Lcuk$c;Lcuh;)Lcuk$c;	a(Lbpc;Lft;Lft;Lcuc$c;Lcuc$c;Lctz;)Lcuc$c;
@@ -82385,6 +82868,9 @@ c	Lctt;	Lctl;
 		mv	4	4
 		mv	5	5
 	m	a()Lcuj;	a()Lcub;
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	f	a;;Lchv$a;	b;;Lchn$a;
+	f	b;;I	c;;I
 c	Lctu;	Lctm;
 	m	<init>()V	<init>()V
 	m	a(Lbpc;Lft;Lft;Lcuk$c;Lcuk$c;Lcuh;)Lcuk$c;	a(Lbpc;Lft;Lft;Lcuc$c;Lcuc$c;Lctz;)Lcuc$c;
@@ -82399,6 +82885,7 @@ c	Lctu;	Lctm;
 		mv	2	2
 		mv	3	3
 	m	a()Lcuj;	a()Lcub;
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lctu;	b;;Lctm;
 c	Lctv;	Lctn;
@@ -82411,6 +82898,11 @@ c	Lctv;	Lctn;
 		mv	0	0
 		mv	1	1
 	m	a()Lctz;	a()Lctr;
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	f	a;;F	b;;F
+	f	b;;F	d;;F
+	f	c;;I	e;;I
+	f	d;;I	f;;I
 c	Lctw;	Lcto;
 	m	<init>()V	<init>()V
 	m	a(Lbpc;Lft;Lft;Lcuk$c;Lcuk$c;Lcuh;)Lcuk$c;	a(Lbpc;Lft;Lft;Lcuc$c;Lcuc$c;Lctz;)Lcuc$c;
@@ -82421,7 +82913,9 @@ c	Lctw;	Lcto;
 		ma	4	4
 		ma	5	5
 	m	a()Lcuj;	a()Lcub;
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	m	<clinit>()V	<clinit>()V
+	f	a;;Lctw;	b;;Lcto;
 c	Lctx;	Lctp;
 	m	<init>()V	<init>()V
 	m	a(Lft;Lft;Lft;Ljava/util/Random;)Z	a(Lft;Lft;Lft;Ljava/util/Random;)Z
@@ -82430,6 +82924,7 @@ c	Lctx;	Lctp;
 		ma	2	2
 		ma	3	3
 	m	a()Lctz;	a()Lctr;
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lctx;	b;;Lctp;
 c	Lcty;	Lctq;
@@ -82439,9 +82934,16 @@ c	Lcty;	Lctq;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+	mu	a	b(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	m	a()Lctz;	a()Lctr;
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 c	Lctz;	Lctr;
+	m	a(Ljava/lang/String;Lctz;)Lctz;	a(Ljava/lang/String;Lcom/mojang/serialization/Codec;)Lctr;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
+	f	b;;Lctz;	a;;Lctr;
+	f	c;;Lctz;	b;;Lctr;
+	f	d;;Lctz;	c;;Lctr;
 c	Lcu;	Lcu;
 	m	<init>()V	<init>()V
 	m	doubleTooLow()Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	doubleTooLow()Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;
@@ -82560,6 +83062,10 @@ c	Lcua;	Lcts;
 		ma	5	5
 	m	a()Lcel;	a()Lcej;
 	m	b()Llf;	b()Lle;
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	mu	a	a(Lcom/mojang/datafixers/Dynamic;)Lcua;
+	f	a;;Lcue;	b;;Lctw;
+	f	b;;Lcue;	c;;Lctw;
 	f	c;;Lcty;	d;;Lctq;
 	f	d;;Lcel;	e;;Lcej;
 	f	e;;Llf;	f;;Lle;
@@ -82569,12 +83075,18 @@ c	Lcub;	Lctt;
 		ma	0	0
 		ma	1	1
 	m	a()Lcuf;	a()Lctx;
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	f	a;;Lbur;	b;;Lbuq;
+	f	b;;F	d;;F
 c	Lcuc;	Lctu;
 	m	<init>(Lcom/mojang/datafixers/Dynamic;)V	<init>(Lcej;F)V
 	m	a(Lcel;Ljava/util/Random;)Z	a(Lcej;Ljava/util/Random;)Z
 		ma	0	0
 		ma	1	1
 	m	a()Lcuf;	a()Lctx;
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	f	a;;Lcel;	b;;Lcej;
+	f	b;;F	d;;F
 c	Lcud;	Lctv;
 	m	<init>(Lcom/mojang/datafixers/Dynamic;)V	<init>(Ljava/util/List;)V
 	m	a(Lbpc;Lft;Lft;Lcuk$c;Lcuk$c;Lcuh;)Lcuk$c;	a(Lbpc;Lft;Lft;Lcuc$c;Lcuc$c;Lctz;)Lcuc$c;
@@ -82588,14 +83100,26 @@ c	Lcud;	Lctv;
 		mv	1	1
 		mv	2	2
 	m	a()Lcuj;	a()Lcub;
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	f	a;;Lcom/google/common/collect/ImmutableList;	b;;Lcom/google/common/collect/ImmutableList;
 c	Lcue;	Lctw;
 	m	<init>()V	<init>()V
 	m	a(Lcel;Ljava/util/Random;)Z	a(Lcej;Ljava/util/Random;)Z
 		ma	0	0
 		ma	1	1
+	mu	a	b(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 	m	a()Lcuf;	a()Lctx;
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 c	Lcuf;	Lctx;
+	m	a(Ljava/lang/String;Lcuf;)Lcuf;	a(Ljava/lang/String;Lcom/mojang/serialization/Codec;)Lctx;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
+	f	b;;Lcuf;	a;;Lctx;
+	f	c;;Lcuf;	b;;Lctx;
+	f	d;;Lcuf;	c;;Lctx;
+	f	e;;Lcuf;	d;;Lctx;
+	f	f;;Lcuf;	e;;Lctx;
+	f	g;;Lcuf;	f;;Lctx;
 c	Lcug;	Lcty;
 	m	<init>(Lnet/minecraft/server/MinecraftServer;Lczl$a;Lcom/mojang/datafixers/DataFixer;)V	<init>(Lnet/minecraft/server/MinecraftServer;Lczc$a;Lcom/mojang/datafixers/DataFixer;)V
 		ma	0	0
@@ -82725,8 +83249,19 @@ c	Lcui;	Lcua;
 		ma	4	4
 		ma	5	5
 	m	a()Lcuj;	a()Lcub;
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
 c	Lcuj;	Lcub;
+	m	a(Ljava/lang/String;Lcuj;)Lcuj;	a(Ljava/lang/String;Lcom/mojang/serialization/Codec;)Lcub;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
+	f	b;;Lcuj;	a;;Lcub;
+	f	c;;Lcuj;	b;;Lcub;
+	f	d;;Lcuj;	c;;Lcub;
+	f	e;;Lcuj;	d;;Lcub;
+	f	f;;Lcuj;	e;;Lcub;
+	f	g;;Lcuj;	f;;Lcub;
+	f	h;;Lcuj;	g;;Lcub;
+	f	i;;Lcuj;	h;;Lcub;
 c	Lcuk$1;	Lcuc$1;
 	m	<clinit>()V	<clinit>()V
 	f	a;;[I	a;;[I
@@ -83105,6 +83640,8 @@ c	Lcul;	Lcud;
 		ma	0	0
 		ma	1	1
 	m	a()Lcuf;	a()Lctx;
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	f	a;;Lacv;	b;;Lacv;
 c	Lcun;	Lcuf;
 	m	<init>(Ljava/util/function/Function;)V	<init>(Lcom/mojang/serialization/Codec;)V
 	m	a(Ljava/util/Random;Lcgb;Lbqd;IIIDLcel;Lcel;IJLcvd;)V	a(Ljava/util/Random;Lcfy;Lbqd;IIIDLcej;Lcej;IJLcuv;)V
@@ -83858,6 +84395,7 @@ c	Lcvd;	Lcuv;
 	m	a()Lcel;	a()Lcej;
 	m	b()Lcel;	b()Lcej;
 	m	c()Lcel;	c()Lcej;
+	mu	a	a(Lcom/mojang/datafixers/Dynamic;)Lcvd;
 	f	a;;Lcel;	b;;Lcej;
 	f	b;;Lcel;	c;;Lcej;
 	f	c;;Lcel;	d;;Lcej;
@@ -85268,6 +85806,7 @@ c	Lcwf;	Lcvx;
 	f	d;;Lcem;	d;;Lcek;
 	f	a;;Lcwg;	a;;Lcvy;
 c	Lcwg;	Lcvy;
+	m	c()Lcwf;	a()Lcvx;
 	m	d()Z	b()Z
 	m	e()Z	c()Z
 	m	a(Lbok;Lft;)F	a(Lbok;Lft;)F
@@ -87755,6 +88294,7 @@ c	Lczg;	Lcyx;
 		ma	0	0
 	m	a(Lk;)V	a(Lk;)V
 		ma	0	0
+	f	a;;Lchj;	a;;Lchf;
 	f	b;;Lczr;	b;;Lczj;
 	f	c;;Lczq;	c;;Lczi;
 c	Lczh;	Lcyy;
@@ -87946,6 +88486,8 @@ c	Lczl;	Lczc;
 		mv	1	1
 		mv	2	2
 	m	g()I	h()I
+	m	a(Ljava/io/File;)Lczr;	a(Ljava/io/File;Ljava/util/function/BiFunction;)Ljava/lang/Object;
+		ma	0	0
 	m	a(Ljava/io/File;Lcom/mojang/datafixers/DataFixer;)Lczr;	b(Ljava/io/File;Lcom/mojang/datafixers/DataFixer;)Lczj;
 		ma	0	0
 		ma	1	1
@@ -87981,6 +88523,7 @@ c	Lczl;	Lczc;
 c	Lczm;	Lczd;
 	m	<init>(Lczr;Ljava/lang/String;Ljava/lang/String;JZZLjava/io/File;)V	<init>(Lbpd;Lcze;Ljava/lang/String;ZZLjava/io/File;Lcom/mojang/serialization/Lifecycle;)V
 	m	a()Ljava/lang/String;	a()Ljava/lang/String;
+	m	b()Ljava/lang/String;	b()Ljava/lang/String;
 	m	d()Ljava/io/File;	c()Ljava/io/File;
 	m	e()Z	d()Z
 	m	f()J	e()J
@@ -88002,6 +88545,7 @@ c	Lczm;	Lczd;
 		mv	2	2
 	m	compareTo(Ljava/lang/Object;)I	compareTo(Ljava/lang/Object;)I
 		ma	0	0
+	f	a;;Ljava/lang/String;	c;;Ljava/lang/String;
 	f	e;;Z	d;;Z
 	f	l;;Z	e;;Z
 	f	m;;Ljava/io/File;	f;;Ljava/io/File;
@@ -88184,6 +88728,7 @@ c	Lczp;	Lczh;
 	f	g;;I	e;;I
 	f	h;;J	f;;J
 	f	i;;J	g;;J
+	f	l;;Lcom/mojang/datafixers/DataFixer;	h;;Lcom/mojang/datafixers/DataFixer;
 	f	m;;I	i;;I
 	f	n;;Z	j;;Z
 	f	o;;Llf;	k;;Lle;
@@ -88196,11 +88741,15 @@ c	Lczp;	Lczh;
 	f	z;;Z	r;;Z
 	f	B;;Z	s;;Z
 	f	C;;Lcfz$c;	t;;Lcfw$c;
+	f	D;;Ljava/util/Set;	u;;Ljava/util/Set;
+	f	E;;Ljava/util/Set;	v;;Ljava/util/Set;
 	f	G;;Llf;	x;;Lle;
 	f	H;;I	y;;I
 	f	I;;I	z;;I
 	f	J;;Ljava/util/UUID;	A;;Ljava/util/UUID;
+	f	K;;Ljava/util/Set;	B;;Ljava/util/Set;
 	f	L;;Z	C;;Z
+	f	N;;Lddd;	D;;Ldcv;
 c	Lczq;	Lczi;
 	m	f()Ljava/lang/String;	f()Ljava/lang/String;
 	m	a(Z)V	a(Z)V
@@ -90560,6 +91109,7 @@ c	Ldbe$1;	Ldaw$1;
 c	Ldbe$a;	Ldaw$a;
 	m	<init>()V	<init>()V
 	m	a()Ldbe$a;	a()Ldaw$a;
+	m	a(Ljava/lang/String;)Ldbe$a;	a(Lclk;)Ldaw$a;
 	m	a(Lcyz$a;)Ldbe$a;	a(Lcyq$a;)Ldaw$a;
 		ma	0	0
 	m	a(B)Ldbe$a;	a(B)Ldaw$a;
@@ -90568,6 +91118,7 @@ c	Ldbe$a;	Ldaw$a;
 		ma	0	0
 	m	b()Ldbj;	b()Ldbb;
 	m	d()Ldbi$a;	d()Ldba$a;
+	f	a;;Ljava/lang/String;	a;;Lclk;
 	f	b;;Lcyz$a;	b;;Lcyq$a;
 	f	c;;B	c;;B
 	f	d;;I	d;;I
@@ -90637,6 +91188,7 @@ c	Ldbe;	Ldaw;
 	m	<clinit>()V	<clinit>()V
 	f	c;;Lorg/apache/logging/log4j/Logger;	d;;Lorg/apache/logging/log4j/Logger;
 	f	a;;Lcyz$a;	b;;Lcyq$a;
+	f	d;;Ljava/lang/String;	e;;Lclk;
 	f	e;;Lcyz$a;	f;;Lcyq$a;
 	f	f;;B	g;;B
 	f	g;;I	h;;I
@@ -93339,11 +93891,16 @@ c	Lddz;	Lddr;
 	f	c;;Lit/unimi/dsi/fastutil/ints/IntArrayList;	c;;Lit/unimi/dsi/fastutil/ints/IntArrayList;
 c	Lde;	Lde;
 	m	<init>()V	<init>()V
+	m	a(Lcom/mojang/brigadier/StringReader;)Lchj;	a(Lcom/mojang/brigadier/StringReader;)Luc;
+		ma	0	0
 	m	listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
 		ma	0	0
 		ma	1	1
 	m	getExamples()Ljava/util/Collection;	getExamples()Ljava/util/Collection;
 	m	a()Lde;	a()Lde;
+	m	a(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lchj;	a(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lub;
+		ma	0	0
+		ma	1	1
 	m	parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;	parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
 		ma	0	0
 	m	a(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	a(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
@@ -105773,6 +106330,19 @@ c	Ldlu;	Ldlm;
 		mv	4	4
 		mv	5	5
 		mv	6	6
+	m	a(Ldgm;IIIIII)V	a(Ldge;IIIIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+	m	a(Lb;IIIIII)V	a(Lb;Ldfz;IIIIIII)V
+		ma	1	2
+		ma	2	3
+		ma	3	4
+		ma	4	5
 	m	a(Ldgm;Ldls;Ljava/lang/String;III)V	a(Ldge;Ldlk;Ljava/lang/String;III)V
 		ma	0	0
 		ma	1	1
@@ -106736,6 +107306,13 @@ c	Ldmh$a;	Ldlz$a;
 	m	onPress(Ldmh;)V	onPress(Ldlz;)V
 		ma	0	0
 c	Ldmh;	Ldlz;
+	m	<init>(IIIILms;Ldmh$a;)V	<init>(IIIILmr;Ldlz$a;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
 	m	b()V	b()V
 	f	s;;Ldmh$a;	t;;Ldlz$a;
 c	Ldmi;	Ldma;
@@ -109891,6 +110468,7 @@ c	Ldpd;	Ldov;
 	m	a()Z	a()Z
 	m	b()Luc;	b()Luc;
 	m	<clinit>()V	<clinit>()V
+	f	a;;Luc;	a;;Luc;
 	f	b;;Ldkw;	d;;Ldko;
 	f	c;;Laar;	e;;Laar;
 	f	d;;Ljava/util/function/Consumer;	i;;Ljava/util/function/Consumer;
@@ -110142,6 +110720,11 @@ c	Ldpl;	Ldpd;
 	m	e()V	e()V
 	m	c(Z)V	c(Z)V
 		ma	0	0
+	m	a(Lms;Lboz;Lbqd;Ljava/util/List;[Lcqf;)V	a(Lmr;Lboz;Lbqd;Ljava/util/List;ZZZ[Lcpy;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
 	m	a(Ldmh;)V	a(Ldlz;)V
 		ma	0	0
 	m	b(Ldmh;)V	b(Ldlz;)V
@@ -110407,6 +110990,9 @@ c	Ldps;	Ldpk;
 		mv	0	0
 		mv	1	1
 		mv	2	2
+	m	b(II)V	b(II)V
+		ma	0	0
+		ma	1	1
 	m	c(II)V	c(II)V
 		ma	0	0
 		ma	1	1
@@ -115837,6 +116423,7 @@ c	Ldtc$a;	Ldsv$a;
 		ma	1	1
 c	Ldtc;	Ldsu;
 	m	<init>()V	<init>()V
+	m	<init>(Lcif;)V	<init>(Lchw;)V
 	m	a(Ldsx;Ldkw;Ldls;)V	a(Ldsp;Ldko;Ldlk;)V
 		ma	0	0
 		ma	1	1
@@ -119384,6 +119971,10 @@ c	Ldxk$a;	Ldxd$a;
 		ma	0	0
 	m	d(I)V	d(I)V
 		ma	0	0
+	m	a(J)V	a(J)V
+		ma	0	0
+	m	b(J)V	b(J)V
+		ma	0	0
 	m	a(Lft;)V	a(Lft;)V
 		ma	0	0
 	m	h()Z	h()Z
@@ -119588,6 +120179,8 @@ c	Ldxk;	Ldxd;
 		ma	0	0
 	m	q()Lbma;	o()Lbma;
 	m	a(Ldem;)V	a(Ldee;)V
+		ma	0	0
+	m	b(J)V	b(J)V
 		ma	0	0
 	m	G()Lbpq;	G()Lbpq;
 	m	F()Lbpq;	F()Lbpq;
@@ -124795,6 +125388,7 @@ c	Leam;	Leaf;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	m	a(Lchj;)Leam;	a(Lub;)Leaf;
 	m	a(FF)[F	a(FF)[F
 		ma	0	0
 		ma	1	1
@@ -124813,6 +125407,7 @@ c	Leam;	Leaf;
 		ma	1	1
 	m	c()Z	c()Z
 	m	<clinit>()V	<clinit>()V
+	f	a;;Ljava/util/Map;	a;;Lit/unimi/dsi/fastutil/objects/Object2ObjectMap;
 	f	b;;[F	b;;[F
 	f	c;;F	c;;F
 	f	d;;Z	d;;Z
@@ -142365,6 +142960,8 @@ c	Lft;	Lft;
 		ma	0	0
 	m	<init>(Lgs;)V	<init>(Lgr;)V
 		ma	0	0
+	mu	a	a(Lcom/mojang/datafixers/Dynamic;)Lft;
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
 	m	a(JLfy;)J	a(JLfy;)J
 		ma	0	0
 		ma	1	1
@@ -143017,12 +143614,18 @@ c	Lga;	Lga;
 c	Lgb;	Lgb;
 	m	<init>(Lchj;Lft;)V	<init>(Lub;Lft;)V
 		ma	1	1
+	m	a(Lchj;Lft;)Lgb;	a(Lub;Lft;)Lgb;
+		ma	1	1
+	mu	a	a(Lcom/mojang/datafixers/Dynamic;)Lgb;
+	m	a()Lchj;	a()Lub;
 	m	b()Lft;	b()Lft;
 	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
 		ma	0	0
 		mv	0	0
 	m	hashCode()I	hashCode()I
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
+	f	a;;Lchj;	b;;Lub;
 	f	b;;Lft;	c;;Lft;
 c	Lgc;	Lgc;
 	m	a(I)Ljava/lang/Object;	a(I)Ljava/lang/Object;
@@ -143054,6 +143657,8 @@ c	Lgh;	Lgg;
 	m	a(ILuc;Ljava/lang/Object;)Ljava/lang/Object;	a(ILub;Ljava/lang/Object;)Ljava/lang/Object;
 		ma	0	0
 		ma	2	2
+	m	a(Luc;Ljava/lang/Object;)Ljava/lang/Object;	a(Lub;Ljava/lang/Object;)Ljava/lang/Object;
+		ma	1	1
 	m	b(Ljava/lang/Object;)Luc;	b(Ljava/lang/Object;)Luc;
 		ma	0	0
 	m	a(Ljava/lang/Object;)I	a(Ljava/lang/Object;)I
@@ -143122,6 +143727,13 @@ c	Lgk;	Lgj;
 	f	c;;D	c;;D
 c	Lgl;	Lgk;
 	m	<init>()V	<init>(Lub;Lcom/mojang/serialization/Lifecycle;)V
+	m	a(Ljava/lang/String;Ljava/util/function/Supplier;)Lgl;	a(Lub;Ljava/util/function/Supplier;)Lgk;
+		ma	1	1
+	m	a(Ljava/lang/String;Ljava/lang/String;Ljava/util/function/Supplier;)Lfx;	a(Lub;Ljava/lang/String;Ljava/util/function/Supplier;)Lfx;
+		ma	1	1
+		ma	2	2
+	m	a(Ljava/lang/String;Lgt;Ljava/util/function/Supplier;)Lgt;	a(Lub;Lgs;Ljava/util/function/Supplier;)Lgs;
+		ma	2	2
 	m	b(Ljava/lang/Object;)Luc;	b(Ljava/lang/Object;)Luc;
 		ma	0	0
 	m	a(Ljava/lang/Object;)I	a(Ljava/lang/Object;)I
@@ -143138,6 +143750,15 @@ c	Lgl;	Lgk;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	m	a(Lgl;Luc;Ljava/lang/Object;)Ljava/lang/Object;	a(Lgk;Luc;Ljava/lang/Object;)Ljava/lang/Object;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	a(Lgl;ILjava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;	a(Lgk;ILjava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
 	m	a()Lber;	a()Lber;
 	m	c()Lbet;	c()Lbet;
 	m	e()Laws;	e()Laws;
@@ -143357,6 +143978,8 @@ c	Lgp;	Lgo;
 	m	<init>(J)V	<init>(J)V
 		ma	0	0
 	m	a()J	a()J
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	mu	a	a(Lcom/mojang/datafixers/Dynamic;)Lgp;
 	m	a(J)Lgp;	a(J)Lgo;
 		ma	0	0
 	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
@@ -143369,6 +143992,8 @@ c	Lgq;	Lgp;
 	m	<init>(Ljava/util/UUID;)V	<init>(Ljava/util/UUID;)V
 		ma	0	0
 	m	a()Ljava/util/UUID;	a()Ljava/util/UUID;
+	mu	a	a(Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	mu	a	a(Lcom/mojang/datafixers/Dynamic;)Lgq;
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 	m	a([I)Ljava/util/UUID;	a([I)Ljava/util/UUID;
 		ma	0	0
@@ -143451,6 +144076,8 @@ c	Lgt;	Lgs;
 	m	a(ILuc;Ljava/lang/Object;)Ljava/lang/Object;	a(ILub;Ljava/lang/Object;)Ljava/lang/Object;
 		ma	0	0
 		ma	2	2
+	m	a(Luc;Ljava/lang/Object;)Ljava/lang/Object;	a(Lub;Ljava/lang/Object;)Ljava/lang/Object;
+		ma	1	1
 c	Lgu;	Lgt;
 	m	<init>()V	<init>()V
 	m	a(Lfu;Lbjo;)Lbjo;	a(Lfu;Lbjo;)Lbjo;
@@ -143986,6 +144613,9 @@ c	Lhh;	Lhg;
 	f	b;;Lhg$a;	b;;Lhf$a;
 c	Lhi;	Lhh;
 	m	a(Ljava/lang/String;Z)Lhj;	a(Ljava/lang/String;Z)Lhi;
+		ma	0	0
+		ma	1	1
+	m	a(Ljava/lang/String;Lhg$a;)Lhh;	a(Ljava/lang/String;Lhf$a;Ljava/util/function/Function;)Lhg;
 		ma	0	0
 		ma	1	1
 	m	<clinit>()V	<clinit>()V
@@ -148969,6 +149599,7 @@ c	Lll;	Llk;
 		mv	4	4
 		mv	5	5
 		mv	6	6
+	m	a_()I	a_()B
 	m	clear()V	clear()V
 	m	c()Llv;	c()Llu;
 	m	remove(I)Ljava/lang/Object;	remove(I)Ljava/lang/Object;
@@ -149189,6 +149820,8 @@ c	Llp;	Llo;
 c	Llq;	Llp;
 	m	<init>()V	<init>()V
 	m	a()Llv;	a()Llu;
+	m	b(Llv;)Ljava/util/Optional;	a(Llu;)Lcom/mojang/serialization/DataResult;
+		ma	0	0
 	m	a(Ljava/lang/Number;)Llv;	a(Ljava/lang/Number;)Llu;
 		ma	0	0
 	m	a(B)Llv;	a(B)Llu;
@@ -149205,11 +149838,26 @@ c	Llq;	Llp;
 		ma	0	0
 	m	a(Z)Llv;	a(Z)Llu;
 		ma	0	0
+	m	c(Llv;)Ljava/util/Optional;	b(Llu;)Lcom/mojang/serialization/DataResult;
+		ma	0	0
 	m	a(Ljava/lang/String;)Llv;	a(Ljava/lang/String;)Llu;
+		ma	0	0
+	m	d(Llv;)Ljava/util/Optional;	c(Llu;)Lcom/mojang/serialization/DataResult;
+		ma	0	0
+		mv	0	0
+	m	a(Ljava/util/Map;)Llv;	a(Ljava/util/stream/Stream;)Llu;
+		mv	0	0
+	m	e(Llv;)Ljava/util/Optional;	f(Llu;)Lcom/mojang/serialization/DataResult;
+		ma	0	0
+	m	f(Llv;)Ljava/util/Optional;	h(Llu;)Lcom/mojang/serialization/DataResult;
 		ma	0	0
 	m	a(Ljava/nio/ByteBuffer;)Llv;	a(Ljava/nio/ByteBuffer;)Llu;
 		ma	0	0
+	m	g(Llv;)Ljava/util/Optional;	i(Llu;)Lcom/mojang/serialization/DataResult;
+		ma	0	0
 	m	a(Ljava/util/stream/IntStream;)Llv;	a(Ljava/util/stream/IntStream;)Llu;
+		ma	0	0
+	m	h(Llv;)Ljava/util/Optional;	j(Llu;)Lcom/mojang/serialization/DataResult;
 		ma	0	0
 	m	a(Ljava/util/stream/LongStream;)Llv;	a(Ljava/util/stream/LongStream;)Llu;
 		ma	0	0
@@ -151558,6 +152206,8 @@ c	Lnet/minecraft/server/MinecraftServer;	Lnet/minecraft/server/MinecraftServer;
 		ma	0	0
 		mv	0	0
 	m	d()Z	d()Z
+	m	a(Lczl$a;Lcom/mojang/datafixers/DataFixer;ZZLjava/util/function/BooleanSupplier;)V	a(Lczc$a;)V
+		ma	0	0
 	m	i_()V	i_()V
 		mv	0	0
 	m	p()V	p()V
@@ -151933,6 +152583,7 @@ c	Lnet/minecraft/server/MinecraftServer;	Lnet/minecraft/server/MinecraftServer;
 	f	t;;Lcom/mojang/datafixers/DataFixer;	u;;Lcom/mojang/datafixers/DataFixer;
 	f	u;;Ljava/lang/String;	v;;Ljava/lang/String;
 	f	v;;I	w;;I
+	f	w;;Ljava/util/Map;	x;;Ljava/util/Map;
 	f	x;;Labh;	y;;Labh;
 	f	y;;Z	z;;Z
 	f	z;;Z	A;;Z
@@ -153965,6 +154616,7 @@ c	Lpq;	Lpp;
 	m	g()Z	g()Z
 	m	a(Lmk;)V	a(Lmj;)V
 		ma	0	0
+	f	a;;Lchj;	a;;Luc;
 	f	b;;J	b;;J
 	f	c;;Lbox;	c;;Lbox;
 	f	d;;Z	d;;Z
@@ -159401,6 +160053,12 @@ c	Lw;	Lw;
 	f	g;;Ljava/util/Set;	g;;Ljava/util/Set;
 	f	h;;Lms;	h;;Lmr;
 c	Lwa;	Lwa;
+	m	a(Lcom/mojang/brigadier/CommandDispatcher;)V	a(Lcom/mojang/brigadier/CommandDispatcher;)V
+		ma	0	0
+	m	a(Lcy;Ljava/lang/String;)I	a(Lcy;Lclk;)I
+		ma	0	0
+		mv	0	0
+		mv	1	1
 	m	a(Lcy;Ljava/lang/String;Lft;Lft;Ljava/lang/String;)I	a(Lcy;Ljava/lang/String;Lft;Lft;Ljava/lang/String;)I
 		ma	0	0
 		ma	1	1
@@ -160292,6 +160950,10 @@ c	Lwz$a;	Lwz$a;
 		ma	2	2
 		ma	3	3
 		mv	0	0
+	m	a(Lbok;)I	a(Lbok;I)I
+		ma	0	0
+	m	b(Lbok;)Z	b(Lbok;I)Z
+		ma	0	0
 	m	a(Ljava/util/Random;DDDD)V	a(Ljava/util/Random;DDDD)V
 		ma	0	0
 		ma	1	1
@@ -163906,6 +164568,10 @@ c	Lyw;	Lyw;
 		ma	0	0
 	m	a(Ljava/util/UUID;)Lany;	a(Ljava/util/UUID;)Lany;
 		ma	0	0
+	m	a(Ljava/lang/String;Lft;IZ)Lft;	a(Lclk;Lft;IZ)Lft;
+		ma	1	1
+		ma	2	2
+		ma	3	3
 	m	a(Lbqd;Lft;II)Lft;	a(Lbqd;Lft;II)Lft;
 		ma	0	0
 		ma	1	1
