@@ -21478,7 +21478,7 @@ METHOD	cgl	()Ljava/lang/Class;	g	method_11902
 METHOD	cgl	()I	hashCode	hashCode
 METHOD	cgl	()Ljava/lang/String;	toString	toString
 CLASS	cgl$1	net/minecraft/class_2769$1
-CLASS	cgl$a	net/minecraft/class_4933
+CLASS	cgl$a	net/minecraft/class_2769$class_4933
 FIELD	cgl$a	Lcgl;	a	field_22879
 FIELD	cgl$a	Ljava/lang/Comparable;	b	field_22880
 METHOD	cgl$a	()Lcgl;	a	method_25815
