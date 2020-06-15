@@ -16238,11 +16238,11 @@ CLASS	bqg	net/minecraft/class_3746
 METHOD	bqg	(Lcip$a;Lfu;)Lfu;	a	method_8598
 METHOD	bqg	(Lfu;Ljava/util/function/Predicate;)Z	a	method_16358
 CLASS	bqh	net/minecraft/class_1945
-METHOD	bqh	(Lfu;Lcfk;I)Z	a	method_30092
-METHOD	bqh	(Lfu;Lcfk;II)Z	a	method_8652
+METHOD	bqh	(Lfu;Lcfk;I)Z	a	method_8652
+METHOD	bqh	(Lfu;Lcfk;II)Z	a	method_30092
 METHOD	bqh	(Lfu;Z)Z	a	method_8650
-METHOD	bqh	(Lfu;ZLaom;)Z	a	method_30093
-METHOD	bqh	(Lfu;ZLaom;I)Z	a	method_8651
+METHOD	bqh	(Lfu;ZLaom;)Z	a	method_8651
+METHOD	bqh	(Lfu;ZLaom;I)Z	a	method_30093
 METHOD	bqh	(Lfu;Z)Z	b	method_22352
 METHOD	bqh	(Laom;)Z	c	method_8649
 CLASS	bqi	net/minecraft/class_1944
