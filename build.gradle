@@ -36,6 +36,7 @@ file('mappings').eachFile {
 
 	if (publishedVersions.contains(mcVer)) {
 		project.logger.lifecycle("Skipping ${mcVer} as it has already been released")
+		return
 	}
 
 	File v1MappingFile = it
