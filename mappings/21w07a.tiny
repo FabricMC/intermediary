@@ -16100,11 +16100,11 @@ FIELD	bnz	Lbnt;	cw	field_20389
 FIELD	bnz	Lbnt;	cx	field_20390
 FIELD	bnz	Lbnt;	cy	field_8536
 FIELD	bnz	Lbnt;	cz	field_20392
-FIELD	bnz	Lbnt;	dA	field_8148
+FIELD	bnz	Lbnt;	dA	field_8343
 FIELD	bnz	Lbnt;	dB	field_8525
-FIELD	bnz	Lbnt;	dC	field_20396
-FIELD	bnz	Lbnt;	dD	field_8343
-FIELD	bnz	Lbnt;	dE	field_28870
+FIELD	bnz	Lbnt;	dC	field_28859
+FIELD	bnz	Lbnt;	dD	field_28860
+FIELD	bnz	Lbnt;	dE	field_28861
 FIELD	bnz	Lbnt;	dF	field_8506
 FIELD	bnz	Lbnt;	dG	field_8682
 FIELD	bnz	Lbnt;	dH	field_17521
@@ -16145,22 +16145,22 @@ FIELD	bnz	Lbnt;	do	field_22000
 FIELD	bnz	Lbnt;	dp	field_23069
 FIELD	bnz	Lbnt;	dq	field_22001
 FIELD	bnz	Lbnt;	dr	field_8801
-FIELD	bnz	Lbnt;	ds	field_8376
-FIELD	bnz	Lbnt;	dt	field_8495
-FIELD	bnz	Lbnt;	du	field_8774
-FIELD	bnz	Lbnt;	dv	field_8225
-FIELD	bnz	Lbnt;	dw	field_8401
-FIELD	bnz	Lbnt;	dx	field_8541
-FIELD	bnz	Lbnt;	dy	field_8596
-FIELD	bnz	Lbnt;	dz	field_8292
+FIELD	bnz	Lbnt;	ds	field_8225
+FIELD	bnz	Lbnt;	dt	field_8401
+FIELD	bnz	Lbnt;	du	field_8541
+FIELD	bnz	Lbnt;	dv	field_8596
+FIELD	bnz	Lbnt;	dw	field_8292
+FIELD	bnz	Lbnt;	dx	field_8148
+FIELD	bnz	Lbnt;	dy	field_20395
+FIELD	bnz	Lbnt;	dz	field_20396
 FIELD	bnz	Lbnt;	eA	field_8559
 FIELD	bnz	Lbnt;	eB	field_23846
 FIELD	bnz	Lbnt;	eC	field_23833
 FIELD	bnz	Lbnt;	eD	field_23840
-FIELD	bnz	Lbnt;	eE	field_8781
-FIELD	bnz	Lbnt;	eF	field_8780
-FIELD	bnz	Lbnt;	eG	field_8048
-FIELD	bnz	Lbnt;	eH	field_8174
+FIELD	bnz	Lbnt;	eE	field_28862
+FIELD	bnz	Lbnt;	eF	field_28863
+FIELD	bnz	Lbnt;	eG	field_28864
+FIELD	bnz	Lbnt;	eH	field_28865
 FIELD	bnz	Lbnt;	eI	field_8782
 FIELD	bnz	Lbnt;	eJ	field_8750
 FIELD	bnz	Lbnt;	eK	field_8427
@@ -16377,7 +16377,7 @@ FIELD	bnz	Lbnt;	iI	field_8890
 FIELD	bnz	Lbnt;	iJ	field_8650
 FIELD	bnz	Lbnt;	iK	field_8275
 FIELD	bnz	Lbnt;	iL	field_8152
-FIELD	bnz	Lbnt;	i	field_28871
+FIELD	bnz	Lbnt;	i	field_28866
 FIELD	bnz	Lbnt;	iM	field_8053
 FIELD	bnz	Lbnt;	iN	field_8166
 FIELD	bnz	Lbnt;	iO	field_8430
@@ -16386,10 +16386,10 @@ FIELD	bnz	Lbnt;	iQ	field_8526
 FIELD	bnz	Lbnt;	iR	field_8302
 FIELD	bnz	Lbnt;	iS	field_8316
 FIELD	bnz	Lbnt;	iT	field_8860
-FIELD	bnz	Lbnt;	iU	field_28872
-FIELD	bnz	Lbnt;	iV	field_28873
-FIELD	bnz	Lbnt;	iW	field_28874
-FIELD	bnz	Lbnt;	iX	field_28875
+FIELD	bnz	Lbnt;	iU	field_28867
+FIELD	bnz	Lbnt;	iV	field_28868
+FIELD	bnz	Lbnt;	iW	field_28869
+FIELD	bnz	Lbnt;	iX	field_28870
 FIELD	bnz	Lbnt;	iY	field_8228
 FIELD	bnz	Lbnt;	iZ	field_8266
 FIELD	bnz	Lbnt;	ia	field_8856
@@ -16430,12 +16430,12 @@ FIELD	bnz	Lbnt;	jI	field_8247
 FIELD	bnz	Lbnt;	jJ	field_8626
 FIELD	bnz	Lbnt;	jK	field_8230
 FIELD	bnz	Lbnt;	jL	field_8643
-FIELD	bnz	Lbnt;	j	field_28876
-FIELD	bnz	Lbnt;	jM	field_28877
+FIELD	bnz	Lbnt;	j	field_28871
+FIELD	bnz	Lbnt;	jM	field_8781
 FIELD	bnz	Lbnt;	jN	field_23834
-FIELD	bnz	Lbnt;	jO	field_28878
-FIELD	bnz	Lbnt;	jP	field_28879
-FIELD	bnz	Lbnt;	jQ	field_28880
+FIELD	bnz	Lbnt;	jO	field_8780
+FIELD	bnz	Lbnt;	jP	field_8048
+FIELD	bnz	Lbnt;	jQ	field_8174
 FIELD	bnz	Lbnt;	jR	field_8887
 FIELD	bnz	Lbnt;	jS	field_8605
 FIELD	bnz	Lbnt;	jT	field_8531
@@ -16447,7 +16447,7 @@ FIELD	bnz	Lbnt;	jY	field_8721
 FIELD	bnz	Lbnt;	jZ	field_8592
 FIELD	bnz	Lbnt;	ja	field_8576
 FIELD	bnz	Lbnt;	jb	field_8569
-FIELD	bnz	Lbnt;	jc	field_28881
+FIELD	bnz	Lbnt;	jc	field_28872
 FIELD	bnz	Lbnt;	jd	field_8369
 FIELD	bnz	Lbnt;	je	field_8282
 FIELD	bnz	Lbnt;	jf	field_8872
@@ -16457,9 +16457,9 @@ FIELD	bnz	Lbnt;	ji	field_8742
 FIELD	bnz	Lbnt;	jj	field_8522
 FIELD	bnz	Lbnt;	jk	field_8395
 FIELD	bnz	Lbnt;	jl	field_8659
-FIELD	bnz	Lbnt;	jm	field_28882
-FIELD	bnz	Lbnt;	jn	field_28883
-FIELD	bnz	Lbnt;	jo	field_28884
+FIELD	bnz	Lbnt;	jm	field_28873
+FIELD	bnz	Lbnt;	jn	field_28874
+FIELD	bnz	Lbnt;	jo	field_28875
 FIELD	bnz	Lbnt;	jp	field_16482
 FIELD	bnz	Lbnt;	jq	field_8725
 FIELD	bnz	Lbnt;	jr	field_8530
@@ -16516,9 +16516,9 @@ FIELD	bnz	Lbnt;	ko	field_8517
 FIELD	bnz	Lbnt;	kp	field_22010
 FIELD	bnz	Lbnt;	kq	field_22009
 FIELD	bnz	Lbnt;	kr	field_8241
-FIELD	bnz	Lbnt;	ks	field_28885
-FIELD	bnz	Lbnt;	kt	field_28886
-FIELD	bnz	Lbnt;	ku	field_28887
+FIELD	bnz	Lbnt;	ks	field_8376
+FIELD	bnz	Lbnt;	kt	field_8495
+FIELD	bnz	Lbnt;	ku	field_8774
 FIELD	bnz	Lbnt;	kv	field_8321
 FIELD	bnz	Lbnt;	kw	field_8190
 FIELD	bnz	Lbnt;	kx	field_8844
@@ -57731,6 +57731,6 @@ METHOD	zz	()V	run	run
 CLASS	zz$1	net/minecraft/class_3178$1
 FIELD	zz$1	Lzz;	a	field_13826
 METHOD	zz$1	()V	run	run
-# INTERMEDIARY-COUNTER method 33895
-# INTERMEDIARY-COUNTER field 28962
-# INTERMEDIARY-COUNTER class 5860
+# INTERMEDIARY-COUNTER method 33793
+# INTERMEDIARY-COUNTER field 28876
+# INTERMEDIARY-COUNTER class 5837
