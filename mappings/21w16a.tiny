@@ -27967,8 +27967,10 @@ CLASS	cok	net/minecraft/class_6106
 CLASS	col	net/minecraft/class_6350
 FIELD	col	I	a	field_33571
 FIELD	col	I	b	field_33572
+METHOD	col	()Z	a	method_33742
 METHOD	col	(ILcjz;)Lcol;	a	method_36381
 METHOD	col	(Lbvc;Ldcz;Ldcz;Ldcz;Lcpb;Lcpd;II)Lcol;	a	method_36382
+METHOD	col	(Lcom;IIID)Lcjz;	a	method_33737
 CLASS	col$1	net/minecraft/class_6350$1
 FIELD	col$1	I	c	field_33573
 FIELD	col$1	Lcjz;	d	field_33574
@@ -55139,6 +55141,7 @@ METHOD	js	(Ljava/lang/String;)Ljs;	a	method_33529
 METHOD	js	(Ljava/lang/String;Lal;)Ljs;	a	method_33530
 METHOD	js	(Ljava/util/function/Consumer;)V	a	method_10431
 METHOD	js	(Ljava/util/function/Consumer;Ljava/lang/String;)V	a	method_36443
+METHOD	js	(Ljava/util/function/Consumer;Lwp;)V	a	method_17972
 CLASS	jt	net/minecraft/class_2446
 FIELD	jt	Lorg/apache/logging/log4j/Logger;	b	field_11374
 FIELD	jt	Lcom/google/gson/Gson;	c	field_11375
