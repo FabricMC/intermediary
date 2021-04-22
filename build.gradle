@@ -27,6 +27,9 @@ static List<String> getPublishedVersions() {
 
 def publishedVersions = getPublishedVersions()
 
+def ENV = System.getenv()
+
+def published = false
 def localMappingsPath = "$buildDir/v2Mappings"
 new File(localMappingsPath).mkdirs()
 file('mappings').eachFile {
@@ -34,10 +37,14 @@ file('mappings').eachFile {
 
 	def mcVer = it.name.replace(".tiny", "")
 
-	if (publishedVersions.contains(mcVer)) {
+	if (publishedVersions.contains(mcVer) && !(ENV.FORCE_PUBLISH == mcVer)) {
 		project.logger.lifecycle("Skipping ${mcVer} as it has already been released")
 		return
+	} else {
+		project.logger.lifecycle("Building ${mcVer}")
 	}
+
+	published = true
 
 	File v1MappingFile = it
 	File v2MappingFile = new File("$localMappingsPath/${it.name}")
@@ -83,7 +90,10 @@ file('mappings').eachFile {
 			}
 		}
 	}
+}
 
+if (!published) {
+	throw new RuntimeException("Nothing to publish, override with the FORCE_PUBLISH env")
 }
 
 def makeJar(String mcVersion, File mappings, boolean v2) {
@@ -97,8 +107,6 @@ def makeJar(String mcVersion, File mappings, boolean v2) {
 		destinationDirectory = file("build/jars")
 	}
 }
-
-def ENV = System.getenv()
 
 publishing {
 	repositories {
