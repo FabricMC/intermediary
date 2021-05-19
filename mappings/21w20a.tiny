@@ -43465,7 +43465,7 @@ FIELD	edi$3	Lduy;	a	field_33842
 FIELD	edi$3	Ledl;	b	field_33843
 FIELD	edi$3	Ledi;	c	field_33844
 METHOD	edi$3	(Ledl;Ldpu;II)V	a	method_37085
-CLASS	edi$4	net/minecraft/class_5519$1
+CLASS	edi$4	net/minecraft/class_5519$4
 FIELD	edi$4	Ledi;	a	field_26910
 CLASS	edj	net/minecraft/class_5520
 FIELD	edj	Lduy;	a	field_26865
