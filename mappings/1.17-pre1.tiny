@@ -56936,9 +56936,11 @@ FIELD	net/minecraft/server/MinecraftServer$1	J	a	field_4609
 FIELD	net/minecraft/server/MinecraftServer$2	Ljava/util/List;	a	field_20280
 FIELD	net/minecraft/server/MinecraftServer$2	Lbwl;	b	field_20281
 FIELD	net/minecraft/server/MinecraftServer$2	Lnet/minecraft/server/MinecraftServer;	c	field_20282
+CLASS	net/minecraft/server/MinecraftServer$a	net/minecraft/server/MinecraftServer$class_6414
 FIELD	net/minecraft/server/MinecraftServer$a	J	a	field_33980
 FIELD	net/minecraft/server/MinecraftServer$a	I	b	field_33981
 METHOD	net/minecraft/server/MinecraftServer$a	(JI)Lapt;	a	method_37330
+CLASS	net/minecraft/server/MinecraftServer$a$1	net/minecraft/server/MinecraftServer$class_6414$1
 FIELD	net/minecraft/server/MinecraftServer$a$1	J	a	field_33982
 FIELD	net/minecraft/server/MinecraftServer$a$1	I	b	field_33983
 FIELD	net/minecraft/server/MinecraftServer$a$1	Lnet/minecraft/server/MinecraftServer$a;	c	field_33984
