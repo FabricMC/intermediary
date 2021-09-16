@@ -2597,16 +2597,16 @@ CLASS	er$2	net/minecraft/class_2252$2
 FIELD	er$2	Lwz;	a	field_34824
 FIELD	er$2	Let;	b	field_34825
 FIELD	er$2	Ler;	c	field_34826
-METHOD	er$2	(Lwz;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;	a	method_38562
+METHOD	er$2	(Lwz;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;	a	method_38561
 CLASS	er$a	net/minecraft/class_2252$class_2253
 FIELD	er$a	Lcmg;	a	field_10674
 FIELD	er$a	Ljava/util/Set;	b	field_10673
 FIELD	er$a	Lnb;	c	field_10675
-METHOD	er$a	()Z	a	method_38563
+METHOD	er$a	()Z	a	method_38562
 METHOD	er$a	(Lcmk;)Z	a	method_9648
 CLASS	er$b	net/minecraft/class_2252$class_2254
-METHOD	er$b	()Z	a	method_38560
-METHOD	er$b	(Lagh;)Ljava/util/function/Predicate;	a	method_38561
+METHOD	er$b	()Z	a	method_38559
+METHOD	er$b	(Lagh;)Ljava/util/function/Predicate;	a	method_38560
 CLASS	er$c	net/minecraft/class_2252$class_2255
 FIELD	er$c	Lagf;	a	field_10676
 FIELD	er$c	Lnb;	b	field_10677
@@ -5849,7 +5849,7 @@ METHOD	ky	(Lbzf$a;)V	R	method_16974
 METHOD	ky	(Lbzf$a;)V	S	method_16975
 METHOD	ky	(Lbzf$a;)V	T	method_16976
 METHOD	ky	(Lbzf$a;)V	U	method_16977
-METHOD	ky	(Lbzf$a;)V	V	method_38568
+METHOD	ky	(Lbzf$a;)V	V	method_38567
 METHOD	ky	(Lbzf$a;)V	W	method_16978
 METHOD	ky	(Lbzf$a;)V	X	method_16979
 METHOD	ky	(Lbzf$a;)V	Y	method_16980
@@ -5890,7 +5890,7 @@ METHOD	ky	(Lbzf$a;)V	f	method_17005
 METHOD	ky	(Lbzn$a;)V	f	method_30582
 METHOD	ky	(Lbzf$a;)V	g	method_33131
 METHOD	ky	(Lbzn$a;)V	g	method_30583
-METHOD	ky	(Lbzf$a;)V	h	method_38569
+METHOD	ky	(Lbzf$a;)V	h	method_38568
 METHOD	ky	(Lbzn$a;)V	h	method_30585
 METHOD	ky	(Lbzf$a;)V	i	method_17007
 METHOD	ky	(Lbzn$a;)V	i	method_30586
@@ -6346,13 +6346,13 @@ FIELD	li	Lctc;	w	field_26314
 FIELD	li	Lctc;	x	field_26315
 FIELD	li	Lctc;	y	field_26316
 FIELD	li	Lctc;	z	field_26317
-METHOD	li	()Lctc;	a	method_38570
+METHOD	li	()Lctc;	a	method_38569
 METHOD	li	(Ljava/lang/String;Lctc;)Lctc;	a	method_30603
-METHOD	li	(Ljava/util/function/BiConsumer;)V	a	method_38571
-METHOD	li	(Ljava/util/function/BiConsumer;Lctc;Ljava/util/Set;)V	a	method_38572
-METHOD	li	(Ljava/util/function/BiConsumer;Lctc;Lwy;)V	a	method_38573
+METHOD	li	(Ljava/util/function/BiConsumer;)V	a	method_38570
+METHOD	li	(Ljava/util/function/BiConsumer;Lctc;Ljava/util/Set;)V	a	method_38571
+METHOD	li	(Ljava/util/function/BiConsumer;Lctc;Lwy;)V	a	method_38572
 METHOD	li	()Lczr;	b	method_30602
-METHOD	li	(Ljava/util/function/BiConsumer;Lctc;Lwy;)V	b	method_38574
+METHOD	li	(Ljava/util/function/BiConsumer;Lctc;Lwy;)V	b	method_38573
 METHOD	li	()Lczr;	c	method_30604
 METHOD	li	()Lczr;	d	method_30605
 METHOD	li	()Lczr;	e	method_30606
@@ -6407,12 +6407,12 @@ FIELD	ln	Lbze;	b	field_26735
 METHOD	ln	(Lwy;Lbze;)Lbze;	a	method_31145
 CLASS	lo	net/minecraft/class_5478
 METHOD	lo	()Lbze;	A	method_30731
-METHOD	lo	()Lbze;	B	method_38575
-METHOD	lo	()Lbze;	C	method_38576
-METHOD	lo	()Lbze;	D	method_38577
-METHOD	lo	()Lbze;	E	method_38578
-METHOD	lo	()Lbze;	F	method_38579
-METHOD	lo	()Lbze;	G	method_38580
+METHOD	lo	()Lbze;	B	method_38574
+METHOD	lo	()Lbze;	C	method_38575
+METHOD	lo	()Lbze;	D	method_38576
+METHOD	lo	()Lbze;	E	method_38577
+METHOD	lo	()Lbze;	F	method_38578
+METHOD	lo	()Lbze;	G	method_38579
 METHOD	lo	()Lbze;	H	method_34674
 METHOD	lo	()Lbze;	I	method_33132
 METHOD	lo	()Lbzn$a;	J	method_31068
@@ -8336,7 +8336,7 @@ CLASS	pz	net/minecraft/class_2622
 FIELD	pz	Lgh;	a	field_12040
 FIELD	pz	Lckf;	b	field_12038
 FIELD	pz	Lnb;	c	field_12039
-METHOD	pz	(Lckd;)Lpz;	a	method_38586
+METHOD	pz	(Lckd;)Lpz;	a	method_38585
 METHOD	pz	(Lpo;)V	a	method_11292
 METHOD	pz	()Lgh;	b	method_11293
 METHOD	pz	()Lckf;	c	method_11291
@@ -8647,23 +8647,23 @@ FIELD	qx	I	a	field_34862
 FIELD	qx	Lnb;	b	field_34863
 FIELD	qx	[B	c	field_34864
 FIELD	qx	Ljava/util/List;	d	field_34865
-METHOD	qx	()Loh;	a	method_38587
-METHOD	qx	(II)Ljava/util/function/Consumer;	a	method_38588
-METHOD	qx	(IILqx$b;)V	a	method_38589
-METHOD	qx	(Lcok;)I	a	method_38590
-METHOD	qx	(Loh;)V	a	method_38591
-METHOD	qx	(Loh;Lcok;)V	a	method_38592
-METHOD	qx	(Loh;Lqx$a;)V	a	method_38593
-METHOD	qx	(Lqx$b;II)V	a	method_38594
-METHOD	qx	()Lnb;	b	method_38595
-METHOD	qx	()Lio/netty/buffer/ByteBuf;	c	method_38596
+METHOD	qx	()Loh;	a	method_38586
+METHOD	qx	(II)Ljava/util/function/Consumer;	a	method_38587
+METHOD	qx	(IILqx$b;)V	a	method_38588
+METHOD	qx	(Lcok;)I	a	method_38589
+METHOD	qx	(Loh;)V	a	method_38590
+METHOD	qx	(Loh;Lcok;)V	a	method_38591
+METHOD	qx	(Loh;Lqx$a;)V	a	method_38592
+METHOD	qx	(Lqx$b;II)V	a	method_38593
+METHOD	qx	()Lnb;	b	method_38594
+METHOD	qx	()Lio/netty/buffer/ByteBuf;	c	method_38595
 CLASS	qx$a	net/minecraft/class_6603$class_6604
 FIELD	qx$a	I	a	field_34866
 FIELD	qx$a	I	b	field_34867
 FIELD	qx$a	Lckf;	c	field_34868
 FIELD	qx$a	Lnb;	d	field_34869
-METHOD	qx$a	(Lckd;)Lqx$a;	a	method_38597
-METHOD	qx$a	(Loh;)V	a	method_38598
+METHOD	qx$a	(Lckd;)Lqx$a;	a	method_38596
+METHOD	qx$a	(Loh;)V	a	method_38597
 CLASS	qx$b	net/minecraft/class_6603$class_6605
 CLASS	qy	net/minecraft/class_2672
 FIELD	qy	I	a	field_12236
@@ -8673,8 +8673,8 @@ FIELD	qy	Lrc;	d	field_34871
 METHOD	qy	(Lpo;)V	a	method_11528
 METHOD	qy	()I	b	method_11523
 METHOD	qy	()I	c	method_11524
-METHOD	qy	()Lqx;	d	method_38599
-METHOD	qy	()Lrc;	e	method_38600
+METHOD	qy	()Lqx;	d	method_38598
+METHOD	qy	()Lrc;	e	method_38599
 CLASS	qz	net/minecraft/class_2673
 FIELD	qz	I	a	field_12241
 FIELD	qz	Lgh;	b	field_12242
@@ -8715,7 +8715,7 @@ FIELD	rb	Lrc;	c	field_34872
 METHOD	rb	(Lpo;)V	a	method_11560
 METHOD	rb	()I	b	method_11558
 METHOD	rb	()I	c	method_11554
-METHOD	rb	()Lrc;	d	method_38601
+METHOD	rb	()Lrc;	d	method_38600
 CLASS	rc	net/minecraft/class_6606
 FIELD	rc	Ljava/util/BitSet;	a	field_34873
 FIELD	rc	Ljava/util/BitSet;	b	field_34874
@@ -8724,17 +8724,17 @@ FIELD	rc	Ljava/util/BitSet;	d	field_34876
 FIELD	rc	Ljava/util/List;	e	field_34877
 FIELD	rc	Ljava/util/List;	f	field_34878
 FIELD	rc	Z	g	field_34879
-METHOD	rc	()Ljava/util/BitSet;	a	method_38602
-METHOD	rc	(Lbxi;Ldgj;Lbyn;ILjava/util/BitSet;Ljava/util/BitSet;Ljava/util/List;)V	a	method_38603
-METHOD	rc	(Loh;)V	a	method_38604
-METHOD	rc	()Ljava/util/BitSet;	b	method_38605
-METHOD	rc	(Loh;)[B	b	method_38606
-METHOD	rc	()Ljava/util/List;	c	method_38607
-METHOD	rc	(Loh;)[B	c	method_38608
-METHOD	rc	()Ljava/util/BitSet;	d	method_38609
-METHOD	rc	()Ljava/util/BitSet;	e	method_38610
-METHOD	rc	()Ljava/util/List;	f	method_38611
-METHOD	rc	()Z	g	method_38612
+METHOD	rc	()Ljava/util/BitSet;	a	method_38601
+METHOD	rc	(Lbxi;Ldgj;Lbyn;ILjava/util/BitSet;Ljava/util/BitSet;Ljava/util/List;)V	a	method_38602
+METHOD	rc	(Loh;)V	a	method_38603
+METHOD	rc	()Ljava/util/BitSet;	b	method_38604
+METHOD	rc	(Loh;)[B	b	method_38605
+METHOD	rc	()Ljava/util/List;	c	method_38606
+METHOD	rc	(Loh;)[B	c	method_38607
+METHOD	rc	()Ljava/util/BitSet;	d	method_38608
+METHOD	rc	()Ljava/util/BitSet;	e	method_38609
+METHOD	rc	()Ljava/util/List;	f	method_38610
+METHOD	rc	()Z	g	method_38611
 CLASS	rd	net/minecraft/class_2678
 FIELD	rd	I	a	comp_88
 FIELD	rd	Z	b	comp_89
@@ -11165,13 +11165,13 @@ METHOD	yu	(Lcom/mojang/brigadier/context/CommandContext;)I	n	method_32744
 CLASS	yv	net/minecraft/class_6607
 FIELD	yv	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	a	field_34880
 FIELD	yv	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	b	field_34881
-METHOD	yv	(Lcom/mojang/brigadier/CommandDispatcher;)V	a	method_38613
-METHOD	yv	(Lcom/mojang/brigadier/context/CommandContext;)I	a	method_38614
-METHOD	yv	(Ldm;)I	a	method_38615
-METHOD	yv	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	a	method_38616
-METHOD	yv	(Lcom/mojang/brigadier/context/CommandContext;)I	b	method_38617
-METHOD	yv	(Ldm;)I	b	method_38618
-METHOD	yv	(Ldm;)Z	c	method_38619
+METHOD	yv	(Lcom/mojang/brigadier/CommandDispatcher;)V	a	method_38612
+METHOD	yv	(Lcom/mojang/brigadier/context/CommandContext;)I	a	method_38613
+METHOD	yv	(Ldm;)I	a	method_38614
+METHOD	yv	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	a	method_38615
+METHOD	yv	(Lcom/mojang/brigadier/context/CommandContext;)I	b	method_38616
+METHOD	yv	(Ldm;)I	b	method_38617
+METHOD	yv	(Ldm;)Z	c	method_38618
 CLASS	yw	net/minecraft/class_3073
 METHOD	yw	(Lcom/mojang/brigadier/CommandDispatcher;)V	a	method_13410
 METHOD	yw	(Lcom/mojang/brigadier/context/CommandContext;)I	a	method_13412
@@ -11380,16 +11380,16 @@ METHOD	zm	(Ldm;Ljava/lang/Throwable;)Ljava/lang/Void;	a	method_29479
 METHOD	zm	(Ljava/util/Collection;Ldm;)V	a	method_29480
 CLASS	zn	net/minecraft/class_6608
 FIELD	zn	Lorg/apache/logging/log4j/Logger;	a	field_34882
-METHOD	zn	()Lcom/mojang/datafixers/util/Unit;	a	method_38620
-METHOD	zn	(Lcoa;)V	a	method_38621
-METHOD	zn	(Lcod;Lask;Labw;Labu;Ljava/util/List;Lcom/mojang/datafixers/util/Unit;)Ljava/util/concurrent/CompletionStage;	a	method_38622
-METHOD	zn	(Lcod;Lcom/mojang/datafixers/util/Either;)Lcom/mojang/datafixers/util/Unit;	a	method_38623
-METHOD	zn	(Lcom/mojang/brigadier/CommandDispatcher;)V	a	method_38624
-METHOD	zn	(Lcom/mojang/brigadier/context/CommandContext;)I	a	method_38625
-METHOD	zn	(Ldm;)Z	a	method_38626
-METHOD	zn	(Ldm;I)I	a	method_38627
-METHOD	zn	(Lcoa;)Ljava/util/concurrent/CompletableFuture;	b	method_38628
-METHOD	zn	(Lcom/mojang/brigadier/context/CommandContext;)I	b	method_38629
+METHOD	zn	()Lcom/mojang/datafixers/util/Unit;	a	method_38619
+METHOD	zn	(Lcoa;)V	a	method_38620
+METHOD	zn	(Lcod;Lask;Labw;Labu;Ljava/util/List;Lcom/mojang/datafixers/util/Unit;)Ljava/util/concurrent/CompletionStage;	a	method_38621
+METHOD	zn	(Lcod;Lcom/mojang/datafixers/util/Either;)Lcom/mojang/datafixers/util/Unit;	a	method_38622
+METHOD	zn	(Lcom/mojang/brigadier/CommandDispatcher;)V	a	method_38623
+METHOD	zn	(Lcom/mojang/brigadier/context/CommandContext;)I	a	method_38624
+METHOD	zn	(Ldm;)Z	a	method_38625
+METHOD	zn	(Ldm;I)I	a	method_38626
+METHOD	zn	(Lcoa;)Ljava/util/concurrent/CompletableFuture;	b	method_38627
+METHOD	zn	(Lcom/mojang/brigadier/context/CommandContext;)I	b	method_38628
 CLASS	zo	net/minecraft/class_3104
 FIELD	zo	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	a	field_13701
 METHOD	zo	(Lcom/mojang/brigadier/CommandDispatcher;)V	a	method_13551
@@ -18276,7 +18276,7 @@ METHOD	arg	()F	b	comp_53
 CLASS	arh	net/minecraft/class_6533
 METHOD	arh	()Ljava/time/Instant;	a	method_38045
 CLASS	ari	net/minecraft/class_6534
-METHOD	ari	()Ljava/time/Duration;	a	method_38059
+METHOD	ari	()Ljava/time/Duration;	a	comp_16
 CLASS	arj	net/minecraft/class_6535
 FIELD	arj	Lari;	a	comp_54
 FIELD	arj	Lari;	b	comp_55
@@ -18285,8 +18285,8 @@ FIELD	arj	I	d	comp_57
 FIELD	arj	Ljava/util/Map;	e	comp_58
 FIELD	arj	Ljava/time/Duration;	f	comp_59
 METHOD	arj	()Lari;	a	comp_54
-METHOD	arj	(Lari;)J	a	method_38060
-METHOD	arj	(Ljava/util/List;)Larj;	a	method_38061
+METHOD	arj	(Lari;)J	a	method_38059
+METHOD	arj	(Ljava/util/List;)Larj;	a	method_38060
 METHOD	arj	()Lari;	b	comp_55
 METHOD	arj	()Lari;	c	comp_56
 METHOD	arj	()I	d	comp_57
@@ -18462,9 +18462,9 @@ CLASS	asa	net/minecraft/class_6003
 CLASS	asb	net/minecraft/class_6005
 METHOD	asb	()Lasb$a;	a	method_34971
 METHOD	asb	(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;	a	method_34972
-METHOD	asb	(Ljava/lang/Object;)Lasb;	a	method_38062
+METHOD	asb	(Ljava/lang/Object;)Lasb;	a	method_38061
 METHOD	asb	(Ljava/util/Random;)Ljava/util/Optional;	a	method_34973
-METHOD	asb	()Lasb;	b	method_38063
+METHOD	asb	()Lasb;	b	method_38062
 CLASS	asb$a	net/minecraft/class_6005$class_6006
 FIELD	asb$a	Lcom/google/common/collect/ImmutableList$Builder;	a	field_29926
 METHOD	asb$a	()Lasb;	a	method_34974
@@ -22230,8 +22230,8 @@ METHOD	bbc	(Lbbb$a;)V	a	method_6274
 METHOD	bbc	(Lbbb$a;Z)V	a	method_6276
 METHOD	bbc	(Lbbb;)V	a	method_6280
 METHOD	bbc	(Lbbb;Lbco;)Z	a	method_20649
-METHOD	bbc	(Lbco;Ljava/util/EnumSet;)Z	a	method_38064
-METHOD	bbc	(Lbco;Ljava/util/Map;)Z	a	method_38065
+METHOD	bbc	(Lbco;Ljava/util/EnumSet;)Z	a	method_38063
+METHOD	bbc	(Lbco;Ljava/util/Map;)Z	a	method_38064
 METHOD	bbc	()V	b	method_6275
 METHOD	bbc	(Lbbb$a;)V	b	method_6273
 METHOD	bbc	(Lbbb;Lbco;)Z	b	method_20650
@@ -22801,7 +22801,7 @@ METHOD	bdm	(I)Ldhk;	a	method_6336
 METHOD	bdm	(Laus;D)Z	a	method_6335
 METHOD	bdm	(Laus;I)Ldhi;	a	method_6349
 METHOD	bdm	(Ldhi;D)Z	a	method_6334
-METHOD	bdm	(Ldni;)D	a	method_38066
+METHOD	bdm	(Ldni;)D	a	method_38065
 METHOD	bdm	(Ldni;Ldni;)Z	a	method_6341
 METHOD	bdm	(Lgh;)Z	a	method_6333
 METHOD	bdm	(Lgh;I)Ldhi;	a	method_6348
@@ -23998,7 +23998,7 @@ METHOD	bfy	(I)V	u	method_6585
 CLASS	bfy$1	net/minecraft/class_1453$1
 METHOD	bfy$1	(Lavj;)Z	a	method_6590
 CLASS	bfy$a	net/minecraft/class_1453$class_6537
-METHOD	bfy$a	()Ldni;	j	method_38067
+METHOD	bfy$a	()Ldni;	j	method_38066
 CLASS	bfz	net/minecraft/class_1452
 FIELD	bfz	Lwi;	bT	field_6816
 FIELD	bfz	Lwi;	bU	field_6815
@@ -24425,7 +24425,7 @@ FIELD	bgr	Lwi;	cb	field_33486
 FIELD	bgr	Z	cc	field_33487
 FIELD	bgr	I	cd	field_33488
 METHOD	bgr	(Labw;Lauq;)Lbgr;	b	method_35177
-METHOD	bgr	(Lauw;Lbyf;Lavl;Lgh;Ljava/util/Random;)Z	c	method_38068
+METHOD	bgr	(Lauw;Lbyf;Lavl;Lgh;Ljava/util/Random;)Z	c	method_38067
 METHOD	bgr	()Z	fx	method_35178
 METHOD	bgr	()F	fy	method_36283
 METHOD	bgr	()Lawh$a;	p	method_35179
@@ -25242,7 +25242,7 @@ FIELD	bja	I	ca	field_25376
 FIELD	bja	Ljava/util/UUID;	cb	field_25377
 FIELD	bja	Lawg;	d	field_7252
 FIELD	bja	I	e	field_30462
-METHOD	bja	(Lauc;Lbmr;F)Z	a	method_38069
+METHOD	bja	(Lauc;Lbmr;F)Z	a	method_38068
 METHOD	bja	(Laus;)Z	a	method_7025
 METHOD	bja	(Lcmg;)V	c	method_7032
 METHOD	bja	()V	fA	method_22331
@@ -28323,8 +28323,8 @@ FIELD	bpw	Ljava/lang/String;	b	field_34449
 FIELD	bpw	Lcmk;	c	field_34450
 FIELD	bpw	Z	d	field_34451
 FIELD	bpw	Z	e	field_34452
-METHOD	bpw	(Lbsd;Lagh;Lcmk;)Z	a	method_38071
-METHOD	bpw	(Lcmk;Lcmk;Z)Z	a	method_38072
+METHOD	bpw	(Lbsd;Lagh;Lcmk;)Z	a	method_38070
+METHOD	bpw	(Lcmk;Lcmk;Z)Z	a	method_38071
 CLASS	bpx	net/minecraft/class_1739
 FIELD	bpx	Lcbc;	a	field_7882
 CLASS	bpy	net/minecraft/class_1738
@@ -28401,8 +28401,8 @@ CLASS	bqh	net/minecraft/class_1747
 FIELD	bqh	Ljava/lang/String;	a	field_30850
 FIELD	bqh	Ljava/lang/String;	b	field_30849
 FIELD	bqh	Lcbc;	c	field_7901
-METHOD	bqh	(Lbsd;)Lnb;	a	method_38073
-METHOD	bqh	(Lbsd;Lckf;Lnb;)V	a	method_38074
+METHOD	bqh	(Lbsd;)Lnb;	a	method_38072
+METHOD	bqh	(Lbsd;Lckf;Lnb;)V	a	method_38073
 METHOD	bqh	(Lbud;)Latn;	a	method_7712
 METHOD	bqh	(Lbud;Lcmg;)Z	a	method_7708
 METHOD	bqh	(Lbye;Lblq;Lgh;Lbsd;)Z	a	method_7714
@@ -28447,15 +28447,15 @@ FIELD	bqp	I	a	field_30857
 FIELD	bqp	Ljava/lang/String;	b	field_30858
 FIELD	bqp	I	c	field_30859
 FIELD	bqp	I	d	field_27016
-METHOD	bqp	(Laus;)V	a	method_38075
-METHOD	bqp	(Lblq;Lavy;Lbsd;)V	a	method_38076
+METHOD	bqp	(Laus;)V	a	method_38074
+METHOD	bqp	(Lblq;Lavy;Lbsd;)V	a	method_38075
 METHOD	bqp	(Lbsd;Lblq;)Z	a	method_32757
 METHOD	bqp	(Lbsd;Lbpn;Lbsd;)V	a	method_32758
 METHOD	bqp	(Lbsd;Lnb;)Z	a	method_31558
 METHOD	bqp	(Lbsd;Lnh;)Ljava/util/Optional;	a	method_32344
-METHOD	bqp	(Laus;)V	b	method_38077
+METHOD	bqp	(Laus;)V	b	method_38076
 METHOD	bqp	(Lbsd;Lbsd;)I	b	method_31560
-METHOD	bqp	(Laus;)V	c	method_38078
+METHOD	bqp	(Laus;)V	c	method_38077
 METHOD	bqp	(Lbsd;)F	d	method_31561
 METHOD	bqp	(Lbsd;)I	k	method_31562
 METHOD	bqp	(Lbsd;)I	o	method_31563
@@ -30160,7 +30160,7 @@ CLASS	bsw	net/minecraft/class_1817
 FIELD	bsw	Labx;	a	field_8910
 CLASS	bsx	net/minecraft/class_1820
 METHOD	bsx	(Lavh;)V	a	method_20280
-METHOD	bsx	(Lbuf;Lblq;)V	a	method_38079
+METHOD	bsx	(Lbuf;Lblq;)V	a	method_38078
 CLASS	bsy	net/minecraft/class_1819
 FIELD	bsy	I	a	field_30918
 FIELD	bsy	F	b	field_30919
@@ -30908,7 +30908,7 @@ METHOD	bwz	(Lbxb;)V	a	method_8261
 METHOD	bwz	(Lblq;)V	f	method_8259
 METHOD	bwz	()Z	fA	method_19270
 METHOD	bwz	()Lafi;	fB	method_18010
-METHOD	bwz	()Z	fG	method_38070
+METHOD	bwz	()Z	fG	method_38069
 METHOD	bwz	()Z	fL	method_20708
 METHOD	bwz	()Lblq;	fx	method_8257
 METHOD	bwz	()Lbxb;	fz	method_8264
@@ -31014,15 +31014,15 @@ METHOD	bxe	(Lbye;Lgh;I)V	a	method_8273
 METHOD	bxe	(Lbye;Lgh;Lasd$b;)V	a	method_33355
 METHOD	bxe	(Lbye;Lgh;Lbyv;)V	a	method_8277
 METHOD	bxe	(Lbye;Lgh;Lnb;)V	a	method_8280
-METHOD	bxe	(Ljava/lang/String;)V	a	method_38080
+METHOD	bxe	(Ljava/lang/String;)V	a	method_38079
 METHOD	bxe	(Lnb;)Lnb;	a	method_8272
 METHOD	bxe	()D	b	method_8279
 METHOD	bxe	(Lbye;Lgh;)Z	b	method_8284
 METHOD	bxe	(Lbye;Lgh;Lasd$b;)V	b	method_33356
-METHOD	bxe	(Ljava/lang/String;)V	b	method_38081
-METHOD	bxe	()Ljava/lang/IllegalStateException;	c	method_38082
+METHOD	bxe	(Ljava/lang/String;)V	b	method_38080
+METHOD	bxe	()Ljava/lang/IllegalStateException;	c	method_38081
 METHOD	bxe	(Lbye;Lgh;)V	c	method_8282
-METHOD	bxe	(Ljava/lang/String;)V	c	method_38083
+METHOD	bxe	(Ljava/lang/String;)V	c	method_38082
 CLASS	bxf	net/minecraft/class_1920
 METHOD	bxf	(Lbyn;Lgh;)I	a	method_8314
 METHOD	bxf	(Lgh;Lbxo;)I	a	method_23752
@@ -31675,16 +31675,16 @@ CLASS	byo	net/minecraft/class_6540
 FIELD	byo	Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;	a	field_34455
 FIELD	byo	Ljava/util/Map;	b	field_34456
 FIELD	byo	Labj;	c	field_34457
-METHOD	byo	(Labx;)Lbyo$a;	a	method_38084
-METHOD	byo	(Lavk;Lbxi;)Z	a	method_38085
-METHOD	byo	(Lbxi;)Ljava/util/List;	a	method_38086
-METHOD	byo	(Lbxi;J)Ljava/util/List;	a	method_38087
-METHOD	byo	(Lbxi;Lavk;)V	a	method_38088
+METHOD	byo	(Labx;)Lbyo$a;	a	method_38083
+METHOD	byo	(Lavk;Lbxi;)Z	a	method_38084
+METHOD	byo	(Lbxi;)Ljava/util/List;	a	method_38085
+METHOD	byo	(Lbxi;J)Ljava/util/List;	a	method_38086
+METHOD	byo	(Lbxi;Lavk;)V	a	method_38087
 CLASS	byo$a	net/minecraft/class_6540$class_6541
 FIELD	byo$a	Lit/unimi/dsi/fastutil/objects/Object2IntMap;	a	field_34458
-METHOD	byo$a	(Lavk;)V	a	method_38089
-METHOD	byo$a	(Lavk;Ljava/lang/Integer;)Ljava/lang/Integer;	a	method_38090
-METHOD	byo$a	(Lavk;)Z	b	method_38091
+METHOD	byo$a	(Lavk;)V	a	method_38088
+METHOD	byo$a	(Lavk;Ljava/lang/Integer;)Ljava/lang/Integer;	a	method_38089
+METHOD	byo$a	(Lavk;)Z	b	method_38090
 CLASS	byp	net/minecraft/class_1948
 FIELD	byp	I	a	field_30972
 FIELD	byp	I	b	field_30973
@@ -31713,7 +31713,7 @@ METHOD	byp	(Lbxh;Lgh;Lcmg;Ldgs;Lauw;)Z	a	method_8662
 METHOD	byp	(Lbye;Lcok;)Lgh;	a	method_8657
 METHOD	byp	(Lbyh;Lauw;II)Lgh;	a	method_8658
 METHOD	byp	(Lbyt;Lbze;Lbxi;Ljava/util/Random;)V	a	method_8661
-METHOD	byp	(Lgh;Labw;Lavk;Lbyw;)Z	a	method_38092
+METHOD	byp	(Lgh;Labw;Lavk;Lbyw;)Z	a	method_38091
 METHOD	byp	(Lgh;Laus;Lbys;Lbyo;Lavk;Lit/unimi/dsi/fastutil/objects/Object2IntOpenHashMap;Lcok;)V	a	method_27819
 METHOD	byp	(Lgh;Lcoa;)Lbze;	a	method_27822
 CLASS	byp$1	net/minecraft/class_1948$1
@@ -31782,12 +31782,12 @@ FIELD	byv	Lcom/mojang/serialization/Codec;	b	field_34461
 FIELD	byv	Ljava/lang/String;	c	field_30977
 FIELD	byv	Lnb;	d	comp_64
 FIELD	byv	Ljava/util/Optional;	e	comp_65
-METHOD	byv	()Lnb;	a	method_38094
-METHOD	byv	(Lbyv;)Ljava/util/Optional;	a	method_38095
-METHOD	byv	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_38096
-METHOD	byv	(Lnb;)V	a	method_38097
-METHOD	byv	()Ljava/util/Optional;	b	method_38098
-METHOD	byv	(Lbyv;)Lnb;	b	method_38099
+METHOD	byv	()Lnb;	a	method_38093
+METHOD	byv	(Lbyv;)Ljava/util/Optional;	a	method_38094
+METHOD	byv	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_38095
+METHOD	byv	(Lnb;)V	a	method_38096
+METHOD	byv	()Ljava/util/Optional;	b	method_38097
+METHOD	byv	(Lbyv;)Lnb;	b	method_38098
 METHOD	byv	()Lnb;	c	comp_64
 METHOD	byv	()Ljava/util/Optional;	d	comp_65
 CLASS	byv$a	net/minecraft/class_1952$class_6542
@@ -31796,11 +31796,11 @@ FIELD	byv$a	Lahf;	b	comp_66
 FIELD	byv$a	Lahf;	c	comp_67
 FIELD	byv$a	Lahf;	d	field_34463
 METHOD	byv$a	()Lahf;	a	comp_66
-METHOD	byv$a	(Lahf;)Lcom/mojang/serialization/DataResult;	a	method_38100
-METHOD	byv$a	(Lbyv$a;)Lahf;	a	method_38101
-METHOD	byv$a	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_38102
+METHOD	byv$a	(Lahf;)Lcom/mojang/serialization/DataResult;	a	method_38099
+METHOD	byv$a	(Lbyv$a;)Lahf;	a	method_38100
+METHOD	byv$a	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_38101
 METHOD	byv$a	()Lahf;	b	comp_67
-METHOD	byv$a	(Lbyv$a;)Lahf;	b	method_38103
+METHOD	byv$a	(Lbyv$a;)Lahf;	b	method_38102
 CLASS	byw	net/minecraft/class_5138
 FIELD	byw	Lbyf;	a	field_24404
 FIELD	byw	Lcry;	b	field_24497
@@ -31906,9 +31906,9 @@ METHOD	bze	()I	a	method_8697
 METHOD	bze	(DD)I	a	method_8711
 METHOD	bze	(Lbyh;Lgh;)Z	a	method_8705
 METHOD	bze	(Lbyh;Lgh;Z)Z	a	method_8685
-METHOD	bze	(Lbze$c;Lbze$b;Lbzi;)Lbze;	a	method_38104
+METHOD	bze	(Lbze$c;Lbze$b;Lbzi;)Lbze;	a	method_38103
 METHOD	bze	(Lbze;)Lbzi;	a	method_30971
-METHOD	bze	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_38105
+METHOD	bze	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_38104
 METHOD	bze	(Lgh;)F	a	method_21740
 METHOD	bze	(Ljava/util/Random;Lcny;IIIDLcmg;Lcmg;IIJ)V	a	method_8703
 METHOD	bze	()Lbzn;	b	method_30966
@@ -32041,7 +32041,7 @@ METHOD	bzf	()Ljava/util/List;	a	method_30982
 METHOD	bzf	(Lbzf;)Ljava/util/List;	a	method_30807
 METHOD	bzf	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_30802
 METHOD	bzf	(Lcrc$a;)Ljava/util/List;	a	method_30976
-METHOD	bzf	(Lctb;)Z	a	method_38106
+METHOD	bzf	(Lctb;)Z	a	method_38105
 METHOD	bzf	()Ljava/util/List;	b	method_30983
 METHOD	bzf	(Lbzf;)Ljava/util/Map;	b	method_30808
 METHOD	bzf	(Lctb;)Z	b	method_30977
@@ -32076,10 +32076,10 @@ FIELD	bzg	J	f	field_20641
 METHOD	bzg	(DDD)Lbze;	a	method_24938
 METHOD	bzg	(III)Lbze;	a	method_24854
 METHOD	bzg	(J)J	a	method_27984
-METHOD	bzg	(JIIIDDD)D	a	method_38107
-METHOD	bzg	(Lbzg$a;)Lbzg;	a	method_38108
+METHOD	bzg	(JIIIDDD)D	a	method_38106
+METHOD	bzg	(Lbzg$a;)Lbzg;	a	method_38107
 METHOD	bzg	(Lgh;)Lbze;	a	method_22393
-METHOD	bzg	(J)D	b	method_38109
+METHOD	bzg	(J)D	b	method_38108
 METHOD	bzg	(Lgh;)Lbze;	b	method_27344
 CLASS	bzg$a	net/minecraft/class_4543$class_4544
 METHOD	bzg$a	(III)Lbze;	getNoiseBiome	method_16359
@@ -32092,15 +32092,15 @@ METHOD	bzh	()Lcom/mojang/serialization/Codec;	a	method_28442
 METHOD	bzh	(IIIIILjava/util/function/Predicate;Ljava/util/Random;ZLbzl$f;)Lgh;	a	method_24385
 METHOD	bzh	(IIIILbzl$f;)Ljava/util/Set;	a	method_8763
 METHOD	bzh	(IIIILjava/util/function/Predicate;Ljava/util/Random;Lbzl$f;)Lgh;	a	method_8762
-METHOD	bzh	(IIILbzl$f;)Lbze;	a	method_38110
-METHOD	bzh	(ILbzh$a;)Z	a	method_38111
+METHOD	bzh	(IIILbzl$f;)Lbze;	a	method_38109
+METHOD	bzh	(ILbzh$a;)Z	a	method_38110
 METHOD	bzh	(J)Lbzh;	a	method_27985
-METHOD	bzh	(Lbze;)Lcmg;	a	method_38112
-METHOD	bzh	(Lbzh$a;)Ljava/util/Set;	a	method_38113
-METHOD	bzh	(Lcmg;)Z	a	method_38114
-METHOD	bzh	(Ljava/util/List;Lgh;Lbzl$f;)V	a	method_38115
+METHOD	bzh	(Lbze;)Lcmg;	a	method_38111
+METHOD	bzh	(Lbzh$a;)Ljava/util/Set;	a	method_38112
+METHOD	bzh	(Lcmg;)Z	a	method_38113
+METHOD	bzh	(Ljava/util/List;Lgh;Lbzl$f;)V	a	method_38114
 METHOD	bzh	()Ljava/util/List;	b	method_28443
-METHOD	bzh	()Lcom/google/common/collect/ImmutableList;	c	method_38116
+METHOD	bzh	()Lcom/google/common/collect/ImmutableList;	c	method_38115
 CLASS	bzh$a	net/minecraft/class_1966$class_6543
 FIELD	bzh$a	I	a	comp_68
 FIELD	bzh$a	Lctb;	b	comp_69
@@ -32291,31 +32291,31 @@ METHOD	bzk	(Lbzk;)Ljava/util/List;	b	method_28455
 CLASS	bzl	net/minecraft/class_6544
 FIELD	bzl	I	a	field_34476
 FIELD	bzl	Z	b	field_34477
-METHOD	bzl	(FFFFFF)Lbzl$g;	a	method_38117
-METHOD	bzl	(FFFFFFF)Lbzl$d;	a	method_38118
-METHOD	bzl	(Lbzl$b;Lbzl$b;Lbzl$b;Lbzl$b;Lbzl$b;Lbzl$b;F)Lbzl$d;	a	method_38119
+METHOD	bzl	(FFFFFF)Lbzl$g;	a	method_38116
+METHOD	bzl	(FFFFFFF)Lbzl$d;	a	method_38117
+METHOD	bzl	(Lbzl$b;Lbzl$b;Lbzl$b;Lbzl$b;Lbzl$b;Lbzl$b;F)Lbzl$d;	a	method_38118
 CLASS	bzl$a	net/minecraft/class_6544$class_6545
 CLASS	bzl$b	net/minecraft/class_6544$class_6546
 FIELD	bzl$b	Lcom/mojang/serialization/Codec;	a	field_34478
 FIELD	bzl$b	F	b	field_34479
 FIELD	bzl$b	F	c	field_34480
-METHOD	bzl$b	()F	a	method_38120
-METHOD	bzl$b	(F)Lbzl$b;	a	method_38121
-METHOD	bzl$b	(FF)Lbzl$b;	a	method_38122
-METHOD	bzl$b	(Lbzl$b;)F	a	method_38123
-METHOD	bzl$b	(Lbzl$b;Lbzl$b;)Lbzl$b;	a	method_38124
-METHOD	bzl$b	(Ljava/lang/Float;Ljava/lang/Float;)Lcom/mojang/serialization/DataResult;	a	method_38125
-METHOD	bzl$b	()F	b	method_38126
-METHOD	bzl$b	(F)F	b	method_38127
-METHOD	bzl$b	(Lbzl$b;)Lbzl$b;	b	method_38128
+METHOD	bzl$b	()F	a	method_38119
+METHOD	bzl$b	(F)Lbzl$b;	a	method_38120
+METHOD	bzl$b	(FF)Lbzl$b;	a	method_38121
+METHOD	bzl$b	(Lbzl$b;)F	a	method_38122
+METHOD	bzl$b	(Lbzl$b;Lbzl$b;)Lbzl$b;	a	method_38123
+METHOD	bzl$b	(Ljava/lang/Float;Ljava/lang/Float;)Lcom/mojang/serialization/DataResult;	a	method_38124
+METHOD	bzl$b	()F	b	method_38125
+METHOD	bzl$b	(F)F	b	method_38126
+METHOD	bzl$b	(Lbzl$b;)Lbzl$b;	b	method_38127
 CLASS	bzl$c	net/minecraft/class_6544$class_6547
 FIELD	bzl$c	Ljava/util/List;	a	field_34481
 FIELD	bzl$c	Lbzl$e;	b	field_34482
-METHOD	bzl$c	()Ljava/util/List;	a	method_38129
-METHOD	bzl$c	(Lbzl$g;)Ljava/lang/Object;	a	method_38130
-METHOD	bzl$c	(Lbzl$g;Lbzl$a;)Ljava/lang/Object;	a	method_38131
-METHOD	bzl$c	(Lbzl$g;Ljava/util/function/Supplier;)Ljava/lang/Object;	a	method_38132
-METHOD	bzl$c	(Lbzl$g;Ljava/util/function/Supplier;)Ljava/lang/Object;	b	method_38133
+METHOD	bzl$c	()Ljava/util/List;	a	method_38128
+METHOD	bzl$c	(Lbzl$g;)Ljava/lang/Object;	a	method_38129
+METHOD	bzl$c	(Lbzl$g;Lbzl$a;)Ljava/lang/Object;	a	method_38130
+METHOD	bzl$c	(Lbzl$g;Ljava/util/function/Supplier;)Ljava/lang/Object;	a	method_38131
+METHOD	bzl$c	(Lbzl$g;Ljava/util/function/Supplier;)Ljava/lang/Object;	b	method_38132
 CLASS	bzl$d	net/minecraft/class_6544$class_4762
 FIELD	bzl$d	Lcom/mojang/serialization/Codec;	a	field_24679
 FIELD	bzl$d	Lbzl$b;	b	field_22043
@@ -32325,45 +32325,45 @@ FIELD	bzl$d	Lbzl$b;	e	field_34484
 FIELD	bzl$d	Lbzl$b;	f	field_34485
 FIELD	bzl$d	Lbzl$b;	g	field_22046
 FIELD	bzl$d	F	h	field_22047
-METHOD	bzl$d	()Lbzl$b;	a	method_38134
-METHOD	bzl$d	(Lbzl$d;)Ljava/lang/Float;	a	method_38135
+METHOD	bzl$d	()Lbzl$b;	a	method_38133
+METHOD	bzl$d	(Lbzl$d;)Ljava/lang/Float;	a	method_38134
 METHOD	bzl$d	(Lbzl$g;)F	a	method_24381
 METHOD	bzl$d	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_28425
-METHOD	bzl$d	()Lbzl$b;	b	method_38136
-METHOD	bzl$d	(Lbzl$d;)Lbzl$b;	b	method_38137
-METHOD	bzl$d	()Lbzl$b;	c	method_38138
-METHOD	bzl$d	(Lbzl$d;)Lbzl$b;	c	method_38139
-METHOD	bzl$d	()Lbzl$b;	d	method_38140
-METHOD	bzl$d	(Lbzl$d;)Lbzl$b;	d	method_38141
-METHOD	bzl$d	()Lbzl$b;	e	method_38142
-METHOD	bzl$d	(Lbzl$d;)Lbzl$b;	e	method_38143
-METHOD	bzl$d	()Lbzl$b;	f	method_38144
+METHOD	bzl$d	()Lbzl$b;	b	method_38135
+METHOD	bzl$d	(Lbzl$d;)Lbzl$b;	b	method_38136
+METHOD	bzl$d	()Lbzl$b;	c	method_38137
+METHOD	bzl$d	(Lbzl$d;)Lbzl$b;	c	method_38138
+METHOD	bzl$d	()Lbzl$b;	d	method_38139
+METHOD	bzl$d	(Lbzl$d;)Lbzl$b;	d	method_38140
+METHOD	bzl$d	()Lbzl$b;	e	method_38141
+METHOD	bzl$d	(Lbzl$d;)Lbzl$b;	e	method_38142
+METHOD	bzl$d	()Lbzl$b;	f	method_38143
 METHOD	bzl$d	(Lbzl$d;)Lbzl$b;	f	method_28429
-METHOD	bzl$d	()F	g	method_38145
+METHOD	bzl$d	()F	g	method_38144
 METHOD	bzl$d	(Lbzl$d;)Lbzl$b;	g	method_28430
-METHOD	bzl$d	()Ljava/util/List;	h	method_38146
+METHOD	bzl$d	()Ljava/util/List;	h	method_38145
 CLASS	bzl$e	net/minecraft/class_6544$class_6548
 FIELD	bzl$e	I	a	field_34486
 FIELD	bzl$e	Lbzl$e$b;	b	field_34487
 FIELD	bzl$e	Ljava/lang/ThreadLocal;	c	field_34488
-METHOD	bzl$e	(ILbzl$e$b;)D	a	method_38147
-METHOD	bzl$e	(ILbzl$e$c;)Lbzl$e$b;	a	method_38148
-METHOD	bzl$e	(ILjava/util/List;)Lbzl$e$b;	a	method_38149
-METHOD	bzl$e	(IZ)Ljava/util/Comparator;	a	method_38150
-METHOD	bzl$e	(IZLbzl$e$b;)D	a	method_38151
-METHOD	bzl$e	(Lbzl$g;Lbzl$a;)Ljava/lang/Object;	a	method_38152
-METHOD	bzl$e	(Lcom/mojang/datafixers/util/Pair;)Lbzl$e$a;	a	method_38153
-METHOD	bzl$e	(Ljava/util/List;)Lbzl$e;	a	method_38154
-METHOD	bzl$e	(Ljava/util/List;IIZ)V	a	method_38155
-METHOD	bzl$e	([Lbzl$b;)F	a	method_38156
-METHOD	bzl$e	(Ljava/util/List;)Ljava/util/List;	b	method_38157
-METHOD	bzl$e	(Ljava/util/List;)Ljava/util/List;	c	method_38158
+METHOD	bzl$e	(ILbzl$e$b;)D	a	method_38146
+METHOD	bzl$e	(ILbzl$e$c;)Lbzl$e$b;	a	method_38147
+METHOD	bzl$e	(ILjava/util/List;)Lbzl$e$b;	a	method_38148
+METHOD	bzl$e	(IZ)Ljava/util/Comparator;	a	method_38149
+METHOD	bzl$e	(IZLbzl$e$b;)D	a	method_38150
+METHOD	bzl$e	(Lbzl$g;Lbzl$a;)Ljava/lang/Object;	a	method_38151
+METHOD	bzl$e	(Lcom/mojang/datafixers/util/Pair;)Lbzl$e$a;	a	method_38152
+METHOD	bzl$e	(Ljava/util/List;)Lbzl$e;	a	method_38153
+METHOD	bzl$e	(Ljava/util/List;IIZ)V	a	method_38154
+METHOD	bzl$e	([Lbzl$b;)F	a	method_38155
+METHOD	bzl$e	(Ljava/util/List;)Ljava/util/List;	b	method_38156
+METHOD	bzl$e	(Ljava/util/List;)Ljava/util/List;	c	method_38157
 CLASS	bzl$e$a	net/minecraft/class_6544$class_6548$class_6549
 FIELD	bzl$e$a	Ljava/util/function/Supplier;	b	field_34489
 CLASS	bzl$e$b	net/minecraft/class_6544$class_6548$class_6550
 FIELD	bzl$e$b	[Lbzl$b;	a	field_34490
-METHOD	bzl$e$b	([F)F	a	method_38160
-METHOD	bzl$e$b	([FLbzl$e$a;Lbzl$a;)Lbzl$e$a;	a	method_38159
+METHOD	bzl$e$b	([F)F	a	method_38159
+METHOD	bzl$e$b	([FLbzl$e$a;Lbzl$a;)Lbzl$e$a;	a	method_38158
 CLASS	bzl$e$c	net/minecraft/class_6544$class_6548$class_6551
 FIELD	bzl$e$c	[Lbzl$e$b;	b	field_34491
 CLASS	bzl$f	net/minecraft/class_6544$class_6552
@@ -32374,13 +32374,13 @@ FIELD	bzl$g	F	c	field_34494
 FIELD	bzl$g	F	d	field_34495
 FIELD	bzl$g	F	e	field_34496
 FIELD	bzl$g	F	f	field_34497
-METHOD	bzl$g	()F	a	method_38161
-METHOD	bzl$g	()F	b	method_38162
-METHOD	bzl$g	()F	c	method_38163
-METHOD	bzl$g	()F	d	method_38164
-METHOD	bzl$g	()F	e	method_38165
-METHOD	bzl$g	()F	f	method_38166
-METHOD	bzl$g	()[F	g	method_38167
+METHOD	bzl$g	()F	a	method_38160
+METHOD	bzl$g	()F	b	method_38161
+METHOD	bzl$g	()F	c	method_38162
+METHOD	bzl$g	()F	d	method_38163
+METHOD	bzl$g	()F	e	method_38164
+METHOD	bzl$g	()F	f	method_38165
+METHOD	bzl$g	()[F	g	method_38166
 CLASS	bzm	net/minecraft/class_1992
 FIELD	bzm	Lcom/mojang/serialization/Codec;	b	field_24717
 FIELD	bzm	Ljava/util/function/Supplier;	c	field_9486
@@ -32442,30 +32442,30 @@ FIELD	bzo	Lcom/mojang/serialization/MapCodec;	b	field_24718
 FIELD	bzo	Lcom/mojang/serialization/Codec;	c	field_24719
 FIELD	bzo	Lbzl$c;	d	field_34498
 FIELD	bzo	Ljava/util/Optional;	e	field_24721
-METHOD	bzo	(Lbzl$g;)Lbze;	a	method_38168
-METHOD	bzo	(Lbzo$a;)Z	a	method_38169
+METHOD	bzo	(Lbzl$g;)Lbze;	a	method_38167
+METHOD	bzo	(Lbzo$a;)Z	a	method_38168
 METHOD	bzo	(Lbzo;)Lcom/mojang/datafixers/util/Either;	a	method_28457
 METHOD	bzo	(Lcom/mojang/datafixers/util/Either;)Lbzo;	a	method_28459
-METHOD	bzo	(Lcom/mojang/datafixers/util/Pair;)Lbzo$b;	a	method_38170
-METHOD	bzo	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_38171
-METHOD	bzo	(Lbzo;)Lcom/mojang/datafixers/util/Either;	b	method_38172
-METHOD	bzo	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	b	method_38173
-METHOD	bzo	(Lbzo;)Lbzl$c;	c	method_38174
+METHOD	bzo	(Lcom/mojang/datafixers/util/Pair;)Lbzo$b;	a	method_38169
+METHOD	bzo	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_38170
+METHOD	bzo	(Lbzo;)Lcom/mojang/datafixers/util/Either;	b	method_38171
+METHOD	bzo	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	b	method_38172
+METHOD	bzo	(Lbzo;)Lbzl$c;	c	method_38173
 METHOD	bzo	()Ljava/util/Optional;	d	method_31085
-METHOD	bzo	()Lbze;	e	method_38175
+METHOD	bzo	()Lbze;	e	method_38174
 CLASS	bzo$a	net/minecraft/class_4766$class_5305
 FIELD	bzo$a	Lbzo$a;	a	field_24723
 FIELD	bzo$a	Lbzo$a;	b	field_34499
 FIELD	bzo$a	Ljava/util/Map;	c	field_24724
 FIELD	bzo$a	Lwz;	d	field_24725
 FIELD	bzo$a	Ljava/util/function/BiFunction;	e	field_24726
-METHOD	bzo$a	(Lbzo$a;Lgx;)Lbzo;	a	method_38176
-METHOD	bzo$a	(Lcom/google/common/collect/ImmutableList$Builder;Lgx;Lcom/mojang/datafixers/util/Pair;)V	a	method_38177
+METHOD	bzo$a	(Lbzo$a;Lgx;)Lbzo;	a	method_38175
+METHOD	bzo$a	(Lcom/google/common/collect/ImmutableList$Builder;Lgx;Lcom/mojang/datafixers/util/Pair;)V	a	method_38176
 METHOD	bzo$a	(Lgx;)Lbzo;	a	method_28469
-METHOD	bzo$a	(Lgx;Lwy;)Ljava/util/function/Supplier;	a	method_38178
+METHOD	bzo$a	(Lgx;Lwy;)Ljava/util/function/Supplier;	a	method_38177
 METHOD	bzo$a	(Lbzo$a;Lgx;)Lbzo;	b	method_31088
 METHOD	bzo$a	(Lgx;)Lbze;	b	method_31089
-METHOD	bzo$a	(Lgx;Lwy;)Lbze;	b	method_38179
+METHOD	bzo$a	(Lgx;Lwy;)Lbze;	b	method_38178
 METHOD	bzo$a	(Lgx;)Lbze;	c	method_31090
 METHOD	bzo$a	(Lgx;)Lbze;	d	method_31091
 METHOD	bzo$a	(Lgx;)Lbze;	e	method_31092
@@ -32506,34 +32506,34 @@ FIELD	bzp	[[Lwy;	u	field_34520
 FIELD	bzp	[[Lwy;	v	field_34521
 FIELD	bzp	[[Lwy;	w	field_34522
 FIELD	bzp	[[Lwy;	x	field_34523
-METHOD	bzp	(D)Ljava/lang/String;	a	method_38180
-METHOD	bzp	(D[Lbzl$b;)Ljava/lang/String;	a	method_38181
-METHOD	bzp	(II)Lwy;	a	method_38182
-METHOD	bzp	(IILbzl$b;)Lwy;	a	method_38183
-METHOD	bzp	(IILbzl$b;Lwy;)Lwy;	a	method_38184
-METHOD	bzp	(ILbzl$b;)Lwy;	a	method_38185
-METHOD	bzp	(Ljava/util/function/Consumer;)V	a	method_38186
-METHOD	bzp	(Ljava/util/function/Consumer;Lbzl$b;)V	a	method_38187
-METHOD	bzp	(Ljava/util/function/Consumer;Lbzl$b;Lbzl$b;Lbzl$b;Lbzl$b;Lbzl$b;FLwy;)V	a	method_38188
-METHOD	bzp	(D)Ljava/lang/String;	b	method_38189
-METHOD	bzp	(IILbzl$b;)Lwy;	b	method_38190
-METHOD	bzp	(Ljava/util/function/Consumer;)V	b	method_38191
-METHOD	bzp	(Ljava/util/function/Consumer;Lbzl$b;)V	b	method_38192
-METHOD	bzp	(Ljava/util/function/Consumer;Lbzl$b;Lbzl$b;Lbzl$b;Lbzl$b;Lbzl$b;FLwy;)V	b	method_38193
-METHOD	bzp	(D)Ljava/lang/String;	c	method_38194
-METHOD	bzp	(IILbzl$b;)Lwy;	c	method_38195
-METHOD	bzp	(Ljava/util/function/Consumer;)V	c	method_38196
-METHOD	bzp	(Ljava/util/function/Consumer;Lbzl$b;)V	c	method_38197
-METHOD	bzp	(D)Ljava/lang/String;	d	method_38198
-METHOD	bzp	(IILbzl$b;)Lwy;	d	method_38199
-METHOD	bzp	(Ljava/util/function/Consumer;)V	d	method_38200
-METHOD	bzp	(Ljava/util/function/Consumer;Lbzl$b;)V	d	method_38201
-METHOD	bzp	(D)Ljava/lang/String;	e	method_38202
-METHOD	bzp	(IILbzl$b;)Lwy;	e	method_38203
-METHOD	bzp	(Ljava/util/function/Consumer;Lbzl$b;)V	e	method_38204
-METHOD	bzp	(IILbzl$b;)Lwy;	f	method_38205
-METHOD	bzp	(IILbzl$b;)Lwy;	g	method_38206
-METHOD	bzp	(IILbzl$b;)Lwy;	h	method_38207
+METHOD	bzp	(D)Ljava/lang/String;	a	method_38179
+METHOD	bzp	(D[Lbzl$b;)Ljava/lang/String;	a	method_38180
+METHOD	bzp	(II)Lwy;	a	method_38181
+METHOD	bzp	(IILbzl$b;)Lwy;	a	method_38182
+METHOD	bzp	(IILbzl$b;Lwy;)Lwy;	a	method_38183
+METHOD	bzp	(ILbzl$b;)Lwy;	a	method_38184
+METHOD	bzp	(Ljava/util/function/Consumer;)V	a	method_38185
+METHOD	bzp	(Ljava/util/function/Consumer;Lbzl$b;)V	a	method_38186
+METHOD	bzp	(Ljava/util/function/Consumer;Lbzl$b;Lbzl$b;Lbzl$b;Lbzl$b;Lbzl$b;FLwy;)V	a	method_38187
+METHOD	bzp	(D)Ljava/lang/String;	b	method_38188
+METHOD	bzp	(IILbzl$b;)Lwy;	b	method_38189
+METHOD	bzp	(Ljava/util/function/Consumer;)V	b	method_38190
+METHOD	bzp	(Ljava/util/function/Consumer;Lbzl$b;)V	b	method_38191
+METHOD	bzp	(Ljava/util/function/Consumer;Lbzl$b;Lbzl$b;Lbzl$b;Lbzl$b;Lbzl$b;FLwy;)V	b	method_38192
+METHOD	bzp	(D)Ljava/lang/String;	c	method_38193
+METHOD	bzp	(IILbzl$b;)Lwy;	c	method_38194
+METHOD	bzp	(Ljava/util/function/Consumer;)V	c	method_38195
+METHOD	bzp	(Ljava/util/function/Consumer;Lbzl$b;)V	c	method_38196
+METHOD	bzp	(D)Ljava/lang/String;	d	method_38197
+METHOD	bzp	(IILbzl$b;)Lwy;	d	method_38198
+METHOD	bzp	(Ljava/util/function/Consumer;)V	d	method_38199
+METHOD	bzp	(Ljava/util/function/Consumer;Lbzl$b;)V	d	method_38200
+METHOD	bzp	(D)Ljava/lang/String;	e	method_38201
+METHOD	bzp	(IILbzl$b;)Lwy;	e	method_38202
+METHOD	bzp	(Ljava/util/function/Consumer;Lbzl$b;)V	e	method_38203
+METHOD	bzp	(IILbzl$b;)Lwy;	f	method_38204
+METHOD	bzp	(IILbzl$b;)Lwy;	g	method_38205
+METHOD	bzp	(IILbzl$b;)Lwy;	h	method_38206
 CLASS	bzq	net/minecraft/class_6555
 FIELD	bzq	Lahx;	a	field_34524
 FIELD	bzq	Lahx;	b	field_34525
@@ -32543,38 +32543,38 @@ FIELD	bzq	Lags;	e	field_34528
 FIELD	bzq	Lags;	f	field_34529
 FIELD	bzq	Lags;	g	field_34530
 FIELD	bzq	F	h	field_34531
-METHOD	bzq	()Lags;	a	method_38208
-METHOD	bzq	(F)F	a	method_38209
-METHOD	bzq	(FFF)Lbzq$a;	a	method_38210
-METHOD	bzq	(FFFF)F	a	method_38211
-METHOD	bzq	(FFFFFF)Lags;	a	method_38212
-METHOD	bzq	(FFFFFFZZ)Lags;	a	method_38213
-METHOD	bzq	(FZ)Lags;	a	method_38214
-METHOD	bzq	(Lbzq$a;)F	a	method_38215
-METHOD	bzq	(Ljava/util/function/Consumer;)V	a	method_38216
-METHOD	bzq	()Lags;	b	method_38217
-METHOD	bzq	(F)F	b	method_38218
-METHOD	bzq	(FFF)F	b	method_38219
-METHOD	bzq	(FZ)Lags;	b	method_38220
-METHOD	bzq	(Lbzq$a;)F	b	method_38221
-METHOD	bzq	(Lbzq$a;)F	c	method_38222
+METHOD	bzq	()Lags;	a	method_38207
+METHOD	bzq	(F)F	a	method_38208
+METHOD	bzq	(FFF)Lbzq$a;	a	method_38209
+METHOD	bzq	(FFFF)F	a	method_38210
+METHOD	bzq	(FFFFFF)Lags;	a	method_38211
+METHOD	bzq	(FFFFFFZZ)Lags;	a	method_38212
+METHOD	bzq	(FZ)Lags;	a	method_38213
+METHOD	bzq	(Lbzq$a;)F	a	method_38214
+METHOD	bzq	(Ljava/util/function/Consumer;)V	a	method_38215
+METHOD	bzq	()Lags;	b	method_38216
+METHOD	bzq	(F)F	b	method_38217
+METHOD	bzq	(FFF)F	b	method_38218
+METHOD	bzq	(FZ)Lags;	b	method_38219
+METHOD	bzq	(Lbzq$a;)F	b	method_38220
+METHOD	bzq	(Lbzq$a;)F	c	method_38221
 CLASS	bzq$1	net/minecraft/class_6555$1
-METHOD	bzq$1	(Lbzq$a;)F	a	method_38223
+METHOD	bzq$1	(Lbzq$a;)F	a	method_38222
 CLASS	bzq$2	net/minecraft/class_6555$2
-METHOD	bzq$2	(Lbzq$a;)F	a	method_38224
+METHOD	bzq$2	(Lbzq$a;)F	a	method_38223
 CLASS	bzq$3	net/minecraft/class_6555$3
-METHOD	bzq$3	(Lbzq$a;)F	a	method_38225
+METHOD	bzq$3	(Lbzq$a;)F	a	method_38224
 CLASS	bzq$4	net/minecraft/class_6555$4
-METHOD	bzq$4	(Lbzq$a;)F	a	method_38226
+METHOD	bzq$4	(Lbzq$a;)F	a	method_38225
 CLASS	bzq$a	net/minecraft/class_6555$class_6556
 FIELD	bzq$a	F	a	field_34532
 FIELD	bzq$a	F	b	field_34533
 FIELD	bzq$a	F	c	field_34534
 FIELD	bzq$a	F	d	field_34535
-METHOD	bzq$a	()F	a	method_38227
-METHOD	bzq$a	()F	b	method_38228
-METHOD	bzq$a	()F	c	method_38229
-METHOD	bzq$a	()F	d	method_38230
+METHOD	bzq$a	()F	a	method_38226
+METHOD	bzq$a	()F	b	method_38227
+METHOD	bzq$a	()F	c	method_38228
+METHOD	bzq$a	()F	d	method_38229
 CLASS	bzr	net/minecraft/class_2169
 FIELD	bzr	Lcom/mojang/serialization/Codec;	b	field_24730
 FIELD	bzr	I	c	field_30984
@@ -33882,7 +33882,7 @@ METHOD	cbd	(Lbqz;)Lcav;	a	method_26109
 METHOD	cbd	(Lbqz;Lcmf$c;)Lchf;	a	method_26110
 METHOD	cbd	(Lbqz;Lcmg;)Ldgx;	a	method_26111
 METHOD	cbd	(Lchs;)Lcfa;	a	method_26106
-METHOD	cbd	(Lcmg;)I	a	method_38231
+METHOD	cbd	(Lcmg;)I	a	method_38230
 METHOD	cbd	(Lcmg;Lbxh;Lgh;)Z	a	method_26113
 METHOD	cbd	(Lcmg;Lbxh;Lgh;Lauw;)Ljava/lang/Boolean;	a	method_26114
 METHOD	cbd	(Ldgx;)Lcbc;	a	method_26115
@@ -33891,7 +33891,7 @@ METHOD	cbd	(Ldgx;Ldgx;)Lcgx;	a	method_26117
 METHOD	cbd	(Ldgx;Ldgx;Lcmg;)Ldgx;	a	method_26118
 METHOD	cbd	(Ljava/lang/String;Lcbc;)Lcbc;	a	method_9492
 METHOD	cbd	(Z)Lclz;	a	method_26119
-METHOD	cbd	()Lctb;	b	method_38232
+METHOD	cbd	()Lctb;	b	method_38231
 METHOD	cbd	(Lbqz;)Lchx;	b	method_26120
 METHOD	cbd	(Lcmg;)I	b	method_36460
 METHOD	cbd	(Lcmg;Lbxh;Lgh;)Z	b	method_26122
@@ -34612,8 +34612,8 @@ METHOD	ceg	(Lcmg;Lcmg;)Lcmg;	a	method_33625
 METHOD	ceg	(Lcmg;Ljava/util/Random;)Lcmg;	a	method_33626
 METHOD	ceg	(Ljava/util/Random;)I	a	method_26376
 METHOD	ceg	(Lcmg;)Z	g	method_24949
-METHOD	ceg	(Lcmg;)Lcmg;	n	method_38233
-METHOD	ceg	(Lcmg;)Z	o	method_38234
+METHOD	ceg	(Lcmg;)Lcmg;	n	method_38232
+METHOD	ceg	(Lcmg;)Z	o	method_38233
 CLASS	ceh	net/minecraft/class_2373
 CLASS	cei	net/minecraft/class_5806
 FIELD	cei	Ldob;	a	field_28689
@@ -35307,7 +35307,7 @@ FIELD	chf	Lcne;	a	field_11496
 FIELD	chf	Lwz;	b	field_11495
 FIELD	chf	Lbqz;	c	field_11494
 METHOD	chf	(Lbqz;)Lcbc;	a	method_10525
-METHOD	chf	(Lbsd;Lclc;)V	a	method_38235
+METHOD	chf	(Lbsd;Lclc;)V	a	method_38234
 METHOD	chf	(Lcbc;)Lbqz;	a	method_10526
 METHOD	chf	(Lclc;Ldix;Ljava/util/function/Consumer;)V	a	method_10524
 METHOD	chf	(Lcmg;Lbye;Lgh;Lclc;)Z	a	method_33383
@@ -35956,7 +35956,7 @@ METHOD	cjy	(Lbye;Lgh;Lafi;)V	a	method_10938
 METHOD	cjy	(Lbye;Lgh;Lcmg;Lcjy;)V	a	method_16896
 METHOD	cjy	(Lot;)V	a	method_10936
 METHOD	cjy	()Ljava/util/List;	c	method_10937
-METHOD	cjy	()Lpz;	f	method_38237
+METHOD	cjy	()Lpz;	f	method_38236
 CLASS	cjy$1	net/minecraft/class_2580$1
 FIELD	cjy$1	Lcjy;	a	field_17379
 CLASS	cjy$a	net/minecraft/class_2580$class_2581
@@ -35968,7 +35968,7 @@ METHOD	cjy$a	()I	c	method_10943
 CLASS	cjz	net/minecraft/class_2587
 FIELD	cjz	Lbqz;	a	field_11869
 METHOD	cjz	(Lbqz;)V	a	method_11019
-METHOD	cjz	()Lpz;	c	method_38238
+METHOD	cjz	()Lpz;	c	method_38237
 METHOD	cjz	()Lbqz;	d	method_11018
 CLASS	cka	net/minecraft/class_4482
 FIELD	cka	Ljava/lang/String;	a	field_31306
@@ -36061,24 +36061,24 @@ METHOD	ckd	(Lgh;Lcmg;Ljava/lang/String;Lckf;)Lckd;	a	method_17899
 METHOD	ckd	(Lgh;Lcmg;Lnb;)Lckd;	a	method_11005
 METHOD	ckd	(Ljava/lang/String;)Lckd;	a	method_17898
 METHOD	ckd	(Lnb;)V	a	method_11014
-METHOD	ckd	(Lnb;Lckf;)V	a	method_38239
+METHOD	ckd	(Lnb;Lckf;)V	a	method_38238
 METHOD	ckd	(Lnb;Ljava/lang/String;Lckd;)Lckd;	a	method_17897
 METHOD	ckd	(Lr;)V	a	method_11003
 METHOD	ckd	(II)Z	a_	method_11004
 METHOD	ckd	(Lcmg;)V	b	method_31664
 METHOD	ckd	(Lnb;)V	b	method_11007
-METHOD	ckd	(Lnb;)Lgh;	c	method_38240
-METHOD	ckd	(Lbsd;)V	d	method_38241
-METHOD	ckd	(Lnb;)V	d	method_38242
+METHOD	ckd	(Lnb;)Lgh;	c	method_38239
+METHOD	ckd	(Lbsd;)V	d	method_38240
+METHOD	ckd	(Lnb;)V	d	method_38241
 METHOD	ckd	()V	e	method_5431
 METHOD	ckd	(Lnb;)V	e	method_10999
 METHOD	ckd	()Ljava/lang/String;	f	method_10995
-METHOD	ckd	()Lpl;	h	method_38236
+METHOD	ckd	()Lpl;	h	method_38235
 METHOD	ckd	()Lbye;	k	method_10997
 METHOD	ckd	()Z	l	method_11002
-METHOD	ckd	()Lnb;	m	method_38243
-METHOD	ckd	()Lnb;	n	method_38244
-METHOD	ckd	()Lnb;	o	method_38245
+METHOD	ckd	()Lnb;	m	method_38242
+METHOD	ckd	()Lnb;	n	method_38243
+METHOD	ckd	()Lnb;	o	method_38244
 METHOD	ckd	()Lgh;	p	method_11016
 METHOD	ckd	()Lcmg;	q	method_11010
 METHOD	ckd	()Z	r	method_11015
@@ -36171,7 +36171,7 @@ METHOD	ckh	(Lbye;Lgh;Lcmg;Lckh;)V	a	method_31666
 METHOD	ckh	(Lbye;Lgh;Lcmg;Lckh;)V	b	method_31667
 METHOD	ckh	()Lgt;	c	method_17505
 METHOD	ckh	(Lbye;Lgh;Lcmg;Lckh;)V	c	method_31668
-METHOD	ckh	()Lpz;	d	method_38246
+METHOD	ckh	()Lpz;	d	method_38245
 METHOD	ckh	()V	f	method_17506
 METHOD	ckh	()V	g	method_17510
 CLASS	cki	net/minecraft/class_2595
@@ -36202,7 +36202,7 @@ FIELD	ckk	Z	d	field_11916
 FIELD	ckk	Lbxd;	e	field_11920
 METHOD	ckk	(Z)V	a	method_11038
 METHOD	ckk	(Z)V	b	method_11041
-METHOD	ckk	()Lpz;	c	method_38247
+METHOD	ckk	()Lpz;	c	method_38246
 METHOD	ckk	(Z)V	c	method_11037
 METHOD	ckk	()Lbxd;	d	method_11040
 METHOD	ckk	()Z	f	method_11043
@@ -36256,7 +36256,7 @@ METHOD	ckm	(Ljava/util/UUID;Lavh;)Z	a	method_11058
 METHOD	ckm	(Z)V	a	method_11062
 METHOD	ckm	(Lbye;Lgh;Lcmg;Lckm;)V	b	method_31677
 METHOD	ckm	(Lbye;Lgh;Ljava/util/List;)V	b	method_11055
-METHOD	ckm	()Lpz;	c	method_38248
+METHOD	ckm	()Lpz;	c	method_38247
 METHOD	ckm	()Z	d	method_11065
 METHOD	ckm	()Z	f	method_11066
 CLASS	ckn	net/minecraft/class_5561
@@ -36372,7 +36372,7 @@ METHOD	ckw	()Lwz;	d	method_26399
 METHOD	ckw	()Lwz;	f	method_16382
 METHOD	ckw	()Ljava/lang/String;	g	method_16380
 METHOD	ckw	()Lckw$a;	i	method_26400
-METHOD	ckw	()Lpz;	j	method_38249
+METHOD	ckw	()Lpz;	j	method_38248
 METHOD	ckw	()Lckw$a;	v	method_26397
 CLASS	ckw$a	net/minecraft/class_3751$class_4991
 FIELD	ckw$a	Lckw$a;	a	field_23329
@@ -36490,7 +36490,7 @@ METHOD	cld	(ZLjava/util/function/Function;)[Lagz;	a	method_33829
 METHOD	cld	(Labx;)Ldm;	b	method_11304
 METHOD	cld	(Ljava/lang/String;)Lot;	b	method_33384
 METHOD	cld	(Z)Z	b	method_34270
-METHOD	cld	()Lpz;	c	method_38250
+METHOD	cld	()Lpz;	c	method_38249
 METHOD	cld	(Z)[Lot;	c	method_33830
 METHOD	cld	()Z	d	method_11307
 METHOD	cld	()Ljava/util/UUID;	f	method_11305
@@ -36520,14 +36520,14 @@ METHOD	cle	(Lcom/mojang/authlib/GameProfile;Ljava/util/function/Consumer;)V	b	me
 METHOD	cle	(Ljava/util/function/Consumer;Lcom/mojang/authlib/GameProfile;)V	b	method_37248
 METHOD	cle	()Lcom/mojang/authlib/GameProfile;	c	method_11334
 METHOD	cle	(Ljava/util/function/Consumer;Lcom/mojang/authlib/GameProfile;)V	c	method_37469
-METHOD	cle	()Lpz;	d	method_38251
+METHOD	cle	()Lpz;	d	method_38250
 METHOD	cle	()V	f	method_11339
 CLASS	clf	net/minecraft/class_3723
 CLASS	clg	net/minecraft/class_2636
 FIELD	clg	Lbxe;	a	field_12114
 METHOD	clg	(Lbye;Lgh;Lcmg;Lclg;)V	a	method_31696
 METHOD	clg	(Lbye;Lgh;Lcmg;Lclg;)V	b	method_31697
-METHOD	clg	()Lpz;	c	method_38252
+METHOD	clg	()Lpz;	c	method_38251
 METHOD	clg	()Lbxe;	d	method_11390
 CLASS	clg$1	net/minecraft/class_2636$1
 FIELD	clg$1	Lclg;	a	field_27219
@@ -36586,7 +36586,7 @@ METHOD	clh	(Lckd;)Z	b	method_34278
 METHOD	clh	(Lgh;)Z	b	method_34279
 METHOD	clh	(Ljava/lang/String;)V	b	method_11363
 METHOD	clh	(Z)Z	b	method_11366
-METHOD	clh	()Lpz;	c	method_38253
+METHOD	clh	()Lpz;	c	method_38252
 METHOD	clh	(Z)V	c	method_11379
 METHOD	clh	()Ljava/lang/String;	d	method_11362
 METHOD	clh	(Z)V	d	method_11347
@@ -36636,7 +36636,7 @@ METHOD	cli	(Lbye;Lgh;Lcmg;Lcli;)V	b	method_31702
 METHOD	cli	()Z	c	method_11420
 METHOD	cli	(Lbye;Lgh;Lcmg;Lcli;)V	c	method_11411
 METHOD	cli	()Z	d	method_11421
-METHOD	cli	()Lpz;	f	method_38254
+METHOD	cli	()Lpz;	f	method_38253
 METHOD	cli	()I	g	method_11415
 CLASS	clj	net/minecraft/class_2640
 METHOD	clj	(Lgm;)Z	a	method_11400
@@ -37634,7 +37634,7 @@ METHOD	cnw$d	()V	n	method_11996
 CLASS	cnx	net/minecraft/class_6098
 CLASS	cny	net/minecraft/class_6557
 METHOD	cny	(I)Lcmg;	a	method_32892
-METHOD	cny	(ILcmg;)V	a	method_38093
+METHOD	cny	(ILcmg;)V	a	method_38092
 CLASS	cnz	net/minecraft/class_5867
 FIELD	cnz	Lbyf;	a	field_29037
 FIELD	cnz	Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;	b	field_29038
@@ -37665,32 +37665,32 @@ FIELD	coa	Ljava/util/Map;	r	field_34553
 METHOD	coa	()Lcol;	a	method_12040
 METHOD	coa	(I)Lcqk;	a	method_32914
 METHOD	coa	(II)Z	a	method_12228
-METHOD	coa	(III)Ljava/lang/String;	a	method_38255
-METHOD	coa	(IIIIIILcrl;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Lcqt$a;)Lcri;	a	method_38256
+METHOD	coa	(III)Ljava/lang/String;	a	method_38254
+METHOD	coa	(IIIIIILcrl;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Lcqt$a;)Lcri;	a	method_38255
 METHOD	coa	(J)V	a	method_12028
 METHOD	coa	(Laus;)V	a	method_12002
-METHOD	coa	(Lbyg;Lgx;[Lcol;)V	a	method_38257
-METHOD	coa	(Lbzh;Lbzl$f;)V	a	method_38258
+METHOD	coa	(Lbyg;Lgx;[Lcol;)V	a	method_38256
+METHOD	coa	(Lbzh;Lbzl$f;)V	a	method_38257
 METHOD	coa	(Lckd;)V	a	method_12007
 METHOD	coa	(Lcrg$a;)Lcrg;	a	method_12032
 METHOD	coa	(Lcrg$a;II)I	a	method_12005
 METHOD	coa	(Lcrg$a;[J)V	a	method_12037
 METHOD	coa	(Lgh;Lcmg;Z)Lcmg;	a	method_12010
 METHOD	coa	(Ljava/util/Map;)V	a	method_12034
-METHOD	coa	(Ljava/util/function/Supplier;)Lbze;	a	method_38259
+METHOD	coa	(Ljava/util/function/Supplier;)Lbze;	a	method_38258
 METHOD	coa	(Lnb;)V	a	method_12042
 METHOD	coa	(SI)V	a	method_12029
 METHOD	coa	(Z)V	a	method_12008
 METHOD	coa	([Lit/unimi/dsi/fastutil/shorts/ShortList;I)Lit/unimi/dsi/fastutil/shorts/ShortList;	a	method_12026
 METHOD	coa	()I	b	method_12031
-METHOD	coa	(I)Lcol;	b	method_38260
+METHOD	coa	(I)Lcol;	b	method_38259
 METHOD	coa	(Lcrg$a;)Lgh;	b	method_35319
 METHOD	coa	(Z)V	b	method_12020
 METHOD	coa	()Ljava/util/Set;	c	method_12021
-METHOD	coa	(Lcrg$a;)Lcrg;	c	method_38261
-METHOD	coa	(Lcvq;)Lit/unimi/dsi/fastutil/longs/LongSet;	c	method_38262
+METHOD	coa	(Lcrg$a;)Lcrg;	c	method_38260
+METHOD	coa	(Lcvq;)Lit/unimi/dsi/fastutil/longs/LongSet;	c	method_38261
 METHOD	coa	()[Lcol;	d	method_12006
-METHOD	coa	(Lcvq;)Lit/unimi/dsi/fastutil/longs/LongSet;	d	method_38263
+METHOD	coa	(Lcvq;)Lit/unimi/dsi/fastutil/longs/LongSet;	d	method_38262
 METHOD	coa	(Lgh;)V	d	method_12041
 METHOD	coa	()Ljava/util/Collection;	e	method_12011
 METHOD	coa	(Lgh;)V	e	method_12039
@@ -37718,32 +37718,32 @@ METHOD	cob	()Lcom/mojang/serialization/Codec;	a	method_28506
 METHOD	cob	(IILbyg;)Lbyq;	a	method_26261
 METHOD	cob	(IILcrg$a;Lbyg;)I	a	method_16397
 METHOD	cob	(J)Lcob;	a	method_27997
-METHOD	cob	(Labw;Lcvq;)Z	a	method_38264
+METHOD	cob	(Labw;Lcvq;)Z	a	method_38263
 METHOD	cob	(Labw;Lcvq;Lgh;IZ)Lgh;	a	method_12103
 METHOD	cob	(Lacc;)V	a	method_12107
 METHOD	cob	(Lacc;JLbzg;Lbyw;Lcoa;Lcrc$a;)V	a	method_12108
 METHOD	cob	(Lacc;Lbyw;Lcoa;)V	a	method_12110
 METHOD	cob	(Lbxi;)Z	a	method_28507
 METHOD	cob	(Lbyg;)I	a	method_12100
-METHOD	cob	(Lbyw;Lcoa;Lha;Lcvq;)I	a	method_38265
+METHOD	cob	(Lbyw;Lcoa;Lha;Lcvq;)I	a	method_38264
 METHOD	cob	(Lbza;Lbxi;Lbyw;)V	a	method_12102
 METHOD	cob	(Lbza;Lbyw;Lcoa;)V	a	method_16130
-METHOD	cob	(Lbza;Lbyw;Lcsa;Ljava/util/function/Predicate;IIIIIILddh;)V	a	method_38266
-METHOD	cob	(Lbze;)Z	a	method_38267
+METHOD	cob	(Lbza;Lbyw;Lcsa;Ljava/util/function/Predicate;IIIIIILddh;)V	a	method_38265
+METHOD	cob	(Lbze;)Z	a	method_38266
 METHOD	cob	(Lbze;Lbyw;Lavk;Lgh;)Lasf;	a	method_12113
-METHOD	cob	(Lcoa;)Lcoa;	a	method_38268
-METHOD	cob	(Lcvq;)Ljava/lang/Integer;	a	method_38269
+METHOD	cob	(Lcoa;)Lcoa;	a	method_38267
+METHOD	cob	(Lcvq;)Ljava/lang/Integer;	a	method_38268
 METHOD	cob	(Lddh;)Ljava/lang/String;	a	method_30148
-METHOD	cob	(Lgx;Lbze;)Ljava/util/stream/Stream;	a	method_38270
-METHOD	cob	(Lgx;Lcom/google/common/collect/ImmutableMultimap;Lbze;)Z	a	method_38271
-METHOD	cob	(Lgx;Lctb;)Ljava/lang/String;	a	method_38272
-METHOD	cob	(Lgx;Lcvq;)Ljava/lang/String;	a	method_38273
-METHOD	cob	(Lgx;Ljava/util/Map$Entry;Lbze;)Z	a	method_38274
-METHOD	cob	(Lgx;Ljava/util/function/Predicate;Lbze;)Z	a	method_38275
+METHOD	cob	(Lgx;Lbze;)Ljava/util/stream/Stream;	a	method_38269
+METHOD	cob	(Lgx;Lcom/google/common/collect/ImmutableMultimap;Lbze;)Z	a	method_38270
+METHOD	cob	(Lgx;Lctb;)Ljava/lang/String;	a	method_38271
+METHOD	cob	(Lgx;Lcvq;)Ljava/lang/String;	a	method_38272
+METHOD	cob	(Lgx;Ljava/util/Map$Entry;Lbze;)Z	a	method_38273
+METHOD	cob	(Lgx;Ljava/util/function/Predicate;Lbze;)Z	a	method_38274
 METHOD	cob	(Lgy;Lbyw;Lcoa;Ldej;J)V	a	method_16129
 METHOD	cob	(Ljava/util/concurrent/Executor;Lbyw;Lcoa;)Ljava/util/concurrent/CompletableFuture;	a	method_12088
-METHOD	cob	(Ljava/util/concurrent/Executor;Lgx;Lbyw;Lcoa;)Ljava/util/concurrent/CompletableFuture;	a	method_38276
-METHOD	cob	()Lbzl$f;	b	method_38277
+METHOD	cob	(Ljava/util/concurrent/Executor;Lgx;Lbyw;Lcoa;)Ljava/util/concurrent/CompletableFuture;	a	method_38275
+METHOD	cob	()Lbzl$f;	b	method_38276
 METHOD	cob	(IILcrg$a;Lbyg;)I	b	method_20402
 METHOD	cob	(Lddh;)Ljava/lang/String;	b	method_30149
 METHOD	cob	()Lcrv;	c	method_12109
@@ -37796,8 +37796,8 @@ METHOD	cod	()Ljava/util/List;	a	method_16558
 METHOD	cod	(I)Lcod;	a	method_12161
 METHOD	cod	(Labw;Ldej;Labz;Ljava/util/function/Function;Lcoa;)Ljava/util/concurrent/CompletableFuture;	a	method_20612
 METHOD	cod	(Lcod;)I	a	method_12175
-METHOD	cod	(Lcod;Labw;Lcob;Ljava/util/List;Lcoa;)V	a	method_38278
-METHOD	cod	(Lcod;Labw;Ldej;Labz;Ljava/util/function/Function;Lcoa;)Ljava/util/concurrent/CompletableFuture;	a	method_38279
+METHOD	cod	(Lcod;Labw;Lcob;Ljava/util/List;Lcoa;)V	a	method_38277
+METHOD	cod	(Lcod;Labw;Ldej;Labz;Ljava/util/function/Function;Lcoa;)Ljava/util/concurrent/CompletableFuture;	a	method_38278
 METHOD	cod	(Lcod;Labz;Lcoa;)Ljava/util/concurrent/CompletableFuture;	a	method_20610
 METHOD	cod	(Lcod;Lcoa;)Z	a	method_20608
 METHOD	cod	(Lcod;Ljava/util/concurrent/Executor;Labw;Lcob;Ldej;Labz;Ljava/util/function/Function;Ljava/util/List;Lcoa;Z)Ljava/util/concurrent/CompletableFuture;	a	method_20609
@@ -37807,25 +37807,25 @@ METHOD	cod	(Ljava/lang/String;Lcod;ILjava/util/EnumSet;Lcod$a;Lcod$b;)Lcod;	a	me
 METHOD	cod	(Ljava/lang/String;Lcod;ILjava/util/EnumSet;Lcod$a;Lcod$b;Lcod$c;)Lcod;	a	method_20611
 METHOD	cod	(Ljava/lang/String;Lcod;ILjava/util/EnumSet;Lcod$a;Lcod$d;)Lcod;	a	method_16555
 METHOD	cod	(Ljava/util/concurrent/Executor;Labw;Lcob;Ldej;Labz;Ljava/util/function/Function;Ljava/util/List;Z)Ljava/util/concurrent/CompletableFuture;	a	method_12154
-METHOD	cod	(Lnet/minecraft/util/profiling/jfr/event/worldgen/ChunkGenerationEvent;Lcoa;)V	a	method_38280
-METHOD	cod	(Lnet/minecraft/util/profiling/jfr/event/worldgen/ChunkGenerationEvent;Lcom/mojang/datafixers/util/Either;)Lcom/mojang/datafixers/util/Either;	a	method_38281
+METHOD	cod	(Lnet/minecraft/util/profiling/jfr/event/worldgen/ChunkGenerationEvent;Lcoa;)V	a	method_38279
+METHOD	cod	(Lnet/minecraft/util/profiling/jfr/event/worldgen/ChunkGenerationEvent;Lcom/mojang/datafixers/util/Either;)Lcom/mojang/datafixers/util/Either;	a	method_38280
 METHOD	cod	()I	b	method_12155
 METHOD	cod	(Lcod;)Z	b	method_12165
 METHOD	cod	(Lcod;Labw;Lcob;Ljava/util/List;Lcoa;)V	b	method_17033
 METHOD	cod	(Lcod;Labw;Ldej;Labz;Ljava/util/function/Function;Lcoa;)Ljava/util/concurrent/CompletableFuture;	b	method_16566
-METHOD	cod	(Lcod;Lcoa;)Lcom/mojang/datafixers/util/Either;	b	method_38282
+METHOD	cod	(Lcod;Lcoa;)Lcom/mojang/datafixers/util/Either;	b	method_38281
 METHOD	cod	(Lcod;Ljava/util/concurrent/Executor;Labw;Lcob;Ldej;Labz;Ljava/util/function/Function;Ljava/util/List;Lcoa;Z)Ljava/util/concurrent/CompletableFuture;	b	method_20614
 METHOD	cod	()I	c	method_16559
-METHOD	cod	(Lcod;Labw;Lcob;Ljava/util/List;Lcoa;)V	c	method_38283
+METHOD	cod	(Lcod;Labw;Lcob;Ljava/util/List;Lcoa;)V	c	method_38282
 METHOD	cod	(Lcod;Labw;Ldej;Labz;Ljava/util/function/Function;Lcoa;)Ljava/util/concurrent/CompletableFuture;	c	method_20615
-METHOD	cod	(Lcod;Lcoa;)Lcom/mojang/datafixers/util/Either;	c	method_38284
+METHOD	cod	(Lcod;Lcoa;)Lcom/mojang/datafixers/util/Either;	c	method_38283
 METHOD	cod	(Lcod;Ljava/util/concurrent/Executor;Labw;Lcob;Ldej;Labz;Ljava/util/function/Function;Ljava/util/List;Lcoa;Z)Ljava/util/concurrent/CompletableFuture;	c	method_20613
 METHOD	cod	()Ljava/lang/String;	d	method_12172
 METHOD	cod	(Lcod;Labw;Lcob;Ljava/util/List;Lcoa;)V	d	method_16569
-METHOD	cod	(Lcod;Ljava/util/concurrent/Executor;Labw;Lcob;Ldej;Labz;Ljava/util/function/Function;Ljava/util/List;Lcoa;Z)Ljava/util/concurrent/CompletableFuture;	d	method_38285
+METHOD	cod	(Lcod;Ljava/util/concurrent/Executor;Labw;Lcob;Ldej;Labz;Ljava/util/function/Function;Ljava/util/List;Lcoa;Z)Ljava/util/concurrent/CompletableFuture;	d	method_38284
 METHOD	cod	()Lcod;	e	method_16560
 METHOD	cod	(Lcod;Labw;Lcob;Ljava/util/List;Lcoa;)V	e	method_16563
-METHOD	cod	(Lcod;Ljava/util/concurrent/Executor;Labw;Lcob;Ldej;Labz;Ljava/util/function/Function;Ljava/util/List;Lcoa;Z)Ljava/util/concurrent/CompletableFuture;	e	method_38286
+METHOD	cod	(Lcod;Ljava/util/concurrent/Executor;Labw;Lcob;Ldej;Labz;Ljava/util/function/Function;Ljava/util/List;Lcoa;Z)Ljava/util/concurrent/CompletableFuture;	e	method_38285
 METHOD	cod	()I	f	method_12152
 METHOD	cod	(Lcod;Labw;Lcob;Ljava/util/List;Lcoa;)V	f	method_16565
 METHOD	cod	(Lcod;Ljava/util/concurrent/Executor;Labw;Lcob;Ldej;Labz;Ljava/util/function/Function;Ljava/util/List;Lcoa;Z)Ljava/util/concurrent/CompletableFuture;	f	method_16556
@@ -37867,14 +37867,14 @@ METHOD	cog	(Ljava/util/Map;)V	b	method_12183
 METHOD	cog	()Ljava/util/Map;	h	method_12179
 CLASS	coh	net/minecraft/class_2816
 FIELD	coh	Lgq;	a	field_12828
-METHOD	coh	(ILgq;Lcor;)Lcoq;	a	method_38287
+METHOD	coh	(ILgq;Lcor;)Lcoq;	a	method_38286
 CLASS	coi	net/minecraft/class_2814
 FIELD	coi	Lgq;	a	field_12821
 FIELD	coi	Lagn;	b	field_12824
 FIELD	coi	Lcor;	c	field_12825
 FIELD	coi	I	d	field_12822
-METHOD	coi	(ILgq;Lcor;)Lcoq;	a	method_38288
-METHOD	coi	()Ljava/util/List;	c	method_38289
+METHOD	coi	(ILgq;Lcor;)Lcoq;	a	method_38287
+METHOD	coi	()Ljava/util/List;	c	method_38288
 CLASS	coj	net/minecraft/class_2821
 FIELD	coj	Lcok;	m	field_12866
 FIELD	coj	Z	n	field_34554
@@ -37891,14 +37891,14 @@ FIELD	cok	Lbye;	q	field_12858
 FIELD	cok	Ljava/util/function/Supplier;	r	field_12856
 FIELD	cok	Ljava/util/function/Consumer;	s	field_12850
 FIELD	cok	Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;	t	field_28129
-METHOD	cok	()V	A	method_38290
+METHOD	cok	()V	A	method_38289
 METHOD	cok	()V	B	method_31713
 METHOD	cok	()Z	C	method_31715
 METHOD	cok	(III)Ldgs;	a	method_12234
 METHOD	cok	(Labw;)V	a	method_20471
 METHOD	cok	(Lckd;Lcke;)Lclk;	a	method_31718
 METHOD	cok	(Lckd;Lcke;Lgh;Lcok$c;)Lcok$c;	a	method_31719
-METHOD	cok	(Lcok$c;)V	a	method_38291
+METHOD	cok	(Lcok$c;)V	a	method_38290
 METHOD	cok	(Lgh;Lckf;Lnb;)V	a	method_31716
 METHOD	cok	(Lgh;Lcok$b;)Lckd;	a	method_12201
 METHOD	cok	(Lgh;Lnb;)Lckd;	a	method_12204
@@ -37959,22 +37959,22 @@ METHOD	col	(I)I	a	method_31729
 METHOD	col	(III)Lcmg;	a	method_12254
 METHOD	col	(IIILcmg;)Lcmg;	a	method_16675
 METHOD	col	(IIILcmg;Z)Lcmg;	a	method_12256
-METHOD	col	(Lbzh;Lbzl$f;II)V	a	method_38292
+METHOD	col	(Lbzh;Lbzl$f;II)V	a	method_38291
 METHOD	col	(Lcmg;I)V	a	method_21731
 METHOD	col	(Ljava/util/function/Predicate;)Z	a	method_19523
 METHOD	col	(Loh;)V	a	method_12258
 METHOD	col	()V	b	method_16677
 METHOD	col	(III)Ldgs;	b	method_12255
 METHOD	col	(Loh;)V	b	method_12257
-METHOD	col	()Z	c	method_38293
-METHOD	col	(III)Lbze;	c	method_38294
+METHOD	col	()Z	c	method_38292
+METHOD	col	(III)Lbze;	c	method_38293
 METHOD	col	()Z	d	method_12262
 METHOD	col	()Z	e	method_12263
 METHOD	col	()Z	f	method_12264
 METHOD	col	()I	g	method_12259
 METHOD	col	()V	h	method_12253
 METHOD	col	()Lcos;	i	method_12265
-METHOD	col	()Lcos;	j	method_38295
+METHOD	col	()Lcos;	j	method_38294
 METHOD	col	()I	k	method_12260
 CLASS	com	net/minecraft/class_2823
 METHOD	com	(Lbyn;Lha;)V	a	method_12247
@@ -37986,7 +37986,7 @@ FIELD	coo	[Ljava/lang/Object;	b	field_12904
 FIELD	coo	Lcor;	c	field_12905
 FIELD	coo	I	d	field_12903
 FIELD	coo	I	e	field_12901
-METHOD	coo	(ILgq;Lcor;)Lcoq;	a	method_38296
+METHOD	coo	(ILgq;Lcor;)Lcoq;	a	method_38295
 CLASS	cop	net/minecraft/class_6558
 CLASS	coq	net/minecraft/class_2837
 METHOD	coq	()I	a	method_12290
@@ -38011,45 +38011,45 @@ METHOD	cos	(I)Ljava/lang/Object;	a	method_12331
 METHOD	cos	(III)Ljava/lang/Object;	a	method_12321
 METHOD	cos	(IIILjava/lang/Object;)Ljava/lang/Object;	a	method_12328
 METHOD	cos	(ILjava/lang/Object;)Ljava/lang/Object;	a	method_12336
-METHOD	cos	(Lcom/mojang/serialization/Codec;Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_38297
+METHOD	cos	(Lcom/mojang/serialization/Codec;Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_38296
 METHOD	cos	(Lcos$b;)V	a	method_21732
 METHOD	cos	(Lcos$b;Lit/unimi/dsi/fastutil/ints/Int2IntMap$Entry;)V	a	method_21733
-METHOD	cos	(Lcos$c;I)Lcos$c;	a	method_38298
-METHOD	cos	(Lgq;Lcom/mojang/serialization/Codec;Lcos$e;)Lcom/mojang/serialization/Codec;	a	method_38299
-METHOD	cos	(Lgq;Lcoq;Lahp;I)I	a	method_38300
-METHOD	cos	(Lgq;Lcos$e;)Lcos$d;	a	method_38301
-METHOD	cos	(Lgq;Lcos$e;Lcos$d;)Lcom/mojang/serialization/DataResult;	a	method_38302
-METHOD	cos	(Lgq;Lcos$e;Lcos;)Lcos$d;	a	method_38303
+METHOD	cos	(Lcos$c;I)Lcos$c;	a	method_38297
+METHOD	cos	(Lgq;Lcom/mojang/serialization/Codec;Lcos$e;)Lcom/mojang/serialization/Codec;	a	method_38298
+METHOD	cos	(Lgq;Lcoq;Lahp;I)I	a	method_38299
+METHOD	cos	(Lgq;Lcos$e;)Lcos$d;	a	method_38300
+METHOD	cos	(Lgq;Lcos$e;Lcos$d;)Lcom/mojang/serialization/DataResult;	a	method_38301
+METHOD	cos	(Lgq;Lcos$e;Lcos;)Lcos$d;	a	method_38302
 METHOD	cos	(Lit/unimi/dsi/fastutil/ints/Int2IntMap;I)V	a	method_21734
 METHOD	cos	(Ljava/util/function/Predicate;)Z	a	method_19526
 METHOD	cos	(Loh;)V	a	method_12326
 METHOD	cos	()V	b	method_12335
 METHOD	cos	(IIILjava/lang/Object;)Ljava/lang/Object;	b	method_16678
 METHOD	cos	(ILjava/lang/Object;)V	b	method_12322
-METHOD	cos	(Lgq;Lcos$e;Lcos$d;)Lcom/mojang/serialization/DataResult;	b	method_38304
+METHOD	cos	(Lgq;Lcos$e;Lcos$d;)Lcom/mojang/serialization/DataResult;	b	method_38303
 METHOD	cos	(Loh;)V	b	method_12325
 METHOD	cos	()I	c	method_12327
 METHOD	cos	(IIILjava/lang/Object;)V	c	method_35321
-METHOD	cos	(ILjava/lang/Object;)I	c	method_38305
+METHOD	cos	(ILjava/lang/Object;)I	c	method_38304
 METHOD	cos	(ILjava/lang/Object;)I	d	method_12333
 CLASS	cos$a	net/minecraft/class_2841$class_6560
 FIELD	cos$a	Lcoq$a;	a	comp_72
 FIELD	cos$a	I	b	comp_73
 METHOD	cos$a	()Lcoq$a;	a	comp_72
-METHOD	cos$a	(Lgq;Lcor;I[J)Lcos$c;	a	method_38306
+METHOD	cos$a	(Lgq;Lcor;I[J)Lcos$c;	a	method_38305
 METHOD	cos$a	()I	b	comp_73
 CLASS	cos$b	net/minecraft/class_2841$class_4464
 CLASS	cos$c	net/minecraft/class_2841$class_6561
 FIELD	cos$c	Lcos$a;	a	comp_74
 FIELD	cos$c	Lagl;	b	field_34564
 FIELD	cos$c	Lcoq;	c	field_34565
-METHOD	cos$c	()I	a	method_38307
-METHOD	cos$c	(ILjava/lang/Object;)V	a	method_38308
-METHOD	cos$c	(Lcoq;Lagl;)V	a	method_38309
-METHOD	cos$c	(Loh;)V	a	method_38310
+METHOD	cos$c	()I	a	method_38306
+METHOD	cos$c	(ILjava/lang/Object;)V	a	method_38307
+METHOD	cos$c	(Lcoq;Lagl;)V	a	method_38308
+METHOD	cos$c	(Loh;)V	a	method_38309
 METHOD	cos$c	()Lcos$a;	b	comp_74
-METHOD	cos$c	()Lagl;	c	method_38311
-METHOD	cos$c	()Lcoq;	d	method_38312
+METHOD	cos$c	()Lagl;	c	method_38310
+METHOD	cos$c	()Lcoq;	d	method_38311
 CLASS	cos$d	net/minecraft/class_2841$class_6562
 FIELD	cos$d	Ljava/util/List;	a	comp_75
 FIELD	cos$d	Ljava/util/Optional;	b	comp_76
@@ -38063,10 +38063,10 @@ FIELD	cos$e	Lcos$e;	d	field_34569
 FIELD	cos$e	Lcos$e;	e	field_34570
 FIELD	cos$e	Lcoq$a;	f	field_34571
 FIELD	cos$e	I	g	field_34572
-METHOD	cos$e	()I	a	method_38313
-METHOD	cos$e	(III)I	a	method_38314
-METHOD	cos$e	(Lgq;I)Lcos$a;	a	method_38315
-METHOD	cos$e	(Lgq;I)I	b	method_38316
+METHOD	cos$e	()I	a	method_38312
+METHOD	cos$e	(III)I	a	method_38313
+METHOD	cos$e	(Lgq;I)Lcos$a;	a	method_38314
+METHOD	cos$e	(Lgq;I)I	b	method_38315
 CLASS	cos$e$1	net/minecraft/class_2841$class_6563$1
 CLASS	cos$e$2	net/minecraft/class_2841$class_6563$2
 CLASS	cot	net/minecraft/class_2839
@@ -38104,7 +38104,7 @@ CLASS	cov	net/minecraft/class_6564
 FIELD	cov	Lgq;	a	field_34573
 FIELD	cov	Ljava/lang/Object;	b	field_34574
 FIELD	cov	Lcor;	c	field_34575
-METHOD	cov	(ILgq;Lcor;)Lcoq;	a	method_38317
+METHOD	cov	(ILgq;Lcor;)Lcoq;	a	method_38316
 CLASS	cow	net/minecraft/class_2843
 FIELD	cow	Lcow;	a	field_12950
 FIELD	cow	Lorg/apache/logging/log4j/Logger;	b	field_12956
@@ -38864,7 +38864,7 @@ METHOD	cqr	(Lcqr;)Lgh;	c	method_32979
 CLASS	cqs	net/minecraft/class_6106
 CLASS	cqt	net/minecraft/class_6350
 METHOD	cqt	()Z	a	method_33742
-METHOD	cqt	(IIIDD)Lcmg;	a	method_38318
+METHOD	cqt	(IIIDD)Lcmg;	a	method_38317
 METHOD	cqt	(Lcqt$a;)Lcqt;	a	method_36381
 METHOD	cqt	(Lcri;Lbxi;Ldfw;Ldfw;Ldfw;Lcrr;Lcrl;IILcqt$a;)Lcqt;	a	method_36382
 CLASS	cqt$1	net/minecraft/class_6350$1
@@ -38873,7 +38873,7 @@ CLASS	cqt$a	net/minecraft/class_6350$class_6565
 CLASS	cqt$b	net/minecraft/class_6350$class_6351
 FIELD	cqt$b	I	a	field_33576
 FIELD	cqt$b	Lcmg;	b	field_33577
-METHOD	cqt$b	(I)Lcmg;	a	method_38319
+METHOD	cqt$b	(I)Lcmg;	a	method_38318
 CLASS	cqt$c	net/minecraft/class_6350$class_5832
 FIELD	cqt$c	I	a	field_31451
 FIELD	cqt$c	I	b	field_31452
@@ -38916,7 +38916,7 @@ FIELD	cqu	Lit/unimi/dsi/fastutil/objects/ObjectList;	e	field_28743
 FIELD	cqu	Lit/unimi/dsi/fastutil/objects/ObjectListIterator;	f	field_28744
 FIELD	cqu	Lit/unimi/dsi/fastutil/objects/ObjectListIterator;	g	field_28745
 METHOD	cqu	(III)D	a	method_33832
-METHOD	cqu	(Lbxi;IILddh;)V	a	method_38320
+METHOD	cqu	(Lbxi;IILddh;)V	a	method_38319
 METHOD	cqu	([F)V	a	method_33640
 METHOD	cqu	(III)D	b	method_33641
 METHOD	cqu	(III)D	c	method_33642
@@ -38963,7 +38963,7 @@ FIELD	cqx	I	k	field_13161
 FIELD	cqx	I	l	field_13160
 FIELD	cqx	Lgx;	m	field_26747
 METHOD	cqx	(II)Lcmg;	a	method_12578
-METHOD	cqx	(III)Lbzl$g;	a	method_38321
+METHOD	cqx	(III)Lbzl$g;	a	method_38320
 METHOD	cqx	(Lcbc;)Ljava/util/stream/Stream;	a	method_12579
 METHOD	cqx	()Lgx;	h	method_31169
 CLASS	cqy	net/minecraft/class_5432
@@ -38989,7 +38989,7 @@ CLASS	crb	net/minecraft/class_2897
 FIELD	crb	Lcom/mojang/serialization/Codec;	d	field_24769
 FIELD	crb	Ldam;	e	field_24510
 METHOD	crb	(I)[Lcmg;	a	method_28001
-METHOD	crb	(III)Lbzl$g;	a	method_38322
+METHOD	crb	(III)Lbzl$g;	a	method_38321
 METHOD	crb	(Lcmg;)Lcmg;	a	method_28002
 METHOD	crb	()Ldam;	h	method_28545
 CLASS	crc	net/minecraft/class_2893
@@ -39120,28 +39120,28 @@ FIELD	crh	I	p	field_24779
 FIELD	crh	Lcrl;	q	field_28748
 FIELD	crh	Ldax;	r	field_34590
 FIELD	crh	Lcqt$a;	s	field_34591
-METHOD	crh	(III)Lbze;	a	method_38323
-METHOD	crh	(IIILcmg;)Lcmg;	a	method_38324
+METHOD	crh	(III)Lbze;	a	method_38322
+METHOD	crh	(IIILcmg;)Lcmg;	a	method_38323
 METHOD	crh	(II[Lcmg;Ljava/util/function/Predicate;II)Ljava/util/OptionalInt;	a	method_26263
 METHOD	crh	(JLwy;)Z	a	method_28548
-METHOD	crh	(Lbyw;Lcoa;)Lcri$d;	a	method_38325
+METHOD	crh	(Lbyw;Lcoa;)Lcri$d;	a	method_38324
 METHOD	crh	(Lbyw;Lcoa;II)Lcoa;	a	method_33754
 METHOD	crh	(Lcoa;Ljava/util/Random;)V	a	method_16412
 METHOD	crh	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_28550
-METHOD	crh	(Lcqt$b;Lcqt$b;Lcqt$b;III)Lcqt$b;	a	method_38326
+METHOD	crh	(Lcqt$b;Lcqt$b;Lcqt$b;III)Lcqt$b;	a	method_38325
 METHOD	crh	(Lcrh;)Ljava/util/function/Supplier;	a	method_28549
-METHOD	crh	(Lcri;III)Lbzl$g;	a	method_38327
-METHOD	crh	(Lgx;Lbyw;Lcoa;)V	a	method_38328
-METHOD	crh	(Ljava/util/Set;Lcoa;Ljava/lang/Throwable;)V	a	method_38329
-METHOD	crh	(III)D	b	method_38330
-METHOD	crh	(Lbxi;)Lbze;	b	method_38331
-METHOD	crh	(Lbyw;Lcoa;)Lcri$d;	b	method_38332
-METHOD	crh	(Lbyw;Lcoa;II)Lcoa;	b	method_38333
+METHOD	crh	(Lcri;III)Lbzl$g;	a	method_38326
+METHOD	crh	(Lgx;Lbyw;Lcoa;)V	a	method_38327
+METHOD	crh	(Ljava/util/Set;Lcoa;Ljava/lang/Throwable;)V	a	method_38328
+METHOD	crh	(III)D	b	method_38329
+METHOD	crh	(Lbxi;)Lbze;	b	method_38330
+METHOD	crh	(Lbyw;Lcoa;)Lcri$d;	b	method_38331
+METHOD	crh	(Lbyw;Lcoa;II)Lcoa;	b	method_38332
 METHOD	crh	(Lcrh;)Ljava/lang/Long;	b	method_28552
-METHOD	crh	(Lgx;Lbyw;Lcoa;)Lcoa;	b	method_38334
-METHOD	crh	(Lbyw;Lcoa;)Lcri$d;	c	method_38335
+METHOD	crh	(Lgx;Lbyw;Lcoa;)Lcoa;	b	method_38333
+METHOD	crh	(Lbyw;Lcoa;)Lcri$d;	c	method_38334
 METHOD	crh	(Lcrh;)Lbzh;	c	method_28554
-METHOD	crh	(Lbyw;Lcoa;)Lcri$d;	d	method_38336
+METHOD	crh	(Lbyw;Lcoa;)Lcri$d;	d	method_38335
 CLASS	crh$1	net/minecraft/class_3754$1
 FIELD	crh$1	Lcoa;	a	field_34592
 FIELD	crh$1	Lgh$a;	b	field_34593
@@ -39168,33 +39168,33 @@ FIELD	cri	Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;	q	field_34612
 FIELD	cri	Lcqt;	r	field_34613
 FIELD	cri	Lcri$a;	s	field_34614
 FIELD	cri	Lcri$a;	t	field_34615
-METHOD	cri	()V	a	method_38337
-METHOD	cri	(D)V	a	method_38338
-METHOD	cri	(DLcri$e;)V	a	method_38339
-METHOD	cri	(I)V	a	method_38340
-METHOD	cri	(II)D	a	method_38341
-METHOD	cri	(III)Lcmg;	a	method_38342
-METHOD	cri	(IILcri$e;)V	a	method_38343
-METHOD	cri	(ILcri$e;)V	a	method_38344
-METHOD	cri	(Lcri$d;)Lcri$e;	a	method_38345
-METHOD	cri	(Lcri$e;)V	a	method_38346
-METHOD	cri	(Lcrl;II)Lcri$b;	a	method_38347
-METHOD	cri	(Lcrl;J)Lcrw;	a	method_38348
-METHOD	cri	()V	b	method_38349
-METHOD	cri	(D)V	b	method_38350
-METHOD	cri	(DLcri$e;)V	b	method_38351
-METHOD	cri	(II)D	b	method_38352
-METHOD	cri	(III)Lcmg;	b	method_38353
-METHOD	cri	(Lcrl;II)Lcrw;	b	method_38354
-METHOD	cri	()Lcqt;	c	method_38355
-METHOD	cri	(D)V	c	method_38356
-METHOD	cri	(DLcri$e;)V	c	method_38357
-METHOD	cri	(II)D	c	method_38358
-METHOD	cri	(II)D	d	method_38359
-METHOD	cri	(II)D	e	method_38360
-METHOD	cri	(II)Lcrw;	f	method_38361
-METHOD	cri	(II)Lcrw;	g	method_38362
-METHOD	cri	(II)V	h	method_38363
+METHOD	cri	()V	a	method_38336
+METHOD	cri	(D)V	a	method_38337
+METHOD	cri	(DLcri$e;)V	a	method_38338
+METHOD	cri	(I)V	a	method_38339
+METHOD	cri	(II)D	a	method_38340
+METHOD	cri	(III)Lcmg;	a	method_38341
+METHOD	cri	(IILcri$e;)V	a	method_38342
+METHOD	cri	(ILcri$e;)V	a	method_38343
+METHOD	cri	(Lcri$d;)Lcri$e;	a	method_38344
+METHOD	cri	(Lcri$e;)V	a	method_38345
+METHOD	cri	(Lcrl;II)Lcri$b;	a	method_38346
+METHOD	cri	(Lcrl;J)Lcrw;	a	method_38347
+METHOD	cri	()V	b	method_38348
+METHOD	cri	(D)V	b	method_38349
+METHOD	cri	(DLcri$e;)V	b	method_38350
+METHOD	cri	(II)D	b	method_38351
+METHOD	cri	(III)Lcmg;	b	method_38352
+METHOD	cri	(Lcrl;II)Lcrw;	b	method_38353
+METHOD	cri	()Lcqt;	c	method_38354
+METHOD	cri	(D)V	c	method_38355
+METHOD	cri	(DLcri$e;)V	c	method_38356
+METHOD	cri	(II)D	c	method_38357
+METHOD	cri	(II)D	d	method_38358
+METHOD	cri	(II)D	e	method_38359
+METHOD	cri	(II)Lcrw;	f	method_38360
+METHOD	cri	(II)Lcrw;	g	method_38361
+METHOD	cri	(II)V	h	method_38362
 CLASS	cri$a	net/minecraft/class_6568$class_6569
 CLASS	cri$b	net/minecraft/class_6568$class_6570
 FIELD	cri$b	Lcrw;	a	field_34616
@@ -39233,7 +39233,7 @@ METHOD	cri$e	([[DI)V	a	method_34290
 METHOD	cri$e	()V	b	method_34291
 METHOD	cri$e	(D)V	b	method_34292
 METHOD	cri$e	(II)V	b	method_34289
-METHOD	cri$e	(D)V	c	method_38364
+METHOD	cri$e	(D)V	c	method_38363
 CLASS	cri$f	net/minecraft/class_6568$class_6573
 CLASS	crj	net/minecraft/class_5284
 FIELD	crj	Lcom/mojang/serialization/Codec;	a	field_24780
@@ -39267,7 +39267,7 @@ METHOD	crj	(Lcrv;Z)Lcrj;	a	method_30643
 METHOD	crj	(Lwy;)Z	a	method_28555
 METHOD	crj	(Lwy;Lcrj;)Lcrj;	a	method_30644
 METHOD	crj	()Lcrn;	b	method_28559
-METHOD	crj	()Lcrk;	c	method_38365
+METHOD	crj	()Lcrk;	c	method_38364
 METHOD	crj	()Lcmg;	d	method_28005
 METHOD	crj	()Lcmg;	e	method_28006
 METHOD	crj	()I	f	method_16400
@@ -39288,13 +39288,13 @@ FIELD	crk	Ldfw$a;	d	field_34628
 FIELD	crk	Ldfw$a;	e	field_34629
 FIELD	crk	Ldfw$a;	f	field_34630
 FIELD	crk	Ldfw$a;	g	field_34631
-METHOD	crk	()Ldfw$a;	a	method_38366
-METHOD	crk	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_38367
-METHOD	crk	()Ldfw$a;	b	method_38368
-METHOD	crk	()Ldfw$a;	c	method_38369
-METHOD	crk	()Ldfw$a;	d	method_38370
-METHOD	crk	()Ldfw$a;	e	method_38371
-METHOD	crk	()Ldfw$a;	f	method_38372
+METHOD	crk	()Ldfw$a;	a	method_38365
+METHOD	crk	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_38366
+METHOD	crk	()Ldfw$a;	b	method_38367
+METHOD	crk	()Ldfw$a;	c	method_38368
+METHOD	crk	()Ldfw$a;	d	method_38369
+METHOD	crk	()Ldfw$a;	e	method_38370
+METHOD	crk	()Ldfw$a;	f	method_38371
 CLASS	crl	net/minecraft/class_5818
 FIELD	crl	Ldga;	A	field_34632
 FIELD	crl	Ldfw;	B	field_34633
@@ -39357,48 +39357,48 @@ FIELD	crl	Ldfw;	w	field_34683
 FIELD	crl	Ldfw;	x	field_34684
 FIELD	crl	Ldfw;	y	field_34685
 FIELD	crl	Lcrr;	z	field_34686
-METHOD	crl	()Ldga;	a	method_38373
-METHOD	crl	(D)D	a	method_38374
-METHOD	crl	(DD)Z	a	method_38375
-METHOD	crl	(DDD)D	a	method_38376
+METHOD	crl	()Ldga;	a	method_38372
+METHOD	crl	(D)D	a	method_38373
+METHOD	crl	(DD)Z	a	method_38374
+METHOD	crl	(DDD)D	a	method_38375
 METHOD	crl	(DI)D	a	method_33645
-METHOD	crl	(IIFFF)Lcrw;	a	method_38377
-METHOD	crl	(III)D	a	method_38378
-METHOD	crl	(IIIDDFFFD)Lbzl$g;	a	method_38379
-METHOD	crl	(IIIDLcrs;I[D)Lcri$c;	a	method_38380
-METHOD	crl	(IIILcrw;)D	a	method_38381
-METHOD	crl	(IIILcrw;DZ)D	a	method_38382
-METHOD	crl	(IIILdfw;DIII)D	a	method_38383
-METHOD	crl	(IILcrw;)I	a	method_38384
-METHOD	crl	(Lcri$d;Lcri;)Lcri$f;	a	method_38385
-METHOD	crl	(Lcri$f;Lcmg;Lcri$f;Lcri$f;III)Lcmg;	a	method_38386
-METHOD	crl	(Lcri$f;Lcri$f;Lcri$f;Lcri$f;Lcri$f;Lcri$d;Lcri;III)Lcmg;	a	method_38387
-METHOD	crl	(Lcri;)Lcri$f;	a	method_38388
-METHOD	crl	(Lcri;III)D	a	method_38389
-METHOD	crl	(Lcri;IIIILcqt$a;Z)Lcqt;	a	method_38390
-METHOD	crl	(Lcri;Lcri$d;Z)Lcri$a;	a	method_38391
-METHOD	crl	(Lcri;Z)Lcri$a;	a	method_38392
-METHOD	crl	(Lcrl$b;)I	a	method_38393
-METHOD	crl	(Ldfw;DDDD)D	a	method_38394
-METHOD	crl	()D	b	method_38395
-METHOD	crl	(D)D	b	method_38396
-METHOD	crl	(DDD)D	b	method_38397
-METHOD	crl	(DI)Lcrl$b;	b	method_38398
-METHOD	crl	(III)D	b	method_38399
-METHOD	crl	(Lcrl$b;)I	b	method_38400
-METHOD	crl	()D	c	method_38401
-METHOD	crl	(DDD)D	c	method_38402
-METHOD	crl	(III)D	c	method_38403
-METHOD	crl	()D	d	method_38404
-METHOD	crl	(DDD)D	d	method_38405
-METHOD	crl	(III)D	d	method_38406
-METHOD	crl	()D	e	method_38407
-METHOD	crl	(DDD)D	e	method_38408
-METHOD	crl	(III)D	e	method_38409
-METHOD	crl	(DDD)D	f	method_38410
-METHOD	crl	(III)D	f	method_38411
-METHOD	crl	(III)D	g	method_38412
-METHOD	crl	(III)Lcmg;	h	method_38413
+METHOD	crl	(IIFFF)Lcrw;	a	method_38376
+METHOD	crl	(III)D	a	method_38377
+METHOD	crl	(IIIDDFFFD)Lbzl$g;	a	method_38378
+METHOD	crl	(IIIDLcrs;I[D)Lcri$c;	a	method_38379
+METHOD	crl	(IIILcrw;)D	a	method_38380
+METHOD	crl	(IIILcrw;DZ)D	a	method_38381
+METHOD	crl	(IIILdfw;DIII)D	a	method_38382
+METHOD	crl	(IILcrw;)I	a	method_38383
+METHOD	crl	(Lcri$d;Lcri;)Lcri$f;	a	method_38384
+METHOD	crl	(Lcri$f;Lcmg;Lcri$f;Lcri$f;III)Lcmg;	a	method_38385
+METHOD	crl	(Lcri$f;Lcri$f;Lcri$f;Lcri$f;Lcri$f;Lcri$d;Lcri;III)Lcmg;	a	method_38386
+METHOD	crl	(Lcri;)Lcri$f;	a	method_38387
+METHOD	crl	(Lcri;III)D	a	method_38388
+METHOD	crl	(Lcri;IIIILcqt$a;Z)Lcqt;	a	method_38389
+METHOD	crl	(Lcri;Lcri$d;Z)Lcri$a;	a	method_38390
+METHOD	crl	(Lcri;Z)Lcri$a;	a	method_38391
+METHOD	crl	(Lcrl$b;)I	a	method_38392
+METHOD	crl	(Ldfw;DDDD)D	a	method_38393
+METHOD	crl	()D	b	method_38394
+METHOD	crl	(D)D	b	method_38395
+METHOD	crl	(DDD)D	b	method_38396
+METHOD	crl	(DI)Lcrl$b;	b	method_38397
+METHOD	crl	(III)D	b	method_38398
+METHOD	crl	(Lcrl$b;)I	b	method_38399
+METHOD	crl	()D	c	method_38400
+METHOD	crl	(DDD)D	c	method_38401
+METHOD	crl	(III)D	c	method_38402
+METHOD	crl	()D	d	method_38403
+METHOD	crl	(DDD)D	d	method_38404
+METHOD	crl	(III)D	d	method_38405
+METHOD	crl	()D	e	method_38406
+METHOD	crl	(DDD)D	e	method_38407
+METHOD	crl	(III)D	e	method_38408
+METHOD	crl	(DDD)D	f	method_38409
+METHOD	crl	(III)D	f	method_38410
+METHOD	crl	(III)D	g	method_38411
+METHOD	crl	(III)Lcmg;	h	method_38412
 CLASS	crl$a	net/minecraft/class_5818$class_5841
 METHOD	crl$a	(D)D	a	method_33835
 METHOD	crl$a	(D)D	b	method_33836
@@ -39457,17 +39457,17 @@ METHOD	crn	()Z	j	method_28590
 METHOD	crn	()Z	k	method_28591
 METHOD	crn	()Z	l	method_28592
 METHOD	crn	()Z	m	method_28593
-METHOD	crn	()Z	n	method_38414
+METHOD	crn	()Z	n	method_38413
 CLASS	cro	net/minecraft/class_5310
 FIELD	cro	Lcom/mojang/serialization/Codec;	a	field_24817
 FIELD	cro	D	b	field_24818
 FIELD	cro	I	c	field_24819
 FIELD	cro	I	d	field_24820
-METHOD	cro	(DI)D	a	method_38415
+METHOD	cro	(DI)D	a	method_38414
 METHOD	cro	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_28595
-METHOD	cro	(Lcro;)Ljava/lang/Integer;	a	method_38416
-METHOD	cro	(Lcro;)Ljava/lang/Integer;	b	method_38417
-METHOD	cro	(Lcro;)Ljava/lang/Double;	c	method_38418
+METHOD	cro	(Lcro;)Ljava/lang/Integer;	a	method_38415
+METHOD	cro	(Lcro;)Ljava/lang/Integer;	b	method_38416
+METHOD	cro	(Lcro;)Ljava/lang/Double;	c	method_38417
 CLASS	crp	net/minecraft/class_3769
 FIELD	crp	I	a	field_16652
 METHOD	crp	(Labw;Lgh;Ljava/util/Random;Z)Z	a	method_16575
@@ -39475,11 +39475,11 @@ CLASS	crq	net/minecraft/class_2910
 FIELD	crq	I	a	field_13244
 CLASS	crr	net/minecraft/class_6574
 FIELD	crr	J	a	field_34688
-METHOD	crr	(III)Lcrt;	a	method_38419
-METHOD	crr	(Lgh;)Lcrt;	a	method_38420
+METHOD	crr	(III)Lcrt;	a	method_38418
+METHOD	crr	(Lgh;)Lcrt;	a	method_38419
 CLASS	crs	net/minecraft/class_5819
-METHOD	crs	()Lcrs;	a	method_38421
-METHOD	crs	()Lcrr;	b	method_38422
+METHOD	crs	()Lcrs;	a	method_38420
+METHOD	crs	()Lcrr;	b	method_38421
 METHOD	crs	(I)V	b	method_33650
 CLASS	crt	net/minecraft/class_5820
 FIELD	crt	I	c	field_31471
@@ -39508,12 +39508,12 @@ METHOD	crv	()Ljava/util/Map;	a	method_28598
 METHOD	crv	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_28601
 METHOD	crv	(Lcrv;)Ljava/util/Map;	a	method_28599
 METHOD	crv	(Lcvq;)Lcxz;	a	method_28600
-METHOD	crv	(Ljava/util/HashMap;Lctc;Lwy;)V	a	method_38423
-METHOD	crv	(Ljava/util/Map$Entry;)Lcom/google/common/collect/ImmutableMultimap;	a	method_38424
+METHOD	crv	(Ljava/util/HashMap;Lctc;Lwy;)V	a	method_38422
+METHOD	crv	(Ljava/util/Map$Entry;)Lcom/google/common/collect/ImmutableMultimap;	a	method_38423
 METHOD	crv	()Lcxy;	b	method_28602
 METHOD	crv	(Lcrv;)Ljava/util/Optional;	b	method_28603
-METHOD	crv	(Lcvq;)Lcom/google/common/collect/ImmutableMultimap;	b	method_38425
-METHOD	crv	(Lcvq;)Lcom/google/common/collect/ImmutableMultimap$Builder;	c	method_38426
+METHOD	crv	(Lcvq;)Lcom/google/common/collect/ImmutableMultimap;	b	method_38424
+METHOD	crv	(Lcvq;)Lcom/google/common/collect/ImmutableMultimap$Builder;	c	method_38425
 CLASS	crw	net/minecraft/class_6576
 FIELD	crw	D	a	comp_77
 FIELD	crw	D	b	comp_78
@@ -39779,7 +39779,7 @@ FIELD	ctb	Lcwu;	f	field_13375
 METHOD	ctb	(F)Lcwc;	a	method_23387
 METHOD	ctb	(Lbza;Lcob;Ljava/util/Random;Lgh;)Z	a	method_12862
 METHOD	ctb	(Lctb;)Lctt;	a	method_28621
-METHOD	ctb	(Ljava/util/Optional;Lbza;Lcob;Ljava/util/Random;Lgh;)Z	a	method_38427
+METHOD	ctb	(Ljava/util/Optional;Lbza;Lcob;Ljava/util/Random;Lgh;)Z	a	method_38426
 METHOD	ctb	()Lctt;	b	method_30380
 METHOD	ctb	(Ldbg;)Lctb;	b	method_23388
 METHOD	ctb	()Lcwu;	c	method_30381
@@ -39949,7 +39949,7 @@ FIELD	ctu	Lcob;	c	field_28770
 FIELD	ctu	Ljava/util/Random;	d	field_28771
 FIELD	ctu	Lgh;	e	field_28772
 FIELD	ctu	Lcwu;	f	field_28773
-METHOD	ctu	()Ljava/util/Optional;	a	method_38428
+METHOD	ctu	()Ljava/util/Optional;	a	method_38427
 METHOD	ctu	()Lbza;	b	method_33652
 METHOD	ctu	()Lcob;	c	method_33653
 METHOD	ctu	()Ljava/util/Random;	d	method_33654
@@ -40255,9 +40255,9 @@ METHOD	cvq	()Lcvq$a;	a	method_14016
 METHOD	cvq	(Labw;Lnb;J)Lddh;	a	method_28660
 METHOD	cvq	(Lbxi;IJ)Lddh;	a	method_28656
 METHOD	cvq	(Lbyh;Lbyw;Lgh;IZJLcxz;)Lgh;	a	method_14015
-METHOD	cvq	(Lcob;IIIILbyg;)[I	a	method_38429
-METHOD	cvq	(Lcob;IILbxi;Lbyg;)I	a	method_38430
-METHOD	cvq	(Lcob;Lbyg;Ljava/util/function/Predicate;Lcrg$a;II)Z	a	method_38431
+METHOD	cvq	(Lcob;IIIILbyg;)[I	a	method_38428
+METHOD	cvq	(Lcob;IILbxi;Lbyg;)I	a	method_38429
+METHOD	cvq	(Lcob;Lbyg;Ljava/util/function/Predicate;Lcrg$a;II)Z	a	method_38430
 METHOD	cvq	(Lcob;Lbzh;JLcsa;Lbxi;Lbxi;Lcwu;Lbyg;)Z	a	method_14026
 METHOD	cvq	(Lctc;)Lcwu;	a	method_28658
 METHOD	cvq	(Lcwu;)Lctc;	a	method_28659
@@ -40488,7 +40488,7 @@ FIELD	cwr	Lcmg;	b	comp_80
 FIELD	cwr	Lasv;	c	comp_81
 FIELD	cwr	I	d	comp_82
 FIELD	cwr	Ljava/util/List;	e	comp_83
-METHOD	cwr	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_38432
+METHOD	cwr	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_38431
 METHOD	cwr	()Lcmg;	b	comp_80
 METHOD	cwr	()Lasv;	c	comp_81
 METHOD	cwr	()I	d	comp_82
@@ -41096,8 +41096,8 @@ CLASS	cyw	net/minecraft/class_6114
 CLASS	cyx	net/minecraft/class_4651
 FIELD	cyx	Lcom/mojang/serialization/Codec;	a	field_24937
 METHOD	cyx	()Lcyy;	a	method_28862
-METHOD	cyx	(Lcbc;)Lczf;	a	method_38433
-METHOD	cyx	(Lcmg;)Lczf;	a	method_38434
+METHOD	cyx	(Lcbc;)Lczf;	a	method_38432
+METHOD	cyx	(Lcmg;)Lczf;	a	method_38433
 METHOD	cyx	(Ljava/util/Random;Lgh;)Lcmg;	a	method_23455
 CLASS	cyy	net/minecraft/class_4652
 FIELD	cyy	Lcyy;	a	field_21305
@@ -41116,29 +41116,29 @@ FIELD	cyz	Lahf;	i	field_34703
 FIELD	cyz	Ldfw$a;	j	field_34704
 FIELD	cyz	F	k	field_34705
 FIELD	cyz	Ldfw;	l	field_34706
-METHOD	cyz	(Lcyz;)Ljava/lang/Float;	a	method_38435
-METHOD	cyz	(Lgh;)D	a	method_38436
-METHOD	cyz	(Lcyz;)Ldfw$a;	b	method_38437
-METHOD	cyz	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	c	method_38438
-METHOD	cyz	(Lcyz;)Lahf;	c	method_38439
+METHOD	cyz	(Lcyz;)Ljava/lang/Float;	a	method_38434
+METHOD	cyz	(Lgh;)D	a	method_38435
+METHOD	cyz	(Lcyz;)Ldfw$a;	b	method_38436
+METHOD	cyz	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	c	method_38437
+METHOD	cyz	(Lcyz;)Lahf;	c	method_38438
 CLASS	cza	net/minecraft/class_6579
 FIELD	cza	J	c	field_34707
 FIELD	cza	Ldfw$a;	d	field_34708
 FIELD	cza	F	e	field_34709
 FIELD	cza	Ldfw;	f	field_34710
-METHOD	cza	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/Products$P3;	a	method_38440
-METHOD	cza	(Lcza;)Ljava/lang/Float;	a	method_38441
-METHOD	cza	(Lgh;D)D	a	method_38442
-METHOD	cza	(Lcza;)Ldfw$a;	b	method_38443
-METHOD	cza	(Lcza;)Ljava/lang/Long;	c	method_38444
+METHOD	cza	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/Products$P3;	a	method_38439
+METHOD	cza	(Lcza;)Ljava/lang/Float;	a	method_38440
+METHOD	cza	(Lgh;D)D	a	method_38441
+METHOD	cza	(Lcza;)Ldfw$a;	b	method_38442
+METHOD	cza	(Lcza;)Ljava/lang/Long;	c	method_38443
 CLASS	czb	net/minecraft/class_6580
 FIELD	czb	Lcom/mojang/serialization/Codec;	g	field_34711
 FIELD	czb	Ljava/util/List;	h	field_34712
-METHOD	czb	(Lczb;)Ljava/util/List;	a	method_38445
-METHOD	czb	(Ljava/util/List;D)Lcmg;	a	method_38446
-METHOD	czb	(Ljava/util/List;Lgh;D)Lcmg;	a	method_38447
-METHOD	czb	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/Products$P4;	b	method_38448
-METHOD	czb	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	c	method_38449
+METHOD	czb	(Lczb;)Ljava/util/List;	a	method_38444
+METHOD	czb	(Ljava/util/List;D)Lcmg;	a	method_38445
+METHOD	czb	(Ljava/util/List;Lgh;D)Lcmg;	a	method_38446
+METHOD	czb	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/Products$P4;	b	method_38447
+METHOD	czb	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	c	method_38448
 CLASS	czc	net/minecraft/class_6581
 FIELD	czc	Lcom/mojang/serialization/Codec;	b	field_34713
 FIELD	czc	F	g	field_34714
@@ -41146,12 +41146,12 @@ FIELD	czc	F	h	field_34715
 FIELD	czc	Lcmg;	i	field_34716
 FIELD	czc	Ljava/util/List;	j	field_34717
 FIELD	czc	Ljava/util/List;	k	field_34718
-METHOD	czc	(Lczc;)Ljava/util/List;	a	method_38450
-METHOD	czc	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	b	method_38451
-METHOD	czc	(Lczc;)Ljava/util/List;	b	method_38452
-METHOD	czc	(Lczc;)Lcmg;	c	method_38453
-METHOD	czc	(Lczc;)Ljava/lang/Float;	d	method_38454
-METHOD	czc	(Lczc;)Ljava/lang/Float;	e	method_38455
+METHOD	czc	(Lczc;)Ljava/util/List;	a	method_38449
+METHOD	czc	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	b	method_38450
+METHOD	czc	(Lczc;)Ljava/util/List;	b	method_38451
+METHOD	czc	(Lczc;)Lcmg;	c	method_38452
+METHOD	czc	(Lczc;)Ljava/lang/Float;	d	method_38453
+METHOD	czc	(Lczc;)Ljava/lang/Float;	e	method_38454
 CLASS	czd	net/minecraft/class_5929
 FIELD	czd	Lcom/mojang/serialization/Codec;	b	field_29301
 FIELD	czd	Lcyx;	c	field_29302
@@ -41487,7 +41487,7 @@ METHOD	dam	(Ldam;)Ljava/lang/Boolean;	c	method_30046
 METHOD	dam	(Lgx;)Lbze;	c	method_31185
 METHOD	dam	()Lcrv;	d	method_28051
 METHOD	dam	(Ldam;)Ljava/lang/Boolean;	d	method_30047
-METHOD	dam	(Lgx;)Lbze;	d	method_38456
+METHOD	dam	(Lgx;)Lbze;	d	method_38455
 METHOD	dam	()Lbze;	e	method_14326
 METHOD	dam	(Ldam;)Lgx;	e	method_31171
 METHOD	dam	()Ljava/util/List;	f	method_14327
@@ -41713,12 +41713,12 @@ FIELD	dcc	Lcom/mojang/serialization/Codec;	a	field_34721
 FIELD	dcc	Lcrg$a;	c	field_34722
 FIELD	dcc	I	d	field_34723
 FIELD	dcc	I	e	field_34724
-METHOD	dcc	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_38457
-METHOD	dcc	(Ldcc;)Ljava/lang/Integer;	a	method_38458
-METHOD	dcc	(Ldcc;)Ljava/lang/Integer;	b	method_38459
-METHOD	dcc	(Ldcc;)Lcrg$a;	c	method_38460
+METHOD	dcc	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_38456
+METHOD	dcc	(Ldcc;)Ljava/lang/Integer;	a	method_38457
+METHOD	dcc	(Ldcc;)Ljava/lang/Integer;	b	method_38458
+METHOD	dcc	(Ldcc;)Lcrg$a;	c	method_38459
 CLASS	dcd	net/minecraft/class_6585
-METHOD	dcd	(Ldbn;Ljava/util/Random;Ldcc;Lgh;)Ljava/util/stream/Stream;	a	method_38461
+METHOD	dcd	(Ldbn;Ljava/util/Random;Ldcc;Lgh;)Ljava/util/stream/Stream;	a	method_38460
 CLASS	dce	net/minecraft/class_5858
 METHOD	dce	(Ldbn;Ljava/util/Random;Lcwp;I)I	a	method_33861
 CLASS	dcf	net/minecraft/class_5934
@@ -42088,7 +42088,7 @@ METHOD	dcw$v	(Lgm;Ldcw$v;)V	a	method_14786
 METHOD	dcw$v	()Z	b	method_14785
 METHOD	dcw$v	()I	c	method_14781
 CLASS	dcx	net/minecraft/class_3411
-METHOD	dcx	(Lcob;Lbyg;Ljava/util/function/Predicate;Lcrg$a;II)Z	b	method_38462
+METHOD	dcx	(Lcob;Lbyg;Ljava/util/function/Predicate;Lcrg$a;II)Z	b	method_38461
 CLASS	dcx$a	net/minecraft/class_3411$class_3412
 METHOD	dcx$a	(Lgy;Lcob;Ldej;Lbxi;Lcxh;Lbyg;Ljava/util/function/Predicate;)V	a	method_28948
 CLASS	dcx$b	net/minecraft/class_3411$class_3413
@@ -42202,7 +42202,7 @@ FIELD	ddb	I	c	field_15244
 FIELD	ddb	I	d	field_15243
 FIELD	ddb	I	e	field_15242
 FIELD	ddb	I	f	field_15241
-METHOD	ddb	(Lbyf;I)Z	a	method_38463
+METHOD	ddb	(Lbyf;I)Z	a	method_38462
 METHOD	ddb	(Lbyf;Ldck;I)Z	a	method_14839
 CLASS	ddc	net/minecraft/class_3415
 FIELD	ddc	Lgh;	a	field_14536
@@ -42879,8 +42879,8 @@ METHOD	det	(J)V	a	method_15199
 METHOD	det	(Ldet;)Ldfn;	a	method_29000
 METHOD	det	(Ljava/util/Random;Lcny;Lbze;IIIDLcmg;Lcmg;IIJ)V	a	method_15198
 CLASS	deu	net/minecraft/class_3510
-METHOD	deu	(Lcmg;Lcny;II)Lcmg;	a	method_38464
-METHOD	deu	(Lcny;I)Z	a	method_38465
+METHOD	deu	(Lcmg;Lcny;II)Lcmg;	a	method_38463
+METHOD	deu	(Lcny;I)Z	a	method_38464
 METHOD	deu	(Ljava/util/Random;Lcny;Lbze;IIIDLcmg;Lcmg;IIJLdfo;)V	a	method_15219
 METHOD	deu	(Ljava/util/Random;Lcny;Lbze;IIIDLcmg;Lcmg;Lcmg;Lcmg;Lcmg;II)V	a	method_15218
 CLASS	dev	net/minecraft/class_3507
@@ -42931,22 +42931,22 @@ METHOD	dfe	(Ljava/util/Random;Lcny;Lbze;IIIDLcmg;Lcmg;IIJLdfo;)V	a	method_15300
 CLASS	dff	net/minecraft/class_6588
 FIELD	dff	Ldfw;	a	field_34732
 FIELD	dff	J	b	field_34733
-METHOD	dff	()Ldff$a;	a	method_38466
-METHOD	dff	(DIILcmg;Lcmg;DD)Lcmg;	a	method_38469
-METHOD	dff	(Lcny;IILdff$a;)Z	a	method_38470
-METHOD	dff	(Ldfo;II)Lcmg;	a	method_38467
-METHOD	dff	(Ldfo;II)Lcmg;	b	method_38468
+METHOD	dff	()Ldff$a;	a	method_38465
+METHOD	dff	(DIILcmg;Lcmg;DD)Lcmg;	a	method_38468
+METHOD	dff	(Lcny;IILdff$a;)Z	a	method_38469
+METHOD	dff	(Ldfo;II)Lcmg;	a	method_38466
+METHOD	dff	(Ldfo;II)Lcmg;	b	method_38467
 CLASS	dff$a	net/minecraft/class_6588$class_6589
 FIELD	dff$a	Lcmg;	a	field_34734
 FIELD	dff$a	Z	b	field_34735
 FIELD	dff$a	Z	c	field_34736
 FIELD	dff$a	Z	d	field_34737
 FIELD	dff$a	Z	e	field_34738
-METHOD	dff$a	()Lcmg;	a	method_38471
-METHOD	dff$a	()Z	b	method_38472
-METHOD	dff$a	()Z	c	method_38473
-METHOD	dff$a	()Z	d	method_38474
-METHOD	dff$a	()Z	e	method_38475
+METHOD	dff$a	()Lcmg;	a	method_38470
+METHOD	dff$a	()Z	b	method_38471
+METHOD	dff$a	()Z	c	method_38472
+METHOD	dff$a	()Z	d	method_38473
+METHOD	dff$a	()Z	e	method_38474
 CLASS	dfg	net/minecraft/class_3519
 METHOD	dfg	(Ljava/util/Random;Lcny;Lbze;IIIDLcmg;Lcmg;IIJLdfo;)V	a	method_15299
 CLASS	dfh	net/minecraft/class_3524
@@ -43083,12 +43083,12 @@ FIELD	dfw	D	b	field_31703
 FIELD	dfw	D	c	field_24175
 FIELD	dfw	Ldfx;	d	field_24176
 FIELD	dfw	Ldfx;	e	field_24177
-METHOD	dfw	()Ldfw$a;	a	method_38476
+METHOD	dfw	()Ldfw$a;	a	method_38475
 METHOD	dfw	(DDD)D	a	method_27406
 METHOD	dfw	(I)D	a	method_27407
 METHOD	dfw	(Lcrs;ILit/unimi/dsi/fastutil/doubles/DoubleList;)Ldfw;	a	method_30846
 METHOD	dfw	(Lcrs;I[D)Ldfw;	a	method_31927
-METHOD	dfw	(Lcrs;Ldfw$a;)Ldfw;	a	method_38477
+METHOD	dfw	(Lcrs;Ldfw$a;)Ldfw;	a	method_38476
 CLASS	dfw$a	net/minecraft/class_5216$class_5487
 FIELD	dfw$a	Lcom/mojang/serialization/Codec;	a	field_26438
 FIELD	dfw$a	I	b	field_26439
@@ -43103,7 +43103,7 @@ FIELD	dfx	I	c	field_34758
 FIELD	dfx	Lit/unimi/dsi/fastutil/doubles/DoubleList;	d	field_26445
 FIELD	dfx	D	e	field_20659
 FIELD	dfx	D	f	field_20660
-METHOD	dfx	()I	a	method_38478
+METHOD	dfx	()I	a	method_38477
 METHOD	dfx	(D)D	a	method_16452
 METHOD	dfx	(DDD)D	a	method_15416
 METHOD	dfx	(DDDDDZ)D	a	method_16453
@@ -43112,7 +43112,7 @@ METHOD	dfx	(Lcrs;)V	a	method_34401
 METHOD	dfx	(Lcrs;ILit/unimi/dsi/fastutil/doubles/DoubleList;)Ldfx;	a	method_30847
 METHOD	dfx	(Lcrs;I[D)Ldfx;	a	method_35480
 METHOD	dfx	(Lit/unimi/dsi/fastutil/ints/IntSortedSet;)Lcom/mojang/datafixers/util/Pair;	a	method_30848
-METHOD	dfx	()Lit/unimi/dsi/fastutil/doubles/DoubleList;	b	method_38479
+METHOD	dfx	()Lit/unimi/dsi/fastutil/doubles/DoubleList;	b	method_38478
 CLASS	dfy	net/minecraft/class_3543
 FIELD	dfy	[Ldfz;	a	field_15770
 FIELD	dfy	D	b	field_20661
@@ -43589,11 +43589,11 @@ FIELD	dgx	Ldgx;	w	field_15993
 FIELD	dgx	Ldgx;	x	field_16026
 FIELD	dgx	Ldgx;	y	field_16014
 FIELD	dgx	Ldgx;	z	field_15984
-METHOD	dgx	(I)Ldgx;	a	method_38480
+METHOD	dgx	(I)Ldgx;	a	method_38479
 METHOD	dgx	(Ldgx$a;)I	a	method_15820
-METHOD	dgx	(I)I	b	method_38481
-METHOD	dgx	(Ldgx$a;)B	b	method_38482
-METHOD	dgx	(I)Ldgx;	c	method_38483
+METHOD	dgx	(I)I	b	method_38480
+METHOD	dgx	(Ldgx$a;)B	b	method_38481
+METHOD	dgx	(I)Ldgx;	c	method_38482
 CLASS	dgx$a	net/minecraft/class_3620$class_6594
 FIELD	dgx$a	Ldgx$a;	a	field_34759
 FIELD	dgx$a	Ldgx$a;	b	field_34760
@@ -43603,9 +43603,9 @@ FIELD	dgx$a	I	e	field_34763
 FIELD	dgx$a	I	f	field_34764
 FIELD	dgx$a	[Ldgx$a;	g	field_34765
 FIELD	dgx$a	[Ldgx$a;	h	field_34766
-METHOD	dgx$a	()[Ldgx$a;	a	method_38484
-METHOD	dgx$a	(I)Ldgx$a;	a	method_38485
-METHOD	dgx$a	(I)Ldgx$a;	b	method_38486
+METHOD	dgx$a	()[Ldgx$a;	a	method_38483
+METHOD	dgx$a	(I)Ldgx$a;	a	method_38484
+METHOD	dgx$a	(I)Ldgx$a;	b	method_38485
 CLASS	dgy	net/minecraft/class_3619
 FIELD	dgy	Ldgy;	a	field_15974
 FIELD	dgy	Ldgy;	b	field_15971
@@ -43784,10 +43784,10 @@ METHOD	dhk	(Ljava/util/Map;Ldhm;)Ldhi;	b	method_21661
 CLASS	dhl	net/minecraft/class_12
 FIELD	dhl	Z	j	field_58
 FIELD	dhl	Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;	k	field_34767
-METHOD	dhl	(IIIJ)Ldhe;	a	method_38487
-METHOD	dhl	(Ldhg;)Z	a	method_38488
-METHOD	dhl	(Ldhg;Ldhg;Ldhg;)Z	a	method_38489
-METHOD	dhl	(III)Ldhe;	b	method_38490
+METHOD	dhl	(IIIJ)Ldhe;	a	method_38486
+METHOD	dhl	(Ldhg;)Z	a	method_38487
+METHOD	dhl	(Ldhg;Ldhg;Ldhg;)Z	a	method_38488
+METHOD	dhl	(III)Ldhe;	b	method_38489
 CLASS	dhm	net/minecraft/class_4459
 FIELD	dhm	F	m	field_20304
 FIELD	dhm	Ldhg;	n	field_20305
@@ -44073,12 +44073,12 @@ CLASS	die	net/minecraft/class_6595
 FIELD	die	Ljava/lang/String;	a	field_34768
 FIELD	die	I	b	field_34769
 FIELD	die	Ljava/lang/String;	c	field_34770
-METHOD	die	()Z	a	method_38491
-METHOD	die	(Ldie;)Z	a	method_38492
-METHOD	die	()Ljava/lang/String;	b	method_38493
-METHOD	die	(Ldie;)Z	b	method_38494
-METHOD	die	()I	c	method_38495
-METHOD	die	()Z	d	method_38496
+METHOD	die	()Z	a	method_38490
+METHOD	die	(Ldie;)Z	a	method_38491
+METHOD	die	()Ljava/lang/String;	b	method_38492
+METHOD	die	(Ldie;)Z	b	method_38493
+METHOD	die	()I	c	method_38494
+METHOD	die	()Z	d	method_38495
 CLASS	dif	net/minecraft/class_27
 FIELD	dif	Ldiq;	a	field_24179
 FIELD	dif	Ldip;	b	field_139
@@ -44212,7 +44212,7 @@ METHOD	dil	()Ldil$a;	n	method_33405
 METHOD	dil	()Z	o	method_27021
 METHOD	dil	()Z	p	method_33783
 METHOD	dil	()Z	q	method_33784
-METHOD	dil	()Z	r	method_38497
+METHOD	dil	()Z	r	method_38496
 METHOD	dil	()Lot;	s	method_27429
 METHOD	dil	()Lot;	t	method_27430
 CLASS	dil$a	net/minecraft/class_34$class_5781
@@ -45148,7 +45148,7 @@ METHOD	dko$a	(Ldjp$a;)Ldko$a;	a	method_602
 CLASS	dko$b	net/minecraft/class_134$class_136
 METHOD	dko$b	(Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldlp;)Ldko;	a	method_605
 METHOD	dko$b	(Lcom/google/gson/JsonObject;Ldko;Lcom/google/gson/JsonSerializationContext;)V	a	method_604
-METHOD	dko$b	(Lwz;)Lcom/google/gson/JsonSyntaxException;	a	method_38498
+METHOD	dko$b	(Lwz;)Lcom/google/gson/JsonSyntaxException;	a	method_38497
 CLASS	dkp	net/minecraft/class_144
 FIELD	dkp	Lwz;	a	field_1116
 FIELD	dkp	J	b	field_1117
@@ -45160,7 +45160,7 @@ METHOD	dkp	(Lwz;Lckf;[Ldlp;)Ldki;	a	method_35537
 CLASS	dkp$a	net/minecraft/class_144$class_145
 METHOD	dkp$a	(Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldlp;)Ldkp;	a	method_627
 METHOD	dkp$a	(Lcom/google/gson/JsonObject;Ldkp;Lcom/google/gson/JsonSerializationContext;)V	a	method_626
-METHOD	dkp$a	(Lwz;)Lcom/google/gson/JsonSyntaxException;	a	method_38499
+METHOD	dkp$a	(Lwz;)Lcom/google/gson/JsonSyntaxException;	a	method_38498
 CLASS	dkq	net/minecraft/class_5642
 FIELD	dkq	Ljava/util/Map;	a	field_27907
 FIELD	dkq	Z	b	field_27908
@@ -45801,7 +45801,7 @@ METHOD	dni	(Ldnh;)Ldni;	a	method_1034
 METHOD	dni	(Ldni;)Ldni;	a	method_1035
 METHOD	dni	(Ldni;D)Ldni;	a	method_35590
 METHOD	dni	(Lgm$a;)D	a	method_18043
-METHOD	dni	(Lgm$a;D)Ldni;	a	method_38500
+METHOD	dni	(Lgm$a;D)Ldni;	a	method_38499
 METHOD	dni	(Lgu;D)Z	a	method_24802
 METHOD	dni	(Lhc;)Ldni;	a	method_24953
 METHOD	dni	(Lhc;D)Ldni;	a	method_26410
@@ -46307,16 +46307,16 @@ FIELD	dor	Ldor$a;	e	field_19183
 FIELD	dor	Ldor$a;	f	field_19184
 FIELD	dor	Ldor$a;	g	field_19185
 FIELD	dor	Ldos;	h	field_18902
-METHOD	dor	()Ljava/lang/String;	a	method_38501
+METHOD	dor	()Ljava/lang/String;	a	method_38500
 METHOD	dor	(Ldoq;)V	a	method_19662
 METHOD	dor	(Ldor$c;)Ldoq;	a	method_19663
 METHOD	dor	(Ljava/lang/String;)V	a	method_19661
 METHOD	dor	()V	b	method_19664
-METHOD	dor	(Ljava/lang/String;)J	b	method_38502
+METHOD	dor	(Ljava/lang/String;)J	b	method_38501
 METHOD	dor	()Ldos;	c	method_19665
 METHOD	dor	(Ljava/lang/String;)Ljava/util/OptionalLong;	c	method_20050
 METHOD	dor	()Ljava/lang/String;	d	method_20296
-METHOD	dor	()Ljava/util/List;	e	method_38503
+METHOD	dor	()Ljava/util/List;	e	method_38502
 METHOD	dor	()I	f	method_20297
 CLASS	dor$1	net/minecraft/class_4225$1
 CLASS	dor$a	net/minecraft/class_4225$class_4276
@@ -47570,7 +47570,7 @@ METHOD	drd	()V	E	method_20941
 METHOD	drd	(Ldrd;)Ldwu;	E	method_36824
 METHOD	drd	()V	F	method_20942
 METHOD	drd	()V	G	method_20943
-METHOD	drd	()Ldry;	H	method_38504
+METHOD	drd	()Ldry;	H	method_38503
 METHOD	drd	()V	I	method_20834
 METHOD	drd	()I	J	method_20835
 METHOD	drd	()I	K	method_20836
@@ -47591,7 +47591,7 @@ METHOD	drd	(Ldrd;)Ldvx;	a	method_36825
 METHOD	drd	(Ldry;)V	a	method_20852
 METHOD	drd	(Ldry;Ldrd$b;)Z	a	method_31172
 METHOD	drd	(Ldry;Leaz;)V	a	method_20853
-METHOD	drd	(Ldry;Z)V	a	method_38505
+METHOD	drd	(Ldry;Z)V	a	method_38504
 METHOD	drd	(Ldxj;)V	a	method_24985
 METHOD	drd	(Lwz;)Z	a	method_23764
 METHOD	drd	(Z)V	a	method_35682
@@ -47619,7 +47619,7 @@ METHOD	drd	(Ldqt;IIII)V	e	method_20883
 METHOD	drd	(Ldrd;)Ldvx;	e	method_20885
 METHOD	drd	(Ldry;)Z	e	method_20899
 METHOD	drd	(Ldxj;)V	e	method_24995
-METHOD	drd	()V	f	method_38506
+METHOD	drd	()V	f	method_38505
 METHOD	drd	(Ldqt;IIII)V	f	method_20891
 METHOD	drd	(Ldrd;)Ldvx;	f	method_36828
 METHOD	drd	(Ldry;)V	f	method_20928
@@ -47682,7 +47682,7 @@ FIELD	drd$a	Ldrd;	a	field_19514
 METHOD	drd$a	(Ldrd;Ldxj;)V	a	method_25021
 CLASS	drd$b	net/minecraft/class_4325$class_4866
 FIELD	drd$b	Ldrd;	a	field_22567
-METHOD	drd$b	()Ldry;	a	method_38507
+METHOD	drd$b	()Ldry;	a	method_38506
 CLASS	drd$c	net/minecraft/class_4325$class_5220
 FIELD	drd$c	Ldrd$c;	a	field_24199
 FIELD	drd$c	Ldrd$c;	b	field_24200
@@ -48882,9 +48882,9 @@ FIELD	dtt	Lot;	b	field_20058
 FIELD	dtt	Lot;	c	field_26507
 METHOD	dtt	(I)I	a	method_25218
 METHOD	dtt	(Ldil;)Lot;	a	method_21400
-METHOD	dtt	(Ldil;Ldil;)I	a	method_38508
+METHOD	dtt	(Ldil;Ldil;)I	a	method_38507
 METHOD	dtt	(Ldtt;)Ldwu;	a	method_25226
-METHOD	dtt	(Ldxj;)V	a	method_38509
+METHOD	dtt	(Ldxj;)V	a	method_38508
 METHOD	dtt	(Ldil;)Ljava/lang/String;	b	method_21404
 METHOD	dtt	(Ldtt;)Ldwu;	b	method_30871
 METHOD	dtt	(Ldxj;)V	b	method_25221
@@ -49191,8 +49191,8 @@ FIELD	dul$b	I	a	field_34775
 FIELD	dul$b	I	b	field_34776
 FIELD	dul$b	Ljava/nio/IntBuffer;	c	field_34777
 FIELD	dul$b	Ljava/util/function/Supplier;	d	field_34778
-METHOD	dul$b	()Ldul$b;	a	method_38510
-METHOD	dul$b	(Ljava/lang/String;)Ldul$b;	a	method_38511
+METHOD	dul$b	()Ldul$b;	a	method_38509
+METHOD	dul$b	(Ljava/lang/String;)Ldul$b;	a	method_38510
 CLASS	dum	net/minecraft/class_4448
 FIELD	dum	Lcom/google/common/cache/LoadingCache;	a	field_20260
 FIELD	dum	Lcom/mojang/authlib/yggdrasil/YggdrasilAuthenticationService;	b	field_20261
@@ -50058,12 +50058,12 @@ FIELD	dwa	Ldvn;	x	field_18192
 FIELD	dwa	Ldvn;	y	field_1923
 FIELD	dwa	Ldvn;	z	field_1938
 METHOD	dwa	(Ldwb;)Lavc;	A	method_32592
-METHOD	dwa	(Ldwb;)Ljava/lang/String;	B	method_38512
+METHOD	dwa	(Ldwb;)Ljava/lang/String;	B	method_38511
 METHOD	dwa	(Ldwb;)Ljava/lang/Integer;	C	method_32593
 METHOD	dwa	(Ldwb;)Ldvr;	D	method_32534
 METHOD	dwa	(Ldwb;)Lblo;	E	method_32535
 METHOD	dwa	(Ldwb;)Ldvh;	F	method_32536
-METHOD	dwa	(Ldwb;)Ldwd;	G	method_38513
+METHOD	dwa	(Ldwb;)Ldwd;	G	method_38512
 METHOD	dwa	(Ldwb;)Ldvg;	H	method_32537
 METHOD	dwa	(Ldwb;)Ljava/lang/Double;	I	method_19342
 METHOD	dwa	(Ldwb;)Ljava/lang/Double;	J	method_18598
@@ -50092,7 +50092,7 @@ METHOD	dwa	(Ldvl;)Lot;	a	method_32542
 METHOD	dwa	(Ldvr;)Lot;	a	method_32543
 METHOD	dwa	(Ldvx;)Ldxp$c;	a	method_32544
 METHOD	dwa	(Ldvz;)Lot;	a	method_32545
-METHOD	dwa	(Ldwb;)Ljava/lang/Boolean;	a	method_38514
+METHOD	dwa	(Ldwb;)Ljava/lang/Boolean;	a	method_38513
 METHOD	dwa	(Ldwb;III)Ldxh;	a	method_18520
 METHOD	dwa	(Ldwb;Ldwa;Lavc;)V	a	method_32547
 METHOD	dwa	(Ldwb;Ldwa;Lblo;)V	a	method_32548
@@ -50102,21 +50102,21 @@ METHOD	dwa	(Ldwb;Ldwa;Ldvl;)V	a	method_32551
 METHOD	dwa	(Ldwb;Ldwa;Ldvr;)V	a	method_32552
 METHOD	dwa	(Ldwb;Ldwa;Ldvz;)V	a	method_32553
 METHOD	dwa	(Ldwb;Ldwa;Ldwc;)V	a	method_32554
-METHOD	dwa	(Ldwb;Ldwa;Ldwd;)V	a	method_38515
-METHOD	dwa	(Ldwb;Ldwa;Ljava/lang/Boolean;)V	a	method_38516
+METHOD	dwa	(Ldwb;Ldwa;Ldwd;)V	a	method_38514
+METHOD	dwa	(Ldwb;Ldwa;Ljava/lang/Boolean;)V	a	method_38515
 METHOD	dwa	(Ldwb;Ldwa;Ljava/lang/Integer;)V	a	method_32555
-METHOD	dwa	(Ldwb;Ldwa;Ljava/lang/String;)V	a	method_38517
+METHOD	dwa	(Ldwb;Ldwa;Ljava/lang/String;)V	a	method_38516
 METHOD	dwa	(Ldwb;Ldwe;)Lot;	a	method_19339
 METHOD	dwa	(Ldwb;Ljava/lang/Double;)V	a	method_19340
 METHOD	dwa	(Ldwc;)Lot;	a	method_32556
-METHOD	dwa	(Ldwd;)Lot;	a	method_38518
+METHOD	dwa	(Ldwd;)Lot;	a	method_38517
 METHOD	dwa	(Ljava/lang/Integer;)Lot;	a	method_32557
-METHOD	dwa	(Ljava/lang/String;)Lot;	a	method_38519
+METHOD	dwa	(Ljava/lang/String;)Lot;	a	method_38518
 METHOD	dwa	(Ljava/util/List;Ljava/util/List;Ljava/util/List;Ldvr;)Ljava/util/List;	a	method_32558
 METHOD	dwa	(Lot;)Lot;	a	method_30501
 METHOD	dwa	(Ldwb;)Ljava/lang/Double;	aa	method_18516
 METHOD	dwa	(Ldwb;)Ljava/lang/Double;	ab	method_18517
-METHOD	dwa	()Ljava/util/List;	b	method_38520
+METHOD	dwa	()Ljava/util/List;	b	method_38519
 METHOD	dwa	(I)Lot;	b	method_30502
 METHOD	dwa	(Ldvr;)Z	b	method_32560
 METHOD	dwa	(Ldvx;)Ljava/util/List;	b	method_32561
@@ -50357,7 +50357,7 @@ METHOD	dwb	(Lnb;)Lnb;	a	method_1626
 METHOD	dwb	(Lnb;Ljava/lang/String;)V	a	method_24230
 METHOD	dwb	()V	b	method_1640
 METHOD	dwb	(F)I	b	method_19345
-METHOD	dwb	(I)V	b	method_38521
+METHOD	dwb	(I)V	b	method_38520
 METHOD	dwb	(Lblr;Z)V	b	method_1635
 METHOD	dwb	(Ljava/lang/String;)Z	b	method_32596
 METHOD	dwb	()V	c	method_1643
@@ -50370,7 +50370,7 @@ METHOD	dwb	()Ldvj;	f	method_31044
 METHOD	dwb	(Ljava/lang/String;)Lavc;	f	method_33675
 METHOD	dwb	()Ljava/io/File;	g	method_37294
 METHOD	dwb	()Ljava/lang/String;	h	method_37295
-METHOD	dwb	()I	i	method_38522
+METHOD	dwb	()I	i	method_38521
 METHOD	dwb	()Z	j	method_23486
 METHOD	dwb	()Z	k	method_23487
 CLASS	dwb$1	net/minecraft/class_315$1
@@ -50413,11 +50413,11 @@ FIELD	dwd	[Ldwd;	d	field_34791
 FIELD	dwd	I	e	field_34792
 FIELD	dwd	Ljava/lang/String;	f	field_34793
 FIELD	dwd	[Ldwd;	g	field_34794
-METHOD	dwd	()I	a	method_38523
-METHOD	dwd	(I)Ldwd;	a	method_38524
-METHOD	dwd	()Ljava/lang/String;	b	method_38525
-METHOD	dwd	(I)[Ldwd;	b	method_38526
-METHOD	dwd	()[Ldwd;	c	method_38527
+METHOD	dwd	()I	a	method_38522
+METHOD	dwd	(I)Ldwd;	a	method_38523
+METHOD	dwd	()Ljava/lang/String;	b	method_38524
+METHOD	dwd	(I)[Ldwd;	b	method_38525
+METHOD	dwd	()[Ldwd;	c	method_38526
 CLASS	dwe	net/minecraft/class_4067
 FIELD	dwe	F	ad	field_18204
 FIELD	dwe	D	ae	field_18205
@@ -50652,9 +50652,9 @@ CLASS	dwp$a	net/minecraft/class_4700$class_6598
 FIELD	dwp$a	Lit/unimi/dsi/fastutil/ints/Int2ObjectArrayMap;	a	field_34796
 FIELD	dwp$a	Ljava/util/concurrent/locks/ReentrantReadWriteLock;	b	field_34797
 FIELD	dwp$a	I	c	field_34798
-METHOD	dwp$a	()[I	a	method_38528
-METHOD	dwp$a	(I)[I	a	method_38529
-METHOD	dwp$a	(I)[I	b	method_38530
+METHOD	dwp$a	()[I	a	method_38527
+METHOD	dwp$a	(I)[I	a	method_38528
+METHOD	dwp$a	(I)[I	b	method_38529
 CLASS	dwp$b	net/minecraft/class_4700$class_4701
 FIELD	dwp$b	I	a	field_21522
 FIELD	dwp$b	I	b	field_21523
@@ -52115,7 +52115,7 @@ METHOD	eai	(Ldxj;)V	a	method_19818
 CLASS	eaj	net/minecraft/class_424
 CLASS	eak	net/minecraft/class_423
 METHOD	eak	(Ldxj;)V	a	method_19819
-METHOD	eak	()V	h	method_38531
+METHOD	eak	()V	h	method_38530
 METHOD	eak	()V	v	method_2180
 CLASS	eal	net/minecraft/class_426
 FIELD	eal	Lot;	c	field_26543
@@ -52741,8 +52741,8 @@ FIELD	ebs	Ldvu;	c	field_34799
 FIELD	ebs	J	n	field_34800
 FIELD	ebs	Lebr;	o	field_34801
 FIELD	ebs	Ldxj;	p	field_34802
-METHOD	ebs	(Ldxj;)V	a	method_38532
-METHOD	ebs	(Ldxj;)V	b	method_38533
+METHOD	ebs	(Ldxj;)V	a	method_38531
+METHOD	ebs	(Ldxj;)V	b	method_38532
 CLASS	ebt	net/minecraft/class_6215
 CLASS	ebu	net/minecraft/class_5289
 FIELD	ebu	Lwz;	a	field_24566
@@ -54318,7 +54318,7 @@ CLASS	eeu$3	net/minecraft/class_5317$3
 METHOD	eeu$3	(Lgx;)Lcrj;	a	method_30666
 CLASS	eeu$4	net/minecraft/class_5317$4
 METHOD	eeu$4	(Lgx;)Lcrj;	a	method_30667
-METHOD	eeu$4	(Lgx;)Lcpj;	b	method_38534
+METHOD	eeu$4	(Lgx;)Lcpj;	b	method_38533
 CLASS	eeu$5	net/minecraft/class_5317$5
 METHOD	eeu$5	(Lgx;)Lcrj;	a	method_30668
 CLASS	eeu$6	net/minecraft/class_5317$6
@@ -55730,7 +55730,7 @@ FIELD	ejs	D	a	field_32641
 FIELD	ejs	I	b	field_34805
 FIELD	ejs	I	c	field_34806
 FIELD	ejs	Lcpx;	z	field_27733
-METHOD	ejs	()V	a	method_38535
+METHOD	ejs	()V	a	method_38534
 METHOD	ejs	(DDDDDLhu;)V	a	method_2932
 METHOD	ejs	(IIIILjava/util/Random;Lejs$c;Lgh$a;)V	a	method_2943
 METHOD	ejs	(ILaus$c;)V	a	method_2945
@@ -55747,25 +55747,25 @@ METHOD	ejs	(Lcok;)V	a	method_18110
 METHOD	ejs	(Ldni;F)Ldni;	a	method_23777
 METHOD	ejs	(Ldog;)V	a	method_2944
 METHOD	ejs	(Lgh$a;Lbzd;)V	a	method_24462
-METHOD	ejs	(Lgh;)I	a	method_38536
+METHOD	ejs	(Lgh;)I	a	method_38535
 METHOD	ejs	(Lgh;F)V	a	method_27873
 METHOD	ejs	(Lgh;Lafi;Lafk;FFZ)V	a	method_2947
 METHOD	ejs	(Lgh;Lcmg;Lhu;Z)V	a	method_2938
 METHOD	ejs	(Lgh;Lhu;Ldob;D)V	a	method_2948
 METHOD	ejs	(Lit/unimi/dsi/fastutil/objects/Object2ObjectArrayMap;)V	a	method_23778
-METHOD	ejs	(Ljava/lang/Runnable;)V	a	method_38537
+METHOD	ejs	(Ljava/lang/Runnable;)V	a	method_38536
 METHOD	ejs	(Ljava/util/Map;)V	a	method_35753
 METHOD	ejs	(Ljava/util/function/BooleanSupplier;)V	a	method_8441
 METHOD	ejs	()Lenh;	b	method_28103
 METHOD	ejs	(III)V	b	method_2941
 METHOD	ejs	(ILaus;)V	b	method_18114
 METHOD	ejs	(J)V	b	method_8435
-METHOD	ejs	(Lgh;)I	b	method_38538
+METHOD	ejs	(Lgh;)I	b	method_38537
 METHOD	ejs	(Lgh;Lbxo;)I	b	method_23780
 METHOD	ejs	()Ljava/lang/Iterable;	c	method_18112
 METHOD	ejs	(III)V	c	method_18113
 METHOD	ejs	(Laus;)Ljava/lang/String;	c	method_18649
-METHOD	ejs	(Lgh;)I	c	method_38539
+METHOD	ejs	(Lgh;)I	c	method_38538
 METHOD	ejs	(Lgh;Lcmg;)V	c	method_2937
 METHOD	ejs	()V	d	method_18116
 METHOD	ejs	(Laus;)V	d	method_32124
@@ -55844,13 +55844,13 @@ FIELD	ejt	Ljava/util/Set;	t	field_25273
 FIELD	ejt	Lgy;	u	field_25063
 METHOD	ejt	(I)V	a	method_37472
 METHOD	ejt	(IILdgj;Lbyn;Ljava/util/BitSet;Ljava/util/BitSet;Ljava/util/Iterator;Z)V	a	method_2870
-METHOD	ejt	(IILqx;)V	a	method_38540
-METHOD	ejt	(IILrc;)V	a	method_38541
+METHOD	ejt	(IILqx;)V	a	method_38539
+METHOD	ejt	(IILrc;)V	a	method_38540
 METHOD	ejt	(ILgh;Lcmg;)V	a	method_34007
 METHOD	ejt	(Laus;Lcom/mojang/datafixers/util/Pair;)V	a	method_34008
 METHOD	ejt	(Lblq;)Lbsd;	a	method_19691
 METHOD	ejt	(Lbnw;Lbuv;)V	a	method_34009
-METHOD	ejt	(Lcok;II)V	a	method_38542
+METHOD	ejt	(Lcok;II)V	a	method_38541
 METHOD	ejt	(Ldoe;Lsw$b;)V	a	method_34010
 METHOD	ejt	(Ldvk;Lbuv;)V	a	method_34011
 METHOD	ejt	(Ldvk;Leed;)V	a	method_34012
@@ -55862,18 +55862,18 @@ METHOD	ejt	(Ljava/util/UUID;)Lejw;	a	method_2871
 METHOD	ejt	(Ljava/util/concurrent/CompletableFuture;)V	a	method_2885
 METHOD	ejt	(Lot;Lot;)Lot;	a	method_36322
 METHOD	ejt	(Lpl;)V	a	method_2883
-METHOD	ejt	(Lpz;Lckd;)V	a	method_38543
+METHOD	ejt	(Lpz;Lckd;)V	a	method_38542
 METHOD	ejt	(Luv$a;)V	a	method_2873
 METHOD	ejt	(Lwz;)Ljava/lang/IllegalArgumentException;	a	method_34016
 METHOD	ejt	()Leju;	b	method_2875
-METHOD	ejt	(IILrc;)V	b	method_38544
+METHOD	ejt	(IILrc;)V	b	method_38543
 METHOD	ejt	(Ljava/lang/String;)Z	b	method_2888
-METHOD	ejt	(Lqs;)V	b	method_38545
+METHOD	ejt	(Lqs;)V	b	method_38544
 METHOD	ejt	()V	c	method_2868
-METHOD	ejt	(IILrc;)V	c	method_38546
-METHOD	ejt	(Lqs;)V	c	method_38547
+METHOD	ejt	(IILrc;)V	c	method_38545
+METHOD	ejt	(Lqs;)V	c	method_38546
 METHOD	ejt	()Lbuw;	d	method_2877
-METHOD	ejt	(IILrc;)V	d	method_38548
+METHOD	ejt	(IILrc;)V	d	method_38547
 METHOD	ejt	()Ljava/util/Collection;	e	method_2880
 METHOD	ejt	()Ljava/util/Collection;	f	method_31363
 METHOD	ejt	()Lcom/mojang/authlib/GameProfile;	g	method_2879
@@ -57490,19 +57490,19 @@ METHOD	enq	(Ldqx;IIIIIII)V	a	method_22985
 METHOD	enq	(Ldqx;Ldqt$a;DDDFFFFDDDDDD)V	a	method_3278
 METHOD	enq	(Ldvi;)V	a	method_22713
 METHOD	enq	(Ldvi;FZ)V	a	method_37365
-METHOD	enq	(Ldvi;Ldni;Z)V	a	method_38549
+METHOD	enq	(Ldvi;Ldni;Z)V	a	method_38548
 METHOD	enq	(Ldvi;Leqm;ZZ)V	a	method_3273
-METHOD	enq	(Ldvi;Ljava/util/Queue;)V	a	method_38550
+METHOD	enq	(Ldvi;Ljava/util/Queue;)V	a	method_38549
 METHOD	enq	(Lejs;)V	a	method_3244
 METHOD	enq	(Lenr;FDDD)V	a	method_22714
 METHOD	enq	(Lens$a;Ldqx;Leoa;)Ldqx;	a	method_22986
 METHOD	enq	(Leoa;)Ljava/lang/String;	a	method_3248
 METHOD	enq	(Leoa;Ldqt;DDDLd;)V	a	method_3251
-METHOD	enq	(Leqh$c;)V	a	method_38551
-METHOD	enq	(Leqm;)V	a	method_38552
+METHOD	enq	(Leqh$c;)V	a	method_38550
+METHOD	enq	(Leqm;)V	a	method_38551
 METHOD	enq	(Lgh;Lcmg;Lcmg;)V	a	method_21596
-METHOD	enq	(Lgh;Lenq$a;)D	a	method_38553
-METHOD	enq	(Lgh;Leqh$c;)Z	a	method_38554
+METHOD	enq	(Lgh;Lenq$a;)D	a	method_38552
+METHOD	enq	(Lgh;Leqh$c;)Z	a	method_38553
 METHOD	enq	(Lgh;Leqh$c;Lgm;)Leqh$c;	a	method_3241
 METHOD	enq	(Lgh;Z)V	a	method_16037
 METHOD	enq	(Lhu;DDDDDD)V	a	method_3276
@@ -57514,7 +57514,7 @@ METHOD	enq	(Z)Ldwc;	a	method_3268
 METHOD	enq	()V	b	method_3254
 METHOD	enq	(III)V	b	method_8571
 METHOD	enq	(ILgh;I)V	b	method_8569
-METHOD	enq	(J)J	b	method_38555
+METHOD	enq	(J)J	b	method_38554
 METHOD	enq	(Ldqt;)V	b	method_3250
 METHOD	enq	(Ldqt;Ldqx;Ldob;DDDFFFF)V	b	method_3291
 METHOD	enq	(Ldvi;)V	b	method_22989
@@ -58914,7 +58914,7 @@ METHOD	eqh	(Leqh$a;Lenf;)V	a	method_23618
 METHOD	eqh	(Leqh$c$a;)V	a	method_22756
 METHOD	eqh	(Leqh$c$a;Lenf;)Ljava/util/concurrent/CompletableFuture;	a	method_22757
 METHOD	eqh	(Leqh$c;)V	a	method_3627
-METHOD	eqh	(Ljava/util/concurrent/CompletableFuture;)Ljava/util/concurrent/CompletionStage;	a	method_38556
+METHOD	eqh	(Ljava/util/concurrent/CompletableFuture;)Ljava/util/concurrent/CompletionStage;	a	method_38555
 METHOD	eqh	()I	b	method_34845
 METHOD	eqh	(Ldqo;Ldqw;)Ljava/util/concurrent/CompletableFuture;	b	method_22759
 METHOD	eqh	(Leqh$c$a;)V	b	method_23086
@@ -58991,7 +58991,7 @@ FIELD	eqh$c$a	Leqh$c;	c	field_20837
 METHOD	eqh$c$a	()V	a	method_22782
 METHOD	eqh$c$a	(Lenf;)Ljava/util/concurrent/CompletableFuture;	a	method_22783
 METHOD	eqh$c$a	(Leqh$c$a;)I	a	method_22784
-METHOD	eqh$c$a	()Ljava/lang/String;	b	method_38557
+METHOD	eqh$c$a	()Ljava/lang/String;	b	method_38556
 CLASS	eqh$c$b	net/minecraft/class_846$class_851$class_4578
 FIELD	eqh$c$b	Leqi;	d	field_20838
 FIELD	eqh$c$b	Leqh$c;	e	field_20839
@@ -59056,11 +59056,11 @@ FIELD	eqm	D	f	field_20997
 METHOD	eqm	(DDD)V	a	method_23088
 METHOD	eqm	(DDDDDD)Z	a	method_23089
 METHOD	eqm	(FFFFFF)Z	a	method_23090
-METHOD	eqm	(I)Leqm;	a	method_38558
+METHOD	eqm	(I)Leqm;	a	method_38557
 METHOD	eqm	(Ld;IIII)V	a	method_23091
 METHOD	eqm	(Ld;Ld;)V	a	method_23092
 METHOD	eqm	(Ldnd;)Z	a	method_23093
-METHOD	eqm	(FFFFFF)Z	b	method_38559
+METHOD	eqm	(FFFFFF)Z	b	method_38558
 CLASS	eqn	net/minecraft/class_6254
 CLASS	eqo	net/minecraft/class_4703
 FIELD	eqo	Ldvx;	A	field_21532
@@ -59867,7 +59867,7 @@ METHOD	eti	(Lavh;)F	c	method_4039
 METHOD	eti	(Lavh;F)I	c	method_23622
 METHOD	eti	(Lavh;)Z	d	method_4056
 METHOD	eti	(Lavh;F)F	d	method_4044
-METHOD	eti	(Lavh;)Z	e	method_38564
+METHOD	eti	(Lavh;)Z	e	method_38563
 CLASS	eti$1	net/minecraft/class_922$1
 FIELD	eti$1	[I	a	field_18227
 FIELD	eti$1	[I	b	field_4743
@@ -61486,7 +61486,7 @@ METHOD	fbk	()V	e	method_19762
 METHOD	fbk	(Lfan;)Z	e	method_24879
 METHOD	fbk	()Ljava/lang/String;	f	method_20304
 METHOD	fbk	(Lfan;)Z	f	method_24880
-METHOD	fbk	()Ljava/util/List;	g	method_38565
+METHOD	fbk	()Ljava/util/List;	g	method_38564
 METHOD	fbk	(Lfan;)F	g	method_4849
 METHOD	fbk	()V	h	method_4846
 METHOD	fbk	(Lfan;)F	h	method_4853
@@ -61508,7 +61508,7 @@ FIELD	fbn	Lcom/google/gson/Gson;	d	field_5594
 FIELD	fbn	Lcom/google/gson/reflect/TypeToken;	e	field_5591
 FIELD	fbn	Ljava/util/Map;	f	field_5588
 FIELD	fbn	Lfbk;	g	field_5590
-METHOD	fbn	()Ljava/util/List;	a	method_38566
+METHOD	fbn	()Ljava/util/List;	a	method_38565
 METHOD	fbn	(Lady;Laqj;)Lfbn$a;	a	method_18180
 METHOD	fbn	(Lafk;F)V	a	method_4865
 METHOD	fbn	(Ldvi;)V	a	method_4876
@@ -61530,7 +61530,7 @@ METHOD	fbn	()V	e	method_4881
 METHOD	fbn	()V	f	method_4882
 METHOD	fbn	()V	g	method_4880
 METHOD	fbn	()Ljava/lang/String;	h	method_20305
-METHOD	fbn	()V	i	method_38567
+METHOD	fbn	()V	i	method_38566
 CLASS	fbn$1	net/minecraft/class_1144$1
 CLASS	fbn$2	net/minecraft/class_1144$2
 FIELD	fbn$2	[I	a	field_5598
@@ -61875,7 +61875,7 @@ METHOD	net/minecraft/server/MinecraftServer	(Lacf;)V	a	method_3786
 METHOD	net/minecraft/server/MinecraftServer	(Ladn;)Lbxr;	a	method_29735
 METHOD	net/minecraft/server/MinecraftServer	(Ladn;Lbxr;Z)Lbxr;	a	method_29736
 METHOD	net/minecraft/server/MinecraftServer	(Laem;)V	a	method_3846
-METHOD	net/minecraft/server/MinecraftServer	(Lahl$a;)Ljava/lang/String;	a	method_38581
+METHOD	net/minecraft/server/MinecraftServer	(Lahl$a;)Ljava/lang/String;	a	method_38580
 METHOD	net/minecraft/server/MinecraftServer	(Laqi;)V	a	method_37318
 METHOD	net/minecraft/server/MinecraftServer	(Latk;Z)V	a	method_3776
 METHOD	net/minecraft/server/MinecraftServer	(Lbyb;)V	a	method_3838
@@ -61899,7 +61899,7 @@ METHOD	net/minecraft/server/MinecraftServer	(Ljava/util/function/BooleanSupplier
 METHOD	net/minecraft/server/MinecraftServer	(Ljava/util/function/Consumer;Laqi;)V	a	method_37319
 METHOD	net/minecraft/server/MinecraftServer	(Ljava/util/function/Consumer;Ljava/util/function/Consumer;)V	a	method_37320
 METHOD	net/minecraft/server/MinecraftServer	(Ljava/util/function/Function;)Lnet/minecraft/server/MinecraftServer;	a	method_29740
-METHOD	net/minecraft/server/MinecraftServer	(Lnet/minecraft/util/profiling/jfr/event/worldgen/WorldLoadFinishedEvent;)V	a	method_38582
+METHOD	net/minecraft/server/MinecraftServer	(Lnet/minecraft/util/profiling/jfr/event/worldgen/WorldLoadFinishedEvent;)V	a	method_38581
 METHOD	net/minecraft/server/MinecraftServer	(Lq;)V	a	method_3744
 METHOD	net/minecraft/server/MinecraftServer	(Lwd;)V	a	method_3791
 METHOD	net/minecraft/server/MinecraftServer	(Lwd;Ljava/io/File;)V	a	method_37475
@@ -61975,7 +61975,7 @@ METHOD	net/minecraft/server/MinecraftServer	()Lot;	ba	method_36326
 METHOD	net/minecraft/server/MinecraftServer	()Z	bb	method_24488
 METHOD	net/minecraft/server/MinecraftServer	()V	bc	method_3832
 METHOD	net/minecraft/server/MinecraftServer	()Laqi;	bd	method_24489
-METHOD	net/minecraft/server/MinecraftServer	()V	be	method_38583
+METHOD	net/minecraft/server/MinecraftServer	()V	be	method_38582
 METHOD	net/minecraft/server/MinecraftServer	()Z	bf	method_3866
 METHOD	net/minecraft/server/MinecraftServer	()Z	bg	method_20415
 METHOD	net/minecraft/server/MinecraftServer	()V	bh	method_27729
@@ -61985,7 +61985,7 @@ METHOD	net/minecraft/server/MinecraftServer	()Ljava/lang/String;	bs	method_37327
 METHOD	net/minecraft/server/MinecraftServer	()Ljava/lang/String;	bt	method_37326
 METHOD	net/minecraft/server/MinecraftServer	()Ljava/lang/String;	bu	method_37325
 METHOD	net/minecraft/server/MinecraftServer	()Z	bv	method_5387
-METHOD	net/minecraft/server/MinecraftServer	()V	bw	method_38584
+METHOD	net/minecraft/server/MinecraftServer	()V	bw	method_38583
 METHOD	net/minecraft/server/MinecraftServer	(I)V	c	method_3803
 METHOD	net/minecraft/server/MinecraftServer	(Labx;)V	c	method_19465
 METHOD	net/minecraft/server/MinecraftServer	(Ljava/lang/String;)Ljava/io/File;	c	method_3758
@@ -62004,7 +62004,7 @@ METHOD	net/minecraft/server/MinecraftServer	(Ljava/nio/file/Path;)V	f	method_217
 METHOD	net/minecraft/server/MinecraftServer	(Z)V	f	method_3815
 METHOD	net/minecraft/server/MinecraftServer	()V	f_	method_3861
 METHOD	net/minecraft/server/MinecraftServer	()Z	g	method_3754
-METHOD	net/minecraft/server/MinecraftServer	(Ljava/nio/file/Path;)V	g	method_38585
+METHOD	net/minecraft/server/MinecraftServer	(Ljava/nio/file/Path;)V	g	method_38584
 METHOD	net/minecraft/server/MinecraftServer	(Z)V	g	method_3745
 METHOD	net/minecraft/server/MinecraftServer	()Lbyb;	g_	method_3790
 METHOD	net/minecraft/server/MinecraftServer	()I	h	method_3798
