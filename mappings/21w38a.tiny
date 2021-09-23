@@ -18137,7 +18137,7 @@ METHOD	aqs	(Laqp;Laqs;)Laqp;	a	method_24340
 METHOD	aqs	(Ljava/lang/String;)Laqs;	a	method_24341
 METHOD	aqs	()V	b	method_24342
 METHOD	aqs	()I	c	method_24343
-CLASS	aqt	class_6506
+CLASS	aqt	net/minecraft/class_6506
 FIELD	aqt	Laqt;	a	field_34412
 FIELD	aqt	Laqt;	b	field_34413
 FIELD	aqt	Ljava/lang/String;	c	field_34414
@@ -18185,7 +18185,7 @@ METHOD	aqw	(Ljava/util/Map;)Ljava/util/Map;	a	method_37996
 METHOD	aqw	(Ljava/util/Map;Lit/unimi/dsi/fastutil/ints/Int2DoubleRBTreeMap;)V	a	method_37997
 METHOD	aqw	([D)Ljava/util/Map;	a	method_37998
 METHOD	aqw	([J)Ljava/util/Map;	a	method_37999
-CLASS	aqx	class_6507
+CLASS	aqx	net/minecraft/class_6507
 FIELD	aqx	Lorg/apache/logging/log4j/Logger;	a	field_34926
 FIELD	aqx	Ljava/lang/Runnable;	b	field_34417
 METHOD	aqx	()Z	a	method_37989
