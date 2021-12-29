@@ -115,11 +115,14 @@ file('mappings').eachFile {
 
 	Jar makeV1Jar = makeJar(mcVer, v1MappingFile, false, mcJar)
 	Jar makeV2Jar = makeJar(mcVer, v2MappingFile, true, mcJar)
+	Task makeJson = makeJson(mcVer, mcJar)
 
 	makeV1Jar.dependsOn downloadMcJarTask
 	makeV2Jar.dependsOn downloadMcJarTask
+	makeJson.dependsOn downloadMcJarTask
 	build.dependsOn makeV1Jar
 	build.dependsOn makeV2Jar
+	build.dependsOn makeJson
 
 	makeV2Jar.dependsOn conversionTask
 
@@ -135,6 +138,10 @@ file('mappings').eachFile {
 				artifact(makeV2Jar.archiveFile) {
 					builtBy makeV2Jar
 					classifier = "v2"
+				}
+				artifact(makeJson.outputs.files.singleFile) {
+					builtBy makeJson
+					classifier = null
 				}
 			}
 		}
@@ -174,6 +181,26 @@ def makeJar(String mcId, File mappings, boolean v2, File mcJar) {
 		}
 		
 		destinationDirectory = file("build/jars")
+	}
+}
+
+import groovy.json.JsonOutput
+
+def makeJson(String mcId, File mcJar) {
+	def jsonFile = new File(buildDir, "json/${mcId}.json")
+	return task("${mcId}_makeJson") {
+		outputs.file(jsonFile)
+		doLast {
+			def mcVersion = McVersionLookup.getVersionExceptClassVersion(mcJar.toPath())
+
+			def json = JsonOutput.toJson([
+				normalized_minecraft_version: mcVersion.normalized,
+				minecraft_version_id: mcId,
+				minecraft_version_name: mcVersion.name
+			])
+
+			jsonFile.text = json
+		}
 	}
 }
 
