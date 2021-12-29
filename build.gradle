@@ -1,4 +1,4 @@
-import cuchaz.enigma.command.ConvertMappingsCommand
+import groovy.json.JsonSlurper
 
 buildscript {
 	repositories {
@@ -6,16 +6,18 @@ buildscript {
 			name "Fabric Repository"
 			url 'https://maven.fabricmc.net'
 		}
+		mavenLocal()
 	}
 
 	dependencies {
-		classpath "cuchaz:enigma:0.14.2.138"
+		classpath "net.fabricmc:fabric-loader:0.13.0+local"
+		classpath "net.fabricmc:mapping-io:0.3.0"
 	}
 }
 
 plugins {
-	id 'maven'
 	id 'maven-publish'
+	id "de.undercouch.download" version "4.1.2"
 }
 
 static List<String> getPublishedVersions() {
@@ -25,19 +27,47 @@ static List<String> getPublishedVersions() {
 	return versions
 }
 
+static def getMinecraftVersioMeta() {
+	def versions = new URL("https://launchermeta.mojang.com/mc/game/version_manifest_v2.json").text
+	def exp_versions = new URL("https://maven.fabricmc.net/net/minecraft/experimental_versions.json").text
+
+	def all_versions = (
+		new JsonSlurper().parseText(versions).versions 
+		<< new JsonSlurper().parseText(exp_versions).versions
+	).flatten()
+
+	return all_versions.collectEntries {
+		[it.id, it]
+	}
+}
+
+task build {}
+
 def publishedVersions = getPublishedVersions()
+def mcVersionMetaMap = getMinecraftVersioMeta()
 
 def ENV = System.getenv()
 
 def published = false
 def localMappingsPath = "$buildDir/v2Mappings"
+def mcJarsDir = "$buildDir/mcJars"
 new File(localMappingsPath).mkdirs()
+new File(mcJarsDir).mkdirs()
+
+import net.fabricmc.mappingio.MappingReader
+import net.fabricmc.mappingio.MappingWriter
+import net.fabricmc.mappingio.format.MappingFormat
+
 file('mappings').eachFile {
 	if (!it.name.endsWith(".tiny")) return
 
 	def mcVer = it.name.replace(".tiny", "")
 
-	if (publishedVersions.contains(mcVer) && !(ENV.FORCE_PUBLISH == mcVer)) {
+	if (!mcVersionMetaMap[mcVer]) {
+		throw new RuntimeException("Invalid mc version id ${mcVer}")
+	}
+
+	if ((publishedVersions.contains(mcVer) && !(ENV.FORCE_PUBLISH == mcVer)) && !project.hasProperty("buildAll")) {
 		project.logger.lifecycle("Skipping ${mcVer} as it has already been released")
 		return
 	} else {
@@ -56,19 +86,38 @@ file('mappings').eachFile {
 		outputs.file(v2MappingFile)
 
 		doLast {
-			new ConvertMappingsCommand().run(
-					"tiny",
-					v1MappingFile.path,
-					"tinyv2:official:intermediary",
-					v2MappingFile.path
+			MappingReader.read(
+				v1MappingFile.toPath(),
+				MappingWriter.create(v2MappingFile.toPath(), MappingFormat.TINY_2)
 			)
 		}
 	}
 
-	Jar makeV1Jar = makeJar(mcVer, v1MappingFile, false)
-	Jar makeV2Jar = makeJar(mcVer, v2MappingFile, true)
+	def mcJar = new File(mcJarsDir, "${mcVer}.jar")
+	def downloadMcJarTask = "download${mcVer}Jar"
+	tasks.register(downloadMcJarTask) {
+		doLast {
+			if (mcJar.exists()) {
+				return
+			}
 
+			println("Fetching meta for ${mcVer}")
 
+			def versionMeta = mcVersionMetaMap[mcVer].url.toURL().text
+
+			download {
+				src new JsonSlurper().parseText(versionMeta).downloads.client.url as String
+				dest mcJar
+				overwrite false
+			}
+		}
+	}
+
+	Jar makeV1Jar = makeJar(mcVer, v1MappingFile, false, mcJar)
+	Jar makeV2Jar = makeJar(mcVer, v2MappingFile, true, mcJar)
+
+	makeV1Jar.dependsOn downloadMcJarTask
+	makeV2Jar.dependsOn downloadMcJarTask
 	build.dependsOn makeV1Jar
 	build.dependsOn makeV2Jar
 
@@ -96,14 +145,34 @@ if (!published) {
 	throw new RuntimeException("Nothing to publish, override with the FORCE_PUBLISH env")
 }
 
-def makeJar(String mcVersion, File mappings, boolean v2) {
-	def jarFilename = "intermediary-" + mcVersion + (v2 ? "-v2" : "")
-	return task("${mcVersion}_makeJar" + (v2 ? "v2" : ""), type: Jar) {
+import net.fabricmc.loader.impl.game.minecraft.McVersionLookup
+
+def makeJar(String mcId, File mappings, boolean v2, File mcJar) {
+	def jarFilename = "intermediary-" + mcId + (v2 ? "-v2" : "")
+	return task("${mcId}_makeJar" + (v2 ? "v2" : ""), type: Jar) {
 		baseName jarFilename
 		from(file(mappings)) {
 			into "mappings"
 			rename mappings.name, "mappings.tiny"
 		}
+
+		doFirst {
+			def mcVersion = McVersionLookup.getVersionExceptClassVersion(mcJar.toPath())
+
+			manifest {
+				attributes("Game-Id": "minecraft")
+				attributes("Game-Version": mcVersion.normalized)
+				attributes("Minecraft-Version-Id": mcId)
+
+				// Null for versions without a versions.json file.
+				if (mcVersion.name != null) {
+					attributes("Minecraft-Version-Name": mcVersion.name)
+				}
+
+				attributes("Build-Time": Instant.now().toString())
+			}
+		}
+		
 		destinationDirectory = file("build/jars")
 	}
 }
