@@ -57,6 +57,7 @@ new File(mcJarsDir).mkdirs()
 import net.fabricmc.mappingio.MappingReader
 import net.fabricmc.mappingio.MappingWriter
 import net.fabricmc.mappingio.format.MappingFormat
+import net.fabricmc.mappingio.tree.MemoryMappingTree
 
 file('mappings').eachFile {
 	if (!it.name.endsWith(".tiny")) return
@@ -87,7 +88,10 @@ file('mappings').eachFile {
 
 		doLast {
 			MappingWriter.create(v2MappingFile.toPath(), MappingFormat.TINY_2).withCloseable {
-				MappingReader.read(v1MappingFile.toPath(), it)
+				// Sort the mappings using the tree
+				def tree = new MemoryMappingTree()
+				MappingReader.read(v1MappingFile.toPath(), tree)
+				tree.accept(it)
 			}
 		}
 	}
