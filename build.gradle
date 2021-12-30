@@ -86,10 +86,9 @@ file('mappings').eachFile {
 		outputs.file(v2MappingFile)
 
 		doLast {
-			MappingReader.read(
-				v1MappingFile.toPath(),
-				MappingWriter.create(v2MappingFile.toPath(), MappingFormat.TINY_2)
-			)
+			MappingWriter.create(v2MappingFile.toPath(), MappingFormat.TINY_2).withCloseable {
+				MappingReader.read(v1MappingFile.toPath(), it)
+			}
 		}
 	}
 
