@@ -35813,7 +35813,7 @@ FIELD	cgl	Lcgl;	i	field_39058
 FIELD	cgl	[Lcgl;	j	field_8948
 METHOD	cgl	()[Lcgl;	a	method_36686
 CLASS	cgm	net/minecraft/class_5150
-CLASS	cgn	net/minecraft/class_8081
+CLASS	cgn	net/minecraft/class_5151
 METHOD	cgn	(Lcep;Lclg;Lbxn;Lbdg;)Lbdi;	a	method_48576
 CLASS	cgo	net/minecraft/class_1840
 METHOD	cgo	(Lqv;)Z	a	method_8047
