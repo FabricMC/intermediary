@@ -1,0 +1,22 @@
+name: Test
+on:
+  push:
+    branches:
+      - !master
+  pull_request:
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    container:
+      image: eclipse-temurin:17-jdk
+      options: --user root
+    steps:
+      - uses: actions/checkout@v3
+      - uses: gradle/wrapper-validation-action@v1
+      - run: ./gradlew build publishToMavenLocal --stacktrace --warning-mode fail
+        env:
+          FORCE_PUBLISH: 1.19.4
+      - uses: actions/upload-artifact@v3
+        with:
+          name: Maven Local
+          path: /root/.m2/repository
