@@ -1,5 +1,3 @@
-import cuchaz.enigma.command.ConvertMappingsCommand
-
 buildscript {
 	repositories {
 		maven {
@@ -9,21 +7,26 @@ buildscript {
 	}
 
 	dependencies {
-		classpath "cuchaz:enigma:0.14.2.138"
+		classpath "net.fabricmc:mapping-io:0.3.0"
 	}
 }
 
 plugins {
-	id 'maven'
 	id 'maven-publish'
 }
 
+import net.fabricmc.mappingio.MappingReader;
+import net.fabricmc.mappingio.MappingWriter;
+import net.fabricmc.mappingio.format.MappingFormat;
+
 static List<String> getPublishedVersions() {
 	def xml = new URL("https://maven.fabricmc.net/net/fabricmc/intermediary/maven-metadata.xml").text
-	def metadata = new XmlSlurper().parseText(xml)
+	def metadata = new groovy.xml.XmlSlurper().parseText(xml)
 	def versions = metadata.versioning.versions.version*.text();
 	return versions
 }
+
+tasks.register("build")
 
 def publishedVersions = getPublishedVersions()
 
@@ -37,42 +40,37 @@ file('mappings').eachFile {
 
 	def mcVer = it.name.replace(".tiny", "")
 
-	if (publishedVersions.contains(mcVer) && !(ENV.FORCE_PUBLISH == mcVer)) {
-		project.logger.lifecycle("Skipping ${mcVer} as it has already been released")
-		return
-	} else {
-		project.logger.lifecycle("Building ${mcVer}")
-	}
-
-	published = true
-
 	File v1MappingFile = it
 	File v2MappingFile = new File("$localMappingsPath/${it.name}")
 
-	def conversionTask = "convert${it.name}ToV2"
-	tasks.register(conversionTask) {
+	def conversionTask = tasks.register("convert${it.name}ToV2") {
 		group = "V2 Conversion"
 		inputs.file(v1MappingFile)
 		outputs.file(v2MappingFile)
 
 		doLast {
-			new ConvertMappingsCommand().run(
-					"tiny",
-					v1MappingFile.path,
-					"tinyv2:official:intermediary",
-					v2MappingFile.path
-			)
+			MappingWriter.create(v2MappingFile.toPath(), MappingFormat.TINY_2).withCloseable {
+				MappingReader.read(v1MappingFile.toPath(), it)
+			}
 		}
 	}
 
-	Jar makeV1Jar = makeJar(mcVer, v1MappingFile, false)
-	Jar makeV2Jar = makeJar(mcVer, v2MappingFile, true)
+	def makeV1Jar = makeJar(mcVer, v1MappingFile, false)
+	def makeV2Jar = makeJar(mcVer, v2MappingFile, true)
+	makeV2Jar.configure {
+		dependsOn conversionTask
+	}
 
+	if (publishedVersions.contains(mcVer) && !(ENV.FORCE_PUBLISH == mcVer)) {
+		project.logger.lifecycle("Skipping ${mcVer} as it has already been released")
+		return
+	}
+
+	project.logger.lifecycle("Publishing ${mcVer}")
+	published = true
 
 	build.dependsOn makeV1Jar
 	build.dependsOn makeV2Jar
-
-	makeV2Jar.dependsOn conversionTask
 
 	publishing {
 		publications {
@@ -80,10 +78,10 @@ file('mappings').eachFile {
 				groupId 'net.fabricmc'
 				artifactId "intermediary"
 				version mcVer
-				artifact(makeV1Jar.archiveFile) {
+				artifact(makeV1Jar.get().archiveFile) {
 					builtBy makeV1Jar
 				}
-				artifact(makeV2Jar.archiveFile) {
+				artifact(makeV2Jar.get().archiveFile) {
 					builtBy makeV2Jar
 					classifier = "v2"
 				}
@@ -97,9 +95,10 @@ if (!published) {
 }
 
 def makeJar(String mcVersion, File mappings, boolean v2) {
-	def jarFilename = "intermediary-" + mcVersion + (v2 ? "-v2" : "")
-	return task("${mcVersion}_makeJar" + (v2 ? "v2" : ""), type: Jar) {
-		baseName jarFilename
+	def jarFilename = "intermediary-" + mcVersion + (v2 ? "-v2" : "") + ".jar"
+	return tasks.register("${mcVersion}_makeJar" + (v2 ? "v2" : ""), Jar) {
+		archiveFileName = jarFilename
+		group = "jar"
 		from(file(mappings)) {
 			into "mappings"
 			rename mappings.name, "mappings.tiny"

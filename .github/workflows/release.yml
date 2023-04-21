@@ -5,14 +5,13 @@ on:
       - master
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     container:
-      image: openjdk:15-jdk
+      image: gradle:8.1.0-jdk17
       options: --user root
     steps:
-      - uses: actions/checkout@v1
-      - uses: gradle/wrapper-validation-action@v1
-      - run: ./gradlew build publish --stacktrace
+      - uses: actions/checkout@v3
+      - run: gradle build publish --stacktrace
         env:
           MAVEN_URL: ${{ secrets.MAVEN_URL }}
           MAVEN_USERNAME: ${{ secrets.MAVEN_USERNAME }}
