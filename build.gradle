@@ -15,9 +15,10 @@ plugins {
 	id 'maven-publish'
 }
 
-import net.fabricmc.mappingio.MappingReader;
-import net.fabricmc.mappingio.MappingWriter;
-import net.fabricmc.mappingio.format.MappingFormat;
+import net.fabricmc.mappingio.MappingReader
+import net.fabricmc.mappingio.MappingWriter
+import net.fabricmc.mappingio.format.MappingFormat
+import net.fabricmc.mappingio.adapter.MappingNsCompleter
 
 static List<String> getPublishedVersions() {
 	def xml = new URL("https://maven.fabricmc.net/net/fabricmc/intermediary/maven-metadata.xml").text
@@ -50,7 +51,8 @@ file('mappings').eachFile {
 
 		doLast {
 			MappingWriter.create(v2MappingFile.toPath(), MappingFormat.TINY_2).withCloseable {
-				MappingReader.read(v1MappingFile.toPath(), it)
+				def visitor = new MappingNsCompleter(it, ["intermediary": "official"], true)
+				MappingReader.read(v1MappingFile.toPath(), visitor)
 			}
 		}
 	}
