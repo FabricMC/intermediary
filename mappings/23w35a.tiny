@@ -7039,15 +7039,15 @@ METHOD	lx	(Lcmb;Lls;Lcpp;FI)Llx;	c	method_17802
 METHOD	lx	(Lcpp;)Lcls;	c	method_46217
 METHOD	lx	(Lcmb;Lls;Lcpp;FI)Llx;	d	method_35918
 CLASS	lx$a	net/minecraft/class_2454$class_2455
-FIELD	lx$a	Laeu;	a	comp_1222
+FIELD	lx$a	Laeu;	a	comp_1230
 FIELD	lx$a	Ljava/lang/String;	b	comp_1940
 FIELD	lx$a	Lcls;	c	comp_1941
 FIELD	lx$a	Lcmb;	d	comp_1942
 FIELD	lx$a	Lciv;	e	comp_1943
 FIELD	lx$a	F	f	comp_1944
 FIELD	lx$a	I	g	comp_1945
-FIELD	lx$a	Laf;	h	comp_1946
-FIELD	lx$a	Lcmh;	i	comp_1223
+FIELD	lx$a	Laf;	h	comp_1235
+FIELD	lx$a	Lcmh;	i	comp_1231
 METHOD	lx$a	()Ljava/lang/String;	e	comp_1940
 METHOD	lx$a	()Lcls;	f	comp_1941
 METHOD	lx$a	()Lcmb;	g	comp_1942
@@ -7068,13 +7068,13 @@ METHOD	ly	(Lcmb;Lls;Lcpp;I)Lly;	a	method_17969
 METHOD	ly	(Ljava/lang/String;)Lly;	b	method_35919
 METHOD	ly	(Ljava/lang/String;Lam;)Lly;	b	method_17970
 CLASS	ly$a	net/minecraft/class_3981$class_3982
-FIELD	ly$a	Laeu;	a	comp_1222
-FIELD	ly$a	Lcmh;	b	comp_1223
+FIELD	ly$a	Laeu;	a	comp_1230
+FIELD	ly$a	Lcmh;	b	comp_1231
 FIELD	ly$a	Ljava/lang/String;	c	comp_1947
 FIELD	ly$a	Lcmb;	d	comp_1948
 FIELD	ly$a	Lciv;	e	comp_1949
 FIELD	ly$a	I	f	comp_1950
-FIELD	ly$a	Laf;	g	comp_1946
+FIELD	ly$a	Laf;	g	comp_1235
 METHOD	ly$a	()Ljava/lang/String;	e	comp_1947
 METHOD	ly$a	()Lcmb;	f	comp_1948
 METHOD	ly$a	()Lciv;	g	comp_1949
@@ -7093,13 +7093,13 @@ METHOD	lz	(Ljava/lang/String;Lam;)Llz;	a	method_48536
 METHOD	lz	(Llt;Laeu;)V	a	method_48537
 METHOD	lz	(Llt;Ljava/lang/String;)V	a	method_48538
 CLASS	lz$a	net/minecraft/class_8074$class_8075
-FIELD	lz$a	Laeu;	a	comp_1222
-FIELD	lz$a	Lcmh;	b	comp_1223
+FIELD	lz$a	Laeu;	a	comp_1230
+FIELD	lz$a	Lcmh;	b	comp_1231
 FIELD	lz$a	Lcmb;	c	comp_1224
 FIELD	lz$a	Lcmb;	d	comp_1225
 FIELD	lz$a	Lcmb;	e	comp_1226
 FIELD	lz$a	Lciv;	f	comp_1227
-FIELD	lz$a	Laf;	g	comp_1228
+FIELD	lz$a	Laf;	g	comp_1235
 METHOD	lz$a	()Lcmb;	e	comp_1224
 METHOD	lz$a	()Lcmb;	f	comp_1225
 METHOD	lz$a	()Lcmb;	g	comp_1226
