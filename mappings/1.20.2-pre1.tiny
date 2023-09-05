@@ -796,7 +796,7 @@ METHOD	ai	(Lso;)[[Ljava/lang/String;	b	method_53676
 METHOD	ai	()Z	c	method_53677
 METHOD	ai	()Ljava/util/Set;	d	method_53678
 METHOD	ai	()[[Ljava/lang/String;	e	comp_1922
-CLASS	ai$a	net/minecraft/class_8782$net/minecraft/class_necraft/class_necraft/class_193
+CLASS	ai$a	net/minecraft/class_8782$class_8797
 FIELD	ai$a	Lai$a;	a	field_16882
 FIELD	ai$a	Lai$a;	b	field_1257
 CLASS	aj	net/minecraft/class_170
