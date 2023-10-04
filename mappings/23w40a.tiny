@@ -10644,7 +10644,7 @@ METHOD	us	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mo
 METHOD	us	(Ljava/lang/String;)Lus;	a	method_54232
 METHOD	us	()Ljava/lang/String;	b	comp_737
 CLASS	us$1	net/minecraft/class_8828$1
-CLASS	us$a	net/minecraft/class_8828$net/minecraft/class_necraft/class_2585
+CLASS	us$a	net/minecraft/class_8828$class_2585
 FIELD	us$a	Ljava/lang/String;	d	comp_737
 CLASS	ut	net/minecraft/class_2578
 FIELD	ut	Lcom/mojang/serialization/MapCodec;	a	field_46626
