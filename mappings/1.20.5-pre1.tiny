@@ -84391,7 +84391,6 @@ FIELD	gtg	I	b	field_18912
 FIELD	gtg	I	c	field_18913
 FIELD	gtg	Ljava/nio/ByteBuffer;	d	field_18914
 METHOD	gtg	()Ljava/nio/ByteBuffer;	a	method_19679
-METHOD	gtg	(F)V	accept	method_19680
 METHOD	gtg	()I	b	method_59756
 CLASS	gth	net/minecraft/class_9672
 METHOD	gth	()Ljava/nio/ByteBuffer;	b	method_59757
