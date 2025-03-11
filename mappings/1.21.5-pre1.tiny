@@ -95530,7 +95530,7 @@ CLASS	net/minecraft/server/MinecraftServer$c$1	net/minecraft/server/MinecraftSer
 FIELD	net/minecraft/server/MinecraftServer$c$1	J	a	field_39215
 FIELD	net/minecraft/server/MinecraftServer$c$1	I	b	field_39216
 FIELD	net/minecraft/server/MinecraftServer$c$1	Lnet/minecraft/server/MinecraftServer$c;	c	field_39217
-CLASS	com/mojang/blaze3d/systems/RenderPass$a	net/minecraft/class_10883$class_10884
+CLASS	com/mojang/blaze3d/systems/RenderPass$a	com/mojang/blaze3d/systems/RenderPass$class_10884
 FIELD	com/mojang/blaze3d/systems/RenderPass$a	I	a	comp_3804
 FIELD	com/mojang/blaze3d/systems/RenderPass$a	Lcom/mojang/blaze3d/buffers/GpuBuffer;	b	comp_3805
 FIELD	com/mojang/blaze3d/systems/RenderPass$a	Lcom/mojang/blaze3d/buffers/GpuBuffer;	c	comp_3806
@@ -95545,15 +95545,15 @@ METHOD	com/mojang/blaze3d/systems/RenderPass$a	()Lcom/mojang/blaze3d/vertex/Vert
 METHOD	com/mojang/blaze3d/systems/RenderPass$a	()I	e	comp_3808
 METHOD	com/mojang/blaze3d/systems/RenderPass$a	()I	f	comp_3809
 METHOD	com/mojang/blaze3d/systems/RenderPass$a	()Ljava/util/function/Consumer;	g	comp_3810
-CLASS	com/mojang/blaze3d/systems/RenderPass$b	net/minecraft/class_10883$class_10885
-CLASS	com/mojang/blaze3d/vertex/VertexFormat$a	net/minecraft/class_293$class_5595
+CLASS	com/mojang/blaze3d/systems/RenderPass$b	com/mojang/blaze3d/systems/RenderPass$class_10885
+CLASS	com/mojang/blaze3d/vertex/VertexFormat$a	com/mojang/blaze3d/vertex/VertexFormat$class_5595
 FIELD	com/mojang/blaze3d/vertex/VertexFormat$a	Lcom/mojang/blaze3d/vertex/VertexFormat$a;	a	field_27372
 FIELD	com/mojang/blaze3d/vertex/VertexFormat$a	Lcom/mojang/blaze3d/vertex/VertexFormat$a;	b	field_27373
 FIELD	com/mojang/blaze3d/vertex/VertexFormat$a	I	c	field_27375
 FIELD	com/mojang/blaze3d/vertex/VertexFormat$a	[Lcom/mojang/blaze3d/vertex/VertexFormat$a;	d	field_27376
 METHOD	com/mojang/blaze3d/vertex/VertexFormat$a	()[Lcom/mojang/blaze3d/vertex/VertexFormat$a;	a	method_36816
 METHOD	com/mojang/blaze3d/vertex/VertexFormat$a	(I)Lcom/mojang/blaze3d/vertex/VertexFormat$a;	a	method_31972
-CLASS	com/mojang/blaze3d/vertex/VertexFormat$b	net/minecraft/class_293$class_5596
+CLASS	com/mojang/blaze3d/vertex/VertexFormat$b	com/mojang/blaze3d/vertex/VertexFormat$class_5596
 FIELD	com/mojang/blaze3d/vertex/VertexFormat$b	Lcom/mojang/blaze3d/vertex/VertexFormat$b;	a	field_27377
 FIELD	com/mojang/blaze3d/vertex/VertexFormat$b	Lcom/mojang/blaze3d/vertex/VertexFormat$b;	b	field_27378
 FIELD	com/mojang/blaze3d/vertex/VertexFormat$b	Lcom/mojang/blaze3d/vertex/VertexFormat$b;	c	field_29344
