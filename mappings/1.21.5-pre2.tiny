@@ -88679,6 +88679,7 @@ FIELD	gsi	Lcom/mojang/blaze3d/systems/RenderSystem$a;	i	field_57935
 FIELD	gsi	Lcom/mojang/blaze3d/buffers/GpuBuffer;	j	field_53146
 FIELD	gsi	Lcom/mojang/blaze3d/buffers/GpuBuffer;	k	field_53147
 FIELD	gsi	Lcom/mojang/blaze3d/buffers/GpuBuffer;	l	field_55153
+FIELD	gsi	I	m	field_58198
 METHOD	gsi	()V	a	method_62305
 METHOD	gsi	(FFF)V	a	method_62302
 METHOD	gsi	(FLgrn;Lfld;)V	a	method_62303
