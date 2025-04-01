@@ -2017,22 +2017,26 @@ FIELD	cv	Ljava/util/Optional;	b	comp_1794
 FIELD	cv	Ljava/util/Optional;	c	comp_2375
 FIELD	cv	Ljava/util/Optional;	d	comp_2376
 FIELD	cv	Ljava/util/Optional;	e	comp_1797
+FIELD	cv	Ljava/util/Optional;	f	comp_3924
 FIELD	cv	Ljava/util/Optional;	g	comp_1798
 FIELD	cv	Ljava/util/Optional;	h	comp_1799
 FIELD	cv	Ljava/util/Optional;	i	comp_1800
 FIELD	cv	Ljava/util/Optional;	j	comp_1801
 FIELD	cv	Ljava/util/Optional;	k	comp_2771
+FIELD	cv	Ljava/util/List;	l	comp_3925
 METHOD	cv	()Ljava/util/Optional;	a	comp_1794
 METHOD	cv	(Last;DDD)Z	a	method_9018
 METHOD	cv	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_53178
 METHOD	cv	()Ljava/util/Optional;	b	comp_2375
 METHOD	cv	()Ljava/util/Optional;	c	comp_2376
 METHOD	cv	()Ljava/util/Optional;	d	comp_1797
+METHOD	cv	()Ljava/util/Optional;	e	comp_3924
 METHOD	cv	()Ljava/util/Optional;	f	comp_1798
 METHOD	cv	()Ljava/util/Optional;	g	comp_1799
 METHOD	cv	()Ljava/util/Optional;	h	comp_1800
 METHOD	cv	()Ljava/util/Optional;	i	comp_1801
 METHOD	cv	()Ljava/util/Optional;	j	comp_2771
+METHOD	cv	()Ljava/util/List;	k	comp_3925
 CLASS	cv$a	net/minecraft/class_2090$class_2091
 FIELD	cv$a	Lcx$c;	a	field_9693
 FIELD	cv$a	Lcx$c;	b	field_9689
@@ -2273,6 +2277,7 @@ FIELD	de	Lit/unimi/dsi/fastutil/objects/Object2BooleanMap;	g	comp_1820
 FIELD	de	Ljava/util/Map;	h	comp_1821
 FIELD	de	Ljava/util/Optional;	i	comp_1822
 FIELD	de	Ljava/util/Optional;	j	comp_3182
+FIELD	de	Ldy;	k	comp_3941
 METHOD	de	(Lbye;)Z	a	method_37250
 METHOD	de	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_53219
 METHOD	de	()Lcx$d;	b	comp_1817
@@ -2282,6 +2287,7 @@ METHOD	de	()Lit/unimi/dsi/fastutil/objects/Object2BooleanMap;	e	comp_1820
 METHOD	de	()Ljava/util/Map;	f	comp_1821
 METHOD	de	()Ljava/util/Optional;	g	comp_1822
 METHOD	de	()Ljava/util/Optional;	h	comp_3182
+METHOD	de	()Ldy;	i	comp_3941
 CLASS	de$a	net/minecraft/class_4553$class_4554
 FIELD	de$a	Lcom/mojang/serialization/Codec;	a	field_45771
 FIELD	de$a	Lit/unimi/dsi/fastutil/objects/Object2BooleanMap;	c	comp_1823
@@ -2571,9 +2577,13 @@ METHOD	dx$a	()Ljava/util/Optional;	d	comp_2098
 CLASS	dy	net/minecraft/class_11068
 FIELD	dy	Lcom/mojang/serialization/Codec;	a	field_58940
 FIELD	dy	Ldy;	b	field_58941
+FIELD	dy	Ljava/util/List;	c	comp_3949
+FIELD	dy	Ljava/util/List;	d	comp_3950
+METHOD	dy	()Ljava/util/List;	a	comp_3949
 METHOD	dy	(Lasu;)Z	a	method_69721
 METHOD	dy	(Lasu;Ljh;)Z	a	method_69722
 METHOD	dy	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_69723
+METHOD	dy	()Ljava/util/List;	b	comp_3950
 CLASS	dy$a	net/minecraft/class_11068$class_11069
 FIELD	dy$a	Ljava/util/List;	a	field_58942
 FIELD	dy$a	Ljava/util/List;	b	field_58943
@@ -7561,6 +7571,8 @@ CLASS	nx	net/minecraft/class_3714
 FIELD	nx	Ljj$a;	a	comp_2790
 METHOD	nx	()Ljj$a;	a	comp_2790
 CLASS	ny	net/minecraft/class_11171
+FIELD	ny	Ljj$a;	a	comp_4021
+METHOD	ny	()Ljj$a;	a	comp_4021
 METHOD	ny	(Lamb;I)Lffk$a;	a	method_70566
 CLASS	nz	net/minecraft/class_7794
 METHOD	nz	(Lmr;Ljava/util/concurrent/CompletableFuture;)Lnl;	a	method_46184
@@ -13516,7 +13528,9 @@ METHOD	act	()Z	b	method_11340
 METHOD	act	()Lbvy;	e	method_11342
 CLASS	acu	net/minecraft/class_10949
 FIELD	acu	Lzg;	a	field_58203
+FIELD	acu	Ljh;	b	comp_3884
 METHOD	acu	(Lach;)V	a	method_68898
+METHOD	acu	()Ljh;	b	comp_3884
 CLASS	acv	net/minecraft/class_8738
 FIELD	acv	Lzg;	a	field_47908
 FIELD	acv	I	b	comp_1725
@@ -14044,7 +14058,11 @@ METHOD	aef	(Lwa;)V	a	method_55894
 METHOD	aef	()Lbwa;	b	method_17188
 CLASS	aeg	net/minecraft/class_10950
 FIELD	aeg	Lzg;	a	field_58204
+FIELD	aeg	I	b	comp_3885
+FIELD	aeg	Ljava/util/List;	c	comp_3886
 METHOD	aeg	(Lach;)V	a	method_68899
+METHOD	aeg	()I	b	comp_3885
+METHOD	aeg	()Ljava/util/List;	e	comp_3886
 CLASS	aeh	net/minecraft/class_2693
 FIELD	aeh	Lzg;	a	field_47946
 FIELD	aeh	Lix;	b	field_12325
@@ -14781,7 +14799,17 @@ METHOD	agx	()Z	j	method_11942
 METHOD	agx	()Z	k	method_55629
 CLASS	agy	net/minecraft/class_10952
 FIELD	agy	Lzg;	a	field_58210
+FIELD	agy	I	b	comp_3887
+FIELD	agy	Z	c	comp_3888
+FIELD	agy	Ljava/util/Map;	d	comp_3889
+FIELD	agy	Ljava/util/Map;	e	comp_3890
+FIELD	agy	Ljava/util/Map;	f	comp_3891
 METHOD	agy	(Lach;)V	a	method_68905
+METHOD	agy	()I	b	comp_3887
+METHOD	agy	()Z	e	comp_3888
+METHOD	agy	()Ljava/util/Map;	f	comp_3889
+METHOD	agy	()Ljava/util/Map;	g	comp_3890
+METHOD	agy	()Ljava/util/Map;	h	comp_3891
 CLASS	agz	net/minecraft/class_2788
 FIELD	agz	Lzg;	a	field_48012
 FIELD	agz	Ljava/util/Map;	b	comp_3241
@@ -14798,8 +14826,10 @@ METHOD	aha	()Lczk;	b	method_68907
 METHOD	aha	()Ljava/util/List;	e	method_68908
 CLASS	ahb	net/minecraft/class_10954
 FIELD	ahb	Lzg;	a	field_58214
+FIELD	ahb	Ljava/util/List;	b	comp_3892
 METHOD	ahb	(Lach;)V	a	method_68909
 METHOD	ahb	(Lwr;)V	a	method_68910
+METHOD	ahb	()Ljava/util/List;	b	comp_3892
 CLASS	ahc	net/minecraft/class_8589
 FIELD	ahc	Ljh;	a	comp_1553
 FIELD	ahc	Lama;	b	comp_1554
@@ -14811,6 +14841,9 @@ FIELD	ahc	Z	g	comp_1559
 FIELD	ahc	Ljava/util/Optional;	h	comp_1560
 FIELD	ahc	I	i	comp_1561
 FIELD	ahc	I	j	comp_2893
+FIELD	ahc	Z	k	comp_3893
+FIELD	ahc	Ljava/util/List;	l	comp_3894
+FIELD	ahc	Ljava/util/List;	m	comp_3895
 METHOD	ahc	()Ljh;	a	comp_1553
 METHOD	ahc	(Lwr;)V	a	method_52274
 METHOD	ahc	()Lama;	b	comp_1554
@@ -14822,6 +14855,9 @@ METHOD	ahc	()Z	g	comp_1559
 METHOD	ahc	()Ljava/util/Optional;	h	comp_1560
 METHOD	ahc	()I	i	comp_1561
 METHOD	ahc	()I	j	comp_2893
+METHOD	ahc	()Z	k	comp_3893
+METHOD	ahc	()Ljava/util/List;	l	comp_3894
+METHOD	ahc	()Ljava/util/List;	m	comp_3895
 CLASS	ahd	net/minecraft/class_4617
 FIELD	ahd	[Ljava/lang/String;	a	field_21050
 FIELD	ahd	[Ljava/lang/String;	b	field_21051
@@ -15453,7 +15489,9 @@ FIELD	ain$a	[Lain$a;	h	field_12972
 METHOD	ain$a	()[Lain$a;	a	method_36957
 CLASS	aio	net/minecraft/class_10955
 FIELD	aio	Lzg;	a	field_58224
+FIELD	aio	Ljh;	b	comp_3896
 METHOD	aio	(Lahh;)V	a	method_68914
+METHOD	aio	()Ljh;	b	comp_3896
 CLASS	aip	net/minecraft/class_2848
 FIELD	aip	Lzg;	a	field_48208
 FIELD	aip	I	b	field_12977
@@ -15490,7 +15528,9 @@ FIELD	ais	Lzg;	a	field_55193
 METHOD	ais	(Lahh;)V	a	method_65308
 CLASS	ait	net/minecraft/class_10957
 FIELD	ait	Lzg;	a	field_58227
+FIELD	ait	Ljh;	b	comp_3897
 METHOD	ait	(Lahh;)V	a	method_68916
+METHOD	ait	()Ljh;	b	comp_3897
 CLASS	aiu	net/minecraft/class_5427
 FIELD	aiu	Lzg;	a	field_48210
 FIELD	aiu	Lczx;	b	field_25798
@@ -16692,7 +16732,13 @@ METHOD	amv	(Ljh;)Ljava/lang/Boolean;	n	method_68947
 METHOD	amv	(Ljh;)Ljava/lang/Boolean;	o	method_68948
 CLASS	amv$a	net/minecraft/class_10959$class_10960
 FIELD	amv$a	Lcom/mojang/serialization/Codec;	a	field_58243
+FIELD	amv$a	Ljava/util/Map;	b	comp_3898
+FIELD	amv$a	Ljava/util/Map;	c	comp_3899
+FIELD	amv$a	Ljava/util/Map;	d	comp_3900
+METHOD	amv$a	()Ljava/util/Map;	a	comp_3898
 METHOD	amv$a	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_68949
+METHOD	amv$a	()Ljava/util/Map;	b	comp_3899
+METHOD	amv$a	()Ljava/util/Map;	c	comp_3900
 CLASS	amw	net/minecraft/class_2995
 FIELD	amw	Lfdm;	a	field_56414
 FIELD	amw	Ljava/util/function/Consumer;	c	field_58244
@@ -16855,6 +16901,10 @@ CLASS	ana$1	net/minecraft/class_10961$1
 FIELD	ana$1	Ljava/util/List;	a	field_34851
 FIELD	ana$1	Ldmu;	b	field_34852
 CLASS	ana$a	net/minecraft/class_10961$class_10962
+FIELD	ana$a	Lavz;	a	comp_3901
+FIELD	ana$a	Lamn;	b	comp_3902
+METHOD	ana$a	()Lavz;	a	comp_3901
+METHOD	ana$a	()Lamn;	b	comp_3902
 CLASS	anb	net/minecraft/class_3738
 FIELD	anb	I	a	field_16504
 FIELD	anb	Ljava/lang/Runnable;	b	field_16505
@@ -19736,11 +19786,29 @@ METHOD	asf	(Ljava/lang/Object;Lcom/mojang/serialization/Codec;Lalz;Ljava/nio/fil
 METHOD	asf	(Ljava/util/List;)V	a	method_69066
 CLASS	asf$a	net/minecraft/class_10967$class_10968
 FIELD	asf$a	Lcom/mojang/serialization/Codec;	a	field_58286
+FIELD	asf$a	Lavk;	b	comp_3903
+FIELD	asf$a	Laus;	c	comp_3904
+METHOD	asf$a	()Lavk;	a	comp_3903
 METHOD	asf$a	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_69067
+METHOD	asf$a	()Laus;	b	comp_3904
 CLASS	asf$b	net/minecraft/class_10967$class_10969
 FIELD	asf$b	Lcom/mojang/serialization/Codec;	a	field_58287
+FIELD	asf$b	Lama;	b	comp_3905
+FIELD	asf$b	Ljava/util/Optional;	c	comp_3906
+FIELD	asf$b	Ljava/util/List;	d	comp_3907
+FIELD	asf$b	Ljava/util/Optional;	e	comp_3908
+FIELD	asf$b	Lfbu;	f	comp_3909
+METHOD	asf$b	()Lama;	a	comp_3905
 METHOD	asf$b	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_69068
+METHOD	asf$b	()Ljava/util/Optional;	b	comp_3906
+METHOD	asf$b	()Ljava/util/List;	c	comp_3907
+METHOD	asf$b	()Ljava/util/Optional;	d	comp_3908
+METHOD	asf$b	()Lfbu;	e	comp_3909
 CLASS	asf$c	net/minecraft/class_10967$class_10970
+FIELD	asf$c	Lama;	a	comp_3910
+FIELD	asf$c	Ljava/lang/Runnable;	b	comp_3911
+METHOD	asf$c	()Lama;	a	comp_3910
+METHOD	asf$c	()Ljava/lang/Runnable;	b	comp_3911
 CLASS	asg	net/minecraft/class_3204
 FIELD	asg	Lorg/slf4j/Logger;	a	field_16211
 FIELD	asg	Ljava/util/Set;	b	field_16210
@@ -22016,9 +22084,33 @@ CLASS	awx$1	net/minecraft/class_3324$1
 FIELD	awx$1	Lawx;	a	field_14365
 CLASS	awy	net/minecraft/class_10976
 FIELD	awy	Lcom/mojang/serialization/Codec;	a	field_58340
+FIELD	awy	Ljava/lang/String;	b	comp_3912
+FIELD	awy	Ljava/util/Optional;	c	comp_3913
+FIELD	awy	Ljava/util/List;	d	comp_3914
+FIELD	awy	Lav;	e	comp_3915
+FIELD	awy	Ljava/util/function/Consumer;	f	comp_3916
+FIELD	awy	Ljava/util/function/Consumer;	g	comp_3917
+FIELD	awy	Ljava/util/List;	h	comp_3918
+FIELD	awy	Lawy$b;	i	comp_3919
+FIELD	awy	Ljava/util/Map;	j	comp_3920
+FIELD	awy	Ljava/util/Map;	k	comp_3921
+FIELD	awy	I	l	comp_3922
+FIELD	awy	Ljava/lang/String;	m	comp_3923
+METHOD	awy	()Ljava/lang/String;	a	comp_3912
 METHOD	awy	(Ljava/lang/String;)Lawy$a;	a	method_69188
 METHOD	awy	(Ljava/lang/String;Ljh;)Lawy$a;	a	method_69189
 METHOD	awy	(Ljh;)Ljh;	a	method_69190
+METHOD	awy	()Ljava/util/Optional;	b	comp_3913
+METHOD	awy	()Ljava/util/List;	c	comp_3914
+METHOD	awy	()Lav;	d	comp_3915
+METHOD	awy	()Ljava/util/function/Consumer;	e	comp_3916
+METHOD	awy	()Ljava/util/function/Consumer;	f	comp_3917
+METHOD	awy	()Ljava/util/List;	g	comp_3918
+METHOD	awy	()Lawy$b;	h	comp_3919
+METHOD	awy	()Ljava/util/Map;	i	comp_3920
+METHOD	awy	()Ljava/util/Map;	j	comp_3921
+METHOD	awy	()I	k	comp_3922
+METHOD	awy	()Ljava/lang/String;	l	comp_3923
 CLASS	awy$a	net/minecraft/class_10976$class_10977
 FIELD	awy$a	I	a	field_58341
 FIELD	awy$a	Ljava/lang/String;	b	field_58342
@@ -44717,14 +44809,36 @@ METHOD	cyv$a	()I	a	method_69505
 METHOD	cyv$a	()[Lcyv$a;	b	method_69506
 CLASS	cyv$b	net/minecraft/class_11034$class_11036
 FIELD	cyv$b	Lzg;	a	field_58792
+FIELD	cyv$b	Ljava/util/List;	b	comp_3926
+FIELD	cyv$b	I	c	comp_3927
+METHOD	cyv$b	()Ljava/util/List;	a	comp_3926
+METHOD	cyv$b	()I	b	comp_3927
 CLASS	cyv$c	net/minecraft/class_11034$class_11037
+FIELD	cyv$c	Lezw;	a	comp_3928
+FIELD	cyv$c	Lix;	b	comp_3929
+FIELD	cyv$c	Lezs;	c	comp_3930
+FIELD	cyv$c	J	d	comp_3931
+FIELD	cyv$c	Ljava/util/Set;	e	comp_3932
+METHOD	cyv$c	()Lezw;	a	comp_3928
+METHOD	cyv$c	()Lix;	b	comp_3929
+METHOD	cyv$c	()Lezs;	c	comp_3930
+METHOD	cyv$c	()J	d	comp_3931
+METHOD	cyv$c	()Ljava/util/Set;	e	comp_3932
 CLASS	cyv$d	net/minecraft/class_11034$class_11038
+FIELD	cyv$d	I	a	comp_3933
+FIELD	cyv$d	I	b	comp_3934
+FIELD	cyv$d	I	c	comp_3935
+FIELD	cyv$d	I	d	comp_3936
 METHOD	cyv$d	()I	a	method_69507
 METHOD	cyv$d	(Lasd;)Lcyv$d;	a	method_69508
 METHOD	cyv$d	(Lcyv$d;)Lcyv$d;	a	method_69509
 METHOD	cyv$d	(Ljava/util/Collection;)Lcyv$d;	a	method_69510
 METHOD	cyv$d	()I	b	method_69511
 METHOD	cyv$d	(Lasd;)I	b	method_69512
+METHOD	cyv$d	()I	c	comp_3933
+METHOD	cyv$d	()I	d	comp_3934
+METHOD	cyv$d	()I	e	comp_3935
+METHOD	cyv$d	()I	f	comp_3936
 CLASS	cyw	net/minecraft/class_1718
 FIELD	cyw	[I	m	field_7808
 FIELD	cyw	[I	n	field_7812
@@ -44756,6 +44870,10 @@ FIELD	cza	Ljava/util/List;	a	field_58793
 FIELD	cza	D	b	field_58794
 METHOD	cza	(F)Lfka;	a	method_69513
 CLASS	cza$a	net/minecraft/class_11039$class_11040
+FIELD	cza$a	Lfka;	a	comp_3937
+FIELD	cza$a	D	b	comp_3938
+METHOD	cza$a	()Lfka;	a	comp_3937
+METHOD	cza$a	()D	b	comp_3938
 CLASS	czb	net/minecraft/class_3803
 FIELD	czb	I	m	field_30793
 FIELD	czb	I	n	field_30794
@@ -47968,8 +48086,12 @@ METHOD	ddh	(Last;Ldcs;Lix;)V	a	method_7824
 CLASS	ddi	net/minecraft/class_11050
 FIELD	ddi	Lcom/mojang/serialization/Codec;	a	field_58848
 FIELD	ddi	Lzg;	b	field_58849
+FIELD	ddi	Ljh;	c	comp_3939
+FIELD	ddi	Z	d	comp_3940
+METHOD	ddi	()Ljh;	a	comp_3939
 METHOD	ddi	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_69563
 METHOD	ddi	(Ljh;)Lddi;	a	method_69564
+METHOD	ddi	()Z	b	comp_3940
 CLASS	ddj	net/minecraft/class_1807
 CLASS	ddk	net/minecraft/class_1841
 CLASS	ddl	net/minecraft/class_1809
@@ -48135,6 +48257,7 @@ FIELD	dej	F	i	comp_2932
 FIELD	dej	F	j	comp_2933
 FIELD	dej	I	k	comp_2934
 FIELD	dej	Laza;	l	comp_2935
+FIELD	dej	F	m	comp_3942
 METHOD	dej	()Laza;	a	comp_2930
 METHOD	dej	(FF)Ldfn;	a	method_61660
 METHOD	dej	(Ldco$a;)Ldco$a;	a	method_61661
@@ -48146,6 +48269,7 @@ METHOD	dej	()F	c	comp_2932
 METHOD	dej	()F	d	comp_2933
 METHOD	dej	()I	e	comp_2934
 METHOD	dej	()Laza;	f	comp_2935
+METHOD	dej	()F	g	comp_3942
 CLASS	dek	net/minecraft/class_1836
 FIELD	dek	Ldek$a;	a	field_41070
 FIELD	dek	Ldek$a;	b	field_41071
@@ -48686,6 +48810,8 @@ METHOD	dfo$a	()Ldcs;	b	comp_2399
 CLASS	dfp	net/minecraft/class_11054
 FIELD	dfp	Lcom/mojang/serialization/Codec;	a	field_58851
 FIELD	dfp	Lzg;	b	field_58852
+FIELD	dfp	F	c	comp_3943
+METHOD	dfp	()F	a	comp_3943
 METHOD	dfp	(Lcuf;Ldcs;)F	a	method_69583
 METHOD	dfp	(Lcuf;Ljava/lang/Iterable;)F	a	method_69584
 CLASS	dfq	net/minecraft/class_9290
@@ -48705,11 +48831,13 @@ FIELD	dfr	Lcom/mojang/serialization/Codec;	a	field_49345
 FIELD	dfr	Lzg;	b	field_49346
 FIELD	dfr	Ljava/util/Optional;	c	comp_2402
 FIELD	dfr	Z	d	comp_2403
+FIELD	dfr	Z	e	comp_3944
 METHOD	dfr	()Ljava/util/Optional;	a	comp_2402
 METHOD	dfr	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_57502
 METHOD	dfr	(Lix;Last;)Ldfr;	a	method_58115
 METHOD	dfr	()Z	b	comp_2403
 METHOD	dfr	(Lix;Last;)Ldfr;	b	method_69585
+METHOD	dfr	()Z	c	comp_3944
 CLASS	dfs	net/minecraft/class_9292
 FIELD	dfs	Ldfs;	a	field_49347
 FIELD	dfs	Lcom/mojang/serialization/Codec;	b	field_49348
@@ -48782,10 +48910,12 @@ FIELD	dfy	Lcom/mojang/serialization/Codec;	a	field_58853
 FIELD	dfy	Lzg;	b	field_58854
 FIELD	dfy	Ljava/lang/String;	c	field_58855
 FIELD	dfy	Ljava/lang/String;	d	field_58856
+FIELD	dfy	Lamb;	e	comp_3945
 METHOD	dfy	()Lamb;	a	method_69586
 METHOD	dfy	(Lamb;)Lamb;	a	method_69587
 METHOD	dfy	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_69588
 METHOD	dfy	(Ljava/lang/String;)Ljava/lang/String;	a	method_69589
+METHOD	dfy	()Lamb;	b	comp_3945
 METHOD	dfy	(Lamb;)Lamb;	b	method_69590
 CLASS	dfz	net/minecraft/class_9297
 FIELD	dfz	Lcom/mojang/serialization/Codec;	a	field_49361
@@ -48883,13 +49013,17 @@ CLASS	dgh	net/minecraft/class_11056
 FIELD	dgh	Lcom/mojang/serialization/Codec;	a	field_58857
 FIELD	dgh	Lzg;	b	field_58858
 FIELD	dgh	Ldgh;	c	field_58859
+FIELD	dgh	Ljava/util/List;	d	comp_3946
+FIELD	dgh	Z	e	comp_3947
 FIELD	dgh	Lxi;	f	field_58860
 FIELD	dgh	Lxi;	g	field_58861
 FIELD	dgh	Lxi;	h	field_58862
 FIELD	dgh	Lyf;	i	field_58863
+METHOD	dgh	()Ljava/util/List;	a	comp_3946
 METHOD	dgh	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_69591
 METHOD	dgh	(Lcuf;Lfca;ZZ)Lxi;	a	method_69592
 METHOD	dgh	(Lfca;Lxi;)Lxi;	a	method_69593
+METHOD	dgh	()Z	b	comp_3947
 CLASS	dgi	net/minecraft/class_9301
 FIELD	dgi	Ldgi;	a	field_49369
 FIELD	dgi	I	b	field_49370
@@ -50620,6 +50754,7 @@ FIELD	dld	F	e	comp_2303
 FIELD	dld	F	f	comp_2304
 FIELD	dld	Laza;	g	comp_2301
 FIELD	dld	Lama;	h	comp_3168
+FIELD	dld	F	i	comp_3948
 METHOD	dld	()I	a	comp_3166
 METHOD	dld	(Ldlf;)Ldfn;	a	method_63993
 METHOD	dld	()Ljava/util/Map;	b	comp_2298
@@ -50629,6 +50764,7 @@ METHOD	dld	()F	e	comp_2303
 METHOD	dld	()F	f	comp_2304
 METHOD	dld	()Laza;	g	comp_2301
 METHOD	dld	()Lama;	h	comp_3168
+METHOD	dld	()F	i	comp_3948
 CLASS	dle	net/minecraft/class_1740
 FIELD	dle	Ldld;	a	field_7897
 FIELD	dle	Ldld;	b	field_7887
@@ -61656,10 +61792,14 @@ FIELD	eip	I	m	field_52652
 CLASS	eiq	net/minecraft/class_5294
 FIELD	eiq	Lcom/mojang/serialization/Codec;	a	field_58978
 FIELD	eiq	Lzg;	b	field_58979
-FIELD	eiq	Ljava/util/Optional;	c	field_24611
+FIELD	eiq	Ljava/util/Optional;	c	comp_3951
 FIELD	eiq	Z	d	comp_3881
+FIELD	eiq	Ljava/util/Optional;	e	comp_3952
 FIELD	eiq	Z	f	comp_3882
 FIELD	eiq	Z	g	comp_3883
+FIELD	eiq	Leiq$d;	h	comp_3953
+FIELD	eiq	Z	i	comp_3954
+FIELD	eiq	Z	j	comp_3955
 FIELD	eiq	F	k	field_58980
 METHOD	eiq	()F	a	method_28108
 METHOD	eiq	(F)Z	a	method_62183
@@ -61667,10 +61807,15 @@ METHOD	eiq	(II)Z	a	method_28110
 METHOD	eiq	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_69773
 METHOD	eiq	(Lfkb;F)Lfkb;	a	method_28112
 METHOD	eiq	(Ljava/util/Optional;)Leiq;	a	method_69774
+METHOD	eiq	()Ljava/util/Optional;	b	comp_3951
 METHOD	eiq	(F)I	b	method_62184
 METHOD	eiq	()Z	c	comp_3881
+METHOD	eiq	()Ljava/util/Optional;	d	comp_3952
 METHOD	eiq	()Z	e	comp_3882
 METHOD	eiq	()Z	f	comp_3883
+METHOD	eiq	()Leiq$d;	g	comp_3953
+METHOD	eiq	()Z	h	comp_3954
+METHOD	eiq	()Z	i	comp_3955
 CLASS	eiq$a	net/minecraft/class_5294$class_11076
 FIELD	eiq$a	Lxi;	a	field_58981
 FIELD	eiq$a	Leiq$a;	b	field_58982
@@ -61679,7 +61824,15 @@ FIELD	eiq$a	Lzg;	d	field_58984
 CLASS	eiq$b	net/minecraft/class_5294$class_11077
 FIELD	eiq$b	Lcom/mojang/serialization/MapCodec;	a	field_58985
 FIELD	eiq$b	Lzg;	b	field_58986
+FIELD	eiq$b	Lamb;	c	comp_3956
+FIELD	eiq$b	I	d	comp_3957
+FIELD	eiq$b	F	g	comp_3958
+FIELD	eiq$b	Lxi;	h	comp_3959
 METHOD	eiq$b	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_69777
+METHOD	eiq$b	()Lamb;	c	comp_3956
+METHOD	eiq$b	()I	d	comp_3957
+METHOD	eiq$b	()F	e	comp_3958
+METHOD	eiq$b	()Lxi;	f	comp_3959
 CLASS	eiq$c	net/minecraft/class_5294$class_11078
 FIELD	eiq$c	Lxi;	a	field_58987
 FIELD	eiq$c	Leiq$c;	b	field_58988
@@ -61764,6 +61917,7 @@ FIELD	eir	I	v	comp_651
 FIELD	eir	I	w	comp_652
 FIELD	eir	I	x	comp_653
 FIELD	eir	Laza;	y	comp_654
+FIELD	eir	Leiq;	z	comp_3960
 METHOD	eir	()Z	a	method_29960
 METHOD	eir	(J)F	a	method_28528
 METHOD	eir	(Lama;Ljava/nio/file/Path;)Ljava/nio/file/Path;	a	method_12488
@@ -61792,6 +61946,7 @@ METHOD	eir	()I	q	comp_651
 METHOD	eir	()I	r	comp_652
 METHOD	eir	()I	s	comp_653
 METHOD	eir	()Laza;	t	comp_654
+METHOD	eir	()Leiq;	u	comp_3960
 METHOD	eir	()F	v	comp_656
 METHOD	eir	()Leir$a;	w	comp_847
 CLASS	eir$a	net/minecraft/class_2874$class_7512
@@ -61811,11 +61966,19 @@ FIELD	eis	Lcom/mojang/serialization/Codec;	a	field_25411
 FIELD	eis	Lama;	b	field_25412
 FIELD	eis	Ljh;	c	comp_1012
 FIELD	eis	Ljava/util/Optional;	d	comp_1013
+FIELD	eis	Ljava/util/List;	e	comp_3961
+FIELD	eis	Ljava/util/Optional;	f	comp_3962
+FIELD	eis	Lfbu;	g	comp_3963
+FIELD	eis	Lorg/apache/commons/lang3/mutable/MutableObject;	h	comp_3964
 METHOD	eis	()Ljh;	a	comp_1012
 METHOD	eis	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_29568
 METHOD	eis	(Lfce;Lfcf;)V	a	method_69792
 METHOD	eis	(Ljj$a;Ljh$c;)Legq;	a	method_69793
 METHOD	eis	()Ljava/util/Optional;	b	comp_1013
+METHOD	eis	()Ljava/util/List;	c	comp_3961
+METHOD	eis	()Ljava/util/Optional;	d	comp_3962
+METHOD	eis	()Lfbu;	e	comp_3963
+METHOD	eis	()Lorg/apache/commons/lang3/mutable/MutableObject;	f	comp_3964
 CLASS	eit	net/minecraft/class_2876
 FIELD	eit	Leit;	a	field_13097
 FIELD	eit	Leit;	b	field_13095
@@ -63155,6 +63318,7 @@ FIELD	ekz	Z	p	comp_480
 FIELD	ekz	Z	q	comp_481
 FIELD	ekz	Z	r	comp_482
 FIELD	ekz	Z	s	comp_483
+FIELD	ekz	J	t	comp_3965
 METHOD	ekz	()Z	a	comp_480
 METHOD	ekz	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_28558
 METHOD	ekz	(Lqj;)V	a	method_31111
@@ -63177,6 +63341,7 @@ METHOD	ekz	()Ljava/util/List;	l	comp_538
 METHOD	ekz	()I	m	comp_479
 METHOD	ekz	()Z	n	comp_481
 METHOD	ekz	()Z	o	comp_483
+METHOD	ekz	()J	p	comp_3965
 CLASS	ekz$a	net/minecraft/class_5284$class_11084
 FIELD	ekz$a	Lelc;	a	field_59028
 FIELD	ekz$a	Lees;	b	field_59029
@@ -65005,7 +65170,11 @@ METHOD	eqp$a	(Leqp$a;)Lees;	a	method_33997
 METHOD	eqp$a	(Leqp$a;)Lezq;	b	method_33998
 CLASS	eqq	net/minecraft/class_11086
 FIELD	eqq	Lcom/mojang/serialization/Codec;	a	field_59043
+FIELD	eqq	Ljava/util/List;	b	comp_3966
+FIELD	eqq	Ljava/util/Optional;	c	comp_3967
+METHOD	eqq	()Ljava/util/List;	a	comp_3966
 METHOD	eqq	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_69827
+METHOD	eqq	()Ljava/util/Optional;	b	comp_3967
 CLASS	eqr	net/minecraft/class_5733
 FIELD	eqr	Lcom/mojang/serialization/Codec;	a	field_28237
 FIELD	eqr	F	b	field_28241
@@ -66378,12 +66547,14 @@ METHOD	evu$b	()Lcom/mojang/datafixers/util/Either;	c	comp_572
 CLASS	evu$c	net/minecraft/class_3195$class_7302
 FIELD	evu$c	Lcom/mojang/serialization/MapCodec;	a	field_38430
 FIELD	evu$c	Ljava/util/Optional;	b	comp_686
+FIELD	evu$c	Ldok$b;	c	comp_3968
 FIELD	evu$c	Ljava/util/Map;	d	comp_687
 FIELD	evu$c	Lekp$a;	e	comp_688
 FIELD	evu$c	Lewf;	f	comp_689
 FIELD	evu$c	Levu$c;	g	field_52229
 METHOD	evu$c	()Ljava/util/Optional;	a	comp_686
 METHOD	evu$c	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_42702
+METHOD	evu$c	()Ldok$b;	b	comp_3968
 METHOD	evu$c	()Ljava/util/Map;	c	comp_687
 METHOD	evu$c	()Lekp$a;	d	comp_688
 METHOD	evu$c	()Lewf;	e	comp_689
@@ -68190,8 +68361,10 @@ METHOD	ezx	(Lamb;)Ljava/util/Optional;	h	method_15092
 METHOD	ezx	(Lamb;)Ljava/io/InputStream;	i	method_44249
 CLASS	ezx$a	net/minecraft/class_3485$class_7513
 CLASS	ezx$b	net/minecraft/class_3485$class_7514
+FIELD	ezx$b	Lezx$c;	a	comp_3969
 FIELD	ezx$b	Ljava/util/function/Function;	b	comp_852
 FIELD	ezx$b	Ljava/util/function/Supplier;	c	comp_853
+METHOD	ezx$b	()Lezx$c;	a	comp_3969
 METHOD	ezx$b	()Ljava/util/function/Function;	b	comp_852
 METHOD	ezx$b	()Ljava/util/function/Supplier;	c	comp_853
 CLASS	ezx$c	net/minecraft/class_3485$class_11087
@@ -68883,7 +69056,15 @@ METHOD	fbp$a	()Lfbp;	a	method_69857
 METHOD	fbp$a	(Ljava/util/function/Consumer;)Lfbp$a;	a	method_69858
 CLASS	fbp$b	net/minecraft/class_11088$class_11090
 FIELD	fbp$b	Lcom/mojang/serialization/Codec;	a	field_59066
+FIELD	fbp$b	Ljl;	b	comp_3970
+FIELD	fbp$b	Z	c	comp_3971
+FIELD	fbp$b	Lbvg;	d	comp_3972
+FIELD	fbp$b	Lfbp$c;	e	comp_3973
+METHOD	fbp$b	()Ljl;	a	comp_3970
 METHOD	fbp$b	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_69859
+METHOD	fbp$b	()Z	b	comp_3971
+METHOD	fbp$b	()Lbvg;	c	comp_3972
+METHOD	fbp$b	()Lfbp$c;	d	comp_3973
 CLASS	fbp$b$a	net/minecraft/class_11088$class_11090$class_11091
 FIELD	fbp$b$a	Ljl;	a	field_59067
 FIELD	fbp$b$a	Ljava/lang/Boolean;	b	field_59068
@@ -68898,13 +69079,21 @@ METHOD	fbp$b$a	(Ljl;)Lfbp$b$a;	a	method_69865
 METHOD	fbp$b$a	(Z)Lfbp$b$a;	a	method_69866
 CLASS	fbp$c	net/minecraft/class_11088$class_11092
 FIELD	fbp$c	Lcom/mojang/serialization/Codec;	a	field_59071
+FIELD	fbp$c	Lfbp$d;	b	comp_3974
+FIELD	fbp$c	Lix;	c	comp_3975
+FIELD	fbp$c	I	d	comp_3976
+FIELD	fbp$c	Z	e	comp_3977
+METHOD	fbp$c	()Lfbp$d;	a	comp_3974
 METHOD	fbp$c	(Last;)Lix;	a	method_69867
 METHOD	fbp$c	(Last;Lix;)Lix;	a	method_69868
 METHOD	fbp$c	(Lasu;)Z	a	method_69869
 METHOD	fbp$c	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_69870
+METHOD	fbp$c	()Lix;	b	comp_3975
 METHOD	fbp$c	(Last;)Lix;	b	method_69871
 METHOD	fbp$c	(Last;Lix;)Z	b	method_69872
+METHOD	fbp$c	()I	c	comp_3976
 METHOD	fbp$c	(Last;Lix;)Z	c	method_69873
+METHOD	fbp$c	()Z	d	comp_3977
 CLASS	fbp$c$a	net/minecraft/class_11088$class_11092$class_11093
 FIELD	fbp$c$a	Lfbp$d;	a	field_59072
 FIELD	fbp$c$a	Lix;	b	field_59073
@@ -68927,7 +69116,15 @@ FIELD	fbp$d	[Lfbp$d;	h	field_59083
 METHOD	fbp$d	()[Lfbp$d;	a	method_69879
 CLASS	fbp$e	net/minecraft/class_11088$class_11095
 FIELD	fbp$e	Lcom/mojang/serialization/Codec;	a	field_59084
+FIELD	fbp$e	Ljava/util/List;	b	comp_3978
+FIELD	fbp$e	Z	c	comp_3979
+FIELD	fbp$e	Lxi;	d	comp_3980
+FIELD	fbp$e	I	e	comp_3981
+METHOD	fbp$e	()Ljava/util/List;	a	comp_3978
 METHOD	fbp$e	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_69880
+METHOD	fbp$e	()Z	b	comp_3979
+METHOD	fbp$e	()Lxi;	c	comp_3980
+METHOD	fbp$e	()I	d	comp_3981
 CLASS	fbp$e$a	net/minecraft/class_11088$class_11095$class_11096
 FIELD	fbp$e$a	Ljava/util/List;	a	field_59085
 FIELD	fbp$e$a	Z	b	field_59086
@@ -68966,7 +69163,11 @@ FIELD	fbs$a	[Lfbs$a;	e	field_59098
 METHOD	fbs$a	()[Lfbs$a;	a	method_69892
 CLASS	fbt	net/minecraft/class_11101
 FIELD	fbt	Lcom/mojang/serialization/Codec;	a	field_59099
+FIELD	fbt	Z	b	comp_3982
+FIELD	fbt	Ljava/util/List;	c	comp_3983
+METHOD	fbt	()Z	a	comp_3982
 METHOD	fbt	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	a	method_69893
+METHOD	fbt	()Ljava/util/List;	b	comp_3983
 CLASS	fbu	net/minecraft/class_11102
 FIELD	fbu	Lfbu;	a	field_59100
 FIELD	fbu	Lfbu;	b	field_59101
@@ -68995,8 +69196,24 @@ METHOD	fbw	()[Lfbw;	a	method_69902
 CLASS	fbx	net/minecraft/class_11105
 FIELD	fbx	Lcom/mojang/serialization/Codec;	a	field_59113
 FIELD	fbx	Lzg;	b	field_59114
+FIELD	fbx	Ljava/lang/String;	c	comp_3984
+FIELD	fbx	Lxi;	d	comp_3985
+FIELD	fbx	Lxi;	e	comp_3986
+FIELD	fbx	Ljava/util/List;	f	comp_3987
+FIELD	fbx	Ljava/util/List;	g	comp_3988
+FIELD	fbx	Ljava/util/List;	h	comp_3989
+FIELD	fbx	Ljava/util/List;	i	comp_3990
+FIELD	fbx	I	j	comp_3991
+METHOD	fbx	()Ljava/lang/String;	a	comp_3984
 METHOD	fbx	(Last;)Ljava/util/List;	a	method_69903
 METHOD	fbx	(Ljava/lang/String;)Lfbx$a;	a	method_69904
+METHOD	fbx	()Lxi;	b	comp_3985
+METHOD	fbx	()Lxi;	c	comp_3986
+METHOD	fbx	()Ljava/util/List;	d	comp_3987
+METHOD	fbx	()Ljava/util/List;	e	comp_3988
+METHOD	fbx	()Ljava/util/List;	f	comp_3989
+METHOD	fbx	()Ljava/util/List;	g	comp_3990
+METHOD	fbx	()I	h	comp_3991
 CLASS	fbx$a	net/minecraft/class_11105$class_11106
 FIELD	fbx$a	Ljava/lang/String;	a	field_59115
 FIELD	fbx$a	Lyf;	b	field_59116
@@ -69039,6 +69256,26 @@ METHOD	fbz	()[Lfbz;	a	method_69918
 CLASS	fca	net/minecraft/class_11109
 FIELD	fca	Lcom/mojang/serialization/Codec;	a	field_59137
 FIELD	fca	Lzg;	b	field_59138
+FIELD	fca	Ljava/lang/String;	c	comp_3992
+FIELD	fca	Lxi;	d	comp_3993
+FIELD	fca	Lxi;	e	comp_3994
+FIELD	fca	Lxi;	f	comp_3995
+FIELD	fca	Lamb;	g	comp_3996
+FIELD	fca	Ljava/util/List;	h	comp_3997
+FIELD	fca	Lfbz;	i	comp_3998
+FIELD	fca	Ljava/util/List;	j	comp_3999
+FIELD	fca	Ljava/util/List;	k	comp_4000
+FIELD	fca	I	l	comp_4001
+FIELD	fca	Ljava/util/Set;	m	comp_4002
+FIELD	fca	Ljava/util/Set;	n	comp_4003
+FIELD	fca	F	o	comp_4004
+FIELD	fca	I	p	comp_4005
+FIELD	fca	Lfbw;	q	comp_4006
+FIELD	fca	Z	r	comp_4007
+FIELD	fca	Ljava/util/function/Consumer;	s	comp_4008
+FIELD	fca	Ljava/util/function/Consumer;	t	comp_4009
+FIELD	fca	Ljava/util/function/Consumer;	u	comp_4010
+METHOD	fca	()Ljava/lang/String;	a	comp_3992
 METHOD	fca	(Last;)Z	a	method_69919
 METHOD	fca	(Lfca;)Z	a	method_69920
 METHOD	fca	(Lfca;Lfca;)Z	a	method_69921
@@ -69046,8 +69283,26 @@ METHOD	fca	(Ljava/lang/Class;)Ljava/util/stream/Stream;	a	method_69922
 METHOD	fca	(Ljava/lang/Class;Lfcb;)Ljava/util/stream/Stream;	a	method_69923
 METHOD	fca	(Ljava/lang/String;)Lfca$a;	a	method_69924
 METHOD	fca	(Ljava/util/Collection;)Z	a	method_69925
+METHOD	fca	()Lxi;	b	comp_3993
 METHOD	fca	(Last;)Z	b	method_69926
+METHOD	fca	()Lxi;	c	comp_3994
 METHOD	fca	(Last;)Z	c	method_69927
+METHOD	fca	()Lxi;	d	comp_3995
+METHOD	fca	()Lamb;	e	comp_3996
+METHOD	fca	()Ljava/util/List;	f	comp_3997
+METHOD	fca	()Lfbz;	g	comp_3998
+METHOD	fca	()Ljava/util/List;	h	comp_3999
+METHOD	fca	()Ljava/util/List;	i	comp_4000
+METHOD	fca	()I	j	comp_4001
+METHOD	fca	()Ljava/util/Set;	k	comp_4002
+METHOD	fca	()Ljava/util/Set;	l	comp_4003
+METHOD	fca	()F	m	comp_4004
+METHOD	fca	()I	n	comp_4005
+METHOD	fca	()Lfbw;	o	comp_4006
+METHOD	fca	()Z	p	comp_4007
+METHOD	fca	()Ljava/util/function/Consumer;	q	comp_4008
+METHOD	fca	()Ljava/util/function/Consumer;	r	comp_4009
+METHOD	fca	()Ljava/util/function/Consumer;	s	comp_4010
 CLASS	fca$a	net/minecraft/class_11109$class_11110
 FIELD	fca$a	Ljava/lang/String;	a	field_59139
 FIELD	fca$a	Lyf;	b	field_59140
@@ -69485,9 +69740,17 @@ METHOD	fce	(Ljj$b;Ljava/util/Map$Entry;)Ljh;	b	method_70216
 METHOD	fce	(Lama;)Lfce;	c	method_70217
 CLASS	fce$a	net/minecraft/class_11114$class_11115
 CLASS	fce$b	net/minecraft/class_11114$class_11116
+FIELD	fce$b	Lama;	a	comp_4011
+FIELD	fce$b	Lama;	b	comp_4012
+FIELD	fce$b	Ldoc;	c	comp_4013
+METHOD	fce$b	()Lama;	a	comp_4011
+METHOD	fce$b	()Lama;	b	comp_4012
+METHOD	fce$b	()Ldoc;	c	comp_4013
 CLASS	fce$c	net/minecraft/class_11114$class_11117
 CLASS	fcf	net/minecraft/class_11118
 CLASS	fcf$a	net/minecraft/class_11118$class_11119
+FIELD	fcf$a	Ljava/util/List;	a	comp_4014
+METHOD	fcf$a	()Ljava/util/List;	a	comp_4014
 CLASS	fcg	net/minecraft/class_11120
 CLASS	fch	net/minecraft/class_6145
 CLASS	fci	net/minecraft/class_15
@@ -85672,6 +85935,12 @@ METHOD	giz	(Lfxk;IIZIII)V	a	method_70387
 METHOD	giz	()[Lgiz;	b	method_70388
 METHOD	giz	(II)I	b	method_70389
 CLASS	giz$a	net/minecraft/class_11136$class_11137
+FIELD	giz$a	Lamb;	a	comp_4015
+FIELD	giz$a	Lamb;	b	comp_4016
+FIELD	giz$a	Lamb;	c	comp_4017
+METHOD	giz$a	()Lamb;	a	comp_4015
+METHOD	giz$a	()Lamb;	b	comp_4016
+METHOD	giz$a	()Lamb;	c	comp_4017
 CLASS	gja	net/minecraft/class_11138
 CLASS	gjb	net/minecraft/class_7745
 FIELD	gjb	Lxi;	a	field_40443
@@ -91646,6 +91915,12 @@ METHOD	gwu	()Ljava/lang/String;	i	method_68500
 METHOD	gwu	()Ljava/lang/String;	j	method_68708
 METHOD	gwu	()Ljava/lang/String;	k	method_68709
 CLASS	gwu$a	net/minecraft/class_9975$class_11144
+FIELD	gwu$a	Leiq$b;	a	comp_4018
+FIELD	gwu$a	Lamb;	b	comp_4019
+FIELD	gwu$a	Lcom/mojang/blaze3d/buffers/GpuBuffer;	c	comp_4020
+METHOD	gwu$a	()Leiq$b;	a	comp_4018
+METHOD	gwu$a	()Lamb;	b	comp_4019
+METHOD	gwu$a	()Lcom/mojang/blaze3d/buffers/GpuBuffer;	c	comp_4020
 CLASS	gwv	net/minecraft/class_10418
 FIELD	gwv	Lgwv;	a	field_55269
 FIELD	gwv	Ljava/util/Map;	b	field_55270
